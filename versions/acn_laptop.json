@@ -1,11 +1,13 @@
 {
   "resource": "acn_laptop",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed command registration across server and client for /laptop.",
-    "Enhanced model loading safety and validation."
+    "Integrated cr-3dnui library for world-space 3D DUI panels.",
+    "Added prop-attached, absolute and kiosk 3D panel formats.",
+    "Added full Case Management forensic suite.",
+    "Enhanced mouse input forwarding and focus handling."
   ]
 }
