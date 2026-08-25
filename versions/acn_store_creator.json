@@ -1,12 +1,12 @@
 {
     "resource": "acn_store_creator",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added ultra-realistic 3D Supermarket Shelf interface powered by Three.js.",
-        "Added 3D product packaging geometries with dynamic item textures and shelf price tags.",
-        "Added smooth 3D camera controls, tier jump navigation, and in-world product picking."
+        "Added bulk multi-selection in inventory catalog to add multiple products at once.",
+        "Added scrollable configuration panel with batch price and category tools.",
+        "Added fast batch product saving."
     ]
 }
