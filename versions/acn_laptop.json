@@ -1,12 +1,12 @@
 {
     "resource": "acn_laptop",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of the interactive laptop resource.",
-        "Customizable laptop prop model and interaction distance.",
-        "Multilingual support with English and French translations."
+        "Fixed camera alignment and FOV facing laptop screen.",
+        "Restored authentic Windows XP Luna Blue desktop with functional Notepad.",
+        "Resolved black screen issue on laptop DUI initialization."
     ]
 }
