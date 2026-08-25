@@ -1,12 +1,12 @@
 {
     "resource": "acn_laptop",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed camera alignment and FOV facing laptop screen.",
-        "Restored authentic Windows XP Luna Blue desktop with functional Notepad.",
-        "Resolved black screen issue on laptop DUI initialization."
+        "Removed 2D full-screen overlay to ensure pure in-game 3D laptop screen rendering.",
+        "Implemented mouse input and click forwarding directly to the 3D DUI instance.",
+        "Refined camera close-up framing on the 3D laptop screen."
     ]
 }
