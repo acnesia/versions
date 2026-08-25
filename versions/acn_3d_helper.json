@@ -1,11 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Left Click camera toggle in Studio Mode to switch smoothly between Camera Orbit Mode and Screen Placement Mode.",
-        "Suppressed right-click GTA V aim interference inside Studio Mode."
+        "Fixed 3D screen visibility in Studio Mode by ensuring player ped presence at studio altitude to prevent cr-3dnui distance culling.",
+        "Added real-time 3D glowing wireframe boundary box with crosshair for instant screen visual feedback."
     ]
 }
