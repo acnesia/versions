@@ -1,11 +1,12 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added brand-new custom modern 2D HUD interface replacing generic text UI.",
-        "Added live lock status badges, categorized control cards and real-time dimension stats."
+        "Added intelligent prop snapping and relative 3D offset calculation for objects (e.g. laptop props).",
+        "Added 3D Pitch/Tilt angle controls and instant screen presets (Laptop, Monitor, Tablet, Kiosk, TV, Billboard).",
+        "Added multi-format code exporter for AI and developers."
     ]
 }
