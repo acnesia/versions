@@ -1,11 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed 360° orbital camera rotation in Studio Mode with smooth mouse and WASD navigation.",
-        "Optimized camera focal targeting during zoom and elevation adjustments."
+        "Added Left Click camera toggle in Studio Mode to switch smoothly between Camera Orbit Mode and Screen Placement Mode.",
+        "Suppressed right-click GTA V aim interference inside Studio Mode."
     ]
 }
