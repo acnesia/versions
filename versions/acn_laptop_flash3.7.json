@@ -1,0 +1,14 @@
+{
+    "resource": "acn_laptop_flash3.7",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of acn_laptop_flash3.7.",
+        "Interactive retro Windows XP laptop with 3D DUI screen on p_cs_laptop_02 prop.",
+        "Smooth scripted camera transitions with configurable offsets and FOV.",
+        "Fully localized in English and French.",
+        "0.00ms idle performance optimization."
+    ]
+}
