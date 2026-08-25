@@ -1,12 +1,11 @@
 {
     "resource": "acn_store_creator",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added adaptive 3D shelf sizing scaling dynamically to the exact product count.",
-        "Added HD shelf price tags with item images, labels and clear pricing.",
-        "Added logical centered item distribution and premium packaging shaders."
+        "Substantially enlarged 3D shelf price tags with high-contrast, crisp typography and larger product icons for optimal legibility.",
+        "Adjusted 3D camera distance and zoom presets for tighter, more comfortable shelf framing."
     ]
 }
