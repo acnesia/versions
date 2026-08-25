@@ -1,11 +1,13 @@
 {
     "resource": "acn_store_creator",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Substantially enlarged 3D shelf price tags with high-contrast, crisp typography and larger product icons for optimal legibility.",
-        "Adjusted 3D camera distance and zoom presets for tighter, more comfortable shelf framing."
+        "Fixed a visual issue where 3D price tags would clip into the shelf rail geometry.",
+        "Fixed an issue where the shopping cart failed to update visually after adding an item from the 3D shelf view.",
+        "Improved the shopping interface layout: the cart layout now cleanly centers during checkout mode.",
+        "Fixed checkout and quick purchase modes incorrectly displaying the 3D shelf or wrong interaction buttons."
     ]
 }
