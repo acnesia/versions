@@ -1,12 +1,12 @@
 {
     "resource": "acn_store_creator",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added bulk multi-selection in inventory catalog to add multiple products at once.",
-        "Added scrollable configuration panel with batch price and category tools.",
-        "Added fast batch product saving."
+        "Added adaptive 3D shelf sizing scaling dynamically to the exact product count.",
+        "Added HD shelf price tags with item images, labels and clear pricing.",
+        "Added logical centered item distribution and premium packaging shaders."
     ]
 }
