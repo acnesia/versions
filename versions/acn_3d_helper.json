@@ -1,12 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive Mode Selection Modal between Free World Placement and Prop Studio Mode.",
-        "Added isolated 3D Sky Studio with 360° orbital inspection camera and real-time relative prop screen alignment.",
-        "Added pre-configured prop templates for laptops, monitors, ATMs, and arcades."
+        "Fixed 360° orbital camera rotation in Studio Mode with smooth mouse and WASD navigation.",
+        "Optimized camera focal targeting during zoom and elevation adjustments."
     ]
 }
