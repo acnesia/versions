@@ -1,0 +1,12 @@
+﻿{
+    "resource": "acn_3d_speak_and_audio",
+    "version": "4.2.1",
+    "severity": "recommended",
+    "minimum_supported": "4.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed server database error on player playlist and microphone settings queries.",
+        "Improved ESX and bridge framework integration across client and server.",
+        "Added automated version checking system."
+    ]
+}
