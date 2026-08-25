@@ -1,12 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added external configuration file config.lua and multi-language locales.",
-        "Added automated remote version checker and Tebex Escrow ignore rules.",
-        "Added optional admin permission checks and improved coordinate logging."
+        "Added brand-new custom modern 2D HUD interface replacing generic text UI.",
+        "Added live lock status badges, categorized control cards and real-time dimension stats."
     ]
 }
