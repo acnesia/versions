@@ -1,11 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.4.3",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed 3D screen visibility in Studio Mode by ensuring player ped presence at studio altitude to prevent cr-3dnui distance culling.",
-        "Added real-time 3D glowing wireframe boundary box with crosshair for instant screen visual feedback."
+        "Introduced dedicated coords/ directory with individual file generation per export named by prop model and timestamp.",
+        "Refined contextual code exports: only exports the relevant format (Prop Attached format for prop placements, World format for surfaces)."
     ]
 }
