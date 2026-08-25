@@ -1,0 +1,15 @@
+{
+  "resource": "acn_laptops",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of the interactive 3D computer system.",
+    "Added 3D DUI screen rendering on computer props.",
+    "Added scripted camera with depth of field.",
+    "Added precise 3D mouse raycasting & plane transformation.",
+    "Added TitanOS retro desktop environment.",
+    "Added complete Case Management forensic suite with database sync."
+  ]
+}
