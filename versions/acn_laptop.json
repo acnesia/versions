@@ -1,11 +1,11 @@
 {
   "resource": "acn_laptop",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added configurable /laptop command for testing and prop spawning.",
-    "Added chat command suggestions and multiplayer sync."
+    "Fixed command registration across server and client for /laptop.",
+    "Enhanced model loading safety and validation."
   ]
 }
