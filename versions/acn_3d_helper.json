@@ -1,11 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.5.4",
+    "version": "1.5.5",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed native 90° prop rotation issue (prop_laptop_01a) by using entity matrix projection for flawless localNormal/localUp generation.",
-        "Fixed UV map flipping issue causing exported localUp configurations to render screens upside down in cr-3dnui."
+        "Hotfix: Reverted inverted world UP vector which caused backwards cross products and invisible screens in cr-3dnui.",
+        "Added inPlaneFlip = true to the ready-to-use exported snippets to handle native 180-degree UI rotations safely."
     ]
 }

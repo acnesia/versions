@@ -1,11 +1,11 @@
 {
   "resource": "acn_laptop",
-  "version": "1.1.2",
-  "severity": "recommended",
+  "version": "1.1.3",
+  "severity": "important",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed inverted 3D screen rendering causing the UI to display upside down.",
-    "Added dynamic keyboard focus to prevent game inputs (like chat) from triggering while typing in the UI."
+    "Hotfix: Resolved total UI freezing and vanishing caused by strict NUI focus hooks.",
+    "Hotfix: UI is now perfectly right-side up without breaking 3D math."
   ]
 }
