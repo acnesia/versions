@@ -1,11 +1,10 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Introduced dedicated coords/ directory with individual file generation per export named by prop model and timestamp.",
-        "Refined contextual code exports: only exports the relevant format (Prop Attached format for prop placements, World format for surfaces)."
+        "Fixed command /place3d registration caused by a syntax error on client-side coordinate logging event trigger."
     ]
 }
