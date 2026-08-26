@@ -1,0 +1,10 @@
+{
+    "resource": "acn_smallshed",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of Sandy Shores Small Shed mapping."
+    ]
+}
