@@ -1,10 +1,10 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed command /place3d registration caused by a syntax error on client-side coordinate logging event trigger."
+        "Added localNormal and localUp vector generation for flawless cr-3dnui:AttachPanelToEntity prop attachment without rotation mismatch."
     ]
 }
