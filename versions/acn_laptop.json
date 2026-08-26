@@ -1,13 +1,10 @@
 {
   "resource": "acn_laptop",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Integrated cr-3dnui library for world-space 3D DUI panels.",
-    "Added prop-attached, absolute and kiosk 3D panel formats.",
-    "Added full Case Management forensic suite.",
-    "Enhanced mouse input forwarding and focus handling."
+    "Fixed 3D screen attachment orientation on prop_laptop_01a with calibrated localNormal and localUp basis vectors."
   ]
 }
