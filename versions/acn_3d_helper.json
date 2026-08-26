@@ -1,10 +1,10 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.5.2",
-    "severity": "recommended",
+    "version": "1.5.3",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added localNormal and localUp vector generation for flawless cr-3dnui:AttachPanelToEntity prop attachment without rotation mismatch."
+        "Fixed native 90° prop rotation issue (prop_laptop_01a) by using entity matrix projection for flawless localNormal/localUp generation."
     ]
 }
