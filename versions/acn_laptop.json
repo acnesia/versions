@@ -1,10 +1,11 @@
 {
   "resource": "acn_laptop",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed 3D screen attachment orientation on prop_laptop_01a with calibrated localNormal and localUp basis vectors."
+    "Fixed inverted 3D screen rendering causing the UI to display upside down.",
+    "Added dynamic keyboard focus to prevent game inputs (like chat) from triggering while typing in the UI."
   ]
 }
