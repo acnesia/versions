@@ -1,0 +1,12 @@
+{
+    "resource": "acn_banking",
+    "version": "2.4.1",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed UTF-8 BOM encoding issues preventing script loading.",
+        "Added safe localization table fallbacks.",
+        "Added automated version checker and startup diagnostics."
+    ]
+}
