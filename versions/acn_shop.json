@@ -1,0 +1,13 @@
+{
+    "resource": "acn_shop",
+    "version": "3.1.0",
+    "severity": "recommended",
+    "minimum_supported": "3.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added multi-language locale support (English & French).",
+        "Optimized NUI performance by removing backdrop blur filters.",
+        "Integrated automated remote version checker and startup diagnostics.",
+        "Modularized client/server architecture and isolated config."
+    ]
+}
