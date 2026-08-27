@@ -1,10 +1,12 @@
 {
   "resource": "acn_store_creator",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed database migration for prop_model column on existing table schemas."
+    "Adjusted 3D item prop height to sit directly on shelf planks.",
+    "Lowered DUI price tag position to the shelf tier rim.",
+    "Increased DUI price tag render size and sharpness."
   ]
 }
