@@ -1,0 +1,13 @@
+{
+    "resource": "acn_bossmenu",
+    "version": "2.7.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added configurable permissions to restrict rank renaming, creation, and deletion in boss menu.",
+        "Secured server-side rank update logic to prevent unauthorized rank name modification.",
+        "Locked rank name input in edit modal when renaming is disabled.",
+        "Added automated remote version checker and startup diagnostics."
+    ]
+}
