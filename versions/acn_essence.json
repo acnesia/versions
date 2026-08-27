@@ -1,12 +1,11 @@
 {
     "resource": "acn_essence",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed dashboard multi-page display with clean tab transitions across all views.",
-        "Added paginated views for station acquisition offer, infrastructure, and profitability.",
-        "Complete visual redesign of the Gas Station Acquisition & Management Dashboard with a luxury club aesthetic."
+        "Fixed fuel tank gauge rendering, level markings, and telemetry metrics.",
+        "Refined scrollbars and layout fit for the Reserve & Supply tab."
     ]
 }
