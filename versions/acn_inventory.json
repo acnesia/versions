@@ -1,13 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added multi-page pagination to /items and Item Manager UI (30 items per page).",
-        "Preserved real-time global item search across all pages.",
-        "Added pagination navigation bar and custom items-per-page selector.",
-        "Added automatic server-side remote version checker."
+        "Added full support and tooltip metadata rendering for YSeries SIM cards and phones.",
+        "Added high-resolution inventory icons for all YSeries phones and SIM cards.",
+        "Recompiled NUI assets."
     ]
 }
