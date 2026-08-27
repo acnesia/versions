@@ -1,13 +1,10 @@
 {
   "resource": "acn_store_creator",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added in-world 3D FiveM item props on store shelf tiers.",
-    "Added FiveM Direct URL Image (DUI) in-world price tags underneath items.",
-    "Added prop model configuration in the in-game creator.",
-    "Integrated automatic distance streaming and DUI resource cleanup."
+    "Fixed database migration for prop_model column on existing table schemas."
   ]
 }
