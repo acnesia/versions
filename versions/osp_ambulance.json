@@ -1,0 +1,13 @@
+{
+    "resource": "osp_ambulance",
+    "version": "1.8.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added full native integration for acn_inventory.",
+        "Added automatic database schema startup creation for ECG and wounds.",
+        "Improved hospital lockers and stashes registration.",
+        "Added automatic remote version checker and diagnostics."
+    ]
+}
