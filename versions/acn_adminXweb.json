@@ -1,16 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.5.0",
+  "version": "5.7.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added advanced macroeconomic control panel with real-time interactive charts and cashflow curves.",
-    "Added 7-day financial activity timeline tracking cashflow volumes, inflows, and expenses.",
-    "Added deep job economy analytics comparing total wealth, average income, and enterprise treasuries.",
-    "Added automatic Top Earner detection identifying the highest-earning player per job.",
-    "Added Job Salary & Employee Inspector modal with net worth breakdown and employee hierarchy.",
-    "Added Targeted Job Stimulus distribution tool allowing bonuses for specific professions.",
-    "Added Top 50 Richest Citizens leaderboard with instant filters and net worth share percentages."
+    "Removed legacy internal tickets and reports system to free up /report command.",
+    "Integrated support to use advanced spatial report and replay resource acn_report.",
+    "Cleaned up database schemas, event handlers, and translation locales."
   ]
 }
