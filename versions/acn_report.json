@@ -1,12 +1,12 @@
-﻿{
-  resource: acn_report,
-  version: 1.1.0,
-  severity: recommended,
-  minimum_supported: 1.0.0,
-  update_url: https://portal.cfx.re/,
-  changelog: [
-    Integrated centralized multilingual localization system (locales/fr.lua, locales/en.lua).,
-    Added automatic remote version checker with console notifications.,
-    Standardized Tebex Escrow protection exemptions and manifest metadata.
+{
+  "resource": "acn_report",
+  "version": "1.1.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Integrated centralized multilingual localization system (locales/fr.lua, locales/en.lua).",
+    "Added automatic remote version checker with console notifications.",
+    "Standardized Tebex Escrow protection exemptions and manifest metadata."
   ]
 }
