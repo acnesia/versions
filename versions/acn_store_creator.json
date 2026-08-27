@@ -1,13 +1,13 @@
 {
-    "resource": "acn_store_creator",
-    "version": "1.7.2",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Fixed a visual issue where 3D price tags would clip into the shelf rail geometry.",
-        "Fixed an issue where the shopping cart failed to update visually after adding an item from the 3D shelf view.",
-        "Improved the shopping interface layout: the cart layout now cleanly centers during checkout mode.",
-        "Fixed checkout and quick purchase modes incorrectly displaying the 3D shelf or wrong interaction buttons."
-    ]
+  "resource": "acn_store_creator",
+  "version": "1.1.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Overhauled user interface with a luxury pine-teal theme and DM Serif typography.",
+    "Redesigned showcase product cards with category tags, descriptions, and badges.",
+    "Added category navigation and slide-out shopping cart drawer.",
+    "Updated creator admin panel and modals to match the new luxury design."
+  ]
 }
