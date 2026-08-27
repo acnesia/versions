@@ -1,0 +1,13 @@
+{
+    "resource": "acn_essence",
+    "version": "1.3.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Complete visual redesign of the Gas Station Acquisition & Management Dashboard with a luxury club aesthetic.",
+        "Refined showcase cards for station acquisition with capacity, pump count, and profitability metrics.",
+        "Streamlined station owner management dashboard with instant actions, real-time tank telemetry, and margin calculator.",
+        "Added automatic remote version checking and diagnostic diagnostics."
+    ]
+}
