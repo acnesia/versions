@@ -1,0 +1,12 @@
+{
+    "resource": "acn_pnjshop",
+    "version": "1.5.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added full multi-language locale isolation (English & French).",
+        "Integrated automated remote version checking and diagnostic banner.",
+        "Restructured root configuration for Tebex Escrow ignore compliance."
+    ]
+}
