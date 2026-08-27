@@ -1,0 +1,11 @@
+﻿{
+    "resource": "acn_sakura",
+    "version": "1.4.1",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed inventory item detection in kitchen and bar workstations.",
+        "Fixed server-side notification trigger for crafting actions."
+    ]
+}
