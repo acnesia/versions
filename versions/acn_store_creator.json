@@ -1,13 +1,12 @@
 {
   "resource": "acn_store_creator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Overhauled user interface with a luxury pine-teal theme and DM Serif typography.",
-    "Redesigned showcase product cards with category tags, descriptions, and badges.",
-    "Added category navigation and slide-out shopping cart drawer.",
-    "Updated creator admin panel and modals to match the new luxury design."
+    "Adjusted 3D checkout camera perspective for a clean, centered, frontal angle.",
+    "Enhanced 3D cash register lighting and texture sharpness on buttons and screen.",
+    "Added direct payment action buttons to the receipt panel."
   ]
 }
