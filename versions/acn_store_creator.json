@@ -1,12 +1,13 @@
 {
   "resource": "acn_store_creator",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Adjusted 3D checkout camera perspective for a clean, centered, frontal angle.",
-    "Enhanced 3D cash register lighting and texture sharpness on buttons and screen.",
-    "Added direct payment action buttons to the receipt panel."
+    "Added in-world 3D FiveM item props on store shelf tiers.",
+    "Added FiveM Direct URL Image (DUI) in-world price tags underneath items.",
+    "Added prop model configuration in the in-game creator.",
+    "Integrated automatic distance streaming and DUI resource cleanup."
   ]
 }
