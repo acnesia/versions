@@ -1,0 +1,13 @@
+{
+    "resource": "acn_basicneeds",
+    "version": "2.1.1",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed item consumption and inventory slot verification with acn_inventory and acn_bridge.",
+        "Fixed hunger and thirst status replenishment when eating and drinking.",
+        "Fixed consumed items remaining in inventory upon completion.",
+        "Added automated remote version checker and startup diagnostics."
+    ]
+}
