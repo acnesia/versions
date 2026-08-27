@@ -1,13 +1,12 @@
 {
     "resource": "acn_bossmenu",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed duplicate interaction entries accumulating in ox_target/qb-target.",
         "Added configurable permissions to restrict rank renaming, creation, and deletion in boss menu.",
-        "Secured server-side rank update logic to prevent unauthorized rank name modification.",
-        "Locked rank name input in edit modal when renaming is disabled.",
-        "Added automated remote version checker and startup diagnostics."
+        "Secured server-side rank update logic to prevent unauthorized rank name modification."
     ]
 }
