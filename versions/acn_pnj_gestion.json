@@ -1,0 +1,13 @@
+{
+    "resource": "acn_pnj_gestion",
+    "version": "2.3.1",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Rebalanced vehicle damage scaling factors and multipliers for realistic gameplay.",
+        "Adjusted engine degrading and cascading thresholds to prevent premature engine failure.",
+        "Enabled limp mode by default so broken vehicles can safely reach repair shops.",
+        "Added remote version checker diagnostic."
+    ]
+}
