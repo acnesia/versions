@@ -1,0 +1,14 @@
+﻿{
+  "resource": "acn_adminXweb",
+  "version": "5.4.0",
+  "severity": "recommended",
+  "minimum_supported": "5.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added in-game Laser Raycast Prop & Entity Inspector with live 3D bounding box and telemetry HUD.",
+    "Added Dev Panel in /admin with configurable Radius Area Prop Scanner and live entity table.",
+    "Added real-time model name and hash resolver for world objects, vehicles, and peds.",
+    "Added quick copy controls for model names, hashes, and vector coordinates.",
+    "Added single and mass prop deletion with server-side network synchronization."
+  ]
+}
