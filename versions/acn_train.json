@@ -1,0 +1,14 @@
+{
+  "resource": "acn_train",
+  "version": "2.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Overhauled railway engine with native GTA tracks and synchronized train loops.",
+    "Added automated freight stops and timed departures.",
+    "Added metro ticket kiosks with ox_target and qb-target support.",
+    "Added smart passenger seating and next stop departure management.",
+    "Added universal multi-framework bridge (ESX, QBCore, Qbox, Standalone)."
+  ]
+}
