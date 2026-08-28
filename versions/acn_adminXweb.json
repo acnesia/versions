@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.0",
+  "version": "5.7.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Removed legacy internal tickets and reports system to free up /report command.",
-    "Integrated support to use advanced spatial report and replay resource acn_report.",
-    "Cleaned up database schemas, event handlers, and translation locales."
+    "Fixed NoClip disabling unexpectedly when pressing Escape.",
+    "Resolved crash when opening the QuickAdmin menu while in noclip.",
+    "Disabled conflicting in-game controls (phone, combat, pause) during QuickAdmin navigation.",
+    "Protected camera heading and noclip movement while menu cursor is active."
   ]
 }
