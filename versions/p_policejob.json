@@ -1,0 +1,13 @@
+{
+    "resource": "p_policejob",
+    "version": "3.0.3",
+    "severity": "recommended",
+    "minimum_supported": "3.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fully disabled and removed impound lots and pound management system.",
+        "Guarded framework bridge calls to prevent impound queries.",
+        "Cleaned installation SQL schemas.",
+        "Added automatic remote version checker and startup diagnostics."
+    ]
+}
