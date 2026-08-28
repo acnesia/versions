@@ -1,13 +1,13 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed item consumption and inventory slot verification with acn_inventory and acn_bridge.",
-        "Fixed hunger and thirst status replenishment when eating and drinking.",
-        "Fixed consumed items remaining in inventory upon completion.",
-        "Added automated remote version checker and startup diagnostics."
+        "Added in-game live configuration and management dashboard (/needsadmin).",
+        "Added dynamic item creation, modification and deletion for foods, drinks, shots and wines.",
+        "Added live hunger/thirst gain customization and real-time client synchronization.",
+        "Added automated MySQL persistence with schema auto-generation."
     ]
 }
