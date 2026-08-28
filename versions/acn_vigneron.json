@@ -1,13 +1,12 @@
 {
     "resource": "acn_vigneron",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed inventory item image loading on the management tablet.",
-        "Added high-resolution bundled images for all grapes, musts, barrels, and wine bottles.",
-        "Added fail-safe image resolution cascade with inventory_images priority.",
-        "Added item images to inventory_images asset pack."
+        "Added instant admin teleportation buttons in the In-Game Creator Studio.",
+        "Teleport directly to any harvest field, winery station, garage spawn, or delivery point.",
+        "Fixed floating point display on station interaction radius."
     ]
 }
