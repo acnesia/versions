@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Integrated full live vehicle damage configuration into the /pnj admin menu.",
-        "Added mission & driving school protection settings in real-time.",
-        "Instant live synchronization across all clients with automated persistence."
+        "Fixed low-speed vehicle collisions instantly destroying vehicle engine.",
+        "Added hijack grace period preventing false damage during NPC car theft.",
+        "Rebalanced collision physics, petrol tank scaling, and improved limp mode mobility."
     ]
 }
