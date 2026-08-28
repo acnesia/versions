@@ -1,13 +1,14 @@
-﻿{
+{
     "resource": "acn_vigneron",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of the modern winemaker resource.",
-        "Interactive HTML winery tablet interface with live inventory and finances.",
-        "Grape harvesting, pressing, oak barrel fermentation, and bottling stations.",
-        "Wholesale delivery routes to Los Santos nightlife venues with dual payouts."
+        "Added In-Game Creator Studio to configure all fields, stations, recipes, and contracts live.",
+        "Added one-click in-game player coordinate capture for stations, fields, and garages.",
+        "Added full acn_bridge integration for inventory items, notifications, and society finances.",
+        "Connected inventory images with automatic cascade resolver supporting active inventory systems.",
+        "Added real-time database persistence and live sync without requiring server restarts."
     ]
 }
