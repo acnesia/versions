@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.2",
+  "version": "5.7.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed NoClip disabling unexpectedly when pressing Escape.",
-    "Resolved crash when opening the QuickAdmin menu while in noclip.",
-    "Disabled conflicting in-game controls (phone, combat, pause) during QuickAdmin navigation.",
-    "Protected camera heading and noclip movement while menu cursor is active."
+    "Fixed ban status check failing on first-time player connections.",
+    "Added cross-identifier and hardware token verification for bans.",
+    "Added secondary background sanction check on character load.",
+    "Cleaned up expired temporary bans handling automatically."
   ]
 }
