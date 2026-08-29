@@ -1,12 +1,12 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Redesigned the menu customizer into a multi-column zero-scroll layout.",
-        "Improved confirmation button visibility with high-contrast disabled and active states.",
-        "Removed CEF backdrop blur effects to maximize rendering performance."
+        "Fixed burger customizer popup prematurely appearing on the dining start screen.",
+        "Ensured customizer modal only opens when selecting a meal combo.",
+        "Removed remaining backdrop blur filters to optimize FiveM CEF performance."
     ]
 }
