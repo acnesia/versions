@@ -1,0 +1,13 @@
+{
+    "resource": "acn_bennys",
+    "version": "3.0.0",
+    "severity": "recommended",
+    "minimum_supported": "2.3.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Brand new sliding right drawer UI leaving a full clear view on the vehicle.",
+        "Emergency field repair with repair kit restoring vehicles to 50% health anywhere.",
+        "Full vehicle eye-target interaction (Alt / ox_target) to clean vehicles with animations.",
+        "Full viewport 3D camera controls with 360-degree rotation and zoom."
+    ]
+}
