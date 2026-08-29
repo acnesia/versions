@@ -1,13 +1,13 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Disabled automated NPC customer orders flooding the kitchen order queue.",
-        "Added automatic database purge of leftover simulated NPC orders.",
-        "Fixed kitchen order clearing to properly synchronize cancellation with the database.",
-        "Enhanced kitchen and manager order list filtering."
+        "Fixed order clearing persistence when reopening the management interface.",
+        "Corrected authorization checks on kitchen order clearing and ticket deletions.",
+        "Added real-time order state synchronization to the manager application.",
+        "Registered command burgermanager for terminal access."
     ]
 }
