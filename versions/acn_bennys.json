@@ -1,12 +1,11 @@
 {
     "resource": "acn_bennys",
-    "version": "3.1.2",
+    "version": "3.1.3",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added full support for custom inventories (acn_inventory) for repairkit item detection and consumption.",
-        "Integrated ox_lib on-screen notifications to guarantee mechanics always receive clear visual feedback.",
-        "Repairs in the field now properly validate and consume 1x repairkit item."
+        "Restricted repair kits to vehicles below 50% health, prompting players to visit a workshop for full service.",
+        "Repair kits and mobile repairs now completely restore visual bodywork, exterior deformations, and tyres."
     ]
 }
