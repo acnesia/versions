@@ -1,11 +1,11 @@
 {
     "resource": "acn_bennys",
-    "version": "3.1.3",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restricted repair kits to vehicles below 50% health, prompting players to visit a workshop for full service.",
-        "Repair kits and mobile repairs now completely restore visual bodywork, exterior deformations, and tyres."
+        "Enabled multi-service selection in workshop mode for simultaneous repairs and maintenance.",
+        "Added real-world sequential animations: vehicle lift simulation for tyre work, hood opening with mechanic positioning for engine repairs, bodywork welding, and detailing."
     ]
 }
