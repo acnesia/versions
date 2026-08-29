@@ -1,10 +1,11 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed in-hand props being invisible during consumption.",
         "Complete redesign of in-game consumption action HUD with floating action cards.",
         "Added high-definition item artwork support with vector fallbacks.",
         "Overhauled in-game Admin Management Suite with modern dark styling and interactive controls."
