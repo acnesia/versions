@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.3",
+  "version": "5.7.4",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed ban status check failing on first-time player connections.",
-    "Added cross-identifier and hardware token verification for bans.",
-    "Added secondary background sanction check on character load.",
-    "Cleaned up expired temporary bans handling automatically."
+    "Fixed permission denied error in Quick Admin Dev and Props menu.",
+    "Allowed CanDevTools for moderators and added robust staff role fallbacks.",
+    "Allowed direct coordinates copying in Quick Admin without permission block.",
+    "Synchronized laser inspector status and badge inside Quick Admin."
   ]
 }
