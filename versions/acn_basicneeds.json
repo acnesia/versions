@@ -1,12 +1,12 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed in-hand 3D props visibility and attachment positioning.",
-        "Fixed database compatibility with oxmysql/mysql-async preventing item loading.",
-        "Fixed instant registration of configured consumable items including maki recipes."
+        "Complete redesign of in-game consumption action HUD with floating action cards.",
+        "Added high-definition item artwork support with vector fallbacks.",
+        "Overhauled in-game Admin Management Suite with modern dark styling and interactive controls."
     ]
 }
