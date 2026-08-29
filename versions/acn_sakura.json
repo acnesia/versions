@@ -1,11 +1,11 @@
 {
     "resource": "acn_sakura",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed delivery mission validation to ensure crate is collected before completion.",
-        "Increased delivery crate ingredient quantities to 50 units."
+        "Removed duplicate supplier menu at docks delivery point.",
+        "Added dual support for both ALT (Target) and E (Context Key) to pick up supply crates and manage van delivery."
     ]
 }
