@@ -1,12 +1,12 @@
 {
     "resource": "acn_bennys",
-    "version": "3.3.0",
+    "version": "3.3.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Relocated the workshop quote to an independent left-docked card, keeping the 3D vehicle view clear.",
-        "Added choice between direct society payment and customer invoicing via acn_billing.",
-        "Eliminated quote flickering and improved bodywork repair animation stability."
+        "Automatically warps the mechanic back into the vehicle driver seat upon service completion.",
+        "Fixed mechanic animation orientation to directly face vehicle panels.",
+        "Switched bodywork repair to genuine welding scenario."
     ]
 }
