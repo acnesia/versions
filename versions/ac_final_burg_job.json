@@ -1,13 +1,12 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed order clearing persistence when reopening the management interface.",
-        "Corrected authorization checks on kitchen order clearing and ticket deletions.",
-        "Added real-time order state synchronization to the manager application.",
-        "Registered command burgermanager for terminal access."
+        "Redesigned the menu customizer into a multi-column zero-scroll layout.",
+        "Improved confirmation button visibility with high-contrast disabled and active states.",
+        "Removed CEF backdrop blur effects to maximize rendering performance."
     ]
 }
