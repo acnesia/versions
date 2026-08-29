@@ -1,0 +1,10 @@
+{
+    "resource": "acn_billing",
+    "version": "4.2.1",
+    "severity": "recommended",
+    "minimum_supported": "4.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added CreateInvoice server export for external integrations."
+    ]
+}
