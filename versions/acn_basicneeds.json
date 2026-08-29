@@ -1,14 +1,12 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added automatic database synchronization for newly configured consumable items.",
-        "Added default items and multilingual translations for sushi, maki, ramen, and gyoza plates.",
-        "Added safe vanilla prop fallbacks with loading timeouts to prevent client freezes.",
-        "Fixed hunger and thirst status values not being added when consuming items.",
-        "Fixed status initialization and config synchronization upon resource restart."
+        "Fixed in-hand 3D props visibility and attachment positioning.",
+        "Fixed database compatibility with oxmysql/mysql-async preventing item loading.",
+        "Fixed instant registration of configured consumable items including maki recipes."
     ]
 }
