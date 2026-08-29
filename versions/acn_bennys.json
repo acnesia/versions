@@ -1,11 +1,12 @@
 {
     "resource": "acn_bennys",
-    "version": "3.1.1",
+    "version": "3.1.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed false 'payment declined or insufficient funds' error during free mobile workshop operations.",
-        "In-menu repairs now correctly use workshop tools and do not require consumable items when free interventions are enabled."
+        "Added full support for custom inventories (acn_inventory) for repairkit item detection and consumption.",
+        "Integrated ox_lib on-screen notifications to guarantee mechanics always receive clear visual feedback.",
+        "Repairs in the field now properly validate and consume 1x repairkit item."
     ]
 }
