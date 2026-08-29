@@ -1,0 +1,13 @@
+{
+    "resource": "acn_chargingYseries",
+    "version": "1.3.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added interactive Admin Creator & Manager NUI interface.",
+        "Added direct teleportation (TP) to any charging station from the UI.",
+        "Added remote station deletion with confirmation without traveling to location.",
+        "Added GPS route tracking and 3D visual station placement mode."
+    ]
+}
