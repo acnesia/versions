@@ -1,13 +1,14 @@
 {
     "resource": "acn_bennys",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "severity": "recommended",
-    "minimum_supported": "2.3.0",
+    "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Brand new sliding right drawer UI leaving a full clear view on the vehicle.",
-        "Emergency field repair with repair kit restoring vehicles to 50% health anywhere.",
-        "Full vehicle eye-target interaction (Alt / ox_target) to clean vehicles with animations.",
-        "Full viewport 3D camera controls with 360-degree rotation and zoom."
+        "Paint, tuning and detail sub-menus are now strictly confined inside the right-hand drawer.",
+        "Workshop camera now features automatic raycast wall collision protection.",
+        "Smooth mouse drag camera rotation and wheel zoom enabled across the full screen.",
+        "Maintenance repairs now support single selection without stacking conflicting repairs.",
+        "Direct intervention execution without payment mode selection modal."
     ]
 }
