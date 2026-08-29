@@ -1,0 +1,13 @@
+{
+  "resource": "acn_bugreport",
+  "version": "2.2.0",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added multi-stage bug status tracking: Open, In Progress, To Test, Resolved, Closed.",
+    "Integrated 1-click status switcher and live counter tabs in the admin panel.",
+    "Added real-time search, sorting by priority and date, and enhanced card design.",
+    "Added centralized localization system with English and French support."
+  ]
+}
