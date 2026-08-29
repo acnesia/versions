@@ -1,12 +1,13 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.1",
-    "severity": "important",
+    "version": "1.0.2",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed preparation point permissions (fries, burgers, drinks, stash, manager) for employees only.",
-        "Added strict server-side employee verification on cooking events.",
-        "Fixed job name configuration setting."
+        "Disabled automated NPC customer orders flooding the kitchen order queue.",
+        "Added automatic database purge of leftover simulated NPC orders.",
+        "Fixed kitchen order clearing to properly synchronize cancellation with the database.",
+        "Enhanced kitchen and manager order list filtering."
     ]
 }
