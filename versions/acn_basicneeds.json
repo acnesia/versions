@@ -1,13 +1,14 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added in-game live configuration and management dashboard (/needsadmin).",
-        "Added dynamic item creation, modification and deletion for foods, drinks, shots and wines.",
-        "Added live hunger/thirst gain customization and real-time client synchronization.",
-        "Added automated MySQL persistence with schema auto-generation."
+        "Added automatic database synchronization for newly configured consumable items.",
+        "Added default items and multilingual translations for sushi, maki, ramen, and gyoza plates.",
+        "Added safe vanilla prop fallbacks with loading timeouts to prevent client freezes.",
+        "Fixed hunger and thirst status values not being added when consuming items.",
+        "Fixed status initialization and config synchronization upon resource restart."
     ]
 }
