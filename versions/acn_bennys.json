@@ -1,11 +1,12 @@
 {
     "resource": "acn_bennys",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enabled multi-service selection in workshop mode for simultaneous repairs and maintenance.",
-        "Added real-world sequential animations: vehicle lift simulation for tyre work, hood opening with mechanic positioning for engine repairs, bodywork welding, and detailing."
+        "Relocated the workshop quote to an independent left-docked card, keeping the 3D vehicle view clear.",
+        "Added choice between direct society payment and customer invoicing via acn_billing.",
+        "Eliminated quote flickering and improved bodywork repair animation stability."
     ]
 }
