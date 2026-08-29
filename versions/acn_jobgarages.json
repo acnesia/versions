@@ -1,0 +1,10 @@
+{
+    "resource": "acn_jobgarages",
+    "version": "5.6.1",
+    "severity": "recommended",
+    "minimum_supported": "5.5.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed an issue preventing vehicles from being stored when using target interaction mode."
+    ]
+}
