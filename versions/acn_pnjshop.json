@@ -1,12 +1,13 @@
 {
     "resource": "acn_pnjshop",
-    "version": "1.6.0",
+    "version": "2.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Integrated interactive inventory item picker in Admin Shop Manager.",
-        "Added item icon and label previews in shop management table.",
-        "Enhanced bridge synchronization with acn_bridge and acn_inventory."
+        "Advanced 3D raycast placement engine with ground snapping and heading rotation.",
+        "Interactive scenario live preview during placement.",
+        "Cinematic conversation camera and NPC voice reactions.",
+        "Ultra-modern CEF UI redesign with zero blur lag, MAX selector, and Web Audio sounds."
     ]
 }
