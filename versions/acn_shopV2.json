@@ -1,13 +1,12 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive laser raycast point placement with heading rotation.",
-        "Added Top-Down (birds-eye) 3D polygon zone creator.",
-        "Fixed server/security.lua vector3 subtraction error.",
-        "Added 3D wireframe polygon boundary preview."
+        "Fixed camera rendering native call to RenderScriptCams.",
+        "Added dynamic area streaming with SetFocusArea and ClearFocus.",
+        "Improved stability in top-down polygon zone creation."
     ]
 }
