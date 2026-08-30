@@ -1,0 +1,11 @@
+{
+    "resource": "acn_garagecrea",
+    "version": "1.2.1",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed an issue where vehicles retrieved from impound lost their original license plate.",
+        "Added a feature that properly restores engine and body damage when vehicles are spawned."
+    ]
+}
