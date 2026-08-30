@@ -1,12 +1,12 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.6.0",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added native /propfix command to detach and remove stuck props.",
-        "Automatic cleanup of active consumption states and held items.",
-        "Full multi-language support and export for radial menus."
+        "Added native 3D Gizmo Prop Attachment Editor (/propeditor & /prop).",
+        "Integrated interactive Gizmo 3D button in the /needsadmin item editor modal.",
+        "Precision freecam controls and real-time form population."
     ]
 }
