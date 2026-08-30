@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "severity": "recommended",
-    "minimum_supported": "2.0.0",
+    "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added full support and tooltip metadata rendering for YSeries SIM cards and phones.",
-        "Added high-resolution inventory icons for all YSeries phones and SIM cards.",
-        "Recompiled NUI assets."
+        "Prevented incomplete drop cleanup from blocking inventory opening.",
+        "Persisted the exact live weapon ammo count before holstering.",
+        "Moved successful give-item actions to the acn_pnj_gestion roleplay display."
     ]
 }
