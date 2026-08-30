@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.5",
+  "version": "5.7.6",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Spread player snapshot construction across bounded server batches.",
-    "Coalesced repeated player-list and gamer-tag requests with short invalidated caches.",
-    "Reduced synchronous work inside the generic administration callback dispatcher."
+    "Fixed quick admin revive and heal actions for all staff ranks.",
+    "Removed hierarchy target lock preventing staff from reviving or healing other players or owners.",
+    "Universal ACE and txAdmin group detection support across all frameworks.",
+    "Instant database persistence for in-game staff promotions."
   ]
 }
