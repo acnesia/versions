@@ -1,11 +1,12 @@
 {
     "resource": "acn_billing",
-    "version": "4.2.2",
+    "version": "4.3.0",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed default F7 keybind in favor of /facture command.",
-        "Added /factures backward-compatible alias."
+        "Added multi-channel payment selection (Bank Account vs Cash with in-game money_item).",
+        "Fixed invoice payments not deducting money from payer.",
+        "Fixed company society accounts not receiving paid invoice funds."
     ]
 }
