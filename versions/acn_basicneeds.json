@@ -1,12 +1,12 @@
-﻿{
+{
     "resource": "acn_basicneeds",
-    "version": "2.4.0",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added /needsadmin command with live in-game management suite.",
-        "Integrated dynamic config.json storage with real-time sync across players.",
-        "Added 3D prop live preview in hand with safe model validation."
+        "Added native /propfix command to detach and remove stuck props.",
+        "Automatic cleanup of active consumption states and held items.",
+        "Full multi-language support and export for radial menus."
     ]
 }
