@@ -1,12 +1,11 @@
 {
     "resource": "acn_billing",
-    "version": "4.3.0",
+    "version": "4.3.1",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added multi-channel payment selection (Bank Account vs Cash with in-game money_item).",
-        "Fixed invoice payments not deducting money from payer.",
-        "Fixed company society accounts not receiving paid invoice funds."
+        "Restricted invoice refusal/decline strictly to administrators.",
+        "Invoices are now directly payable without an artificial customer refusal step."
     ]
 }
