@@ -1,11 +1,11 @@
 {
     "resource": "acn_billing",
-    "version": "4.3.2",
-    "severity": "important",
+    "version": "4.4.0",
+    "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a critical bug causing society money to duplicate when invoices were paid.",
-        "Improved internal synchronization with the bridge to prevent double deposits/withdrawals."
+        "Added AccumulateInvoice export for consolidated single-invoice recurring billing.",
+        "Added automatic tracking and updates for accumulating charges."
     ]
 }

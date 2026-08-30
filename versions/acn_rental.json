@@ -1,0 +1,12 @@
+{
+    "resource": "acn_rental",
+    "version": "2.3.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added credit driving mode when running out of money instead of vehicle despawn.",
+        "Added loud audio and prominent visual warnings when entering credit mode.",
+        "Integrated consolidated single-invoice accumulation with acn_billing."
+    ]
+}
