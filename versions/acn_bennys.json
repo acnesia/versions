@@ -1,11 +1,11 @@
 {
     "resource": "acn_bennys",
-    "version": "3.3.5",
+    "version": "3.3.6",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed unescaped character in client billing modal that prevented NUI from opening.",
-        "Synchronized quick repair and express wash positioning so mechanics work right under the hood."
+        "Protected vehicles against premature repair when selecting services in workshop menu.",
+        "Repairs now strictly wait for customer payment confirmation before beginning."
     ]
 }
