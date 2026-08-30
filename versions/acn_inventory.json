@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Prevented incomplete drop cleanup from blocking inventory opening.",
-        "Persisted the exact live weapon ammo count before holstering.",
-        "Moved successful give-item actions to the acn_pnj_gestion roleplay display."
+        "Ignored temporary GTA ammo values while a reload is still settling.",
+        "Set the authoritative weapon ammo total instead of adding to a stale GTA ammo pool.",
+        "Persisted the settled post-shot ammo count when holstering."
     ]
 }
