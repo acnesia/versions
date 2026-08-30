@@ -1,0 +1,11 @@
+{
+  "resource": "acn_weazelnews",
+  "version": "2.0.1",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Cached repeated Weazel News access checks for a short configurable interval.",
+    "Reused public and management billboard snapshots until an advertisement changes."
+  ]
+}

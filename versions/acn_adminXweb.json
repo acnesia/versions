@@ -1,13 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.4",
+  "version": "5.7.5",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed permission denied error in Quick Admin Dev and Props menu.",
-    "Allowed CanDevTools for moderators and added robust staff role fallbacks.",
-    "Allowed direct coordinates copying in Quick Admin without permission block.",
-    "Synchronized laser inspector status and badge inside Quick Admin."
+    "Spread player snapshot construction across bounded server batches.",
+    "Coalesced repeated player-list and gamer-tag requests with short invalidated caches.",
+    "Reduced synchronous work inside the generic administration callback dispatcher."
   ]
 }
