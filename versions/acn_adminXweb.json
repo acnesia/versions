@@ -1,13 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.7",
+  "version": "5.7.8",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Integrated complete native txAdmin heal and revive engine (txcl:heal, playerHealed, healedPlayer).",
-    "Universal FiveM statebags synchronization (isDead, dead, inLastStand, isDown) across server and client.",
-    "Flawless compatibility with all ambulance and medical resources (Wasabi, ESX, QBCore, QBX, Visn).",
-    "Instant ped recovery with ragdoll and animation resets."
+    "Unconditional universal medical revive broadcast without resource name gating (full OSP Ambulance support).",
+    "Instant clearing of clinical death UI screens, body anatomy diagrams and countdown timers.",
+    "Dual local and remote event dispatch ensuring instantaneous player wakeup."
   ]
 }
