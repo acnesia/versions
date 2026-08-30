@@ -1,0 +1,10 @@
+{
+    "resource": "acn_government",
+    "version": "4.1.0",
+    "severity": "recommended",
+    "minimum_supported": "4.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Removed default keybind in favor of /gouv command."
+    ]
+}
