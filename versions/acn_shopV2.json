@@ -1,0 +1,14 @@
+{
+    "resource": "acn_shopV2",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of acn_shopV2.",
+        "Dynamic MLO shelf hiding without touching 3D files (0.00ms idle).",
+        "Multi-framework support (ESX Legacy, Qbox, QBCore, Standalone).",
+        "Automated oxmysql database table creation.",
+        "Store ownership, buying, selling, and fund management system."
+    ]
+}
