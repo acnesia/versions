@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.8",
+  "version": "5.7.9",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Unconditional universal medical revive broadcast without resource name gating (full OSP Ambulance support).",
-    "Instant clearing of clinical death UI screens, body anatomy diagrams and countdown timers.",
-    "Dual local and remote event dispatch ensuring instantaneous player wakeup."
+    "Completely eliminated medical notification spam upon revive/heal.",
+    "Streamlined medical event dispatch to a single authoritative trigger per player.",
+    "Added client-side debounce protection preventing duplicate UI popups."
   ]
 }
