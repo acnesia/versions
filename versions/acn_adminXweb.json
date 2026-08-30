@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.6",
+  "version": "5.7.7",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed quick admin revive and heal actions for all staff ranks.",
-    "Removed hierarchy target lock preventing staff from reviving or healing other players or owners.",
-    "Universal ACE and txAdmin group detection support across all frameworks.",
-    "Instant database persistence for in-game staff promotions."
+    "Integrated complete native txAdmin heal and revive engine (txcl:heal, playerHealed, healedPlayer).",
+    "Universal FiveM statebags synchronization (isDead, dead, inLastStand, isDown) across server and client.",
+    "Flawless compatibility with all ambulance and medical resources (Wasabi, ESX, QBCore, QBX, Visn).",
+    "Instant ped recovery with ragdoll and animation resets."
   ]
 }
