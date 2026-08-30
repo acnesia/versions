@@ -1,12 +1,12 @@
 {
     "resource": "acn_bossmenu",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate interaction entries accumulating in ox_target/qb-target.",
-        "Added configurable permissions to restrict rank renaming, creation, and deletion in boss menu.",
-        "Secured server-side rank update logic to prevent unauthorized rank name modification."
+        "Fixed real-time society balance & transaction sync when external revenue arrives.",
+        "Fixed missing internal job identifier when interacting with company bank modal.",
+        "Standardized employee bonus deductions via centralized bridge."
     ]
 }
