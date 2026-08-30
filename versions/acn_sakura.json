@@ -1,11 +1,12 @@
 {
     "resource": "acn_sakura",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed issue where stored food and ingredients in restaurant stash disappeared after a few minutes.",
-        "Ensured permanent shared storage registration across ox_inventory and acn_inventory."
+        "Fixed duplicate interaction prompts on the delivery van.",
+        "Prevented taking and loading boxes while sitting inside vehicles.",
+        "Fixed infinite box pickup exploit at the supply drop location."
     ]
 }
