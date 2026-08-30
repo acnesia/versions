@@ -1,13 +1,12 @@
-{
+﻿{
     "resource": "acn_basicneeds",
-    "version": "2.3.1",
+    "version": "2.4.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed in-hand props being invisible during consumption.",
-        "Complete redesign of in-game consumption action HUD with floating action cards.",
-        "Added high-definition item artwork support with vector fallbacks.",
-        "Overhauled in-game Admin Management Suite with modern dark styling and interactive controls."
+        "Added /needsadmin command with live in-game management suite.",
+        "Integrated dynamic config.json storage with real-time sync across players.",
+        "Added 3D prop live preview in hand with safe model validation."
     ]
 }
