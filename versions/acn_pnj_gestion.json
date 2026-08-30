@@ -1,13 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.5.0",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added dedicated Ragdoll keybind (default key U) with movement cancellation and safety checks.",
-        "Major performance optimization: decoupled threads and reduced resmon to sub-0.03ms (idle 0.00ms-0.01ms).",
-        "Optimized ambient NPC behavior: eliminated pool allocations and table sorting, single-pass filtering.",
-        "Optimized population loops: cached PlayerId, removed non-per-frame natives from Wait(0), event-driven reapply."
+        "Added real-time ambient NPC fear and panic toggle in the /pnj management menu and config.lua.",
+        "Suppresses ambient fleeing, screaming, and panic driving during gunshots and sirens when disabled.",
+        "Added SetNpcFearAllowed export for programmatic fear control on specific NPCs."
     ]
 }
