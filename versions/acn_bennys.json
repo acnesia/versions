@@ -1,12 +1,13 @@
 {
     "resource": "acn_bennys",
-    "version": "3.3.1",
+    "version": "3.3.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Automatically warps the mechanic back into the vehicle driver seat upon service completion.",
-        "Fixed mechanic animation orientation to directly face vehicle panels.",
-        "Switched bodywork repair to genuine welding scenario."
+        "Fixed vehicle getting inadvertently repaired when exiting the workshop menu.",
+        "Fixed mobile repair to verify repair kit and play animation before fixing engine.",
+        "Preserved exterior bodywork and deformation during mobile emergency repairs.",
+        "Fixed customer invoicing support with automatic detection for billing scripts."
     ]
 }
