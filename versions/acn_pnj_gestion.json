@@ -1,11 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.6.2",
+    "version": "2.6.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed low pedestrian and vehicle density in Los Santos by restoring urban driving scenarios and removing per-frame budget resets.",
-        "Added ambient range multipliers to guarantee dense traffic and pedestrian presence across the city."
+        "Fixed gang NPCs drawing weapons and turning into red enemies on the radar upon gunshots or melee hits.",
+        "Added real-time gang hassle suppression, weapon stripping, and relationship overrides across all ambient gang groups."
     ]
 }
