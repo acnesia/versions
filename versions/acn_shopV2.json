@@ -1,11 +1,12 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed empty shelf spawn rotation offset to align with aisles (+90°).",
-        "Added in-game rotation angle selector in /shopcreator with live preview."
+        "Added 3D Raycast shelf placement tool with live ghost preview and rotation.",
+        "Integrated shelf placement and scanning directly into the creation wizard.",
+        "Added real-time shelf editor in the shop management menu."
     ]
 }
