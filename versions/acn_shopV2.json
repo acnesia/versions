@@ -1,12 +1,12 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed camera rendering native call to RenderScriptCams.",
-        "Added dynamic area streaming with SetFocusArea and ClearFocus.",
-        "Improved stability in top-down polygon zone creation."
+        "Added dynamic empty shelf props spawning upon store purchase.",
+        "Added automatic despawn of empty shelves and restoration of filled shelves upon resale.",
+        "Added MLO shelf position caching and scanning tool."
     ]
 }
