@@ -1,13 +1,12 @@
 {
     "resource": "acn_bennys",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Removed the full intervention menu from the vehicle target, leaving only direct Quick Repair and Express Wash.",
         "Fixed vehicle getting inadvertently repaired when exiting the workshop menu.",
-        "Fixed mobile repair to verify repair kit and play animation before fixing engine.",
-        "Preserved exterior bodywork and deformation during mobile emergency repairs.",
-        "Fixed customer invoicing support with automatic detection for billing scripts."
+        "Fixed mobile repair item check and animation, preserving exterior bodywork."
     ]
 }
