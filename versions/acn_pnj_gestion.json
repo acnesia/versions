@@ -1,11 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed an issue preventing pedestrians from spawning at all.",
-        "Ensured population budgets are correctly preserved against external conflicts."
+        "Fixed low pedestrian and vehicle density in Los Santos by restoring urban driving scenarios and removing per-frame budget resets.",
+        "Added ambient range multipliers to guarantee dense traffic and pedestrian presence across the city."
     ]
 }
