@@ -1,0 +1,12 @@
+{
+  "resource": "acn_handling",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of ACN Handling Creator with live in-game physics testing.",
+    "Permanent handling.meta XML saving with automatic backups and shared handling warnings.",
+    "Modern blue NUI with zero CEF blur, handling presets, before/after diff comparison, and search."
+  ]
+}
