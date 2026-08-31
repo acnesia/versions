@@ -1,13 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added multi-screen support on a single prop with simultaneous 3D rendering (gas pumps, double-sided kiosks).",
-        "Added intuitive 3-mode editing workflow (Translation, Rotation, Scale) with fast and precision speed modifiers.",
-        "Reworked studio camera with smooth orbital damping and configurable sensitivity.",
-        "Added pre-calibrated gas station pump templates (prop_gas_pump_1d, 1a, 1b, 1c, old2)."
+        "Fixed UV vertical mapping in cr-3dnui: screens and text elements now render perfectly upright by default.",
+        "Updated exported Lua attachment snippets to guarantee right-side up orientation in all resources."
     ]
 }
