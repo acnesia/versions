@@ -1,12 +1,12 @@
 {
     "resource": "acn_rental",
-    "version": "2.5.0",
+    "version": "2.5.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added full HTML/NUI Creator Studio dashboard replacing contextual menus.",
-        "Added visual management tabs for agencies, billing, vehicles, system and branding.",
-        "Added instant 1-click agency placement and interactive vehicle catalog editor."
+        "Fixed vehicle despawn on contract termination and unpaid billing.",
+        "Fixed robust invoice creation in acn_billing for unpaid rental cycles.",
+        "Optimized server cycle check frequency for instantaneous responsiveness."
     ]
 }
