@@ -6,6 +6,7 @@
     "update_url": "https://portal.cfx.re/",
     "changelog": [
         "Added /place nukeconsole raycast prop placement tool.",
+        "Added ox_target integration with online player targeting menu.",
         "Added automatic database persistence for placed consoles.",
         "Added multi-language localization (FR/EN) and remote version check."
     ]
