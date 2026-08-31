@@ -1,0 +1,12 @@
+{
+    "resource": "acn_shellcreatorv3",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of acn_shellcreatorv3",
+        "Multi-floor shell building and placement",
+        "Texture tinting and prop integration"
+    ]
+}
