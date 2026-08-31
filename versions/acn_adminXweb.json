@@ -1,12 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.9",
-  "severity": "recommended",
+  "version": "5.7.10",
+  "severity": "important",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Completely eliminated medical notification spam upon revive/heal.",
-    "Streamlined medical event dispatch to a single authoritative trigger per player.",
-    "Added client-side debounce protection preventing duplicate UI popups."
+    "Fixed ESX Legacy setMeta compatibility error during revive and heal operations.",
+    "Hardened player death state reset across ESX, QBCore, and statebags."
   ]
 }
