@@ -1,11 +1,11 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed store list table scrolling with smooth scrollbar and sticky headers.",
-        "Added multi-store selection and batch deletion in the Creator NUI dashboard."
+        "Fixed exact raycast shelf spawning and position persistence when stores are purchased.",
+        "Extended MLO model hiding coverage to prevent old shelves and clutter from overlapping."
     ]
 }
