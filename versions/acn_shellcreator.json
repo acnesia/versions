@@ -1,13 +1,12 @@
 {
     "resource": "acn_shellcreator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia",
     "changelog": [
-        "Added a full NUI overlay to display current settings.",
-        "Overhauled the Freecam system (framerate independent, smooth, non-blocking).",
-        "Fixed an issue where the raycast could occasionally fail to snap correctly.",
-        "Rebound change prop key to 'C' to allow Freecam downwards movement."
+        "Fixed command /build execution with debounce protection and aliases (/shell).",
+        "Overhauled the Freecam system with smooth orientation and snap-to-grid raycasting.",
+        "Added OneSync server-side object persistence in memory."
     ]
 }
