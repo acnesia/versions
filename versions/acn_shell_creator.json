@@ -1,12 +1,12 @@
 {
     "resource": "acn_shell_creator",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed NUI interfaces auto-displaying on resource start.",
-        "Ensured complete NUI focus and visibility cleanup on initialization.",
-        "Improved window hide/show state reliability."
+        "Added automated non-destructive database column migrations.",
+        "Sorted database query by primary key ID for full backwards compatibility.",
+        "Fixed acn_bridge permission verification with GetPlayerGroup."
     ]
 }
