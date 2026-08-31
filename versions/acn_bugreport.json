@@ -5,8 +5,8 @@
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added built-in Script category across report creation and dashboard management.",
-    "Added dedicated cyan visual badge styling for Script reports.",
-    "Integrated centralized English and French locale support for Script category."
+    "Added the 6th status workflow stage 'Script' for reports pending external script updates.",
+    "Integrated 1-click status switcher, filter pill tabs, and cyan badges for Script status.",
+    "Centralized English and French locale support for the new Script status."
   ]
 }
