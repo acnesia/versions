@@ -1,13 +1,12 @@
 {
     "resource": "acn_nuke",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed translation string formatting in nuke confirmation dialog.",
         "Added /place nukeconsole raycast prop placement tool.",
-        "Added ox_target integration with online player targeting menu.",
-        "Added automatic database persistence for placed consoles.",
-        "Added multi-language localization (FR/EN) and remote version check."
+        "Added ox_target integration with online player targeting menu."
     ]
 }
