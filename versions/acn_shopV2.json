@@ -1,12 +1,12 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 3D Raycast shelf placement tool with live ghost preview and rotation.",
-        "Integrated shelf placement and scanning directly into the creation wizard.",
-        "Added real-time shelf editor in the shop management menu."
+        "Separated interaction into 2 distinct points: Store Purchase/Management and Customer Products Purchase.",
+        "Added automatic temporary shelf hiding during 3D Raycast shelf placement mode.",
+        "Fixed shelf rotation and heading synchronization for exact 3D alignment without offsets."
     ]
 }
