@@ -1,11 +1,13 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.5.5",
-    "severity": "important",
+    "version": "1.6.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Hotfix: Reverted inverted world UP vector which caused backwards cross products and invisible screens in cr-3dnui.",
-        "Added inPlaneFlip = true to the ready-to-use exported snippets to handle native 180-degree UI rotations safely."
+        "Added multi-screen support on a single prop with simultaneous 3D rendering (gas pumps, double-sided kiosks).",
+        "Added intuitive 3-mode editing workflow (Translation, Rotation, Scale) with fast and precision speed modifiers.",
+        "Reworked studio camera with smooth orbital damping and configurable sensitivity.",
+        "Added pre-calibrated gas station pump templates (prop_gas_pump_1d, 1a, 1b, 1c, old2)."
     ]
 }
