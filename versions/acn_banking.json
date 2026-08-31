@@ -1,12 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed UTF-8 BOM encoding issues preventing script loading.",
-        "Added safe localization table fallbacks.",
-        "Added automated version checker and startup diagnostics."
+        "Fixed ATM dual 3D and 2D interaction options for full player choice.",
+        "Added automatic nearby ATM prop resolution for static world objects.",
+        "Corrected 3D screen offsets and dimensions across all ATM models.",
+        "Added support for GTA V Heist ATM props."
     ]
 }
