@@ -1,0 +1,13 @@
+{
+    "resource": "acn_shellcreator",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://github.com/acnesia",
+    "changelog": [
+        "Initial release of the modular Shell Builder (V1).",
+        "Freecam construction mode toggled via /build.",
+        "Real-time snapping to grid logic for precise placements.",
+        "Server-side memory storage to synchronize props for all players."
+    ]
+}
