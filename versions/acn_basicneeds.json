@@ -1,12 +1,11 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.8.0",
+    "version": "2.8.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed 3D Gizmo prop spawn and attachment consistency.",
-        "Added automatic direct saving of prop placements to item configs.",
-        "Increased offset and rotation precision to 4 decimal places with micro-adjustments."
+        "Fixed prop rotation saving and synchronized rotation order across all animations.",
+        "Fixed live form synchronization for orientation transforms."
     ]
 }
