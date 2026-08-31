@@ -1,12 +1,11 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated interaction into 2 distinct points: Store Purchase/Management and Customer Products Purchase.",
-        "Added automatic temporary shelf hiding during 3D Raycast shelf placement mode.",
-        "Fixed shelf rotation and heading synchronization for exact 3D alignment without offsets."
+        "Added sleek NUI interface for customer item shopping catalog and quantity purchase dialog.",
+        "Added full NUI dashboard for in-game shop creation wizard, store management, and MLO tools."
     ]
 }
