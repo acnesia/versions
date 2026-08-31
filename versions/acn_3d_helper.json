@@ -1,11 +1,12 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed UV vertical mapping in cr-3dnui: screens and text elements now render perfectly upright by default.",
-        "Updated exported Lua attachment snippets to guarantee right-side up orientation in all resources."
+        "Added saved configurations browser: browse, search, and reload any saved .lua file from coords/ directly into the 3D Studio.",
+        "Instant 3D screen reconstruction for modifying existing prop setups.",
+        "In-place overwrite support when re-saving edited configuration files."
     ]
 }
