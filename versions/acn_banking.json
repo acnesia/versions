@@ -1,13 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.2",
+    "version": "2.4.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed residual target options cleanup upon resource start to prevent phantom/duplicate ATM interactions in ox_target.",
         "Fixed ATM dual 3D and 2D interaction options for full player choice.",
         "Added automatic nearby ATM prop resolution for static world objects.",
-        "Corrected 3D screen offsets and dimensions across all ATM models.",
-        "Added support for GTA V Heist ATM props."
+        "Corrected 3D screen offsets and dimensions across all ATM models."
     ]
 }
