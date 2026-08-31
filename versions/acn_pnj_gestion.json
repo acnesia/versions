@@ -1,11 +1,11 @@
 {
-    "resource": "acn_pnj_gestion",
-    "version": "2.6.3",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Fixed gang NPCs drawing weapons and turning into red enemies on the radar upon gunshots or melee hits.",
-        "Added real-time gang hassle suppression, weapon stripping, and relationship overrides across all ambient gang groups."
-    ]
+    "update_url":  "https://portal.cfx.re/",
+    "version":  "2.7.0",
+    "changelog":  [
+                      "Intégration complète des fonctionnalités de acn_small (ATM, Notify, Limiteur, etc.).",
+                      "Correction d\u0027un problème empêchant de voler les véhicules PNJ de manière fluide."
+                  ],
+    "resource":  "acn_pnj_gestion",
+    "severity":  "important",
+    "minimum_supported":  "2.0.0"
 }
