@@ -1,0 +1,13 @@
+{
+  "resource": "acn_realpark",
+  "version": "3.2.0",
+  "severity": "recommended",
+  "minimum_supported": "3.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Sauvegarde intégrale des personnalisations, turbos et tuning véhicule.",
+    "Restauration précise des dégâts physiques et mécaniques (moteur, carrosserie, vitres, portes, pneus).",
+    "Correction définitive du maintien de la plaque d'immatriculation à la sortie de fourrière.",
+    "Synchronisation automatique avec la table owned_vehicles."
+  ]
+}
