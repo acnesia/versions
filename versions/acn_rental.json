@@ -1,12 +1,12 @@
 {
     "resource": "acn_rental",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed vehicle despawn on contract termination and unpaid billing.",
-        "Fixed robust invoice creation in acn_billing for unpaid rental cycles.",
-        "Optimized server cycle check frequency for instantaneous responsiveness."
+        "Enabled continuous driving on credit with zero funds without vehicle despawn.",
+        "Consolidated single-invoice accumulation adding cycle cost in acn_billing every minute.",
+        "Guaranteed direct database synchronization for invoice creation across all frameworks."
     ]
 }

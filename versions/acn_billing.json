@@ -1,11 +1,11 @@
 {
     "resource": "acn_billing",
-    "version": "4.4.0",
+    "version": "4.4.1",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added AccumulateInvoice export for consolidated single-invoice recurring billing.",
-        "Added automatic tracking and updates for accumulating charges."
+        "Added client:invoiceReceived event listener with in-game notifications.",
+        "Added instant recipient notifications during invoice accumulation."
     ]
 }
