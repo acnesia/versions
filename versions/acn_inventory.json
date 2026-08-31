@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.2.1",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Ignored temporary GTA ammo values while a reload is still settling.",
-        "Set the authoritative weapon ammo total instead of adding to a stale GTA ammo pool.",
-        "Persisted the settled post-shot ammo count when holstering."
+        "Added a custom addon weapon creator to the /items manager.",
+        "Custom weapons now persist in data/weapons.json and synchronize without a restart.",
+        "Added protected editing and deletion for manager-created weapons."
     ]
 }
