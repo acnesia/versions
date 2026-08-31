@@ -1,0 +1,11 @@
+{
+    "resource": "acn_autoecole",
+    "version": "2.10.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Système de paiement intelligent (item money_items en priorité puis banque).",
+        "Affichage clair des tarifs sur chaque permis et panneau d'inscription."
+    ]
+}
