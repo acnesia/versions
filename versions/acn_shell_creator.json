@@ -1,14 +1,12 @@
 {
     "resource": "acn_shell_creator",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Real-time in-game interior and shell builder with freecam and 3D raycasting.",
-        "Modular architectural catalog across 10 categories (floors, walls, doors, stairs, etc.).",
-        "Multi-floor levels with ghost blueprint lower floor visualization.",
-        "64 color swatches, textures, and fast duplication with axis offset.",
-        "Dynamic proximity streaming and batch spawning with zero lag."
+        "Fixed NUI interfaces auto-displaying on resource start.",
+        "Ensured complete NUI focus and visibility cleanup on initialization.",
+        "Improved window hide/show state reliability."
     ]
 }
