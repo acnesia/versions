@@ -1,13 +1,12 @@
 {
   "resource": "acn_realpark",
-  "version": "3.2.0",
+  "version": "3.3.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Sauvegarde intégrale des personnalisations, turbos et tuning véhicule.",
-    "Restauration précise des dégâts physiques et mécaniques (moteur, carrosserie, vitres, portes, pneus).",
-    "Correction définitive du maintien de la plaque d'immatriculation à la sortie de fourrière.",
-    "Synchronisation automatique avec la table owned_vehicles."
+    "Nouveau point de rangement véhicule dédié pour les garages virtuels avec large zone de détection.",
+    "Correction de l'apparition des véhicules garés en parking réel.",
+    "Activation par défaut des blips de parkings réels et garages virtuels sur la carte pour tous les joueurs avec gestion NUI."
   ]
 }
