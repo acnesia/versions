@@ -1,12 +1,11 @@
 {
     "resource": "acn_3d_helper",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added saved configurations browser: browse, search, and reload any saved .lua file from coords/ directly into the 3D Studio.",
-        "Instant 3D screen reconstruction for modifying existing prop setups.",
-        "In-place overwrite support when re-saving edited configuration files."
+        "Fixed an issue where the Studio Mode would crash and freeze the interface on launch.",
+        "Added saved configurations browser: browse, search, and reload any saved .lua file from coords/ directly into the 3D Studio."
     ]
 }
