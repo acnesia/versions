@@ -1,15 +1,14 @@
 {
   "resource": "acn_map_hide_creator",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added 3D Freecam mode for polygon creation with Left-Click placing and live height adjustments.",
-    "Added real-time Floor (Min Z) and Ceiling (Max Z) elevation controls with dynamic wireframe feedback.",
-    "Added direct entity enrichment into existing zones via laser aiming or model name/hash.",
-    "Added live Laser Entity Inspector tool with one-click quick hiding.",
-    "Added zone model management with selective model restoration and 3D wireframe outline preview.",
-    "Added ambient traffic and pedestrian suppression options for designated zones."
+    "Improved raycast detection with synchronous probing and proximity resolution for static GTA map props.",
+    "Added complete hidden objects export to structured JSON (data/export_hidden_objects.json).",
+    "Added standalone ready-to-run FiveM Lua script export (data/export_hidden_objects.lua).",
+    "Added single-zone and full-database export buttons in creator menus.",
+    "Added 3D Freecam mode for polygon creation with Left-Click placing and live height adjustments."
   ]
 }
