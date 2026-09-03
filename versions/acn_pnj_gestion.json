@@ -1,11 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed startup crash in the portable wardrobe bag module.",
-        "Migrated bag callbacks and progress bars to the universal bridge."
+        "Fixed _L nil error in status notifications (hunger/thirst).",
+        "Added universal shared locale handler and full locale registrations.",
+        "Safeguarded status callback execution with pcall protection."
     ]
 }
