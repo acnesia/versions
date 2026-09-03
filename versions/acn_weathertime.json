@@ -1,0 +1,13 @@
+﻿{
+    "resource": "acn_weathertime",
+    "version": "10.4.1",
+    "severity": "important",
+    "minimum_supported": "10.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed time freeze persisting at 23:30 upon player connection.",
+        "Added PauseSync compatibility bridge for multicharacter systems.",
+        "Added instant automatic resynchronization upon player spawn and framework load.",
+        "Added periodic server heartbeat to maintain synchronized clock across all clients."
+    ]
+}
