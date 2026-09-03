@@ -1,11 +1,13 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.9.3",
+    "version": "2.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added live Raycast vertical elevation controls (Raise/Lower) with Shift+Wheel and arrow keys.",
-        "Saved exact 3D coordinates from preview entity ensuring 1:1 identical placement when store is purchased."
+        "Added full Admin Items & Inventory Manager in /shopcreator linked to acn_bridge.",
+        "Added realistic in-store stock tracking and Out of Stock prevention.",
+        "Added interactive delivery restock supply runs with wholesale depots and cargo loading.",
+        "Added store capacity upgrades and tiered delivery vehicle fleet (Burrito, Boxville, Benson)."
     ]
 }
