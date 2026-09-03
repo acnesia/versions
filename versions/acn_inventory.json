@@ -1,12 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.5.2",
-    "severity": "recommended",
+    "version": "2.5.3",
+    "severity": "critical",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed weapon creation and ammo routing into weapons.json/weapons.lua.",
-        "Added case-insensitive item aliases for weapons and ammo types.",
-        "Optimized drag and drop with hardware accelerated translate3d and zero layout thrashing."
+        "Fixed Lua 5.4 local scope error in modules/items/shared.lua restoring server exports and RegisterStash.",
+        "Restored uiLoaded NUI callback execution on client startup."
     ]
 }
