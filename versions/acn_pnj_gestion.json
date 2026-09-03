@@ -1,11 +1,11 @@
 {
-    "update_url":  "https://portal.cfx.re/",
-    "version":  "2.7.0",
-    "changelog":  [
-                      "Intégration complète des fonctionnalités de acn_small (ATM, Notify, Limiteur, etc.).",
-                      "Correction d\u0027un problème empêchant de voler les véhicules PNJ de manière fluide."
-                  ],
-    "resource":  "acn_pnj_gestion",
-    "severity":  "important",
-    "minimum_supported":  "2.0.0"
+    "resource": "acn_pnj_gestion",
+    "version": "2.7.1",
+    "severity": "important",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed startup crash in the portable wardrobe bag module.",
+        "Migrated bag callbacks and progress bars to the universal bridge."
+    ]
 }
