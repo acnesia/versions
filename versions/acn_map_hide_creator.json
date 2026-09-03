@@ -5,7 +5,8 @@
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added interactive 3D polygon zone creation mode with live laser cursor.",
+    "Added 3D Freecam mode for polygon creation with Left-Click placing and live height adjustments.",
+    "Added real-time Floor (Min Z) and Ceiling (Max Z) elevation controls with dynamic wireframe feedback.",
     "Added direct entity enrichment into existing zones via laser aiming or model name/hash.",
     "Added live Laser Entity Inspector tool with one-click quick hiding.",
     "Added zone model management with selective model restoration and 3D wireframe outline preview.",
