@@ -1,12 +1,11 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.9.0",
+    "version": "1.9.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added comprehensive NUI Store Owner Management Dashboard (treasury, pricing, rename, shelves).",
-        "Full acn_bridge integration with inventory capacity checks and automated shop revenue crediting.",
-        "Enhanced In-Game Creator (Creator ING) with store renaming, precision placement, and smart distance."
+        "Fixed shelf prop floor clipping by adding automatic configurable ground elevation offset (Config.ShelfZOffset).",
+        "Added live Z elevation controls during Raycast placement and one-click shelf height selector in management dashboard."
     ]
 }
