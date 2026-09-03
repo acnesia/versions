@@ -1,11 +1,11 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed /shopcreator command registration and permission validation across acn_bridge and frameworks.",
-        "Added dual client/server command registration and optimized client scripts load order."
+        "Added live Raycast vertical elevation controls (Raise/Lower) with Shift+Wheel and arrow keys.",
+        "Saved exact 3D coordinates from preview entity ensuring 1:1 identical placement when store is purchased."
     ]
 }
