@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added custom ammunition and weapon component creation to the /items manager.",
-        "Added validated PNG, JPEG, and WebP image imports with live previews.",
-        "Added a typed visual metadata editor and per-entry catalogue synchronization."
+        "Complete modern Cyber-Tactical UI overhaul with enhanced slot cards, rarity glows, and responsive layout.",
+        "Significantly improved performance and rendering stability in FiveM CEF by eliminating heavy backdrop blur effects.",
+        "Added quick quantity steppers, tactile action dropzone controls, and modernized clothing equipment panel."
     ]
 }
