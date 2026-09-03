@@ -1,11 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "2.5.3",
-    "severity": "critical",
+    "version": "2.5.4",
+    "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Lua 5.4 local scope error in modules/items/shared.lua restoring server exports and RegisterStash.",
-        "Restored uiLoaded NUI callback execution on client startup."
+        "Fixed HTML5 stepMismatch error on weapon durability input in item manager modal."
     ]
 }
