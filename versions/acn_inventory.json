@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Advanced Bluebird-inspired liquid glass theme with optical distortion and curved meniscus reflection.",
-        "Refined transparent slot design with cut-crystal specular highlights and azure volumetric refraction.",
-        "Harmonized central action panel and clothing equipment slots with matching liquid glass borders."
+        "Focused liquid glass border exclusively on the top header bar (player info, slots, weight).",
+        "Removed outer grid frame for a fully invisible background with floating liquid glass tiles.",
+        "Redesigned right-click context menu in pure, colorless crystal liquid glass with optical distortion."
     ]
 }
