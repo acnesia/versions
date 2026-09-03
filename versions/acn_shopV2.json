@@ -1,11 +1,11 @@
 {
     "resource": "acn_shopV2",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed shelf prop floor clipping by adding automatic configurable ground elevation offset (Config.ShelfZOffset).",
-        "Added live Z elevation controls during Raycast placement and one-click shelf height selector in management dashboard."
+        "Fixed /shopcreator command registration and permission validation across acn_bridge and frameworks.",
+        "Added dual client/server command registration and optimized client scripts load order."
     ]
 }
