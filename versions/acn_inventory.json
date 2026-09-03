@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.5.1",
-    "severity": "critical",
+    "version": "2.5.2",
+    "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed inventory grid infinite re-render loop causing severe FPS drops in NUI.",
-        "Removed heavy software shadow filters and compositor layer thrashing.",
-        "Optimized closest player give thread and decoupled raycast scans from the 0ms render frame."
+        "Fixed weapon creation and ammo routing into weapons.json/weapons.lua.",
+        "Added case-insensitive item aliases for weapons and ammo types.",
+        "Optimized drag and drop with hardware accelerated translate3d and zero layout thrashing."
     ]
 }
