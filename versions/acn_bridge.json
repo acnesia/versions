@@ -1,0 +1,13 @@
+{
+    "resource": "acn_bridge",
+    "version": "1.6.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added /acn_version server command to check updates across all ACN resources.",
+        "Integrated multi-resource remote version verification against central repository.",
+        "Added CheckAllVersions and CheckResourceVersion server exports.",
+        "Added cross-resource event notification on version check request."
+    ]
+}
