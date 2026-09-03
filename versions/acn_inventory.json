@@ -1,10 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.5.4",
+    "version": "2.5.5",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed HTML5 stepMismatch error on weapon durability input in item manager modal."
+        "Fixed client.lua:1418 nil value error during player inventory loading and resource restart.",
+        "Redesigned slot styling with sleek transparent background and refined borders.",
+        "Handled missing item images gracefully without broken image browser glyphs."
     ]
 }
