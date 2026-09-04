@@ -1,11 +1,14 @@
 {
     "resource": "acn_shopV2",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Configured inventory_images/images as primary central repository for all item icons.",
-        "Added automatic PNG and WEBP resolution with cascading fallbacks across all UI screens."
+        "Complete visual redesign with modern obsidian dark theme, Outfit & JetBrains Mono typography.",
+        "Added instant category filters and quick search clear button to the customer shopping catalog.",
+        "Redesigned quantity modal with quick purchase presets and Max stock shortcut.",
+        "Refreshed store owner management dashboard with KPI cards, quick treasury actions, and dynamic stock progress bars.",
+        "Cleaned up and modernized in-game creator dashboard with segmented tabs and two-column item manager."
     ]
 }
