@@ -1,13 +1,10 @@
 {
   "resource": "acn_war",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Integrated modular onboarding flow with acn_war_identity, acn_war_clothing, and acn_war_teams.",
-    "Added persistent callsign and combat class database support.",
-    "Added GetPlayerClass and SetPlayerClass server exports.",
-    "Added custom clothing deployment support upon base spawning."
+    "Fixed MariaDB multiple statements syntax error during startup table initialization."
   ]
 }
