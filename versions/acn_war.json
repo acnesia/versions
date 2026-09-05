@@ -1,0 +1,14 @@
+{
+  "resource": "acn_war",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of ACN War core gamemode.",
+    "3-team conquest domination battle system.",
+    "Persistent economy, player progression and MySQL data.",
+    "Military armory with weapons, gear, killstreaks and vehicles.",
+    "High performance cyber-military NUI HUD with zero CEF blur."
+  ]
+}
