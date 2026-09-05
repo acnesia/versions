@@ -1,12 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.6.1",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Focused liquid glass border exclusively on the top header bar (player info, slots, weight).",
-        "Removed outer grid frame for a fully invisible background with floating liquid glass tiles.",
-        "Redesigned right-click context menu in pure, colorless crystal liquid glass with optical distortion."
+        "Completely decoupled from ox_lib with standalone native bridge and acn_bridge exports.",
+        "Resolved startup error requiring ox_lib resource."
     ]
 }
