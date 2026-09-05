@@ -1,14 +1,14 @@
 {
     "resource": "acn_war_inventory",
-    "version": "1.1.0",
-    "severity": "recommended",
+    "version": "2.0.0",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated Operator Inventory (TAB) and Equipment Vendor (F1).",
-        "Added interactive catalog drawer for slot-by-slot equipment selection.",
-        "Backpack now dynamically unlocks storage grid pockets.",
-        "Real-time package cost calculation and checkout delivery.",
-        "Improved 3D camera framing for centered character preview."
+        "Major interface overhaul matching tactical extraction shooter shop design.",
+        "Added multi-case grid inventory (3 squares for rifles, 2 for pistols, 1 for utilities).",
+        "Added ground drop and pickup system for weapons and items.",
+        "Added TAB HUD quick bar (slots 1 to 9) with native GTA weapon wheel blocker.",
+        "Remapped personal inventory to F2."
     ]
 }
