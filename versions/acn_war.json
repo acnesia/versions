@@ -1,10 +1,11 @@
 {
   "resource": "acn_war",
-  "version": "1.0.0",
-  "severity": "recommended",
+  "version": "1.0.1",
+  "severity": "critical",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
+    "Fixed a server-side stack overflow error in player identifier extraction.",
     "Initial release of ACN War core gamemode.",
     "3-team conquest domination battle system.",
     "Persistent economy, player progression and MySQL data.",
