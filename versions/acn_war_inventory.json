@@ -1,14 +1,15 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Major interface overhaul matching tactical extraction shooter shop design.",
-        "Added multi-case grid inventory (3 squares for rifles, 2 for pistols, 1 for utilities).",
-        "Added ground drop and pickup system for weapons and items.",
-        "Added TAB HUD quick bar (slots 1 to 9) with native GTA weapon wheel blocker.",
-        "Remapped personal inventory to F2."
+        "Unified interface shell matching all 5 tactical reference screens.",
+        "Added live status cards for Health, Weight, and Loadout Value.",
+        "Added 4-pocket cells beside Primary, Secondary, and Specialist loadout cards.",
+        "Interactive Vendor Overview with direct click navigation into Equipment, Gear, and Objects.",
+        "Added Material store with 5 gear slots and Objects store with 6x3 tactical items grid.",
+        "Added bulk ammo store and [C] ammo regrouping action."
     ]
 }
