@@ -1,11 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "severity": "critical",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed critical lib.callback RPC table indexing error on server start and item usage.",
-        "Added robust multi-return RPC values handling via table.pack."
+        "Implemented standalone lib.addCommand helper for administrative commands.",
+        "Automated licenses table creation (CREATE TABLE IF NOT EXISTS) on startup.",
+        "Hardened stale stash cleanup interval parser against whitespace and quotes."
     ]
 }
