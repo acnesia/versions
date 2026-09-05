@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.7.2",
-    "severity": "recommended",
+    "version": "2.7.3",
+    "severity": "critical",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed strict dependency on acn_pnj_gestion for fully standalone startup.",
-        "Preserved optional give item roleplay action compatibility."
+        "Fixed critical lib.callback RPC table indexing error on server start and item usage.",
+        "Added robust multi-return RPC values handling via table.pack."
     ]
 }
