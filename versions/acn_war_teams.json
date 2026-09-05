@@ -1,0 +1,12 @@
+{
+    "resource": "acn_war_teams",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the 3-faction competitive war selection interface.",
+        "Faction cards with live player counts and automated balance verification.",
+        "Seamless integration with acn_war base spawning and loadout delivery."
+    ]
+}

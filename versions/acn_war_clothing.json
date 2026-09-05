@@ -1,0 +1,13 @@
+{
+    "resource": "acn_war_clothing",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the ID-based tactical clothing and equipment locker.",
+        "Interactive component and texture ID steppers with direct input support.",
+        "Studio camera system with dynamic lighting and character rotation.",
+        "Automatic database persistence and seamless handoff to team selection."
+    ]
+}

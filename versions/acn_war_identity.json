@@ -1,0 +1,13 @@
+{
+    "resource": "acn_war_identity",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the military identity and combat class registration system.",
+        "Interactive tactical callsign input with real-time validation.",
+        "4 specialized combat classes with custom weaponry and perks.",
+        "Full synergy with acn_war and automatic transition to clothing locker."
+    ]
+}

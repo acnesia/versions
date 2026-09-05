@@ -1,14 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added console and in-game setgroup command (ESX Extended style).",
-    "Added persistent MySQL storage of player groups in acn_war_players.",
-    "Integrated direct live synchronization with acn_adminXweb and acn_bridge.",
-    "Added automatic FiveM ACE principal permission assignment for staff ranks.",
-    "Added GetPlayerGroup and SetPlayerGroup server exports."
+    "Integrated modular onboarding flow with acn_war_identity, acn_war_clothing, and acn_war_teams.",
+    "Added persistent callsign and combat class database support.",
+    "Added GetPlayerClass and SetPlayerClass server exports.",
+    "Added custom clothing deployment support upon base spawning."
   ]
 }
