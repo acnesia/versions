@@ -1,14 +1,14 @@
 {
     "resource": "acn_war_inventory",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of tactical loadout and equipment vendor inventory.",
-        "Triple-column military layout matching extraction shooters.",
-        "Weapon attachments and specialized gear slots.",
-        "3D interactive operator camera with mouse drag rotation.",
-        "Realistic encumbrance and physical movement penalties."
+        "Separated Operator Inventory (TAB) and Equipment Vendor (F1).",
+        "Added interactive catalog drawer for slot-by-slot equipment selection.",
+        "Backpack now dynamically unlocks storage grid pockets.",
+        "Real-time package cost calculation and checkout delivery.",
+        "Improved 3D camera framing for centered character preview."
     ]
 }
