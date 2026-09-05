@@ -1,11 +1,12 @@
 {
     "resource": "acn_bridge",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed server error attempt to call a nil value (field get) in GetPlayerName.",
-        "Added full nil-safety and gamemode compatibility for character name resolution."
+        "Added full native support and auto-detection for acn_war_inventory.",
+        "Added GetInventorySystem and GetPlayerInventory server exports.",
+        "Added dual-mode client inventory integration supporting vendor and gear inventories."
     ]
 }
