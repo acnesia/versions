@@ -1,12 +1,13 @@
 {
   "resource": "acn_handling_creator",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Complete Handling Studio overhaul featuring automated oxmysql database persistence.",
-    "Added 3-state architecture (Original, Saved, Working) ensuring tuning edits are never lost on editor close/reopen.",
-    "Added multi-profile manager, Quick Tune dials, Favorites, Live Telemetry with real-time charts, and Drive Test compact HUD."
+    "Added automated Performance Box dyno test suite (0-100 km/h, 0-200 km/h, 400m, braking).",
+    "Added compact drive test HUD 0-100 km/h live readout.",
+    "Added 2-vehicle head-to-head comparison tool with side-by-side metric comparison bars.",
+    "Added one-click handling setup copier from Vehicle B to Vehicle A."
   ]
 }
