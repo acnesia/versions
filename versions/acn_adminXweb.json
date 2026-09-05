@@ -1,11 +1,10 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.11",
-  "severity": "important",
+  "version": "5.7.12",
+  "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed overly permissive ACE check that could grant admin privileges to regular players.",
-    "Added Config.Admins identifier mapping for standalone permission assignment."
+    "Synchronized startup session cleanup with schema verification to prevent missing table SQL errors."
   ]
 }

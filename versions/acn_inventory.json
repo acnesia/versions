@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed internal module resolution for server, client and data modules.",
-        "Resolved NUI uiLoaded callback unexpected end of JSON error."
+        "Removed strict dependency on acn_pnj_gestion for fully standalone startup.",
+        "Preserved optional give item roleplay action compatibility."
     ]
 }
