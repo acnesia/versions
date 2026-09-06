@@ -1,12 +1,10 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.2.1",
-    "severity": "important",
+    "version": "2.2.2",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed money synchronization between gamemode wallet and inventory interface.",
-        "Fixed zero-slot storage grid state when no backpack is equipped.",
-        "Added dynamic backpack storage grid expansion on backpack equipment."
+        "Adjusted right panel vertical layout to bring vendor checkout bar fully into view."
     ]
 }
