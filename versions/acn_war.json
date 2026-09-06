@@ -1,14 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Expanded bot pathfinding to 5 distinct tactical corridors per faction across the warzone.",
-    "Implemented organic staggered departures so bots leave base incrementally.",
-    "Upgraded navigation tasks to ensure reliable cross-country desert travel and fence climbing.",
-    "Added active roaming and tactical perimeter sweeps inside the central conquest zone.",
-    "Added bounded patrol sweeps for base defenders and recon squads."
+    "Fixed bot freezing by switching to TaskGoStraightToCoord for reliable off-road navigation.",
+    "Added synchronous network control handshake ensuring tasks are never dropped.",
+    "Accelerated deployment echelons so all bots deploy forward within 0.5s to 5.0s.",
+    "Eliminated premature barrier jumping interruptions during initial acceleration."
   ]
 }
