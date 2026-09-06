@@ -1,14 +1,13 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Realigned layout to eliminate center gap and frame 3D character with wider columns.",
-        "Added instant right-click preview deselect on all preview and store cards.",
-        "Added real-time ghost item preview in prospective backpack grid cells.",
-        "Enabled immediate in-place inventory delivery without reopening armory.",
-        "Fixed quick slot drag and drop for weapons (1-3) and hotbar slots (4-0)."
+        "Implemented 100% reliable pointer-based drag & drop with custom floating avatar for FiveM CEF.",
+        "Fixed $0 weapons and items purchase bug on both client and server.",
+        "Fixed live inventory refresh while inside vendor so newly acquired backpacks and items appear instantly.",
+        "Enhanced inventory item stacking and slot swapping upon drop."
     ]
 }
