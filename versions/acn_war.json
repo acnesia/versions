@@ -1,11 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.2.3",
+  "version": "1.4.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed unknown column 'group' query error with automated schema verification and migration.",
-    "Enhanced database startup and connection synchronization."
+    "Added /deletecharacter and /delchar commands for full character onboarding reset.",
+    "Starter money set to $10,000 with clean unequipped starter loadout.",
+    "Reconnecting players are always offered faction and combat class selection.",
+    "Ped unfreeze and collision guarantees upon base spawn."
   ]
 }
