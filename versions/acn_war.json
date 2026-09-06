@@ -1,13 +1,15 @@
 {
   "resource": "acn_war",
-  "version": "1.7.2",
+  "version": "1.8.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added seamless resource restart recovery preserving team, blips, and 3D chevrons.",
-    "Added autonomous distant bot simulation so unstreamed bots advance across the map.",
-    "Added two-tier priority tactical AI: engage enemies on sight first, capture objective second.",
-    "Added multi-corridor attack lanes and active barrier/fence vaulting."
+    "Added 5-second grace period countdown before taking damage in enemy safezones.",
+    "Replaced cluttering kill banners with smart combo counters and sleek discreet toast notifications.",
+    "Added permanent base defender guards and server-side liveness watchdog for all faction bots.",
+    "Fixed player ability to move while dead after giving up during respawn countdown.",
+    "Added progressive revive rescue bounty pledging and payout on teammate revival.",
+    "Configured full inventory and weapon loss on death to drive base armory economy."
   ]
 }
