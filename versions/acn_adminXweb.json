@@ -1,10 +1,10 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.12",
+  "version": "5.7.13",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Synchronized startup session cleanup with schema verification to prevent missing table SQL errors."
+    "Fixed client error when updating admin ranks by hoisting input access controls."
   ]
 }
