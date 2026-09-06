@@ -1,11 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.5.1",
+  "version": "1.5.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added Config.Ambient suppression controls for civilian NPCs, wandering scenarios, traffic, and parked cars.",
-    "Disabled GTA police generation, cop patrols, wanted stars, police radio, and all 15 emergency dispatch services."
+    "Fixed bot uniforms to match faction colors (red, blue, or green camo, helmet, and tactical vest).",
+    "Resolved friendly bot aggression by unifying team relationship groups.",
+    "Added chained tactical route waypoints for bot marching to the objective.",
+    "Added minimap/map blips and 3D floating overhead markers above allied players and bots."
   ]
 }
