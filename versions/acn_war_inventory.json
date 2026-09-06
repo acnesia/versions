@@ -1,10 +1,12 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Adjusted right panel vertical layout to bring vendor checkout bar fully into view."
+        "Added vendor equipment resale system with full refund for weapons, gear, backpacks, and items.",
+        "Added live ghost transparency preview for unpurchased gear and parachutes in operator slots.",
+        "Added live prospective storage grid capacity preview showing gained backpack slots in real time."
     ]
 }
