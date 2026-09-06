@@ -1,13 +1,12 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed spawn freeze by preventing automatic UI/camera activation during background data sync.",
-        "Implemented staged armory shopping cart with live total computation on the bottom-right ACHAT button.",
-        "Batch checkout transaction applying loadout and inventory items simultaneously.",
-        "Clean empty starter loadout initialization for new and deleted characters."
+        "Fixed money synchronization between gamemode wallet and inventory interface.",
+        "Fixed zero-slot storage grid state when no backpack is equipped.",
+        "Added dynamic backpack storage grid expansion on backpack equipment."
     ]
 }
