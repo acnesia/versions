@@ -1,12 +1,14 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added dedicated live preview slots for Helmet, Armor, and Vest in the Material vendor page.",
-        "Enhanced large weapon display with live staging and equipped indicators in the Armory page.",
-        "Added vendor equipment resale system with full refund and right-click support."
+        "Realigned layout to eliminate center gap and frame 3D character with wider columns.",
+        "Added instant right-click preview deselect on all preview and store cards.",
+        "Added real-time ghost item preview in prospective backpack grid cells.",
+        "Enabled immediate in-place inventory delivery without reopening armory.",
+        "Fixed quick slot drag and drop for weapons (1-3) and hotbar slots (4-0)."
     ]
 }
