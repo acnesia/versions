@@ -1,13 +1,12 @@
 {
   "resource": "acn_war",
-  "version": "1.4.0",
+  "version": "1.4.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added /deletecharacter and /delchar commands for full character onboarding reset.",
-    "Starter money set to $10,000 with clean unequipped starter loadout.",
-    "Reconnecting players are always offered faction and combat class selection.",
-    "Ped unfreeze and collision guarantees upon base spawn."
+    "Fixed /creator modal not displaying by correcting HTML structure and overlay styling.",
+    "Eliminated all ACE permission checks in favor of Config.Admins and in-game groups.",
+    "Added Config.CreatorRequireAdmin toggle for barrier-free live warzone setup."
   ]
 }

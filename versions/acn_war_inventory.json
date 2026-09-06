@@ -1,13 +1,11 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.3.3",
+    "version": "2.3.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Implemented 100% reliable pointer-based drag & drop with custom floating avatar for FiveM CEF.",
-        "Fixed $0 weapons and items purchase bug on both client and server.",
-        "Fixed live inventory refresh while inside vendor so newly acquired backpacks and items appear instantly.",
-        "Enhanced inventory item stacking and slot swapping upon drop."
+        "Fixed JavaScript tostring reference error when updating quick-action hotbar slots.",
+        "Added tab, close, and drop synthesizers and Proxy fallback to SoundEngine."
     ]
 }
