@@ -1,13 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.10.0",
-  "severity": "feature",
+  "version": "2.0.0",
+  "severity": "major",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction du blocage des bots et pilotage par leur propriétaire réseau.",
-    "Patrouilles, assaut, soutien, contournements et récupération des déplacements bloqués.",
-    "Réglages et itinéraires modifiables en jeu avec sauvegarde persistante.",
-    "Réapparition automatique des bots éliminés par les autres équipes."
+    "Progression et combats des bots maintenus hors du chargement des joueurs.",
+    "Difficulté adoucie, délai de réaction et déplacements plus stables.",
+    "Nouveau menu avec niveaux de difficulté et itinéraires par équipe.",
+    "Migration des réglages précédents avec conservation des itinéraires."
   ]
 }
