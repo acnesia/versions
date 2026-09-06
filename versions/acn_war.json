@@ -1,13 +1,11 @@
 {
   "resource": "acn_war",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Released AI War Combatants system (20 tactical bots per faction, arming phase, assault, capture).",
-    "Bots dynamically contribute to capture zone progression and contention.",
-    "Integrated player hitmarkers, cash rewards, XP, and killfeed on bot eliminations.",
-    "Fixed mouse cursor persistence upon saving creator settings."
+    "Added Config.Ambient suppression controls for civilian NPCs, wandering scenarios, traffic, and parked cars.",
+    "Disabled GTA police generation, cop patrols, wanted stars, police radio, and all 15 emergency dispatch services."
   ]
 }
