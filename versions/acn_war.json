@@ -1,11 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.9.4",
-  "severity": "critical",
+  "version": "1.10.0",
+  "severity": "feature",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed server-side native scope error for SetNetworkIdCanMigrate during bot spawn.",
-    "Restored seamless faction selection and dynamic platoon rebalancing."
+    "Correction du blocage des bots et pilotage par leur propriétaire réseau.",
+    "Patrouilles, assaut, soutien, contournements et récupération des déplacements bloqués.",
+    "Réglages et itinéraires modifiables en jeu avec sauvegarde persistante.",
+    "Réapparition automatique des bots éliminés par les autres équipes."
   ]
 }
