@@ -1,13 +1,11 @@
 {
   "resource": "acn_war",
-  "version": "1.9.3",
-  "severity": "recommended",
+  "version": "1.9.4",
+  "severity": "critical",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed bot freezing by switching to TaskGoStraightToCoord for reliable off-road navigation.",
-    "Added synchronous network control handshake ensuring tasks are never dropped.",
-    "Accelerated deployment echelons so all bots deploy forward within 0.5s to 5.0s.",
-    "Eliminated premature barrier jumping interruptions during initial acceleration."
+    "Fixed server-side native scope error for SetNetworkIdCanMigrate during bot spawn.",
+    "Restored seamless faction selection and dynamic platoon rebalancing."
   ]
 }
