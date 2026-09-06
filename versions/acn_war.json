@@ -1,12 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed /creator modal not displaying by correcting HTML structure and overlay styling.",
-    "Eliminated all ACE permission checks in favor of Config.Admins and in-game groups.",
-    "Added Config.CreatorRequireAdmin toggle for barrier-free live warzone setup."
+    "Released AI War Combatants system (20 tactical bots per faction, arming phase, assault, capture).",
+    "Bots dynamically contribute to capture zone progression and contention.",
+    "Integrated player hitmarkers, cash rewards, XP, and killfeed on bot eliminations.",
+    "Fixed mouse cursor persistence upon saving creator settings."
   ]
 }
