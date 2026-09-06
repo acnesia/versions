@@ -1,13 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.6.0",
+  "version": "1.7.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Overhauled AI War Bots: fixed friendly targeting, added obstacle navigation and anti-stuck watchdog.",
-    "Added full-map and minimap blips for all allied bots with real-time headings.",
-    "Added tactical UAV radar for enemy bots contesting the objective zone.",
-    "Added conquest radius area blip on map and minimap."
+    "Added Downed & Medic Revive system (DBNO) with animated circular Cardiac ECG HUD.",
+    "Added teammate CPR revive mechanics with progress tracking.",
+    "Added Medic Tip feature allowing downed soldiers to reward their medic with cash via [F].",
+    "Integrated live Downed & Revive settings into /conf_acn_war in-game creator."
   ]
 }
