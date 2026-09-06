@@ -1,12 +1,13 @@
 {
   "resource": "acn_war",
-  "version": "1.7.1",
+  "version": "1.7.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed bot initialization across all 20 faction bots via network ID tracking and uniform application.",
-    "Eliminated gunshot fear and panic on bots using non-temporary event blocking.",
-    "Fixed bot conquest sprint navigation towards the central capture objective."
+    "Added seamless resource restart recovery preserving team, blips, and 3D chevrons.",
+    "Added autonomous distant bot simulation so unstreamed bots advance across the map.",
+    "Added two-tier priority tactical AI: engage enemies on sight first, capture objective second.",
+    "Added multi-corridor attack lanes and active barrier/fence vaulting."
   ]
 }
