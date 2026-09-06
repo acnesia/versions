@@ -1,13 +1,12 @@
 {
   "resource": "acn_war",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added Downed & Medic Revive system (DBNO) with animated circular Cardiac ECG HUD.",
-    "Added teammate CPR revive mechanics with progress tracking.",
-    "Added Medic Tip feature allowing downed soldiers to reward their medic with cash via [F].",
-    "Integrated live Downed & Revive settings into /conf_acn_war in-game creator."
+    "Fixed bot initialization across all 20 faction bots via network ID tracking and uniform application.",
+    "Eliminated gunshot fear and panic on bots using non-temporary event blocking.",
+    "Fixed bot conquest sprint navigation towards the central capture objective."
   ]
 }
