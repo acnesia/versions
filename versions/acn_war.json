@@ -1,15 +1,15 @@
 {
   "resource": "acn_war",
-  "version": "1.8.0",
+  "version": "1.9.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added 5-second grace period countdown before taking damage in enemy safezones.",
-    "Replaced cluttering kill banners with smart combo counters and sleek discreet toast notifications.",
-    "Added permanent base defender guards and server-side liveness watchdog for all faction bots.",
-    "Fixed player ability to move while dead after giving up during respawn countdown.",
-    "Added progressive revive rescue bounty pledging and payout on teammate revival.",
-    "Configured full inventory and weapon loss on death to drive base armory economy."
+    "Added dynamic 100-combatant balancing where real players dynamically replace bots.",
+    "Added zero-bot server idle optimization for 0% CPU consumption when empty.",
+    "Added automatic team selection menu prompt upon resource restart and join.",
+    "Overhauled bot AI with Priority 1 combat engagement and Priority 2 objective sprinting.",
+    "Added clear base exit corridors and obstacle avoidance to prevent looping.",
+    "Secured full faction camouflage uniforms and 3D overhead indicators for all bots."
   ]
 }
