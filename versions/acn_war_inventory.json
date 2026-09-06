@@ -1,12 +1,12 @@
 {
     "resource": "acn_war_inventory",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added vendor equipment resale system with full refund for weapons, gear, backpacks, and items.",
-        "Added live ghost transparency preview for unpurchased gear and parachutes in operator slots.",
-        "Added live prospective storage grid capacity preview showing gained backpack slots in real time."
+        "Added dedicated live preview slots for Helmet, Armor, and Vest in the Material vendor page.",
+        "Enhanced large weapon display with live staging and equipped indicators in the Armory page.",
+        "Added vendor equipment resale system with full refund and right-click support."
     ]
 }
