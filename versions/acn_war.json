@@ -1,6 +1,6 @@
 {
   "resource": "acn_war",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
