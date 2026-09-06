@@ -1,15 +1,14 @@
 {
   "resource": "acn_war",
-  "version": "1.9.1",
+  "version": "1.9.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added dynamic 100-combatant balancing where real players dynamically replace bots.",
-    "Added zero-bot server idle optimization for 0% CPU consumption when empty.",
-    "Added automatic team selection menu prompt upon resource restart and join.",
-    "Overhauled bot AI with Priority 1 combat engagement and Priority 2 objective sprinting.",
-    "Added clear base exit corridors and obstacle avoidance to prevent looping.",
-    "Secured full faction camouflage uniforms and 3D overhead indicators for all bots."
+    "Expanded bot pathfinding to 5 distinct tactical corridors per faction across the warzone.",
+    "Implemented organic staggered departures so bots leave base incrementally.",
+    "Upgraded navigation tasks to ensure reliable cross-country desert travel and fence climbing.",
+    "Added active roaming and tactical perimeter sweeps inside the central conquest zone.",
+    "Added bounded patrol sweeps for base defenders and recon squads."
   ]
 }
