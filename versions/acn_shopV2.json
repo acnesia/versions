@@ -1,14 +1,14 @@
 {
     "resource": "acn_shopV2",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Stores are now 100% barren upon purchase with zero automatic shelf spawning.",
-        "Store owners can repurchase all moderator-deleted props and place them anywhere inside their shop zone.",
-        "Added admin 'Clear All in Zone [X]' tool to wipe every object and entity in the store at once.",
-        "Added dedicated 'Aménagement & Mobilier' layout tab in the store owner management UI.",
-        "Overhauled customer catalog with shopping cart drawer and eliminated all native JS popups."
+        "Unowned supermarkets function automatically as public 24/7 stores allowing all citizens to buy groceries.",
+        "Fixed tab content leakage in management UI and redesigned navigation pills with zero text clipping.",
+        "Overhauled all user interfaces with neon KPI cards, two-color progress bars, and rich store acquisition modal.",
+        "Stores are 100% empty upon player purchase and store owners can repurchase and place any deleted props.",
+        "Enhanced shopping cart drawer with cash and bank card payments and eliminated all native JS popups."
     ]
 }
