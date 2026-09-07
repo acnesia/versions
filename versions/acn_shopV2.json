@@ -1,14 +1,14 @@
 {
     "resource": "acn_shopV2",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete visual redesign with modern obsidian dark theme, Outfit & JetBrains Mono typography.",
-        "Added instant category filters and quick search clear button to the customer shopping catalog.",
-        "Redesigned quantity modal with quick purchase presets and Max stock shortcut.",
-        "Refreshed store owner management dashboard with KPI cards, quick treasury actions, and dynamic stock progress bars.",
-        "Cleaned up and modernized in-game creator dashboard with segmented tabs and two-column item manager."
+        "Replaced all native JavaScript dialogs with an elegant in-game confirmation modal.",
+        "Completely overhauled customer shopping catalog with non-squished cards and multi-item shopping cart drawer.",
+        "Interactive 3D raycast prop inspector allowing admins to select any world props for removal upon store purchase.",
+        "Added Player Prop Spawner allowing store owners to purchase and place empty shelves inside designated boundaries.",
+        "Custom item-by-item supply delivery orders with boosted delivery truck capacities (150, 400, 1000 units)."
     ]
 }
