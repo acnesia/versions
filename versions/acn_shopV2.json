@@ -1,14 +1,14 @@
 {
     "resource": "acn_shopV2",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced all native JavaScript dialogs with an elegant in-game confirmation modal.",
-        "Completely overhauled customer shopping catalog with non-squished cards and multi-item shopping cart drawer.",
-        "Interactive 3D raycast prop inspector allowing admins to select any world props for removal upon store purchase.",
-        "Added Player Prop Spawner allowing store owners to purchase and place empty shelves inside designated boundaries.",
-        "Custom item-by-item supply delivery orders with boosted delivery truck capacities (150, 400, 1000 units)."
+        "Stores are now 100% barren upon purchase with zero automatic shelf spawning.",
+        "Store owners can repurchase all moderator-deleted props and place them anywhere inside their shop zone.",
+        "Added admin 'Clear All in Zone [X]' tool to wipe every object and entity in the store at once.",
+        "Added dedicated 'Aménagement & Mobilier' layout tab in the store owner management UI.",
+        "Overhauled customer catalog with shopping cart drawer and eliminated all native JS popups."
     ]
 }
