@@ -1,15 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.6.3",
+    "version": "4.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.3",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.3/Folio_PC_Setup_v4.6.3.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.0/Folio_PC_Setup_v4.7.0.exe",
     "changelog": [
-        "Affichage immediat de la premiere video/photo lors de la selection d'un mode de tri",
-        "Detection NSFW avancee pour les photos en Noir et Blanc et monochrome",
-        "Sensibilite de distinction NSFW plus rigoureuse (lingerie, maillots, poses suggestives)",
-        "Detection de visages haute definition amelioree (resolution 1024px)",
-        "Mise a niveau automatique de l'analyse IA de votre bibliotheque"
+        "Scan cadence securise par paliers de 150 medias pour eviter tout freeze sur les gros dossiers",
+        "Nouvel onglet Parametres avec Tableau de bord et statistiques completes (swipes, temps video, stockage)",
+        "Boutons de rotation rapide a 90 degres (gauche / droite) pour les photos",
+        "Entrainement local de l'IA NSFW enregistre sur votre PC avec bouton Debug IA en temps reel",
+        "Recherche paginee par blocs de 36 medias avec debounce pour une navigation instantanee sans lag"
     ]
 }
