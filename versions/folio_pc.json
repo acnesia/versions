@@ -1,15 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.4.0",
+    "version": "4.4.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.4.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.4.0/Folio_PC_Setup_v4.4.0.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.4.1",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.4.1/Folio_PC_Setup_v4.4.1.exe",
     "changelog": [
-        "Intelligence Artificielle Locale : détection et comptage automatique des visages 100% hors-ligne.",
-        "Bouclier de confidentialité intelligent : détection automatique des contenus sensibles / NSFW avec voile protecteur.",
+        "Détection temps réel des mises à jour : interrogation directe via l'API GitHub sans délai de cache.",
+        "Intelligence Artificielle Locale : détection et comptage des visages 100% hors-ligne.",
+        "Bouclier de confidentialité intelligent : détection automatique des contenus sensibles / NSFW.",
         "Détection de netteté & photos floues : isolation automatique des clichés ratés pour un tri rapide.",
-        "Nouvelles collections intelligentes : accès direct aux filtres Visages, Sensible et Flou.",
-        "Badges visuels sur les cartes et recherche enrichie par mots-clés (visage, portrait, flou, nsfw)."
+        "Nouvelles collections intelligentes : accès direct aux filtres Visages, Sensible et Flou."
     ]
 }
