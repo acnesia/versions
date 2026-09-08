@@ -1,14 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.6.0",
+    "version": "4.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.0/Folio_PC_Setup_v4.6.0.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.1",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.1/Folio_PC_Setup_v4.6.1.exe",
     "changelog": [
-        "Selecteur de couleur RGB interactif avec apercu dynamique de l'avatar et 16,7 millions de nuances.",
-        "Protection du hashtag (#XXXX) : identifiant unique permanent verrouille et non modifiable.",
-        "Liaison de compte Google pour authentifier votre profil avec badge verifie.",
-        "Permissions Administrateur : statut createur avec badge dore et outils de moderation (suppression de messages, annonces officielles, purge du salon)."
+        "Correctif critique du demarrage (crash v4.6.0 resolu)",
+        "IA locale NSFW de precision anatomique : elimination des faux positifs sur t-shirts courts et ventres nus",
+        "Affichage direct sans voile force avec Mode Streamer discret optionnel",
+        "Categorie et collection dediee 18+ NSFW creee automatiquement",
+        "Scan recursif securise et demarrage instantane du tri en moins de 150ms"
     ]
 }
