@@ -3,8 +3,8 @@
     "version": "4.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/folio/releases",
-    "download_url": "https://github.com/acnesia/folio/releases/download/v4.3.0/Folio_PC_Setup_v4.3.0.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.3.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.3.0/Folio_PC_Setup_v4.3.0.exe",
     "changelog": [
         "Incrustation dynamique OSD plein écran : badges animés Play/Pause, ±5s, Volume et Vitesse.",
         "Aperçu temporel flottant au survol de la barre de défilement (précision à la seconde).",
