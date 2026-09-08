@@ -1,0 +1,14 @@
+{
+  "resource": "acn_supermarket",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release.",
+    "Supermarket ownership and 3-tier inventory.",
+    "Wholesale supplier catalog and logistics.",
+    "Player staff and AI employee recruitment.",
+    "In-game store creator /conf_acn_supermarket."
+  ]
+}
