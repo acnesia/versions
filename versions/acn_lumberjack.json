@@ -1,0 +1,13 @@
+{
+    "resource": "acn_lumberjack",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of ACN Lumberjack with dynamic tree felling physics.",
+        "Interactive ground sawing and wood debris collection.",
+        "Multi-framework support (ox_inventory, ESX, QBCore, Standalone).",
+        "Server-authoritative state synchronization and live /conf_acn_lumberjack admin."
+    ]
+}
