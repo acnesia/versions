@@ -1,15 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.4.1",
+    "version": "4.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.4.1",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.4.1/Folio_PC_Setup_v4.4.1.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.4.2",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.4.2/Folio_PC_Setup_v4.4.2.exe",
     "changelog": [
-        "Détection temps réel des mises à jour : interrogation directe via l'API GitHub sans délai de cache.",
+        "Correctif du verrouillage de fichier lors du lancement de l'installeur automatique.",
+        "Détection temps réel des mises à jour via l'API GitHub sans délai de cache.",
         "Intelligence Artificielle Locale : détection et comptage des visages 100% hors-ligne.",
         "Bouclier de confidentialité intelligent : détection automatique des contenus sensibles / NSFW.",
-        "Détection de netteté & photos floues : isolation automatique des clichés ratés pour un tri rapide.",
-        "Nouvelles collections intelligentes : accès direct aux filtres Visages, Sensible et Flou."
+        "Détection de netteté & photos floues : isolation automatique des clichés ratés pour un tri rapide."
     ]
 }
