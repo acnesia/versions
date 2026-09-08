@@ -1,15 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.6.2",
+    "version": "4.6.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.2",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.2/Folio_PC_Setup_v4.6.2.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.3",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.3/Folio_PC_Setup_v4.6.3.exe",
     "changelog": [
-        "Option de reprise du tri par dossier et reinitialisation complete pour reswiper",
-        "Deblocage complet des dossiers OneDrive et repertoires cloud (fin des dossiers invisibles)",
-        "Nouveaux modes de tri specialises : NSFW intime seul, Visages/Portraits, Chiens/Animaux, Nature",
-        "Theme sombre pour les menus deroulants (ComboBox) pour une lisibilite parfaite",
-        "Optimisation haute performance pour les gros dossiers (zero lag et zero freeze)"
+        "Affichage immediat de la premiere video/photo lors de la selection d'un mode de tri",
+        "Detection NSFW avancee pour les photos en Noir et Blanc et monochrome",
+        "Sensibilite de distinction NSFW plus rigoureuse (lingerie, maillots, poses suggestives)",
+        "Detection de visages haute definition amelioree (resolution 1024px)",
+        "Mise a niveau automatique de l'analyse IA de votre bibliotheque"
     ]
 }
