@@ -1,15 +1,15 @@
 {
     "resource": "folio_pc",
-    "version": "4.6.1",
+    "version": "4.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.1",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.1/Folio_PC_Setup_v4.6.1.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.2",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.2/Folio_PC_Setup_v4.6.2.exe",
     "changelog": [
-        "Correctif critique du demarrage (crash v4.6.0 resolu)",
-        "IA locale NSFW de precision anatomique : elimination des faux positifs sur t-shirts courts et ventres nus",
-        "Affichage direct sans voile force avec Mode Streamer discret optionnel",
-        "Categorie et collection dediee 18+ NSFW creee automatiquement",
-        "Scan recursif securise et demarrage instantane du tri en moins de 150ms"
+        "Option de reprise du tri par dossier et reinitialisation complete pour reswiper",
+        "Deblocage complet des dossiers OneDrive et repertoires cloud (fin des dossiers invisibles)",
+        "Nouveaux modes de tri specialises : NSFW intime seul, Visages/Portraits, Chiens/Animaux, Nature",
+        "Theme sombre pour les menus deroulants (ComboBox) pour une lisibilite parfaite",
+        "Optimisation haute performance pour les gros dossiers (zero lag et zero freeze)"
     ]
 }
