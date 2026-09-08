@@ -1,14 +1,14 @@
 {
     "resource": "folio_pc",
-    "version": "4.7.1",
+    "version": "4.7.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.1",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.1/Folio_PC_Setup_v4.7.1.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.2",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.2/Folio_PC_Setup_v4.7.2.exe",
     "changelog": [
-        "Boutons instantanes d'entrainement IA (Vert / Rouge) tout en haut de l'ecran pour rendre l'IA plus intelligente",
-        "Entrainement en 1 seul clic sans aucune fenetre de dialogue lente ou bloquante",
-        "Notification visuelle instantanee en haut de l'ecran avec le nombre de photos apprises",
-        "Mise a jour en direct des badges et des compteurs de statistiques"
+        "Prise en charge complete de la rotation des videos a 90 degres (gauche / droite) comme les photos",
+        "Ajustement dynamique du ratio d'affichage video sans coupure de son ni deformation",
+        "Boutons de rotation et raccourci clavier R ajoutes dans la visionneuse plein ecran",
+        "Sauvegarde et restitution automatique de l'orientation de vos videos"
     ]
 }
