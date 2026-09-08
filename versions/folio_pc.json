@@ -1,14 +1,13 @@
 {
     "resource": "folio_pc",
-    "version": "4.7.2",
-    "severity": "recommended",
+    "version": "4.7.3",
+    "severity": "critical",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.2",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.2/Folio_PC_Setup_v4.7.2.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.3",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.3/Folio_PC_Setup_v4.7.3.exe",
     "changelog": [
-        "Prise en charge complete de la rotation des videos a 90 degres (gauche / droite) comme les photos",
-        "Ajustement dynamique du ratio d'affichage video sans coupure de son ni deformation",
-        "Boutons de rotation et raccourci clavier R ajoutes dans la visionneuse plein ecran",
-        "Sauvegarde et restitution automatique de l'orientation de vos videos"
+        "Correctif critique du lancement : resolution definitive de l'erreur Windows TypeConverterMarkupExtension",
+        "Chargement securise et resilient de l'icone et du logo d'application au demarrage",
+        "Demarrage fluide et instantane garanti sur tous les PC sans dependance manquante"
     ]
 }
