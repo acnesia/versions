@@ -1,13 +1,14 @@
 {
     "resource": "acn_lumberjack",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of ACN Lumberjack with dynamic tree felling physics.",
-        "Interactive ground sawing and wood debris collection.",
-        "Multi-framework support (ox_inventory, ESX, QBCore, Standalone).",
-        "Server-authoritative state synchronization and live /conf_acn_lumberjack admin."
+        "Added 3D visual tree debug mode with crosshair object inspector.",
+        "Added complete in-game NUI administration menu (/conf_acn_lumberjack).",
+        "Interactive tree manager: teleportation, live adding, editing, and deleting.",
+        "Nearby GTA V tree radar scanner (60m radius).",
+        "Dynamic tree model registration and automatic MySQL/KVP database persistence."
     ]
 }
