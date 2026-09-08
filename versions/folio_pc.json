@@ -1,15 +1,14 @@
 {
     "resource": "folio_pc",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.0/Folio_PC_Setup_v4.7.0.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.7.1",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.7.1/Folio_PC_Setup_v4.7.1.exe",
     "changelog": [
-        "Scan cadence securise par paliers de 150 medias pour eviter tout freeze sur les gros dossiers",
-        "Nouvel onglet Parametres avec Tableau de bord et statistiques completes (swipes, temps video, stockage)",
-        "Boutons de rotation rapide a 90 degres (gauche / droite) pour les photos",
-        "Entrainement local de l'IA NSFW enregistre sur votre PC avec bouton Debug IA en temps reel",
-        "Recherche paginee par blocs de 36 medias avec debounce pour une navigation instantanee sans lag"
+        "Boutons instantanes d'entrainement IA (Vert / Rouge) tout en haut de l'ecran pour rendre l'IA plus intelligente",
+        "Entrainement en 1 seul clic sans aucune fenetre de dialogue lente ou bloquante",
+        "Notification visuelle instantanee en haut de l'ecran avec le nombre de photos apprises",
+        "Mise a jour en direct des badges et des compteurs de statistiques"
     ]
 }
