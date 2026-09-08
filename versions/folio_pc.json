@@ -1,15 +1,14 @@
 {
     "resource": "folio_pc",
-    "version": "4.5.0",
+    "version": "4.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.5.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/v4.5.0/Folio_PC_Setup_v4.5.0.exe",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/v4.6.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/v4.6.0/Folio_PC_Setup_v4.6.0.exe",
     "changelog": [
-        "Salon communautaire en direct : discutez instantanement avec les utilisateurs de Folio PC via Firebase Realtime Database.",
-        "Presence temps reel : visualisez les membres connectes en direct et leur activite.",
-        "Statistiques collectives : partagez vos exploits de tri d'un clic et suivez les compteurs globaux de la communaute.",
-        "Profil personnalisable : choisissez votre pseudonyme et votre couleur d'avatar.",
-        "Correctif du verrouillage de fichier et fiabilisation complete du module de mise a jour automatique."
+        "Selecteur de couleur RGB interactif avec apercu dynamique de l'avatar et 16,7 millions de nuances.",
+        "Protection du hashtag (#XXXX) : identifiant unique permanent verrouille et non modifiable.",
+        "Liaison de compte Google pour authentifier votre profil avec badge verifie.",
+        "Permissions Administrateur : statut createur avec badge dore et outils de moderation (suppression de messages, annonces officielles, purge du salon)."
     ]
 }
