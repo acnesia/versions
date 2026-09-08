@@ -1,14 +1,16 @@
 {
     "resource": "folio_pc",
-    "version": "4.2.0",
+    "version": "4.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/folio/releases",
-    "download_url": "https://github.com/acnesia/folio/releases/download/v4.2.0/Folio_PC_Setup_v4.2.0.exe",
+    "download_url": "https://github.com/acnesia/folio/releases/download/v4.3.0/Folio_PC_Setup_v4.3.0.exe",
     "changelog": [
-        "Navigation vidéo précise au clic sur la barre de défilement (seek instantané).",
-        "Masquage automatique intelligent des contrôles vidéo et du curseur après 2.5 secondes d'inactivité.",
-        "Mode grand écran immersif haute résolution pour photos et vidéos avec zoom fluide à la molette (jusqu'à 800%).",
-        "Module de mise à jour automatique en un clic pour les utilisateurs."
+        "Incrustation dynamique OSD plein écran : badges animés Play/Pause, ±5s, Volume et Vitesse.",
+        "Aperçu temporel flottant au survol de la barre de défilement (précision à la seconde).",
+        "Sélecteur direct de vitesse de lecture (0.5x, 0.75x, 1.0x, 1.25x, 1.5x, 2.0x).",
+        "Gestion intégrée du volume avec curseur fin, molette souris et mémoire de niveau.",
+        "Scrubbing et défilement haute performance sans freeze DirectShow.",
+        "Raccourcis clavier pro (Espace/K, J/L, Flèches haut/bas, 0..9 et pas à pas image par image)."
     ]
 }
