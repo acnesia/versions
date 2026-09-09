@@ -1,11 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.8.3",
+    "version": "2.9.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Liquid Glass panels appearing dark/opaque instead of bright crystal glass.",
-        "Stabilized WebGL canvas lifecycle for cleaner open/close behavior."
+        "Added Liquid Glass card and enhanced contrast on player pseudo header and weight metrics.",
+        "Integrated full Liquid Glass V2 WebGL engine with server synchronization and persistence.",
+        "Added in-interface administrator settings panel with live preview and broadcast capabilities."
     ]
 }
