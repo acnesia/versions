@@ -1,12 +1,12 @@
 {
     "resource": "acn_bridge",
-    "version": "1.8.5",
+    "version": "1.8.6",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed client startup crashes in radial and context menus.",
-        "Fixed target entity and model registration in qtarget compatibility engine.",
-        "Added global table.deepclone and table utilities across all client scripts."
+        "Fixed fatal startup crash in lib.callback.register (setValidCallback).",
+        "Corrected lazy export resolution in init.lua for all external resources.",
+        "Added explicit exports and fail-safe guards for setValidCallback and isCallbackValid."
     ]
 }
