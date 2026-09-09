@@ -1,11 +1,13 @@
 {
     "resource": "acn_menuUI",
-    "version": "1.1.4",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction de la coupure intempestive du Liquid Glass après quelques instants.",
-        "Les couleurs du décor ne déclenchent plus le fond de secours."
+        "Personnalisation du style par composant : choisissez un thème individuel pour chaque UI.",
+        "Nouveau thème Ultra Minimal : style épuré haut de gamme en noir mat, sans aucun néon.",
+        "Suppression totale des halos néons et lueurs fluorescentes au profit d'ombres d'occlusion naturelles.",
+        "Sélecteurs par composant intégrés dans le panneau admin /conf_acn_menuUI avec bouton Appliquer à tous."
     ]
 }
