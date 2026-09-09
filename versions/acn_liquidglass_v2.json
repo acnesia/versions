@@ -1,0 +1,12 @@
+﻿{
+  "resource": "acn_liquidglass_v2",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of Liquid Glass V2 test interface.",
+    "Real-time WebGL optical refraction with live admin synchronization.",
+    "Added /test and /conf_acn_liquidglass_v2 commands."
+  ]
+}
