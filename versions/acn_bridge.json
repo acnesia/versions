@@ -1,11 +1,12 @@
 {
     "resource": "acn_bridge",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed startup nil error on target engine version checking.",
-        "Fixed doorlock sound and server utilities module loading."
+        "Fixed nil locale error in doorlock server command registration.",
+        "Added universal versionCheck compatibility export for external scripts.",
+        "Replaced ox_target manifest dependencies with acn_bridge."
     ]
 }
