@@ -1,13 +1,12 @@
 {
     "resource": "acn_bridge",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed client module resolution and circular dependency handling for resource.settings.",
-        "Fixed client global locale fallback initialization across UI modules.",
-        "Fixed target engine internal require paths and restored AddBoxZone compatibility.",
-        "Added getCache, onCache, getLocaleKey, Player, and Vehicle compatibility exports."
+        "Fixed string indexing error in setValidCallback.",
+        "Added automatic parameter normalization for callback registration.",
+        "Registered universal setValidCallback and isCallbackValid exports."
     ]
 }
