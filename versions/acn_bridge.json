@@ -1,13 +1,11 @@
 {
     "resource": "acn_bridge",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Integrated core library, target engine, and doorlock into a single unified resource.",
-        "Added transparent virtual exports for ox_lib, ox_target, and ox_doorlock.",
-        "Consolidated all NUI interfaces into a unified master web runtime.",
-        "Added doorlock native sound data and audio pack support."
+        "Fixed startup nil error on target engine version checking.",
+        "Fixed doorlock sound and server utilities module loading."
     ]
 }
