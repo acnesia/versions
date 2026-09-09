@@ -1,12 +1,14 @@
 {
     "resource": "acn_menuUI",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Purified Liquid Glass theme to 100% neutral transparent crystal without colored backgrounds.",
-        "Ensured true game-view WebGL refraction visibility across TextUI, Progress and Menus.",
-        "Monochrome frosted white styling for icons and badges in glass mode."
+        "Restored dark obsidian glass style — panels are now properly dark and sleek, not milky white.",
+        "Admin sliders now update the glass in real time as you drag them.",
+        "New live glass preview card in the admin panel to see changes before saving.",
+        "Showcase test buttons now use the current slider values during the test.",
+        "Admin panel backdrop is now semi-transparent so the game world stays visible."
     ]
 }
