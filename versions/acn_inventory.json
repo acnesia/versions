@@ -1,11 +1,11 @@
-﻿{
+{
     "resource": "acn_inventory",
-    "version": "2.9.2",
+    "version": "2.9.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enhanced Liquid Glass visual depth with frosted satin crystal body and dynamic refraction.",
-        "Integrated Liquid Glass Sass partial into source compilation pipeline."
+        "Fixed duplicate inventory loading conflict on player connection with ESX and multicharacter.",
+        "Guarded player inventory creation against race conditions and unhandled active player errors."
     ]
 }
