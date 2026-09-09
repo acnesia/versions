@@ -1,13 +1,13 @@
 {
     "resource": "acn_menuUI",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Personnalisation du style par composant : choisissez un thème individuel pour chaque UI.",
-        "Nouveau thème Ultra Minimal : style épuré haut de gamme en noir mat, sans aucun néon.",
-        "Suppression totale des halos néons et lueurs fluorescentes au profit d'ombres d'occlusion naturelles.",
-        "Sélecteurs par composant intégrés dans le panneau admin /conf_acn_menuUI avec bouton Appliquer à tous."
+        "Restauration intégrale du rendu Liquid Glass cristallin et suppression de tous les fonds noirs masquant le jeu.",
+        "Ajout du bouton d'accès direct 'Réglages Liquid Glass' réservé aux administrateurs dans le menu contextuel.",
+        "Synchronisation serveur autoritaire avec détection de conflits de versions pour les sauvegardes multi-administrateurs.",
+        "Sécurisation du scissor WebGL et transparence des modales."
     ]
 }
