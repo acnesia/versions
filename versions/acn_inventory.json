@@ -1,12 +1,13 @@
 {
     "resource": "acn_inventory",
-    "version": "2.7.4",
+    "version": "2.7.5",
     "severity": "critical",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Implemented standalone lib.addCommand helper for administrative commands.",
-        "Automated licenses table creation (CREATE TABLE IF NOT EXISTS) on startup.",
-        "Hardened stale stash cleanup interval parser against whitespace and quotes."
+        "Fixed inventory open block (cannot open inventory is busy).",
+        "Implemented standalone SetInterval, ClearInterval and lib.waitFor helpers.",
+        "Restored full keybind helper with getCurrentKey and isControlPressed support.",
+        "Added automatic ESX playerLoaded sync and inventory request fallback."
     ]
 }
