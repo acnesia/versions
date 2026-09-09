@@ -1,0 +1,14 @@
+{
+    "resource": "acn_radiale",
+    "version": "2.1.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Liquid Glass WebGL shader integration with dynamic scene refraction.",
+        "Live in-game admin Liquid Glass customization with instant local preview.",
+        "Real-time server synchronization and persistence across server restarts.",
+        "Added /conf_acn_radiale in-game administration command.",
+        "Integrated automatic remote version checking."
+    ]
+}
