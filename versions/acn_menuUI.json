@@ -1,13 +1,11 @@
 {
     "resource": "acn_menuUI",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restauration intégrale du rendu Liquid Glass cristallin et suppression de tous les fonds noirs masquant le jeu.",
-        "Ajout du bouton d'accès direct 'Réglages Liquid Glass' réservé aux administrateurs dans le menu contextuel.",
-        "Synchronisation serveur autoritaire avec détection de conflits de versions pour les sauvegardes multi-administrateurs.",
-        "Sécurisation du scissor WebGL et transparence des modales."
+        "Correction des couches sombres qui recouvraient le Liquid Glass et de l’aperçu qui débordait au défilement.",
+        "Respect des styles choisis par composant et reprise du verre après une perte du contexte graphique."
     ]
 }
