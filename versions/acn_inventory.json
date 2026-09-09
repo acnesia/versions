@@ -1,13 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.8.0",
+    "version": "2.8.1",
     "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "New Liquid Glass design for central panels (action panel, quantity selector, clothing & equipment).",
-        "Fixed inventory open block (cannot open inventory is busy).",
-        "Implemented standalone SetInterval, ClearInterval and lib.waitFor helpers.",
-        "Restored full keybind helper with getCurrentKey and isControlPressed support."
+        "Integrated Cfx WebGL Liquid Glass shader with real-time scene sampling and wave distortion.",
+        "Removed neon colored glows and shadows on central action buttons in favor of sleek frosted glass.",
+        "Added dynamic light caustics and specular surface refraction."
     ]
 }
