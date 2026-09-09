@@ -1,10 +1,13 @@
 {
     "resource": "acn_bridge",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Prioritized gamemode player balance resolution in universal banking functions."
+        "Integrated core library, target engine, and doorlock into a single unified resource.",
+        "Added transparent virtual exports for ox_lib, ox_target, and ox_doorlock.",
+        "Consolidated all NUI interfaces into a unified master web runtime.",
+        "Added doorlock native sound data and audio pack support."
     ]
 }
