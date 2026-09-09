@@ -1,13 +1,13 @@
 {
     "resource": "acn_inventory",
-    "version": "2.7.5",
-    "severity": "critical",
+    "version": "2.8.0",
+    "severity": "recommended",
     "minimum_supported": "2.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "New Liquid Glass design for central panels (action panel, quantity selector, clothing & equipment).",
         "Fixed inventory open block (cannot open inventory is busy).",
         "Implemented standalone SetInterval, ClearInterval and lib.waitFor helpers.",
-        "Restored full keybind helper with getCurrentKey and isControlPressed support.",
-        "Added automatic ESX playerLoaded sync and inventory request fallback."
+        "Restored full keybind helper with getCurrentKey and isControlPressed support."
     ]
 }
