@@ -1,12 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.8.2",
+    "version": "2.8.3",
     "severity": "recommended",
-    "minimum_supported": "2.1.0",
+    "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Synchronized WebGL Liquid Glass opacity in real time with parent DOM entrance and exit transitions.",
-        "Zero-latency close cleanup on Escape/F2 keydown and close button triggers.",
-        "Harmonized central panel animation timing with inventory grid panels."
+        "Fixed Liquid Glass panels appearing dark/opaque instead of bright crystal glass.",
+        "Stabilized WebGL canvas lifecycle for cleaner open/close behavior."
     ]
 }
