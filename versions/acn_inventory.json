@@ -1,11 +1,11 @@
-{
+﻿{
     "resource": "acn_inventory",
-    "version": "2.9.1",
+    "version": "2.9.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Liquid Glass effect turning dark black/opaque by refactoring shader blending and alpha dynamics.",
-        "Built and synchronized permanently from source for enhanced GPU stability."
+        "Enhanced Liquid Glass visual depth with frosted satin crystal body and dynamic refraction.",
+        "Integrated Liquid Glass Sass partial into source compilation pipeline."
     ]
 }
