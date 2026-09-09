@@ -1,12 +1,12 @@
 {
     "resource": "acn_bridge",
-    "version": "1.8.4",
+    "version": "1.8.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed string indexing error in setValidCallback.",
-        "Added automatic parameter normalization for callback registration.",
-        "Registered universal setValidCallback and isCallbackValid exports."
+        "Fixed client startup crashes in radial and context menus.",
+        "Fixed target entity and model registration in qtarget compatibility engine.",
+        "Added global table.deepclone and table utilities across all client scripts."
     ]
 }
