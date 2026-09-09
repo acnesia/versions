@@ -1,0 +1,13 @@
+{
+    "resource": "ox_lib",
+    "version": "3.39.1",
+    "severity": "recommended",
+    "minimum_supported": "3.30.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added unified UI architecture supporting ACN notifications, progress bars and dialogs.",
+        "Added server-side notifications export and multi-signature compatibility.",
+        "Added extended notification types (money, police, ems, job, vehicle, admin, etc.).",
+        "Added in-game administration command /conf_ox_lib."
+    ]
+}
