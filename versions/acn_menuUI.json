@@ -1,0 +1,12 @@
+{
+    "resource": "acn_menuUI",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of acn_menuUI: modern replacement for ox_lib UI suite.",
+        "Included Linear Progress Bar, Radial Circle, Context Menu, Input Dialog, Alert Dialog, TextUI, and Skill Check.",
+        "Full support for in-game configuration studio (/conf_acn_menuUI) with 8 themes and WebAudio synthesizer."
+    ]
+}
