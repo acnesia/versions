@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction de la migration SQL automatique pour MariaDB/MySQL sans erreur de multi-requêtes.",
-        "Ajout automatique des colonnes manquantes (blip, enabled) sur tables existantes."
+        "Neutralisation des colonnes héritées (management_coords) sans valeur par défaut.",
+        "Compatibilité totale avec les bases MariaDB existantes et en mode strict."
     ]
 }
