@@ -1,12 +1,12 @@
 {
     "resource": "acn_essence",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed nozzle attachment to left hand to align with refueling animation.",
-        "Added realistic physical rope physics between pump and nozzle.",
-        "Constrained fuel hose length and distance to a maximum of 3 meters."
+        "Added natural smooth walking to vehicle fuel cap upon nozzle insertion.",
+        "Corrected player orientation to face vehicle flank directly.",
+        "Implemented full player freeze during refueling sequence."
     ]
 }
