@@ -1,11 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Neutralisation des colonnes héritées (management_coords) sans valeur par défaut.",
-        "Compatibilité totale avec les bases MariaDB existantes et en mode strict."
+        "Refonte ergonomique de /conf_acn_supermarket : liste des superettes avec bouton Modifier direct.",
+        "Gestion ciblee par superette : onglet Articles en rayon prioritaire et Mobilier dedie.",
+        "Navigation retour simplifiee avec bouton dedie et touche Echap."
     ]
 }
