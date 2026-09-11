@@ -1,11 +1,13 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "severity": "critical",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed critical client script error with text native AddTextComponentSubstringPlayerName.",
-        "Refactored 3D raycast engine with laser guidance, smooth ground snapping and intuitive mouse controls."
+        "Fixed interior MLO raycast collision height preventing dancers from dropping under the map.",
+        "Restored complete HUD instructions banner display using official FiveM text pipeline.",
+        "Added real-time Z-height micro-adjustment (PageUp/PageDown) for millimeter placement precision.",
+        "Optimized raycast collision mask to 17 (geometry+objects) for lag-free responsive aiming."
     ]
 }
