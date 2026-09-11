@@ -1,13 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Système complet de supérettes et créateur de magasins in-game (/conf_acn_supermarket).",
-        "Mode placement de props 3D interactif avec raycast laser, rotation et hauteur.",
-        "Gestion dynamique des articles par rayon avec prix et stocks en temps réel.",
-        "Interface client de shopping ultra moderne, panier multi-articles et paiement liquide/carte."
+        "Correction de la migration SQL automatique pour MariaDB/MySQL sans erreur de multi-requêtes.",
+        "Ajout automatique des colonnes manquantes (blip, enabled) sur tables existantes."
     ]
 }
