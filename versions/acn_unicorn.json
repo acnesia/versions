@@ -1,13 +1,14 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "severity": "critical",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed interior MLO raycast collision height preventing dancers from dropping under the map.",
-        "Restored complete HUD instructions banner display using official FiveM text pipeline.",
-        "Added real-time Z-height micro-adjustment (PageUp/PageDown) for millimeter placement precision.",
-        "Optimized raycast collision mask to 17 (geometry+objects) for lag-free responsive aiming."
+        "Integrated real-time non-blocking HTML/CEF placement HUD banner with live metrics and keycaps.",
+        "Fixed raycast interaction radius adjustment to allow both scaling up (wheel up) and scaling down (wheel down).",
+        "Enforced strict bar self-service permissions on both client and server sides.",
+        "Added instant in-game config.lua defaults reset button inside /conf_acn_unicorn.",
+        "Secured database initialization coroutine and defensive vector3 coordinate parsing."
     ]
 }
