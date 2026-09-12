@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Correction du crash NUI TypeError store_id lors de l'ajout d'articles/props.",
         "Fermeture immediate du studio admin lors du clic sur Placer en Rayon.",
-        "Repli et securisation du chargement des props d'articles avec prop_sandwich_01.",
-        "Auto-completion amelioree des modeles 3D selon le nom de l'item."
+        "Serialisation propre des donnees serveur sous forme d'objets associatifs."
     ]
 }
