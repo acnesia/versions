@@ -1,12 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Refonte ergonomique de /conf_acn_supermarket : liste des superettes avec bouton Modifier direct.",
-        "Gestion ciblee par superette : onglet Articles en rayon prioritaire et Mobilier dedie.",
-        "Navigation retour simplifiee avec bouton dedie et touche Echap."
+        "Placement 3D multi-props en rayon : posez de 1 a 10 articles d'affilee avec Page Up/Dn et molette.",
+        "Achat direct ox_target en rayon avec animation de prise en main et debit acn_bridge.",
+        "Suppression physique aleatoire d'un prop de la rangee (batch) a chaque achat.",
+        "Gestion live des rangees de props et suggestions automatiques de modeles GTA."
     ]
 }
