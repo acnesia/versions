@@ -1,11 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.2.4",
+    "version": "1.2.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Instant shelf prop disappearance upon interaction with zero latency.",
-        "Exact clicked prop targeting and immediate server-client network synchronization."
+        "Enlarged 50cm Target BoxZone on shelf props for easy interaction without pixel-hunting.",
+        "Interactive glowing blue disc indicators and millimeter height precision for shelf tiers.",
+        "1-click 100% restock reset feature in admin menu to restore full shelf capacity."
     ]
 }
