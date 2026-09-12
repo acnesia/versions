@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Raycast synchrone direct face camera avec guidage laser et point d'impact.",
-        "Orientation automatique face au joueur et alignement horizontal fluide.",
-        "Controles intuitifs clic gauche/droit et verrouillage d'angle."
+        "Correction de l'erreur client nil os.time() avec GetGameTimer().",
+        "Placement au clic gauche et annulation au clic droit.",
+        "Touches A et E dediees a la rotation fluide des props."
     ]
 }
