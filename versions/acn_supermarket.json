@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Eliminated legacy prop target stacking by systematically purging unit targets in batch zone mode.",
-        "Fixed in-game config saving [object Object] and payment methods toggle reset bug.",
-        "Guaranteed full reactive persistence for live supermarket settings."
+        "Fixed false store closed error when taking items from shelf quantity modal.",
+        "Added resilient multi-level store and item resolution on server.",
+        "Ensured instantaneous physical props removal and cart addition upon batch pickup."
     ]
 }
