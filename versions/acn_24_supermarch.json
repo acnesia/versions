@@ -1,0 +1,10 @@
+{
+    "resource": "acn_24_supermarch",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of optimized 24/7 Supermarket interior mapping."
+    ]
+}
