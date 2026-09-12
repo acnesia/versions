@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction de l'erreur client nil os.time() avec GetGameTimer().",
-        "Placement au clic gauche et annulation au clic droit.",
-        "Touches A et E dediees a la rotation fluide des props."
+        "Correction du parseur Lua client/main.lua et chargement complet du script.",
+        "Restauration de l'apparition physique des props sur etagere et cibles ox_target.",
+        "Repli automatique sur modele valide pour eviter tout prop invisible."
     ]
 }
