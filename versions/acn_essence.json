@@ -1,12 +1,13 @@
 {
     "resource": "acn_essence",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added natural smooth walking to vehicle fuel cap upon nozzle insertion.",
-        "Corrected player orientation to face vehicle flank directly.",
-        "Implemented full player freeze during refueling sequence."
+        "Fixed refueling stop key responsiveness to immediately stop on input.",
+        "Automatic wallet budget capping: stops refuel when player runs out of money.",
+        "Blocked melee punching while carrying the fuel nozzle.",
+        "Added interactive gasoline spraying (left click at feet, right+left click forward)."
     ]
 }
