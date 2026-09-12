@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.2.3",
+    "version": "1.2.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Top-down bird's-eye camera view for polygon perimeter creator with smooth mouse glide and zoom.",
-        "Strict 4-corner minimum polygon validation to guarantee full store coverage."
+        "Instant shelf prop disappearance upon interaction with zero latency.",
+        "Exact clicked prop targeting and immediate server-client network synchronization."
     ]
 }
