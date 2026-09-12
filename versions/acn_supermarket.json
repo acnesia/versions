@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Interactive 3D in-game PolyZone perimeter creator in /conf_acn_supermarket with laser raycast aiming and point-by-point vertex tracing.",
-        "Real-time 3D boundary preview and configurable fallback circular radius."
+        "Top-down bird's-eye camera view for polygon perimeter creator with smooth mouse glide and zoom.",
+        "Strict 4-corner minimum polygon validation to guarantee full store coverage."
     ]
 }
