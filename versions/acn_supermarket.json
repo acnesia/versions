@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction du crash NUI TypeError store_id lors de l'ajout d'articles/props.",
-        "Fermeture immediate du studio admin lors du clic sur Placer en Rayon.",
-        "Serialisation propre des donnees serveur sous forme d'objets associatifs."
+        "Raycast synchrone direct face camera avec guidage laser et point d'impact.",
+        "Orientation automatique face au joueur et alignement horizontal fluide.",
+        "Controles intuitifs clic gauche/droit et verrouillage d'angle."
     ]
 }
