@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "2.9.3",
+    "version": "2.9.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate inventory loading conflict on player connection with ESX and multicharacter.",
-        "Guarded player inventory creation against race conditions and unhandled active player errors."
+        "Fixed metadata matching helpers in standalone runtime library (tablematch / CanCarryItem).",
+        "Added defensive fallbacks across inventory slot queries and exports."
     ]
 }
