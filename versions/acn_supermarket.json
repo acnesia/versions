@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Placement 3D multi-props en rayon : posez de 1 a 10 articles d'affilee avec Page Up/Dn et molette.",
-        "Achat direct ox_target en rayon avec animation de prise en main et debit acn_bridge.",
-        "Suppression physique aleatoire d'un prop de la rangee (batch) a chaque achat.",
-        "Gestion live des rangees de props et suggestions automatiques de modeles GTA."
+        "Fermeture immediate du studio admin lors du clic sur Placer en Rayon.",
+        "Repli et securisation du chargement des props d'articles avec prop_sandwich_01.",
+        "Auto-completion amelioree des modeles 3D selon le nom de l'item."
     ]
 }
