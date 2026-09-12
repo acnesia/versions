@@ -1,14 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Cycle complet de courses realistes : ajout direct au panier et passage en caisse.",
-        "Passage en caisse avec choix du mode de paiement (especes ou carte bancaire).",
-        "Placement 3D in-game du PNJ caissier et du marqueur de caisse face camera.",
-        "Systeme antivol automatique confisquant les articles non payes si le client quitte le magasin.",
-        "Restauration de la detection ox_target sur les props en rayon."
+        "Native PolyZone integration: embedded zone engine (CircleZone, BoxZone, PolyZone) without external dependencies.",
+        "Accurate supermarket exit detection and anti-theft boundary enforcement via isPointInside.",
+        "Built-in in-game PolyZone creation tools and commands (/pzcreate, /pzfinish)."
     ]
 }
