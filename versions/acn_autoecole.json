@@ -1,11 +1,12 @@
 {
     "resource": "acn_autoecole",
-    "version": "2.11.1",
+    "version": "2.11.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Migration forcée du véhicule avion vers alphaz1 en base de données.",
-        "Nouveau défi rase-mottes (sous 10m pendant 20s avec tolérance max 10s au-dessus)."
+        "Remplacement de l'avion d'examen par le Mammatus (stable et vitesse adaptÃ©e pour l'apprentissage).",
+        "Migration automatique en base de donnÃ©es pour mettre Ã  jour les Ã©preuves existantes.",
+        "PrÃ©rÃ©glage actualisÃ© dans le crÃ©ateur de parcours."
     ]
 }
