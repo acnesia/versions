@@ -1,12 +1,13 @@
 {
   "resource": "acn_bugreport",
-  "version": "2.3.0",
+  "version": "2.4.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added the 6th status workflow stage 'Script' for reports pending external script updates.",
-    "Integrated 1-click status switcher, filter pill tabs, and cyan badges for Script status.",
-    "Centralized English and French locale support for the new Script status."
+    "Secured /bugadmin with authoritative server-side permission gating.",
+    "Fixed historical bug reports visibility for new staff and administrators.",
+    "Enhanced permission detection for ESX, QBCore, and ACE admin groups.",
+    "Added /conf_acn_bugreport standard command and in-UI admin dashboard switch."
   ]
 }
