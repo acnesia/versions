@@ -1,13 +1,12 @@
 ﻿{
   "resource": "acn_realpark",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Studio de configuration 100% In-Game (/conf_acn_realpark) avec autocomplétion chat.",
-    "Placement 3D interactif (Raycast laser et véhicule fantôme) pour PNJ et sorties fourrière.",
-    "Persistance SQL des réglages en jeu et synchronisation dynamique pour tous les joueurs.",
-    "Migration acn_bridge complète pour compatibilité universelle et performance optimale."
+    "Isolation et protection complète des PNJ contre toute interaction tierce.",
+    "Flags natifs d'invincibilité, blocage d'auto-aim, ragdoll et fuite.",
+    "State bags ignoreTarget, noTarget et isRealParkNPC pour ox_target et scripts RP."
   ]
 }
