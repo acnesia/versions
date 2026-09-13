@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnjshop",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Interactive in-game NPC toggle: enable or disable shop vendors on the fly.",
-        "Customizable per-shop spawn distance and smooth proximity interaction.",
-        "Refined satin dark NUI interface compliant with anti-neon standards."
+        "Fixed JavaScript tonumber runtime error in shop editor form.",
+        "Complete visual redesign of the NUI interface with modern dark satin aesthetics.",
+        "Enhanced product cards, checkout drawer, and admin dashboard styling."
     ]
 }
