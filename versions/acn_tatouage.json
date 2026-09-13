@@ -1,12 +1,12 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Calibrated camera aiming vector to position player on the left viewport (~25% width), clear of the catalogue modal.",
-        "Automatically hide tattoo artist NPCs during studio customization sessions to ensure an unobstructed view.",
-        "Precise alignment with the interactive body map points."
+        "Added interactive body zone filter tabs (All, Head, Torso, Back, Arms, Legs) with live motif count badges.",
+        "Added dynamic camera anti-wall-clipping raycast safety to prevent viewing through walls or exterior shop geometry.",
+        "Automatic room clearance detection to orient ped into open studio interior."
     ]
 }
