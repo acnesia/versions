@@ -1,12 +1,12 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Eliminated duplicate NPC spawning caused by concurrent world rebuild calls.",
-        "Added atomic mutex lock and proximity ped cleanup before placement.",
-        "Server-side studio registry deduplication by unique ID and coordinates."
+        "Calibrated camera aiming vector to position player on the left viewport (~25% width), clear of the catalogue modal.",
+        "Automatically hide tattoo artist NPCs during studio customization sessions to ensure an unobstructed view.",
+        "Precise alignment with the interactive body map points."
     ]
 }
