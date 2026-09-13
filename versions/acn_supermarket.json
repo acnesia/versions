@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Physical NPC shelf restocking: cashier leaves counter with a supply box, walks to each depleted shelf, and restocks items with animation.",
-        "Missing items appear physically on the shelf right in front of the players during stocking.",
-        "Toggleable physical restock mode in /conf_acn_supermarket studio."
+        "Separated global server settings into dedicated studio panel from store-specific parameters.",
+        "Instant live application of configuration changes across all connected clients without server restart.",
+        "Responsive restock ticker ensuring custom intervals trigger immediately with improved cashier pathfinding."
     ]
 }
