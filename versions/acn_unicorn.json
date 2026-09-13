@@ -1,14 +1,13 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.2.3",
-    "severity": "critical",
+    "version": "1.2.4",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Integrated real-time non-blocking HTML/CEF placement HUD banner with live metrics and keycaps.",
-        "Fixed raycast interaction radius adjustment to allow both scaling up (wheel up) and scaling down (wheel down).",
-        "Enforced strict bar self-service permissions on both client and server sides.",
-        "Added instant in-game config.lua defaults reset button inside /conf_acn_unicorn.",
-        "Secured database initialization coroutine and defensive vector3 coordinate parsing."
+        "Unicorn employees now have drink preparations charged directly to the enterprise society account instead of personal cash.",
+        "Civilian bar orders continue to be paid via cash and credited to the company account.",
+        "Added in-game live toggle for employee society payments inside /conf_acn_unicorn.",
+        "Updated adaptive bar UI reflecting bartender employee service vs customer ordering."
     ]
 }
