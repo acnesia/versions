@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated global server settings into dedicated studio panel from store-specific parameters.",
-        "Instant live application of configuration changes across all connected clients without server restart.",
-        "Responsive restock ticker ensuring custom intervals trigger immediately with improved cashier pathfinding."
+        "Fully synchronized networked cashier NPC across all players via OneSync.",
+        "Real-time shared physical shelf restocking with visible networked supply box.",
+        "Synchronized cashier reactions, phone calling, and 3D audio alerts during shoplifting."
     ]
 }
