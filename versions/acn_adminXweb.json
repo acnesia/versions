@@ -1,10 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.13",
-  "severity": "recommended",
+  "version": "5.7.14",
+  "severity": "critical",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed client error when updating admin ranks by hoisting input access controls."
+    "Fixed critical security issue where non-admin players had access to the admin menu.",
+    "Hardened ACE permission fallback and eliminated permissive command root inheritance.",
+    "Enforced strict server-side permission validation on all admin callbacks and commands."
   ]
 }
