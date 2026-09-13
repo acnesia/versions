@@ -1,12 +1,13 @@
-{
+﻿{
   "resource": "acn_realpark",
-  "version": "3.3.0",
+  "version": "3.4.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau point de rangement véhicule dédié pour les garages virtuels avec large zone de détection.",
-    "Correction de l'apparition des véhicules garés en parking réel.",
-    "Activation par défaut des blips de parkings réels et garages virtuels sur la carte pour tous les joueurs avec gestion NUI."
+    "Studio de configuration 100% In-Game (/conf_acn_realpark) avec autocomplétion chat.",
+    "Placement 3D interactif (Raycast laser et véhicule fantôme) pour PNJ et sorties fourrière.",
+    "Persistance SQL des réglages en jeu et synchronisation dynamique pour tous les joueurs.",
+    "Migration acn_bridge complète pour compatibilité universelle et performance optimale."
   ]
 }
