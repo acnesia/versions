@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnjshop",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed JavaScript tonumber runtime error in shop editor form.",
-        "Complete visual redesign of the NUI interface with modern dark satin aesthetics.",
-        "Enhanced product cards, checkout drawer, and admin dashboard styling."
+        "Brand new executive dark satin NUI interface: ultra-clean, legible, and professional.",
+        "Dedicated distance display column and instant search filter in admin table.",
+        "Seamless in-place table update on save/delete without menu close."
     ]
 }
