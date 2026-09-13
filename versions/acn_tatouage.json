@@ -1,12 +1,12 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed ground raycast collision in interior MLOs and complex floors.",
-        "Refined 3D laser raycast with entity masking, smooth wheel rotation, and elevation fine-tuning.",
-        "Added quick Z reset shortcut and improved in-game placement UX."
+        "Eliminated duplicate NPC spawning caused by concurrent world rebuild calls.",
+        "Added atomic mutex lock and proximity ped cleanup before placement.",
+        "Server-side studio registry deduplication by unique ID and coordinates."
     ]
 }
