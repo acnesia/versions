@@ -1,12 +1,12 @@
 {
   "resource": "acn_realpark",
-  "version": "3.4.3",
+  "version": "3.4.4",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction du défilement (scroll) dans la liste des garages du studio d'administration (/conf_acn_realpark).",
-    "Verrouillage de la hauteur modale et gestion flexbox avec barre de défilement satinée.",
-    "Conteneur de défilement fluide pour l'ensemble des onglets du studio."
+    "Correction de l'ouverture de la modal Nouveau Garage depuis le studio d'administration.",
+    "Résolution définitive de l'écrasement visuel des cartes de garages (flex-shrink et hauteurs verrouillées).",
+    "Refonte esthétique haut de gamme : design satin sombre, boutons et contrôles soignés anti-néon."
   ]
 }
