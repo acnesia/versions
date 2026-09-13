@@ -1,13 +1,14 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.2.4",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Unicorn employees now have drink preparations charged directly to the enterprise society account instead of personal cash.",
-        "Civilian bar orders continue to be paid via cash and credited to the company account.",
-        "Added in-game live toggle for employee society payments inside /conf_acn_unicorn.",
-        "Updated adaptive bar UI reflecting bartender employee service vs customer ordering."
+        "Added 100% in-game live drink/cocktail creator and manager with instant database sync.",
+        "Redesigned /conf_acn_unicorn into 5 comprehensive tabs (Dancers, 3D Zones, Catalog, GPS Blip, Gameplay).",
+        "Added in-game GPS map blip configuration (toggle, sprite, color, scale, coordinates).",
+        "Added zone direct editing (radius, heading, label, stash ID) and administrative teleportation.",
+        "Replaced all browser popups with clean in-UI toast feedback."
     ]
 }
