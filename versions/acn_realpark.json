@@ -1,12 +1,13 @@
-﻿{
+{
   "resource": "acn_realpark",
-  "version": "3.4.1",
+  "version": "3.4.2",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Isolation et protection complète des PNJ contre toute interaction tierce.",
-    "Flags natifs d'invincibilité, blocage d'auto-aim, ragdoll et fuite.",
-    "State bags ignoreTarget, noTarget et isRealParkNPC pour ox_target et scripts RP."
+    "Attribution exclusive et entité de mission script-owned pour les PNJ de garage.",
+    "Restauration du ciblage ox_target / acn_bridge sur l'entité locale avec state bag exclusif.",
+    "Ajout d'un système de secours d'interaction de proximité avec touche [E] pour l'accès immédiat.",
+    "Changement du modèle PNJ par défaut (agent de sécurité) pour supprimer les conflits tiers."
   ]
 }
