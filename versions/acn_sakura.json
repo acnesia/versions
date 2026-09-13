@@ -1,11 +1,11 @@
 {
     "resource": "acn_sakura",
-    "version": "1.4.7",
+    "version": "1.4.8",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed customer dining payments not crediting the Sakura society account.",
-        "Added real-time society account deposit and boss menu transaction synchronization."
+        "Fixed supply crate orders deducting personal player cash instead of being charged to the Sakura business society account.",
+        "Added dedicated insufficient funds notification for business society account."
     ]
 }
