@@ -1,0 +1,15 @@
+{
+    "resource": "acn_tatouage",
+    "version": "1.4.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Optimized camera framing: character is perfectly centered on the left viewport without UI overlap.",
+        "Automatic ped orientation per body zone with smooth 360 degree mouse rotation.",
+        "Full studio undressing to underwear and interactive in-UI outfit toggle button.",
+        "Advanced 3D laser raycast with ground snap, elevation adjustment, and direction indicators.",
+        "Multi-artist support: unlimited tattoo studio NPCs across the map with SQL persistence.",
+        "Comprehensive in-game admin management via /conf_acn_tatouage."
+    ]
+}
