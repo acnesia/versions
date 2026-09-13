@@ -1,0 +1,11 @@
+{
+    "resource": "esx_status",
+    "version": "1.0.3",
+    "severity": "recommended",
+    "minimum_supported": "1.0.1",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Updated remote version checker with standardized startup diagnostics and formatted console outputs.",
+        "Synchronized release metadata for automated version tracking."
+    ]
+}
