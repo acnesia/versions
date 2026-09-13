@@ -1,10 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed duplicate checkout target options in ox_target menu when cashier ped and counter marker are both active.",
         "Added 10-second anti-theft grace timer before police alert, cashier audio shouting and unpaid cart cleanup.",
         "Automatic warning cancellation and cart preservation when returning inside the supermarket perimeter.",
         "Real-time countdown HUD subtitle and full in-game delay configuration in admin panel."
