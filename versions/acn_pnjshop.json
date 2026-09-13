@@ -1,13 +1,12 @@
 {
     "resource": "acn_pnjshop",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Advanced 3D raycast placement engine with ground snapping and heading rotation.",
-        "Interactive scenario live preview during placement.",
-        "Cinematic conversation camera and NPC voice reactions.",
-        "Ultra-modern CEF UI redesign with zero blur lag, MAX selector, and Web Audio sounds."
+        "Interactive in-game NPC toggle: enable or disable shop vendors on the fly.",
+        "Customizable per-shop spawn distance and smooth proximity interaction.",
+        "Refined satin dark NUI interface compliant with anti-neon standards."
     ]
 }
