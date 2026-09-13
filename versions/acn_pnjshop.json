@@ -5,8 +5,8 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Brand new executive dark satin NUI interface: ultra-clean, legible, and professional.",
-        "Dedicated distance display column and instant search filter in admin table.",
-        "Seamless in-place table update on save/delete without menu close."
+        "Exclusive job-restricted blip display: map icons are now only visible to players with the authorized job(s).",
+        "Instant real-time blip updates upon player job change without reconnecting.",
+        "Server-authoritative job and grade purchase validation."
     ]
 }
