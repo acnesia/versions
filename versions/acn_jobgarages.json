@@ -1,10 +1,13 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.6.1",
+    "version": "5.7.0",
     "severity": "recommended",
-    "minimum_supported": "5.5.0",
+    "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed an issue preventing vehicles from being stored when using target interaction mode."
+        "Standardized in-game admin command to /conf_acn_jobgarages with chat completion.",
+        "Integrated multi-language locales (locales/fr.lua, locales/en.lua).",
+        "Streamlined bridge routing through acn_bridge exports.",
+        "Updated server console & chat version broadcasting on startup."
     ]
 }
