@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added cashier 3D voices for payment and shoplifting (payer.mp3 and voler.mp3).",
-        "Realistic shoplifting: items remain in inventory, cashier calls police with phone prop animation.",
-        "Server police alert dispatch hook prepared for dispatch integration.",
-        "Fast express checkout at marker with [E] key."
+        "Real-time 3D spatialized audio with distance attenuation and dynamic stereo panning.",
+        "Fixed receipt modal blocking screen after checkout.",
+        "Added cashier interaction mode (ground counter, ped, or both) to prevent gas station conflicts."
     ]
 }
