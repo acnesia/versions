@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.4.1",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Real-time 3D spatialized audio with distance attenuation and dynamic stereo panning.",
-        "Fixed receipt modal blocking screen after checkout.",
-        "Added cashier interaction mode (ground counter, ped, or both) to prevent gas station conflicts."
+        "Physical NPC shelf restocking: cashier leaves counter with a supply box, walks to each depleted shelf, and restocks items with animation.",
+        "Missing items appear physically on the shelf right in front of the players during stocking.",
+        "Toggleable physical restock mode in /conf_acn_supermarket studio."
     ]
 }
