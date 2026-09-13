@@ -1,12 +1,13 @@
 {
     "resource": "acn_vigneron",
-    "version": "1.3.1",
+    "version": "1.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed server script load order conflict resolving the RegisterServerCallback nil value error on startup.",
-        "Added defensive cross-file callback initialization across client and server.",
-        "Full 3D Raycast placement engine and interactive workstations."
+        "Added dedicated industrial workstation consoles for Grape Press, Fermentation Tanks, and Bottling Line.",
+        "Separated physical production machinery from the executive management tablet.",
+        "Added live inventory glance bar with real-time stock counts on all workstations.",
+        "Added multi-ingredient recipe support and instant production updates."
     ]
 }
