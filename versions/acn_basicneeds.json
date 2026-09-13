@@ -1,11 +1,11 @@
 {
     "resource": "acn_basicneeds",
-    "version": "2.8.1",
+    "version": "2.8.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed prop rotation saving and synchronized rotation order across all animations.",
-        "Fixed live form synchronization for orientation transforms."
+        "Added standardized /conf_acn_basicneeds command with interactive chat suggestions.",
+        "Updated server console version display and startup diagnostics."
     ]
 }
