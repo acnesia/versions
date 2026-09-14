@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.8.0",
+  "version": "5.9.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added ultra-precise non-intrusive economy tracking engine (hourly, daily, player rankings, sources).",
-    "Resolved web dashboard build 404 issue and synchronized static distribution.",
-    "Fixed session persistence on page refresh and unified JWT bearer/cookie authentication.",
-    "Integrated automated anomaly detection and velocity spike alerts for staff."
+    "Added Discord OAuth2 login with server member role verification via bot.",
+    "Integrated supreme Founder role (owner) and pending staff approval landing screen.",
+    "Added staff team management interface (/staff-users) to assign moderator, admin, superadmin, or founder grades.",
+    "Real-time Discord webhook security notifications for logins, unauthorized attempts, and role modifications."
   ]
 }
