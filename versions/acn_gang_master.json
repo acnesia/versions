@@ -1,12 +1,13 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Gang Boss Menu close toggle via key 'H', Escape and close button.",
-        "Resolved NUI focus release when closing the headquarters dashboard.",
-        "Synchronized client UI open states between admin and boss menus."
+        "Added authentic MMO-RPG visual talent tree with branching tiers and sockets.",
+        "Integrated dynamic SVG connector curves linking prerequisites to unlocked perks.",
+        "Introduced side talent inspector panel with requirements, stats, and unlock actions.",
+        "Added Tier 3 Keystone Masteries for labs, smuggling, influence, finance, and black market."
     ]
 }
