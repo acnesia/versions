@@ -1,10 +1,14 @@
 {
   "resource": "acn_illegal_labs",
-  "version": "1.1.1",
+  "version": "1.9.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Lecture des groupes administrateurs clarifiée et indication du groupe reçu en cas de refus."
+    "Système complet de multi-instances isolées par joueur et par gang à la même adresse.",
+    "Système d'invitations en temps réel et gestion des membres autorisés.",
+    "Achat de laboratoire officiel pour l'ensemble du gang via la trésorerie.",
+    "Prise en compte en direct des talents et bonus de gang (vitesse, rendement, discrétion).",
+    "Sélecteur d'entrée interactif à la porte du laboratoire."
   ]
 }
