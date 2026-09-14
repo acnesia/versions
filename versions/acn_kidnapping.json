@@ -1,13 +1,13 @@
 {
     "resource": "acn_kidnapping",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restauration des coordonnées MoCap d'origine et synchronisation parfaite des interrogatoires.",
-        "Suppression garantie du sac/cagoule lors de l'entrée dans la salle de torture.",
-        "Nettoyage automatique et détachage des props entre chaque étape de supplice.",
-        "Finalisation de l'extraction dentaire, cinématique K.O. et exportation PC portable."
+        "Intégration totale avec acn_gang_master (XP Personnel et Gang).",
+        "Prise en compte des bonus des arbres de talents personnels et de gang.",
+        "Versement automatique d'un pourcentage du contrat dans la trésorerie du gang.",
+        "Journalisation des enlèvements réussis dans l'historique d'activité du gang."
     ]
 }
