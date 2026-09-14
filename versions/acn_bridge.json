@@ -1,12 +1,10 @@
 {
-    "resource": "acn_bridge",
-    "version": "1.8.6",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Fixed fatal startup crash in lib.callback.register (setValidCallback).",
-        "Corrected lazy export resolution in init.lua for all external resources.",
-        "Added explicit exports and fail-safe guards for setValidCallback and isCallbackValid."
-    ]
+  "resource": "acn_bridge",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "version": "1.5.3",
+  "changelog": [
+    "Gestion protegee de l ajout d argent joueur et societe avec prise en charge automatique des variantes framework."
+  ]
 }
