@@ -1,0 +1,13 @@
+{
+    "resource": "acn_gang_master",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release: In-game master admin menu (/conf_acn_gang_master).",
+        "MMO-RPG Gang progression system with levels, XP curves and 5 specialized perk trees.",
+        "Universal gang bridge exports for acn_illegal_labs and acn_gofast integration.",
+        "Financial transaction ledger, member contribution tracker, and competitive leaderboards."
+    ]
+}
