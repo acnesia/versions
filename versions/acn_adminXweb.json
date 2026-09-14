@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.9.2",
+  "version": "5.9.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "High-speed parallel discovery between Web Dashboard and FXServer eliminating network latency.",
-    "Automatic multi-target routing for Pterodactyl container environments on ports 20026 and 30120.",
-    "Guaranteed real-time online players synchronization across all views.",
-    "Enhanced Discord JWT session continuity preventing unexpected logouts during role updates."
+    "Automatic creation and migration of SQL tables for real-time economy tracking.",
+    "Completely resolved 500 errors on web dashboard economy endpoints with resilient fallbacks.",
+    "Live synchronization of online player cash, bank, and jobs in FXServer reverse heartbeat.",
+    "Extended asynchronous command queue for in-game balance adjustments, jobs, and warnings."
   ]
 }
