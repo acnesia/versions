@@ -1,14 +1,11 @@
 {
-    "resource": "acn_illegal_labs",
-    "version": "1.0.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Initial release: Seamless door portal instance system.",
-        "Interactive 3D raycast doorframe detector.",
-        "Purchasable lab properties with synchronized locking.",
-        "In-game admin management menu (/conf_acn_illegal_labs).",
-        "In-instance /labmenu foundation for future crafting/building."
-    ]
+  "resource": "acn_illegal_labs",
+  "version": "1.1.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Portails définis par quatre coins en jeu, avec entrée et sortie vers une instance après achat.",
+    "Pose et modification de portes avec aperçu 3D, rotation et réglage de hauteur."
+  ]
 }
