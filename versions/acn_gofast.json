@@ -1,13 +1,13 @@
 {
     "resource": "acn_gofast",
-    "version": "1.7.0",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Double prérequis obligatoire (Niveau Personnel & Niveau de Gang).",
-        "Affichage badges et motifs de verrouillage détaillés sur les missions.",
-        "Configuration in-game live du niveau personnel et de gang (/conf_acn_gofast).",
-        "Synergie directe avec les talents personnels d acn_gang_master."
+        "Resolution integrale de l attribution des recompenses argent et XP (personnelle et gang).",
+        "Gestionnaire in-game complet des zones de livraison avec placement Raycast 3D.",
+        "Configuration in-game 100% complete dans /conf_acn_gofast (armes ennemis, chronometre, cooldown, comptes).",
+        "Affichage HUD en direct de la phase, distance et du chronometre."
     ]
 }
