@@ -1,13 +1,13 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added authentic MMO-RPG visual talent tree with branching tiers and sockets.",
-        "Integrated dynamic SVG connector curves linking prerequisites to unlocked perks.",
-        "Introduced side talent inspector panel with requirements, stats, and unlock actions.",
-        "Added Tier 3 Keystone Masteries for labs, smuggling, influence, finance, and black market."
+        "Système de Niveau Personnel avec progression individuelle (Niveau 1 à 50).",
+        "Exports universels GetPlayerPersonalLevel, AddPlayerPersonalXP et GetPlayerProfile.",
+        "Table SQL automatique acn_gang_players et persistance en direct.",
+        "Affichage du Niveau Personnel dans le Hub et le registre des effectifs."
     ]
 }
