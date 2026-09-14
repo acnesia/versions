@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.7.14",
-  "severity": "critical",
+  "version": "5.8.0",
+  "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed critical security issue where non-admin players had access to the admin menu.",
-    "Hardened ACE permission fallback and eliminated permissive command root inheritance.",
-    "Enforced strict server-side permission validation on all admin callbacks and commands."
+    "Added ultra-precise non-intrusive economy tracking engine (hourly, daily, player rankings, sources).",
+    "Resolved web dashboard build 404 issue and synchronized static distribution.",
+    "Fixed session persistence on page refresh and unified JWT bearer/cookie authentication.",
+    "Integrated automated anomaly detection and velocity spike alerts for staff."
   ]
 }
