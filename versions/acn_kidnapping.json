@@ -1,12 +1,13 @@
 {
     "resource": "acn_kidnapping",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fiabilisation de l'embarquement véhicule (support supercars 2 places) et bouton d'action [E].",
-        "Maintien continu des mains en l'air sans boucle saccadée lors du braquage.",
-        "Indicateur 3D au-dessus de la tête pour mettre la cagoule facilement."
+        "Restauration des coordonnées MoCap d'origine et synchronisation parfaite des interrogatoires.",
+        "Suppression garantie du sac/cagoule lors de l'entrée dans la salle de torture.",
+        "Nettoyage automatique et détachage des props entre chaque étape de supplice.",
+        "Finalisation de l'extraction dentaire, cinématique K.O. et exportation PC portable."
     ]
 }
