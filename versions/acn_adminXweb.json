@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.9.0",
+  "version": "5.9.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
+    "Synchronized direct APIKey bridge and WebPanelURL in server_config.lua.",
     "Added Discord OAuth2 login with server member role verification via bot.",
     "Integrated supreme Founder role (owner) and pending staff approval landing screen.",
-    "Added staff team management interface (/staff-users) to assign moderator, admin, superadmin, or founder grades.",
-    "Real-time Discord webhook security notifications for logins, unauthorized attempts, and role modifications."
+    "Added staff team management interface (/staff-users) to assign moderator, admin, superadmin, or founder grades."
   ]
 }
