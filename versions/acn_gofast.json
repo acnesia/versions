@@ -1,0 +1,14 @@
+{
+    "resource": "acn_gofast",
+    "version": "1.5.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Courses-poursuites d'interception policière avec sirènes et drive-by.",
+        "Poursuites offensives de gangs rivaux armés sur la route.",
+        "Guet-apens armé hostile embusqué au point de déchargement.",
+        "Suppression des pannes artificielles (moteur en surchauffe, crevaison).",
+        "Réglage direct des probabilités d'embuscades dans le panneau admin."
+    ]
+}
