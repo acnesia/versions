@@ -1,13 +1,13 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Système de Niveau Personnel avec progression individuelle (Niveau 1 à 50).",
-        "Exports universels GetPlayerPersonalLevel, AddPlayerPersonalXP et GetPlayerProfile.",
-        "Table SQL automatique acn_gang_players et persistance en direct.",
-        "Affichage du Niveau Personnel dans le Hub et le registre des effectifs."
+        "Accès au menu QG (H) pour tous les membres avec mode consultation sécurisé.",
+        "Arbre de Talents Personnels individuel avec 4 branches spécialisées.",
+        "Points de Talents Personnels gagnés à chaque montée de niveau personnel.",
+        "Basculeur de talents en jeu (Talents de Gang / Talents Personnels)."
     ]
 }
