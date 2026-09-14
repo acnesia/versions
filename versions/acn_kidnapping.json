@@ -1,0 +1,12 @@
+{
+    "resource": "acn_kidnapping",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Refonte majeure : contrat scénarisé en 5 étapes avec HUD d'objectifs et guidage GPS.",
+        "Studio d'administration 100% in-game (/conf_acn_kidnapping) avec placement 3D par Raycast.",
+        "Intégration complète acn_bridge et persistance automatique en base de données SQL."
+    ]
+}
