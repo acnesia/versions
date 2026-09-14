@@ -1,13 +1,13 @@
 {
     "resource": "acn_gofast",
-    "version": "1.6.0",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Progression basée sur les Niveaux Personnels clairs (Niveau 0 à 5).",
-        "Interconnexion avec le système de niveau individuel d acn_gang_master.",
-        "Affichage du Niveau Personnel et badges de prérequis dans le menu.",
-        "Raycast amélioré haute précision (filtre sol 273, marker 3D et molette)."
+        "Double prérequis obligatoire (Niveau Personnel & Niveau de Gang).",
+        "Affichage badges et motifs de verrouillage détaillés sur les missions.",
+        "Configuration in-game live du niveau personnel et de gang (/conf_acn_gofast).",
+        "Synergie directe avec les talents personnels d acn_gang_master."
     ]
 }
