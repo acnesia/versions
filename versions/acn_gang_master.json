@@ -1,12 +1,12 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correctif d'ouverture du menu de poche (touche H) évitant toute fermeture instantanée.",
-        "Suppression d'une dépendance résiduelle serveur pour un chargement fluide.",
-        "Amélioration de la gestion des fenêtres NUI et synchronisation locale du profil criminel."
+        "Thématisation dynamique de l'interface admin aux couleurs du gang sélectionné.",
+        "Refonte haut de gamme de la sidebar de navigation avec carte héro du gang actif.",
+        "Amélioration esthétique et ergonomique des panneaux de gestion des gangs et points 3D."
     ]
 }
