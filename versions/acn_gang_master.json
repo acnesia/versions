@@ -1,10 +1,11 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Résolution du problème d'apparition des PNJs pour les joueurs déjà connectés lors d'un redémarrage.",
         "Correction de l'actualisation en temps réel de l'interface lors de l'ajout du premier véhicule de flotte.",
         "Correction de la configuration des points NPC et du bouton d'ajout de véhicules.",
         "Refonte haut de gamme complète de l'interface du Boss Menu (Quartier Général).",
