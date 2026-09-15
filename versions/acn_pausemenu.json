@@ -1,12 +1,12 @@
 {
     "resource": "acn_pausemenu",
-    "version": "1.1.0",
-    "severity": "recommended",
+    "version": "2.0.0",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Suppression des onglets inutiles en RP (Store, Amis, Crews, Récompenses, Galerie).",
-        "Refonte moderne de la palette de couleurs (Satin Dark & Electric Sapphire).",
-        "Intitulés d'onglets immersifs (Carte du monde, Dossier Citoyen, Déconnexion & Jeu)."
+        "Refonte majeure : Remplacement par un Dashboard Pause Menu moderne qualité AAA.",
+        "Dossier citoyen complet : barres de vie/armure, soldes bancaires, métier et identité.",
+        "Tuiles d'actions rapides (Carte, Paramètres, Discord, Boutique) et son immersif."
     ]
 }
