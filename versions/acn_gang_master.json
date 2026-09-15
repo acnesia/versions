@@ -1,13 +1,12 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Séparation totale des interfaces : Admin avancé, Menu Poche H, Boss HQ physique et Garage.",
-        "Analytique poussée avec graphiques SVG 100% natifs (camembert des flux illégaux, barres comparatives).",
-        "Système de placement 3D in-game par raycast laser pour points QG, Garages et Spawns véhicules.",
-        "Garage de gang physique avec flotte de véhicules personnalisables (couleurs, plaques, atelier)."
+        "Correctif d'ouverture du menu de poche (touche H) évitant toute fermeture instantanée.",
+        "Suppression d'une dépendance résiduelle serveur pour un chargement fluide.",
+        "Amélioration de la gestion des fenêtres NUI et synchronisation locale du profil criminel."
     ]
 }
