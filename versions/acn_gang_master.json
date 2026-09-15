@@ -1,12 +1,12 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.5.2",
+    "version": "1.5.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Thématisation dynamique de l'interface admin aux couleurs du gang sélectionné.",
-        "Refonte haut de gamme de la sidebar de navigation avec carte héro du gang actif.",
-        "Amélioration esthétique et ergonomique des panneaux de gestion des gangs et points 3D."
+        "Correctif critique de sélection de gang dans le panneau administrateur.",
+        "Normalisation universelle du dictionnaire des organisations pour un ciblage exact.",
+        "Sécurisation des requêtes NUI et synchronisation instantanée du thème."
     ]
 }
