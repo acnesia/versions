@@ -1,0 +1,12 @@
+{
+    "resource": "acn_pausemenu",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Sortie initiale du Pause Menu ACN avec streaming Scaleform complet.",
+        "Configuration en jeu (/conf_acn_pausemenu) avec persistance SQL et synchronisation live.",
+        "Affichage dynamique des stats citoyen et effets de flou personnalisables."
+    ]
+}
