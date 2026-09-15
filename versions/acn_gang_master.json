@@ -1,13 +1,13 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Accès au menu QG (H) pour tous les membres avec mode consultation sécurisé.",
-        "Arbre de Talents Personnels individuel avec 4 branches spécialisées.",
-        "Points de Talents Personnels gagnés à chaque montée de niveau personnel.",
-        "Basculeur de talents en jeu (Talents de Gang / Talents Personnels)."
+        "Séparation totale des interfaces : Admin avancé, Menu Poche H, Boss HQ physique et Garage.",
+        "Analytique poussée avec graphiques SVG 100% natifs (camembert des flux illégaux, barres comparatives).",
+        "Système de placement 3D in-game par raycast laser pour points QG, Garages et Spawns véhicules.",
+        "Garage de gang physique avec flotte de véhicules personnalisables (couleurs, plaques, atelier)."
     ]
 }
