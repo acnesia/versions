@@ -1,12 +1,14 @@
 {
     "resource": "acn_gang_master",
-    "version": "1.5.3",
+    "version": "1.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correctif critique de sélection de gang dans le panneau administrateur.",
-        "Normalisation universelle du dictionnaire des organisations pour un ciblage exact.",
-        "Sécurisation des requêtes NUI et synchronisation instantanée du thème."
+        "Correction de l'actualisation en temps réel de l'interface lors de l'ajout du premier véhicule de flotte.",
+        "Correction de la configuration des points NPC et du bouton d'ajout de véhicules.",
+        "Refonte haut de gamme complète de l'interface du Boss Menu (Quartier Général).",
+        "Design 100% Liquid Glass Matte (zéro flou, 100% vectoriel).",
+        "Cartes et dashboards premium (Aperçu, Trésorerie, Effectifs) pour un ressenti exécutif."
     ]
 }
