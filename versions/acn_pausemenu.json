@@ -1,12 +1,12 @@
 {
     "resource": "acn_pausemenu",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Refonte majeure : Remplacement par un Dashboard Pause Menu moderne qualité AAA.",
-        "Dossier citoyen complet : barres de vie/armure, soldes bancaires, métier et identité.",
-        "Tuiles d'actions rapides (Carte, Paramètres, Discord, Boutique) et son immersif."
+        "Refonte intégrale des fichiers Scaleform GFX (header, listes, boutons) en style jeu AAA moderne.",
+        "Suppression du bloc rectangulaire blanc 2013 remplacé par des cartes satinées à liseré saphir.",
+        "Injection dynamique des infos joueur et serveur directement dans le header Scaleform."
     ]
 }
