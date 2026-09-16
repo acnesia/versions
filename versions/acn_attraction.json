@@ -1,11 +1,11 @@
 {
     "resource": "acn_attraction",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated YBN collision bounds from YDR drawables for in-game physics support.",
-        "Updated archetype physics dictionaries in duck_plastic.ytyp."
+        "Fixed solid embedded collisions on oval duck pond basin.",
+        "Fixed duck fishing minigame spawning, rod attachment, and interaction fallbacks."
     ]
 }
