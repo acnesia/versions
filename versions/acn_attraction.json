@@ -1,11 +1,11 @@
 {
     "resource": "acn_attraction",
-    "version": "1.8.3",
-    "severity": "recommended",
+    "version": "1.8.4",
+    "severity": "critical",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed overlapping double Ferris Wheel props on Del Perro Pier.",
-        "Hardened physics initialization and collision registration for duck pond basin."
+        "Fixed GTA V / FiveM client streaming crash (video-paris-dakota / gta-streaming-five.dll).",
+        "Integrated stable native GTA V props for carnival duck fishing and pond."
     ]
 }
