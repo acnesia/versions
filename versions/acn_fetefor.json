@@ -1,0 +1,11 @@
+{
+    "resource": "acn_fetefor",
+    "version": "1.0.2",
+    "severity": "critical",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed streaming crash on Del Perro Pier.",
+        "Cleaned stream assets and re-exported sm_22_ferris_supp.ydr."
+    ]
+}
