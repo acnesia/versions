@@ -1,0 +1,12 @@
+{
+    "resource": "acn_gang_territories",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Interactive Tactical Gang Territories Map with in-game polygon creator.",
+        "Full integration with acn_gang_master for passive income and XP progression.",
+        "AAA Satin Dark Luxury interface with live in-game administration (/conf_acn_gang_territories)."
+    ]
+}
