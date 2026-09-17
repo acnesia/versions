@@ -1,0 +1,12 @@
+{
+    "resource": "acn_illegal3",
+    "version": "1.0.3",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Registered MLO and prop archetypes (DLC_ITYP_REQUEST).",
+        "Corrected resource manifest and cleaned stream declarations.",
+        "Added remote version checking."
+    ]
+}
