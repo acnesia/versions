@@ -1,10 +1,11 @@
 {
-  "resource": "acn_bridge",
-  "severity": "recommended",
-  "minimum_supported": "1.0.0",
-  "update_url": "https://portal.cfx.re/",
-  "version": "1.5.3",
-  "changelog": [
-    "Gestion protegee de l ajout d argent joueur et societe avec prise en charge automatique des variantes framework."
-  ]
+    "update_url":  "https://portal.cfx.re/",
+    "version":  "1.6.0",
+    "changelog":  [
+                      "Ajout de la commande /acn_versions pour verifier toutes les versions en un coup.",
+                      "Ajout de la commande /conf_acn_bridge et de l'export serveur CheckAllVersions."
+                  ],
+    "resource":  "acn_bridge",
+    "severity":  "important",
+    "minimum_supported":  "1.0.0"
 }
