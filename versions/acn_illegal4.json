@@ -1,0 +1,12 @@
+{
+    "resource": "acn_illegal4",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the underground water tank hideout MLO.",
+        "Registered MLO archetypes (DLC_ITYP_REQUEST) for interior & doors.",
+        "Added remote version checker."
+    ]
+}
