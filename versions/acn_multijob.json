@@ -1,0 +1,14 @@
+{
+    "resource": "acn_multijob",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Major overhaul: Dynamic job discovery with zero config entry required.",
+        "Brand new AAA Satin Luxury NUI with custom in-UI confirmation modals.",
+        "Interactive in-game administration console (/conf_acn_multijob & /addjob).",
+        "Clean switch protocol with screen fade and automatic grade synchronization.",
+        "Automated database setup and migration from legacy tables."
+    ]
+}
