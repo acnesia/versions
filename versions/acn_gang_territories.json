@@ -1,12 +1,13 @@
 {
     "resource": "acn_gang_territories",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Interactive Tactical Gang Territories Map with in-game polygon creator.",
-        "Full integration with acn_gang_master for passive income and XP progression.",
-        "AAA Satin Dark Luxury interface with live in-game administration (/conf_acn_gang_territories)."
+        "8K high-resolution WebP satellite tile streaming engine for razor-sharp zoom.",
+        "Dynamic responsive label counter-scaling (LOD) preventing map obstruction.",
+        "Real-time 3D laser pillars and zone boundary visualization directly in GTA world.",
+        "Live 3D Drone tactical camera view with in-game ped coordinate placement."
     ]
 }
