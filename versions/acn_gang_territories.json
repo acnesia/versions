@@ -1,14 +1,13 @@
 {
     "resource": "acn_gang_territories",
-    "version": "1.1.1",
-    "severity": "critical",
+    "version": "1.1.2",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed crash <<unknown pool>> Pool Full, Size == 256 by migrating from radius blips to safe coordinate blips.",
-        "Zero-blur native 1:1 vector screen rendering for territory labels and badges at any zoom level.",
-        "8K high-resolution WebP satellite tile streaming engine.",
-        "Real-time 3D laser pillars and zone boundary visualization in GTA world.",
-        "Live 3D Drone tactical camera view with in-game ped coordinate placement."
+        "Full-screen immersive 3D drone camera view hiding map interface and side drawer during live flyover.",
+        "Resolved player movement lock when closing interface or pressing Escape after using 3D view.",
+        "Smooth keyboard WASD/arrows movement, altitude controls, and right-click mouse drag camera rotation in 3D.",
+        "Added forgiving chat command aliases for /conf_acn_gang_territories."
     ]
 }
