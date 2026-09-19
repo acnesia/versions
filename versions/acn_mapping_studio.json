@@ -1,13 +1,11 @@
 {
     "resource": "acn_mapping_studio",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release: 3D Freecam, native Gizmo transform editor, raycast selection.",
-        "Modular project structure (metadata, entities, geometry, interior, collision, materials, build).",
-        "oxmysql automated database persistence with multi-project manager and autosave.",
-        "Docked AAA sidebar workstation interface with undo/redo stack."
+        "Switched to strict ESX group authorization (ACE permissions formally removed).",
+        "Configurable AdminGroups in config.lua (admin, superadmin, owner)."
     ]
 }
