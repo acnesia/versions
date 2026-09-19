@@ -1,0 +1,10 @@
+{
+    "resource": "acn_mapping_studio_gpt",
+    "version": "1.0.0",
+    "severity": "informational",
+    "minimum_supported": "1.0.0",
+    "changelog": [
+        "Standalone mapping studio foundation with freecam, raycast selection and native 3D gizmo.",
+        "Added revision-safe SQL projects, autosave, multiple projects and undo/redo."
+    ]
+}
