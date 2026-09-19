@@ -1,13 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.1.0",
+  "version": "3.1.2",
   "severity": "recommended",
-  "minimum_supported": "3.0.0",
+  "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Restored official WebGL Liquid Glass rendering engine and realtime settings synchronization.",
-    "Streamlined production build pipeline with standalone web/build/ deployment.",
-    "Integrated standard in-game administration command /conf_acn_inventory.",
-    "Enforced inventory_images repository precedence for item icons."
+    "Fixed WebGL Liquid Glass shader syntax error on initialization.",
+    "Restored /items command and item manager with full admin permission support.",
+    "Increased item image upload limit up to 100 MB."
   ]
 }
