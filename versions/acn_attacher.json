@@ -1,13 +1,13 @@
 {
     "resource": "acn_attacher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of 3D prop and player attachment aligner.",
-        "Laser raycast base prop selector and interactive 3D gizmo.",
-        "Live NUI editor with 180 flip buttons and instant Lua code exporter.",
-        "Automatic saving to saved_attachments.md and database."
+        "Fixed NUI mouse focus preventing camera movement and attack animations.",
+        "Fixed interface closing immediately on close button, quit button and Escape.",
+        "Fixed laser aim mode hiding NUI cleanly during aiming.",
+        "Added 3D Fullscreen Inspection Mode."
     ]
 }
