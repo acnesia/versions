@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.15.1",
+  "version": "5.15.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Inverted Freecam elevation keys: A ascends (up) and E descends (down) to match standard NoClip controls.",
-    "Updated Freecam NUI keycaps dock with explicit A/E elevation labels."
+    "Fixed off-duty administrative notification spam occurring during periodic privilege refresh.",
+    "Added transition state filtering and cooldown guards on duty feature resets."
   ]
 }
