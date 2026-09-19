@@ -1,0 +1,12 @@
+{
+    "resource": "cia_nationalguard",
+    "version": "1.0.1",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added /conf_cia_nationalguard interactive 3D in-game configuration.",
+        "Integrated universal acn_bridge architecture.",
+        "Added multi-language support (EN/FR) and automated database creation."
+    ]
+}
