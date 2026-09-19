@@ -1,12 +1,13 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Implemented authentic GTA V escort vehicle pickup with GPS rendezvous and passenger onboarding.",
-        "Added in-car 3-tiered prestations with vehicle suspension rocking, health/armor buffs, and clean exit.",
-        "Overhauled pimp 3D placement with ghost ped preview, mouse wheel rotation, and position freezing."
+        "Added in-game Escort Pickup Point Creator with 3D laser Raycast and 360-degree rotation.",
+        "Extended dance choreographies for stage, pole dancing, lap dances, and sultry private poses.",
+        "Added animated cocktail shaker preparation and bar rag counter wiping for bartenders.",
+        "Added natural idle sidewalk animations, ambient speech dialogues, and mirror makeup touch-up for escorts."
     ]
 }
