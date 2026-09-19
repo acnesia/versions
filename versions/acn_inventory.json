@@ -1,12 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "3.1.2",
+  "version": "3.1.3",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed WebGL Liquid Glass shader syntax error on initialization.",
-    "Restored /items command and item manager with full admin permission support.",
-    "Increased item image upload limit up to 100 MB."
+    "Optimised image uploads to securely compress and resize large image files dynamically without crashing NUI.",
+    "Fixed the Item Manager UI list not visually refreshing after creating or editing an item."
   ]
 }
