@@ -1,10 +1,12 @@
 {
     "resource": "acn_government",
-    "version": "4.1.0",
+    "version": "4.2.0",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed default keybind in favor of /gouv command."
+        "Brand new AAA executive sovereign interface with high-contrast typography and anti-neon design.",
+        "Redesigned Gazette / Official Journal interface with authentic historical newspaper layout.",
+        "Removed chat spam and added standard /conf_acn_government in-game management command."
     ]
 }
