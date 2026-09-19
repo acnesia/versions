@@ -1,0 +1,12 @@
+{
+  "resource": "acn_mlocreator",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of MLO Creator & In-Game Collision Cutter.",
+    "Real-time door and wall removal with instant collision disabling.",
+    "Database persistence and in-game restoration management menu."
+  ]
+}
