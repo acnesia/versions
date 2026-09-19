@@ -1,12 +1,12 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added private VIP booths with tiered duration packages, seated immersion, lap dance choreographies and live timer HUD.",
-        "Added pimp NPC and escort services with immersive animations, screen transitions, and temporary health/armor buffs.",
-        "Integrated 100% in-game live configuration (/conf_acn_unicorn) and 3D Raycast laser placement for VIP booths and pimp NPC."
+        "Implemented authentic GTA V escort vehicle pickup with GPS rendezvous and passenger onboarding.",
+        "Added in-car 3-tiered prestations with vehicle suspension rocking, health/armor buffs, and clean exit.",
+        "Overhauled pimp 3D placement with ghost ped preview, mouse wheel rotation, and position freezing."
     ]
 }
