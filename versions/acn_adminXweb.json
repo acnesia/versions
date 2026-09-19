@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.9.4",
+  "version": "5.9.5",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Vehicle seating is now preserved when reviving or healing players inside cars, preventing unexpected ejections.",
-    "Eliminated artificial respawn cycles when reviving alive or healing players.",
-    "Integrated multi-frame watchdog protection ensuring vehicle seat retention against external medical script conflicts."
+    "Eliminated ragdoll falling on revive with immediate ragdoll timer reset and temporary ragdoll immunity.",
+    "Integrated 1.2-second stabilization watchdog neutralizing external third-party medical death loops.",
+    "Corrected terrain grounding offset to prevent mesh clipping and stumbling upon resurrection."
   ]
 }
