@@ -1,12 +1,13 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "2.7.2",
+    "version": "3.0.0",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed _L nil error in status notifications (hunger/thirst).",
-        "Added universal shared locale handler and full locale registrations.",
-        "Safeguarded status callback execution with pcall protection."
+        "Brand new luxury satin management interface with real-time stats and toast notifications.",
+        "Fixed NPC vehicle theft (carjacking) when stealing moving cars in the street.",
+        "Registered /conf_acn_pnj_gestion command with chat suggestions alongside /pnj.",
+        "Refined no-shuffle door detection to prevent nearby empty vehicles from intercepting vehicle entry."
     ]
 }
