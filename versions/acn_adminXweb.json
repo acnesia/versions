@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.12.0",
+  "version": "5.13.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Extended staff duty analytics: added Day (24h), Week (7d), Month (30d), and All-Time tracking.",
-    "Integrated live active session chronometer and instant duty overview cards in the admin panel.",
-    "Added detailed staff profile modal with full statistics and last 20 duty sessions history."
+    "Automatic deactivation of all admin features (godmode, noclip/fly, invisibility, gamer tags/IDs, blips, laser inspector, spectate) when going off-duty.",
+    "Authoritative command & shortcut protection preventing off-duty staff from activating admin cheats without clocking in.",
+    "Seamless landing and collision restoration when leaving service during noclip."
   ]
 }
