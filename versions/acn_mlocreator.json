@@ -1,13 +1,13 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "3D Surface Triangulation with dual DrawPoly facets (Red/Orange) and wireframe diagonal.",
-    "Auto 'Fit to Surface' [F] snapping cutting box to door panel extents.",
-    "Real-time material and surface area calculation (e.g. CONCRETE 2.90 mÂ² faces sideways).",
-    "Keyboard micro-nudging (Arrows/PageUp with Shift for 1cm steps)."
+    "Replaced box with ultra-precise point targeting (Triangle-by-Triangle).",
+    "Single triangle geometry with scroll wheel scaling and 45-degree rotation [R].",
+    "Shape toggling [T] (Equilateral vs Right-Angle).",
+    "Guaranteed 100% collision pass-through with 85cm approach buffer and zero-lag registration."
   ]
 }
