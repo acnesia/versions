@@ -1,11 +1,14 @@
 {
     "resource": "acn_mapping_studio",
-    "version": "1.0.4",
-    "severity": "recommended",
+    "version": "2.0.0",
+    "severity": "critical",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Automated database column constraint repair and default value handling for legacy 'owner' column.",
-        "Dynamic multi-column query generation supporting both legacy and modern SQL schemas."
+        "Major 2.0.0 release: Live Build engine with dynamic hot-reloading without FiveM server restart.",
+        "Integrated Maps Management dashboard with real-time Start, Stop, Reload, Rebuild, and Rollback.",
+        "Added ACN Auto Doctor with 17 modular architectural checks and safe automated healing.",
+        "Full MLO Studio suite with structural modeling, procedural YBN collisions, and portal detection.",
+        "Collision Cutter for non-destructive apertures in monolithic structures and MLO Dressing pack generator."
     ]
 }
