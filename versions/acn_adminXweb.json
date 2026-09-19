@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.14.0",
+  "version": "5.15.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added high-precision 6-axis Studio Freecam with detached scripted camera and vector inertia.",
-    "Integrated dynamic mouse-wheel flight speed adjustment (0.1x - 10.0x), FOV zoom, and roll tilting.",
-    "Added dual exit mode: Enter to teleport ped to camera position or Backspace to cancel and return."
+    "Added dedicated F9 default keybind for instantaneous Studio Freecam toggle.",
+    "Completely overhauled Freecam HUD with luxury satin CEF NUI telemetry and bottom keycaps dock.",
+    "Added H key to toggle complete cinematic mode hiding all HUDs, radar, and 3D labels."
   ]
 }
