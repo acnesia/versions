@@ -1,12 +1,12 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added immersive money throwing animation sequence with cash prop and particle effects when tipping dancers.",
-        "Synchronized dancer gratitude reaction across all nearby players.",
-        "Added debounce protection against tip spamming and automatic entity cleanup."
+        "Added private VIP booths with tiered duration packages, seated immersion, lap dance choreographies and live timer HUD.",
+        "Added pimp NPC and escort services with immersive animations, screen transitions, and temporary health/armor buffs.",
+        "Integrated 100% in-game live configuration (/conf_acn_unicorn) and 3D Raycast laser placement for VIP booths and pimp NPC."
     ]
 }
