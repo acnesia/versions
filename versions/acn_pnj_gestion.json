@@ -1,13 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Brand new luxury satin management interface with real-time stats and toast notifications.",
-        "Fixed NPC vehicle theft (carjacking) when stealing moving cars in the street.",
-        "Registered /conf_acn_pnj_gestion command with chat suggestions alongside /pnj.",
-        "Refined no-shuffle door detection to prevent nearby empty vehicles from intercepting vehicle entry."
+        "Fixed NPC vehicle theft (carjacking) by resolving relationship companion lockout with ambient drivers.",
+        "Ensured ambient drivers panic and flee properly upon carjacking, preventing task cancellation.",
+        "Added reactive vehicle entry watcher that unlocks ambient vehicles and enables drag-out dynamically."
     ]
 }
