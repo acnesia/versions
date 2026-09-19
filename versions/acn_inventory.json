@@ -1,12 +1,13 @@
 {
-    "resource": "acn_inventory",
-    "version": "2.10.0",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "In-game image upload in Item Manager when creating or modifying items.",
-        "Automatic central saving to inventory_images/images/ with hot cache busting.",
-        "Added standardized /conf_acn_inventory command with chat suggestion."
-    ]
+  "resource": "acn_inventory",
+  "version": "3.1.0",
+  "severity": "recommended",
+  "minimum_supported": "3.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Restored official WebGL Liquid Glass rendering engine and realtime settings synchronization.",
+    "Streamlined production build pipeline with standalone web/build/ deployment.",
+    "Integrated standard in-game administration command /conf_acn_inventory.",
+    "Enforced inventory_images repository precedence for item icons."
+  ]
 }
