@@ -1,12 +1,13 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Ground-aligned doorway snapping resting flat on the sidewalk/floor.",
-    "Real-time dimension adjustments (Width/Height/Depth) via TAB and scroll wheel.",
-    "Strict rectangular bounds eliminating wide sloppy collision cuts."
+    "3D Surface Triangulation with dual DrawPoly facets (Red/Orange) and wireframe diagonal.",
+    "Auto 'Fit to Surface' [F] snapping cutting box to door panel extents.",
+    "Real-time material and surface area calculation (e.g. CONCRETE 2.90 mÂ² faces sideways).",
+    "Keyboard micro-nudging (Arrows/PageUp with Shift for 1cm steps)."
   ]
 }
