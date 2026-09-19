@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "2.9.5",
+    "version": "2.10.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate lowercase and uppercase items in /items Item Manager and spawner.",
-        "Canonical item registry deduplication on both client and server snapshots.",
-        "Optimized item catalog counting and case-insensitive lookup proxy."
+        "In-game image upload in Item Manager when creating or modifying items.",
+        "Automatic central saving to inventory_images/images/ with hot cache busting.",
+        "Added standardized /conf_acn_inventory command with chat suggestion."
     ]
 }
