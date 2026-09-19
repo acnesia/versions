@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.9.6",
+  "version": "5.10.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Eliminated micro-freezes during revive by removing coordinate teleports and hard task snap clears.",
-    "Streamlined single-pass resurrection flow, removing duplicate 350ms and 400ms re-execution passes.",
-    "Smooth get-up animation transition without physical stuttering or camera hitches."
+    "Added staff duty toggle in Quick Menu with category locking when off duty.",
+    "Added 3D floating staff sign visible exclusively to staff members.",
+    "Integrated real-time duty statebag and NUI synchronization."
   ]
 }
