@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.11.2",
+  "version": "5.12.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Replaced bulky staff overhead badge with an elegant star icon to the left of the player name.",
-    "Eliminated screen clutter and large banners for on-duty staff members.",
-    "Preserved staff-only confidentiality for the 3D on-duty indicator."
+    "Extended staff duty analytics: added Day (24h), Week (7d), Month (30d), and All-Time tracking.",
+    "Integrated live active session chronometer and instant duty overview cards in the admin panel.",
+    "Added detailed staff profile modal with full statistics and last 20 duty sessions history."
   ]
 }
