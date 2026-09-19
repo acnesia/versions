@@ -1,13 +1,12 @@
 {
     "resource": "acn_attacher",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed NUI mouse focus preventing camera movement and attack animations.",
-        "Fixed interface closing immediately on close button, quit button and Escape.",
-        "Fixed laser aim mode hiding NUI cleanly during aiming.",
-        "Added 3D Fullscreen Inspection Mode."
+        "Fixed 3D raycast using screen-to-world projection, eliminating left-skew parallax.",
+        "Added center screen reticle, collinear laser sightline and 3D surface impact marker.",
+        "Added proximity object pool fallback for custom collision-free props."
     ]
 }
