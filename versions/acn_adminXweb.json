@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.13.0",
+  "version": "5.14.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Automatic deactivation of all admin features (godmode, noclip/fly, invisibility, gamer tags/IDs, blips, laser inspector, spectate) when going off-duty.",
-    "Authoritative command & shortcut protection preventing off-duty staff from activating admin cheats without clocking in.",
-    "Seamless landing and collision restoration when leaving service during noclip."
+    "Added high-precision 6-axis Studio Freecam with detached scripted camera and vector inertia.",
+    "Integrated dynamic mouse-wheel flight speed adjustment (0.1x - 10.0x), FOV zoom, and roll tilting.",
+    "Added dual exit mode: Enter to teleport ped to camera position or Backspace to cancel and return."
   ]
 }
