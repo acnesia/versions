@@ -1,11 +1,11 @@
 {
     "resource": "acn_mapping_studio",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Switched to strict ESX group authorization (ACE permissions formally removed).",
-        "Configurable AdminGroups in config.lua (admin, superadmin, owner)."
+        "Database schema auto-migration for missing columns (description, author, data, timestamps).",
+        "Resilient project listing and loading queries eliminating SQL schema mismatch errors."
     ]
 }
