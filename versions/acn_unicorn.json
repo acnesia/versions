@@ -1,14 +1,12 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 100% in-game live drink/cocktail creator and manager with instant database sync.",
-        "Redesigned /conf_acn_unicorn into 5 comprehensive tabs (Dancers, 3D Zones, Catalog, GPS Blip, Gameplay).",
-        "Added in-game GPS map blip configuration (toggle, sprite, color, scale, coordinates).",
-        "Added zone direct editing (radius, heading, label, stash ID) and administrative teleportation.",
-        "Replaced all browser popups with clean in-UI toast feedback."
+        "Added immersive money throwing animation sequence with cash prop and particle effects when tipping dancers.",
+        "Synchronized dancer gratitude reaction across all nearby players.",
+        "Added debounce protection against tip spamming and automatic entity cleanup."
     ]
 }
