@@ -1,12 +1,12 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added Doorway Box pass-through engine allowing walk-through on baked walls.",
-    "Fixed target selection to prioritize doors over distant lamps.",
-    "Added automatic menu re-open after restoring an item for improved workflow."
+    "Ground-aligned doorway snapping resting flat on the sidewalk/floor.",
+    "Real-time dimension adjustments (Width/Height/Depth) via TAB and scroll wheel.",
+    "Strict rectangular bounds eliminating wide sloppy collision cuts."
   ]
 }
