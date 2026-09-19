@@ -1,11 +1,12 @@
 {
-    "update_url":  "https://portal.cfx.re/",
-    "version":  "1.6.0",
-    "changelog":  [
-                      "Ajout de la commande /acn_versions pour verifier toutes les versions en un coup.",
-                      "Ajout de la commande /conf_acn_bridge et de l'export serveur CheckAllVersions."
-                  ],
-    "resource":  "acn_bridge",
-    "severity":  "important",
-    "minimum_supported":  "1.0.0"
+    "update_url": "https://portal.cfx.re/",
+    "version": "1.8.0",
+    "changelog": [
+        "Ajout des exports serveur et client UploadItemImage et SaveItemImage pour televerser des images d'items en direct dans le jeu.",
+        "Sauvegarde centralisee et normalisee directement dans inventory_images/images/ (PNG, JPEG, WebP).",
+        "Evenement reseau securise acn_bridge:server:uploadItemImage pour gestion des icones a chaud."
+    ],
+    "resource": "acn_bridge",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0"
 }
