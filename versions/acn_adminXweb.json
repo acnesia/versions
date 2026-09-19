@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.11.1",
+  "version": "5.11.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed staff duty button responsiveness on single click with authoritative state query.",
-    "Added anti-spam debounce protection on duty toggle.",
-    "Quick Menu now automatically re-opens upon closing pending reports interface."
+    "Replaced bulky staff overhead badge with an elegant star icon to the left of the player name.",
+    "Eliminated screen clutter and large banners for on-duty staff members.",
+    "Preserved staff-only confidentiality for the 3D on-duty indicator."
   ]
 }
