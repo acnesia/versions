@@ -1,12 +1,12 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed native exception (0x9F47B058362C84B5) when targeting map objects.",
-    "Added visible crosshair, 3D laser line, and TextUI status banner during Cutter mode.",
-    "Secured entity querying to prevent crash in gta-streaming-five.dll."
+    "Added Doorway Box pass-through engine allowing walk-through on baked walls.",
+    "Fixed target selection to prioritize doors over distant lamps.",
+    "Added automatic menu re-open after restoring an item for improved workflow."
   ]
 }
