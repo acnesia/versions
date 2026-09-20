@@ -1,13 +1,14 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Implemented full real-time live synchronization (Live Update) across all NUI interfaces.",
-        "Admin Studio instantly reflects store generation, item CRUD, shelf stocking, and configuration updates.",
-        "Preserves current tab and store context during live background synchronizations without view resets.",
-        "Customer Shopping Kiosk and Checkout react in real-time to stock, catalog, and price changes."
+        "Calibrated millimeter shelf heights (Z) eliminating floating items near supermarket ceilings.",
+        "Automatic generation seeded with 14 official items with initial stock set to 10 units.",
+        "Added global ('Articles Generaux') and gold ('Orpaillage & Purification') product categories.",
+        "Added 1-click 'Generer les Rayons' action button in items tab and store overview rows.",
+        "Added quick shelf tier snapping hotkeys ([1-4]) during 3D camera-facing placement mode."
     ]
 }
