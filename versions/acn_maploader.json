@@ -1,0 +1,13 @@
+{
+    "resource": "acn_maploader",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of ACN Map Loader with instant live in-game streaming.",
+        "Dynamic multi-slot architecture with automatic anti-cache rotation.",
+        "Full support for streaming YDR, YBN, YMAP, YTD, and YTYP without server restarts.",
+        "Interactive in-game NUI control studio (/conf_acn_maploader and /maploader)."
+    ]
+}
