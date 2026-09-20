@@ -5,10 +5,14 @@
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added universal CodeWalker MLO exporter generating standards-compliant .ytyp.xml, .ymap.xml, and _manifest.ymf.",
-    "Integrated classified catalog of 1,500+ standard GTA V interior and architectural props across 9 categories.",
-    "Added curated architectural texture palette with 100+ materials and procedural styling.",
-    "Added persistent project saving and loading with automatic MySQL schema (acn_mlo_projects) and disk backups.",
-    "Added automated stream deployment to acn_mlocreator_maps for instant live in-game testing."
+    "Full In-Game 3D MLO Studio client architecture with 3D grid snapping, altitude levels, and Top-Down view.",
+    "Interactive shell builder for floors, thick/thin walls, doors, windows, and multi-level staircases with Undo/Redo.",
+    "Material Workbench with 100+ textures, face/box selection, in-game eyedropper, and quick-fill.",
+    "Automated room flood-fill detection, 3D portal visualization with normal arrows, and 1-click issue auto-fixes.",
+    "Prop dresser with 3D translation/rotation gizmo and room-aware culling tags.",
+    "Instant zero-restart live walkthrough testing mode.",
+    "Universal CodeWalker MLO exporter generating standards-compliant .ytyp.xml, .ymap.xml, and _manifest.ymf.",
+    "Classified catalog of 1,500+ standard GTA V interior and architectural props across 9 categories.",
+    "Persistent project saving and loading with automatic MySQL schema (acn_mlo_projects) and disk backups."
   ]
 }
