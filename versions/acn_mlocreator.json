@@ -1,12 +1,14 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.1.2",
+  "version": "3.0.0",
   "severity": "recommended",
-  "minimum_supported": "1.0.0",
+  "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed file writing on Windows & Linux ensuring zero export errors.",
-    "Added automatic door prop detection & engine-wide model hiding.",
-    "Background chunk-streaming watchdog preventing doors from respawning."
+    "Added universal CodeWalker MLO exporter generating standards-compliant .ytyp.xml, .ymap.xml, and _manifest.ymf.",
+    "Integrated classified catalog of 1,500+ standard GTA V interior and architectural props across 9 categories.",
+    "Added curated architectural texture palette with 100+ materials and procedural styling.",
+    "Added persistent project saving and loading with automatic MySQL schema (acn_mlo_projects) and disk backups.",
+    "Added automated stream deployment to acn_mlocreator_maps for instant live in-game testing."
   ]
 }
