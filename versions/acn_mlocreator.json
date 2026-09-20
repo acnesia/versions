@@ -1,13 +1,12 @@
 {
   "resource": "acn_mlocreator",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Replaced box with ultra-precise point targeting (Triangle-by-Triangle).",
-    "Single triangle geometry with scroll wheel scaling and 45-degree rotation [R].",
-    "Shape toggling [T] (Equilateral vs Right-Angle).",
-    "Guaranteed 100% collision pass-through with 85cm approach buffer and zero-lag registration."
+    "Fixed file writing on Windows & Linux ensuring zero export errors.",
+    "Added automatic door prop detection & engine-wide model hiding.",
+    "Background chunk-streaming watchdog preventing doors from respawning."
   ]
 }
