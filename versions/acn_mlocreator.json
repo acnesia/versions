@@ -1,14 +1,14 @@
 {
   "resource": "acn_mlocreator",
-  "version": "3.1.0",
+  "version": "3.1.1",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added 2-Phase Creation Workflow: in-game GTA entrance door placement, 3D Gizmo alignment, floor height adjustment, and door opening resize.",
-    "Added isolated Void Studio Dimension (Z = 2500m) with high performance, dark studio lighting, zero city clutter, and no camera clipping.",
-    "Added anchored entrance door on the studio grid with persistent EXTERIOR and INTERIOR direction indicators.",
-    "Added bidirectional coordinate translation between Void Studio and real GTA V world coordinates for live testing and export.",
-    "Added Exterior YDR reference model loader panel in Void Studio with alignment, rotation, offset, and opacity controls."
+    "Fixed entrance door heading and raycast normal direction so INTERIOR strictly points into the room and EXTERIOR points to the street.",
+    "Added [F] keybind in door setup to instantly flip orientation 180 degrees.",
+    "Re-anchored 3D grid Y-axis to the door threshold (Y = 0.0) so interior floors and walls snap cleanly without exterior overlap.",
+    "Added solid opaque matte dark studio floor mesh under Z = 2500m to eliminate city lights and ground visibility.",
+    "Automatically suppressed GTA radar and street name HUD overlays during calibration and studio editing."
   ]
 }
