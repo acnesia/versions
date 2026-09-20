@@ -1,13 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.7.1",
+    "version": "1.7.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed doorway shelf obstruction in 24/7 supermarkets with automatic database cleanup.",
-        "Completely overhauled 3D raycast engine: starts ahead of player ped and penetrates NPCs.",
-        "Added freeze position mode [SPACE] for precision inspection and millimeter height tuning.",
-        "Calibrated 24/7 shelf template offsets to central gondolas and preserved store headings."
+        "Added automatic store synchronization grouped by brand/interior type (24/7, LTD, Rob's Liquor).",
+        "Integrated auto-sync directly into the 20 official GTA V stores generator.",
+        "Added 1-click 'Clone to Same Brand' button in store props workspace.",
+        "Fixed shelf props count display in the admin studio stores overview table."
     ]
 }
