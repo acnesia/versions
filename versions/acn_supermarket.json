@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate checkout target options in ox_target menu when cashier ped and counter marker are both active.",
-        "Added 10-second anti-theft grace timer before police alert, cashier audio shouting and unpaid cart cleanup.",
-        "Automatic warning cancellation and cart preservation when returning inside the supermarket perimeter.",
-        "Real-time countdown HUD subtitle and full in-game delay configuration in admin panel."
+        "Added 3D relative coordinate propagation system to clone shelves and products across all supermarkets.",
+        "Added 1-click shelf auto-stocking to populate all 5 shelf rows, coolers, cashier ped and checkout point.",
+        "Added 1-click generator for all 20 canonical GTA V supermarkets across San Andreas (24/7, LTD, Rob's Liquor)."
     ]
 }
