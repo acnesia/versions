@@ -1,12 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.7.3",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 1-click Delete All Supermarkets tool (Dev Mode) with in-UI safety confirmation modal.",
-        "Automatic complete cleanup of all stores, furniture, shelf batches, items, and cashier entities.",
-        "Instant despawn and target removal of all orphaned entities across all connected clients."
+        "Implemented full real-time live synchronization (Live Update) across all NUI interfaces.",
+        "Admin Studio instantly reflects store generation, item CRUD, shelf stocking, and configuration updates.",
+        "Preserves current tab and store context during live background synchronizations without view resets.",
+        "Customer Shopping Kiosk and Checkout react in real-time to stock, catalog, and price changes."
     ]
 }
