@@ -1,12 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 3D relative coordinate propagation system to clone shelves and products across all supermarkets.",
-        "Added 1-click shelf auto-stocking to populate all 5 shelf rows, coolers, cashier ped and checkout point.",
-        "Added 1-click generator for all 20 canonical GTA V supermarkets across San Andreas (24/7, LTD, Rob's Liquor)."
+        "Fixed doorway shelf obstruction in 24/7 supermarkets with automatic database cleanup.",
+        "Completely overhauled 3D raycast engine: starts ahead of player ped and penetrates NPCs.",
+        "Added freeze position mode [SPACE] for precision inspection and millimeter height tuning.",
+        "Calibrated 24/7 shelf template offsets to central gondolas and preserved store headings."
     ]
 }
