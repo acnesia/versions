@@ -1,13 +1,11 @@
 {
     "resource": "acn_jobs",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Ouverture exclusivement par commande (/jobs ou /conf_acn_jobs).",
-        "Suggestions et autocomplÃ©tion dans le chat.",
-        "Configuration externe et support multilingue FR/EN.",
-        "IntÃ©gration acn_bridge et vÃ©rificateur de version distant."
+        "DÃ©liaison dÃ©finitive de la touche F6 et passage aux commandes /conf_acn_jobs et /acn_jobs.",
+        "Suppression totale de l'ancien handler 'jobs' pour neutraliser les anciens raccourcis FiveM."
     ]
 }
