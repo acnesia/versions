@@ -1,11 +1,14 @@
 {
     "resource": "acn_billing",
-    "version": "4.4.1",
+    "version": "4.5.0",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added client:invoiceReceived event listener with in-game notifications.",
-        "Added instant recipient notifications during invoice accumulation."
+        "Complete ergonomic UI revamp with simplified navigation and enhanced readability.",
+        "60 FPS CEF performance optimization eliminating input lag and visual stutter.",
+        "Added quick 1-click invoice payment directly from received bills list.",
+        "Streamlined target player selector and live financial calculation preview.",
+        "Added standardized /conf_acn_billing admin command with chat suggestions."
     ]
 }
