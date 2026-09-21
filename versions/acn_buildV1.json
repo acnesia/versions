@@ -6,7 +6,8 @@
   "update_url": "https://portal.cfx.re/",
   "changelog": [
     "Added automatic transparent background removal (Chroma Key) with zero external API required.",
-    "Added dynamic 3D Chroma Screen backdrop projection behind props in the sky photo studio.",
-    "Added quick toggles for chroma color (Green/Magenta/Cyan/Black) and background removal (ON/OFF)."
+    "Added dynamic 3D Chroma Screen backdrop projection behind props in the sky photo studio with persistent frame capture.",
+    "Added quick toggles for chroma color (Green/Magenta/Cyan/Black) and background removal (ON/OFF).",
+    "Enlarged square preview thumbnails in the player construction menu."
   ]
 }
