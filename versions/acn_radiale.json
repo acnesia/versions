@@ -1,13 +1,13 @@
 {
   "resource": "acn_radiale",
-  "version": "3.1.0",
+  "version": "3.2.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Créateur et gestionnaire d'actions 100% en jeu dans /conf_acn_radiale (commandes, events client/serveur).",
-    "Sélecteur d'icônes vectorielles intégré avec 27 glyphes SVG.",
-    "Gestionnaire de modules en direct pour activer/désactiver les sous-menus véhicule, vêtements, blips et citoyen.",
+    "Gestionnaire arborescent 100% en jeu : création de sous-menus et choix libre du dossier parent.",
+    "Édition complète des éléments existants et natifs (nom, icône, commande, parent, état actif/masqué).",
+    "Explorateur hiérarchique avec filtrage instantané par catégorie dans /conf_acn_radiale.",
     "Persistance automatique KVP et synchronisation temps réel pour tous les joueurs sans redémarrage."
   ]
 }
