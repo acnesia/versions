@@ -1,13 +1,13 @@
 {
     "resource": "mlo_ytyp_builder",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction du remplacement anormal des props et canapes par des caisses en bois (streaming CD image).",
-        "Correction de la visibilite et du chargement des portes 3D dans le monde de jeu.",
-        "Resolution de l'erreur d'import CodeWalker (reference d'objet non definie).",
-        "Deblocage integral de la modification et suppression des portes dans les projets existants."
+        "Filtrage de securite dynamique du catalogue selon la version de build GTA V du serveur.",
+        "Suppression definitive du remplacement des meubles et props par des caisses de bois.",
+        "Refonte complete du catalogue avec plus de 400 props d'interieur authentiques et verifies.",
+        "Badge interactif de build serveur actif et systeme d'alertes visuelles Toast NUI."
     ]
 }
