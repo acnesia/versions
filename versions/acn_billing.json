@@ -5,10 +5,9 @@
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete ergonomic UI revamp with simplified navigation and enhanced readability.",
-        "60 FPS CEF performance optimization eliminating input lag and visual stutter.",
-        "Added quick 1-click invoice payment directly from received bills list.",
-        "Streamlined target player selector and live financial calculation preview.",
-        "Added standardized /conf_acn_billing admin command with chat suggestions."
+        "Overhauled tablet UI typography and contrast for enhanced legibility.",
+        "Optimized FiveM CEF rendering by removing 3D perspective and infinite animation loops.",
+        "Added direct one-click invoice payment action buttons in billing tables.",
+        "Streamlined target player selection with direct ID input and nearby player picker."
     ]
 }
