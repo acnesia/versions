@@ -1,12 +1,13 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.4.2",
-    "severity": "critical",
+    "version": "10.5.0",
+    "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed GetNormalClockRateMs scope error on client startup.",
-        "Removed real-time external API mode to prevent time desync and API conflicts.",
-        "Streamlined UI by removing real-time toggle switch."
+        "Removed extreme weather events and natural disaster simulations (tornado, hurricane, hail, global sandstorm, extreme blizzard).",
+        "Preserved environmental zones (desert sandstorm, freezing summit, toxic, radiation).",
+        "Retained ocean level elevation and tsunami alert restart systems.",
+        "Streamlined NUI dashboard and added /conf_acn_weathertime standard command."
     ]
 }
