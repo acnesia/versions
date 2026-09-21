@@ -1,14 +1,14 @@
 {
-    "resource": "acn_radiale",
-    "version": "2.1.0",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Liquid Glass WebGL shader integration with dynamic scene refraction.",
-        "Live in-game admin Liquid Glass customization with instant local preview.",
-        "Real-time server synchronization and persistence across server restarts.",
-        "Added /conf_acn_radiale in-game administration command.",
-        "Integrated automatic remote version checking."
-    ]
+  "resource": "acn_radiale",
+  "version": "3.0.0",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Refonte visuelle intÃ©grale vers une esthÃ©tique sobre et moderne (AAA Humanized).",
+    "Suppression complÃ¨te de l'effet WebGL Liquid Glass pour un affichage net et fluide.",
+    "Cadran d'inspection dynamique central avec aperÃ§u en temps rÃ©el de l'option survolÃ©e.",
+    "Fil d'Ariane interactif et quai de pagination avec support de la molette souris.",
+    "Panneau d'administration en jeu /conf_acn_radiale synchronisÃ© en direct."
+  ]
 }
