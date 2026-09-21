@@ -1,0 +1,14 @@
+{
+    "resource": "mlo_ytyp_builder",
+    "version": "1.5.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Nouveau moteur de Gizmo 3D CFX compatible 100% serveurs de production.",
+        "Suppression du double curseur a l'ecran pour une navigation fluide.",
+        "Integration complete du catalogue 'Portes & Acces' avec portes prefabriquees et vanilles GTA.",
+        "Gestion du fallback visuel instantane pour les portes et props personnalises.",
+        "Correction des callbacks NUI de reglages de grille et accrochage."
+    ]
+}
