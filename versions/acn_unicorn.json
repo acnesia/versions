@@ -1,11 +1,12 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed acn_bridge:RemoveTarget export name in VIP booth client module.",
-        "Resolved Lua parse error and extra end statement in client core script."
+        "Added interactive 2-step 3D VIP Booth Builder with seated client and dancing stripper ghost previews.",
+        "Added real-time 3D laser connecting chair to dancer with live distance measurement meter.",
+        "Added granular single-entity adjustments (chair only or dancer only) and instant 15-second booth test mode."
     ]
 }
