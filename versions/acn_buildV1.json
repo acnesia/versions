@@ -1,12 +1,12 @@
 {
   "resource": "acn_buildV1",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added a full HTML Admin Studio with catalog configuration and player prop moderation (/conf_acn_buildV1).",
-    "Added an in-the-sky 3D Photo Studio with orbital camera controls and instant photo sync across all clients.",
-    "Enabled dynamic catalog management allowing admins to add props and adjust prices directly in-game."
+    "Fixed 3D Photo Studio camera centering and added full elevation/pan/mouse controls.",
+    "Fixed prop photo saving with autonomous local capture pipeline and live catalog synchronization.",
+    "Redesigned HTML Admin Studio interface with luxury satin obsidian layout and polished controls."
   ]
 }
