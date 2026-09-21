@@ -1,11 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.15.2",
+  "version": "5.16.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed off-duty administrative notification spam occurring during periodic privilege refresh.",
-    "Added transition state filtering and cooldown guards on duty feature resets."
+    "Major performance optimization eliminating all noclip activation, flight, and landing stutters.",
+    "Drastically reduced CEF rendering overhead and eliminated redundant NUI message streaming.",
+    "Implemented reactive administrative permission caching for zero-latency hotkey execution.",
+    "Optimized client background threads to sleep when idle, saving significant CPU frame time."
   ]
 }
