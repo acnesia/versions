@@ -1,12 +1,12 @@
 {
   "resource": "acn_buildV1",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed 3D Photo Studio camera centering and added full elevation/pan/mouse controls.",
-    "Fixed prop photo saving with autonomous local capture pipeline and live catalog synchronization.",
-    "Redesigned HTML Admin Studio interface with luxury satin obsidian layout and polished controls."
+    "Added automatic transparent background removal (Chroma Key) with zero external API required.",
+    "Added dynamic 3D Chroma Screen backdrop projection behind props in the sky photo studio.",
+    "Added quick toggles for chroma color (Green/Magenta/Cyan/Black) and background removal (ON/OFF)."
   ]
 }
