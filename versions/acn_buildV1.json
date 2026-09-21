@@ -1,13 +1,13 @@
 {
   "resource": "acn_buildV1",
-  "version": "1.3.2",
+  "version": "1.3.3",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added automatic transparent background removal (Chroma Key) with zero external API required.",
-    "Added dynamic 3D Chroma Screen backdrop projection behind props in the sky photo studio with persistent frame capture.",
-    "Added quick toggles for chroma color (Green/Magenta/Cyan/Black) and background removal (ON/OFF).",
-    "Enlarged square preview thumbnails in the player construction menu."
+    "360° Omnidirectional Chroma Enclosure cube preventing any sky or ocean leakage at any camera angle.",
+    "Exact orthonormal backdrop quad calculation for perfect camera-aligned planar framing.",
+    "Environment daylight and clear weather lock during photo studio sessions.",
+    "Refined canvas Chroma Key segmentation with green spill suppression."
   ]
 }
