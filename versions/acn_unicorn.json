@@ -1,0 +1,15 @@
+{
+    "resource": "acn_unicorn",
+    "version": "1.7.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added discreet parking spot detection before allowing in-car escort services.",
+        "Refreshed in-car escort and VIP booth menus with modern luxury card styling.",
+        "Fixed immediate cancellation response (Backspace, Esc, X) during in-car prestations and VIP dances.",
+        "Redirected 100% of tips, VIP private dances, escort services, and bar sales to unicorn society.",
+        "Removed internal job mechanics (cloakroom, employee stash, boss menu) for external job script decoupling.",
+        "Added instant 'My Position' VIP booth creation and floor interaction markers."
+    ]
+}
