@@ -1,12 +1,12 @@
 {
     "resource": "acn_unicorn",
-    "version": "1.8.1",
+    "version": "1.8.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed VIP booth chair and dancer rotation responsiveness using disabled input polling.",
-        "Added instant 180-degree flip shortcut [F] and mouse wheel rotation support.",
-        "Restored Page Up / Page Down vertical Z elevation controls and ground snap."
+        "Fixed player sitting physics pop/ejection when entering VIP booth on couches.",
+        "Applied SetEntityCoordsNoOffset and temporary collision disabling during seated VIP dance.",
+        "Added clean exit positioning in front of booth chair upon completion or cancellation."
     ]
 }
