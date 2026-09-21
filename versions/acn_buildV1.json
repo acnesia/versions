@@ -1,0 +1,12 @@
+{
+  "resource": "acn_buildV1",
+  "version": "1.2.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Redesigned the builder interface into an authored AAA architectural workstation with live Blueprint Inspector.",
+    "Added quick views navigation for instant access to All Props, Personal Favorites, and Recently Placed models.",
+    "Integrated a tactical in-game placement HUD dock with tactile keycaps and built-in synthesized audio feedback."
+  ]
+}
