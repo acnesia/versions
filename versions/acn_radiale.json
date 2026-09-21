@@ -1,14 +1,12 @@
 {
   "resource": "acn_radiale",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Refonte visuelle intÃ©grale vers une esthÃ©tique sobre et moderne (AAA Humanized).",
-    "Suppression complÃ¨te de l'effet WebGL Liquid Glass pour un affichage net et fluide.",
-    "Cadran d'inspection dynamique central avec aperÃ§u en temps rÃ©el de l'option survolÃ©e.",
-    "Fil d'Ariane interactif et quai de pagination avec support de la molette souris.",
-    "Panneau d'administration en jeu /conf_acn_radiale synchronisÃ© en direct."
+    "RÃ©solution du blocage de focus NUI lors de la fermeture des options ou du panneau administrateur.",
+    "Correction du curseur restant bloquÃ© lors de l'accÃ¨s Ã  la configuration admin /conf_acn_radiale.",
+    "Synchronisation parfaite des Ã©tats d'ouverture et basculement direct de touche en mode Appuyer."
   ]
 }
