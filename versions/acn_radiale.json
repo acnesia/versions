@@ -1,12 +1,13 @@
 {
   "resource": "acn_radiale",
-  "version": "3.0.1",
+  "version": "3.1.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "RÃ©solution du blocage de focus NUI lors de la fermeture des options ou du panneau administrateur.",
-    "Correction du curseur restant bloquÃ© lors de l'accÃ¨s Ã  la configuration admin /conf_acn_radiale.",
-    "Synchronisation parfaite des Ã©tats d'ouverture et basculement direct de touche en mode Appuyer."
+    "Créateur et gestionnaire d'actions 100% en jeu dans /conf_acn_radiale (commandes, events client/serveur).",
+    "Sélecteur d'icônes vectorielles intégré avec 27 glyphes SVG.",
+    "Gestionnaire de modules en direct pour activer/désactiver les sous-menus véhicule, vêtements, blips et citoyen.",
+    "Persistance automatique KVP et synchronisation temps réel pour tous les joueurs sans redémarrage."
   ]
 }
