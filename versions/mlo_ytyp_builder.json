@@ -1,13 +1,12 @@
 {
     "resource": "mlo_ytyp_builder",
-    "version": "1.6.0",
+    "version": "1.7.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
+    "update_url": "https://discord.gg/acnesia",
     "changelog": [
-        "Filtrage de securite dynamique du catalogue selon la version de build GTA V du serveur.",
-        "Suppression definitive du remplacement des meubles et props par des caisses de bois.",
-        "Refonte complete du catalogue avec plus de 400 props d'interieur authentiques et verifies.",
-        "Badge interactif de build serveur actif et systeme d'alertes visuelles Toast NUI."
+        "Correction Placement, Doublettes & Ergonomie (1.7.1).",
+        "Neutralisation du moteur RAGE : correction complète des portes.",
+        "Le placement des portes au Gizmo est désormais parfaitement fonctionnel."
     ]
 }
