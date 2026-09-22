@@ -1,12 +1,13 @@
 {
     "resource": "mlo_ytyp_builder",
-    "version": "1.7.2",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://discord.gg/acnesia",
+    "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction Placement, Doublettes & Ergonomie (1.7.1).",
-        "Neutralisation du moteur RAGE : correction complète des portes.",
-        "Le placement des portes au Gizmo est désormais parfaitement fonctionnel."
+        "Deplacement rapide d'objets sous le curseur de la souris via un clic molette (Quick Move).",
+        "Glisser-deposer d'objets en temps reel avec maintien de la molette sur sols et murs.",
+        "Calcul automatique de la garde au sol avec ajustement selon la boite de collision.",
+        "Marqueur visuel 3D et retours sonores discrets a chaque repositionnement d'objet."
     ]
 }
