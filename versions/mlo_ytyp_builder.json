@@ -1,13 +1,13 @@
 {
     "resource": "mlo_ytyp_builder",
-    "version": "1.8.0",
+    "version": "1.8.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Deplacement rapide d'objets sous le curseur de la souris via un clic molette (Quick Move).",
-        "Glisser-deposer d'objets en temps reel avec maintien de la molette sur sols et murs.",
-        "Calcul automatique de la garde au sol avec ajustement selon la boite de collision.",
-        "Marqueur visuel 3D et retours sonores discrets a chaque repositionnement d'objet."
+        "Preservation integrale des portes et objets existants non modifies (zero derive ou decalage).",
+        "Filtrage intelligent isModified : seuls les ajouts ou deplacements explicites sont recalcules.",
+        "Correction de l'axe de rotation du Gizmo (Yaw droite/gauche naturel).",
+        "Conjugaison exacte des quaternions CodeWalker (CEntityDef) pour une orientation identique en jeu et dans CodeWalker."
     ]
 }
