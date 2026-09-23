@@ -1,0 +1,14 @@
+{
+    "resource": "acn_richpresence",
+    "version": "2.0.0",
+    "severity": "important",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Complete overhaul with in-game configuration (/conf_acn_richpresence).",
+        "Added Discord action buttons (Join Discord & Direct Server Connect).",
+        "Live Discord Rich Presence preview card in admin panel.",
+        "Automatic MySQL persistence via oxmysql and live client sync.",
+        "Fixed Discord RPC loop bug preventing buttons from displaying."
+    ]
+}
