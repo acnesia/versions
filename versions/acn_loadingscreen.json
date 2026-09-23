@@ -1,0 +1,13 @@
+{
+    "resource": "acn_loadingscreen",
+    "version": "1.3.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Integration complete du clicker web interactif https://clicker.mybluebird.fr/.",
+        "Dock inferieur FiveM avec barre de progression temps reel et lecteur audio.",
+        "Correction de la desactivation et du reaffichage intempestif avec loadscreen_manual_shutdown.",
+        "Restauration du son et des musiques en fond avec deblocage autoplay."
+    ]
+}
