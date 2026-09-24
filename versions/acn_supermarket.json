@@ -1,12 +1,14 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.8.4",
+    "version": "1.8.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed shelf batch primary key duplicate entry error when auto-stocking multi-shelf stores.",
-        "Guaranteed unique batch IDs using sequence counters and ON DUPLICATE KEY UPDATE queries.",
-        "Widened batch_id column to VARCHAR(128) with automatic migration."
+        "Fixed AZERTY keyboard movement conflict where pressing Q rotated placed items while walking.",
+        "Decoupled player movement (WASD / ZQSD) from placement rotation controls.",
+        "Added Shift + Mouse Wheel smooth millimeter shelf height tuning.",
+        "Added automatic magnetic shelf alignment with X key.",
+        "Improved 3D placement HUD layout with clear keybind prompts."
     ]
 }
