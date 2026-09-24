@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.8.3",
+    "version": "1.8.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed persistent database loading of stores, shelf batches, props, cashiers and checkouts on server startup.",
-        "Fixed coordinates serialization when saving placed props and shelf rows to MySQL.",
-        "Added 100% in-game store repositioning via current player position and 3D Raycast laser.",
-        "Added quick relocation button in stores list overview and live coordinates display in store editor."
+        "Fixed shelf batch primary key duplicate entry error when auto-stocking multi-shelf stores.",
+        "Guaranteed unique batch IDs using sequence counters and ON DUPLICATE KEY UPDATE queries.",
+        "Widened batch_id column to VARCHAR(128) with automatic migration."
     ]
 }
