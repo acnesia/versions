@@ -1,13 +1,13 @@
 {
     "resource": "acn_loadingscreen",
-    "version": "1.3.2",
-    "severity": "recommended",
+    "version": "1.3.3",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Synchronisation automatique Discord a 100% avec https://clicker.mybluebird.fr/.",
-        "Chargement en temps reel du profil Discord, score, batiments et skins.",
-        "Flux d authentification externe securise contournant les restrictions iframe Discord.",
-        "Support de l API en direct (chat, joueurs en ligne, evenements, classements)."
+        "Resolution definitive du reafichage intempestif bloquant la connexion et le curseur.",
+        "Isolation complete du mode test en jeu via une page NUI zero-fuite dediee.",
+        "Fermeture proactive et securisee de l ecran de chargement a l apparition du joueur.",
+        "Ajout de la commande d administration et suggestion chat /conf_acn_loadingscreen."
     ]
 }
