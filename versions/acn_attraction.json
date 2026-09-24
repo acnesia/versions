@@ -5,8 +5,9 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed rollercoaster platform departure circuit and reduced waiting countdown to 12s.",
-        "Overhauled souvenir photo booth TV wall interface and fixed photo purchase flow.",
-        "Hardened screenshot capture pipeline and optimized attraction idle CPU consumption."
+        "Fixed rollercoaster physics and premature ride abortion bug.",
+        "Overhauled in-game admin menu (/conf_acn_attraction) with real-time distance listings for all machines and vendors.",
+        "Added interactive 3D beacon locator, GPS, teleport, and targeted single-machine deletion.",
+        "Added souvenir photo moderation gallery and instant coaster departure controls."
     ]
 }
