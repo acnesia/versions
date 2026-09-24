@@ -1,12 +1,12 @@
 {
     "resource": "acn_chat",
-    "version": "3.2.2",
+    "version": "3.2.3",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enhanced dimensions and readability: expanded width to 530px and message container to 310px.",
-        "Fixed mouse wheel scrolling with GTA weapon-wheel interception and native DOM bindings.",
-        "Reordered channels from left to right: Commandes, Proximité, Staff."
+        "Configured 10-second automatic fade-out for inactive messages and channel tabs.",
+        "Added interactive auto-hide delay slider in settings menu (from 3s to 30s).",
+        "Enhanced dimensions and readability (530px width, 310px height, smooth mouse wheel scrolling)."
     ]
 }
