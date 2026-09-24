@@ -1,12 +1,13 @@
 {
     "resource": "acn_chat",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed staff chat authorization and cross-framework delivery.",
-        "Streamlined channel system into 3 dedicated channels: Staff, Proximity, and Commands.",
-        "Refreshed modern clean UI with active channel badge and improved legibility."
+        "Reordered channels from left to right: Commandes, Proximité, Staff.",
+        "Redesigned suggestions dropdown to display directly beneath the input bar.",
+        "Unified compact top-left chat layout and custom dark scrollbars.",
+        "Fixed text wrapping for long server command outputs and warnings."
     ]
 }
