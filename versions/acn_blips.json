@@ -1,0 +1,14 @@
+{
+    "resource": "acn_blips",
+    "version": "2.2.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Added Admin-Only blips visibility system restricted to staff groups.",
+        "Server-authoritative coordinate filtering preventing leaks to regular players.",
+        "Added /conf_acn_blips standardized management command with chat suggestions.",
+        "Added in-HUD Admin Only badge and live radar telemetry indicator.",
+        "Integrated non-blocking remote version checker."
+    ]
+}
