@@ -1,14 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.8.1",
+    "version": "1.8.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Calibrated millimeter shelf heights (Z) eliminating floating items near supermarket ceilings.",
-        "Automatic generation seeded with 14 official items with initial stock set to 10 units.",
-        "Added global ('Articles Generaux') and gold ('Orpaillage & Purification') product categories.",
-        "Added 1-click 'Generer les Rayons' action button in items tab and store overview rows.",
-        "Added quick shelf tier snapping hotkeys ([1-4]) during 3D camera-facing placement mode."
+        "Fixed persistent database loading of stores, shelf batches, props, cashiers and checkouts on server startup.",
+        "Fixed coordinates serialization when saving placed props and shelf rows to MySQL.",
+        "Added 100% in-game store repositioning via current player position and 3D Raycast laser.",
+        "Added quick relocation button in stores list overview and live coordinates display in store editor."
     ]
 }
