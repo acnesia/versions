@@ -1,14 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.1",
+    "version": "1.9.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed admin menu (/conf_acn_supermarket) NUI rendering error in store overview table.",
-        "Added Dual Shop Mode per store: Realistic 3D Shelf-Picking or Direct Catalog UI.",
-        "Integrated In-Game Mode Switcher in Admin Studio (/conf_acn_supermarket).",
-        "Configured default UI mode for LTD Gasoline, Rob's Liquor and custom grocery stores.",
-        "Added dynamic sound feedback upon purchase in UI kiosk."
+        "Grouped all supermarket blips under a single clean entry in the pause menu legend ('Supérette (20)').",
+        "Fixed shelf props removal: props now reliably despawn from the 3D world when deleted from admin studio.",
+        "Added automatic orphaned prop sweeper and 'Vider Tous les Rayons' button in admin studio.",
+        "Added global in-game blip controls (enable/disable, grouped name) in configuration view."
     ]
 }
