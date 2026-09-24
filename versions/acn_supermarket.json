@@ -1,14 +1,14 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.8.5",
+    "version": "1.9.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed AZERTY keyboard movement conflict where pressing Q rotated placed items while walking.",
-        "Decoupled player movement (WASD / ZQSD) from placement rotation controls.",
-        "Added Shift + Mouse Wheel smooth millimeter shelf height tuning.",
-        "Added automatic magnetic shelf alignment with X key.",
-        "Improved 3D placement HUD layout with clear keybind prompts."
+        "Added Dual Shop Mode per store: Realistic 3D Shelf-Picking or Direct Catalog UI.",
+        "Integrated In-Game Mode Switcher in Admin Studio (/conf_acn_supermarket).",
+        "Configured default UI mode for LTD Gasoline, Rob's Liquor and custom grocery stores.",
+        "Added dynamic sound feedback upon purchase in UI kiosk.",
+        "Implemented CEF Zero-Leak DOM teardown on menu exit."
     ]
 }
