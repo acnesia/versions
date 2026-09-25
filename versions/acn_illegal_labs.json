@@ -1,13 +1,13 @@
 {
   "resource": "acn_illegal_labs",
-  "version": "1.9.2",
+  "version": "1.9.3",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Optimized client-side door physics thread achieving 0.00ms idle resmon.",
-    "Decoupled mandatory ox_target dependency in fxmanifest for universal modularity.",
-    "Hardened server security with police dispatch rate-limiting and complete cascade cleanup on lab deletion.",
-    "Implemented Chromium CEF Zero-Leak lifecycle architecture (loadInterface / unloadInterface)."
+    "Fixed door interactions and keyboard prompts ([E], [G], [H]) on placed physical doors.",
+    "Resolved door selector NUI modal rendering with full multi-instance access options.",
+    "Fixed server-authoritative instance lock toggling and sound feedback.",
+    "Added [H] door knocking keybind and updated locales."
   ]
 }
