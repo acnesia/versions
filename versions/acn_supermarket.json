@@ -1,13 +1,14 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.4",
+    "version": "1.9.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Massive CPU & RAM performance overhaul: eliminated continuous entity pool scans and reduced idle consumption to 0.00-0.03 ms.",
-        "Introduced spatial store caching so props, peds, and markers only stream when player is near a store.",
-        "Fixed 141 MiB memory leak and added periodic automatic garbage collection.",
-        "Optimized NUI live state syncing to only transmit data when admin studio is open."
+        "Fixed duplicate items appearing in supermarket kiosk catalog and admin studio.",
+        "Added multi-layer deduplication across server, client, and NUI interfaces.",
+        "Automatic database cleanup of duplicate item entries on startup.",
+        "Categorized default store items into drinks, food, electronics, gold, and tools.",
+        "Optimized spatial store caching and NUI memory teardown."
     ]
 }
