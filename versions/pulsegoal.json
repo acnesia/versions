@@ -1,14 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.1.1",
+    "version": "2.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.1.1",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.1.1/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.0/PulseGoal.apk",
     "changelog": [
-        "Differenciation visuelle et sonore complete des notifications (Defis, Maintenance, Annonces, Mises a jour)",
-        "Boutons d'actions directs integres dans les notifications Android (Relever le Defi, Telecharger APK)",
-        "Canaux de notification dedies pour chaque univers",
-        "Apercu direct du rendu notification sur la console web d'administration"
+        "Gamification RPG : Niveaux de joueur (Niv. 1 a 50) et jauge d'XP par repetition",
+        "Titres et badges de specialisation equipables affiches dans le chat d'escouade",
+        "Systeme de flammes (streak) avec multiplicateur d'XP et points d'equipe (jusqu'a x2.0)",
+        "Graphique interactif de charge hebdomadaire (repartitions des reps du lundi au dimanche)",
+        "Calculateur de calories depensees par exercice et equivalence en temps de marche"
     ]
 }
