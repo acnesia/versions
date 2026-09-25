@@ -1,12 +1,13 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed NPC vehicle theft (carjacking) by resolving relationship companion lockout with ambient drivers.",
-        "Ensured ambient drivers panic and flee properly upon carjacking, preventing task cancellation.",
-        "Added reactive vehicle entry watcher that unlocks ambient vehicles and enables drag-out dynamically."
+        "Fixed vehicle blacklist check error by unifying player data and group permissions directly with acn_bridge.",
+        "Optimized throttle control and anti-air modules with cleaner loop scheduling and aircraft detection.",
+        "Cleaned up obsolete standalone files and streamlined clothing bag interactions with direct server synchronization.",
+        "Implemented CEF zero-leak lifecycle management for the admin interface, ensuring dynamic DOM unmounting and zero memory consumption when closed."
     ]
 }
