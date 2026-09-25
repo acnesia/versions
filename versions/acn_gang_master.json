@@ -1,14 +1,12 @@
 {
-    "resource": "acn_gang_master",
-    "version": "2.0.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Refonte intégrale des 4 interfaces en style FiveM AAA & Humanized (Satin Dark Luxury).",
-        "Zéro flou (backdrop-filter) et zéro néon pour des performances FiveM CEF optimales.",
-        "Arbre de talents MMO-RPG avec connecteurs SVG vectoriels et inspecteur détaillé.",
-        "Console d'administration avec graphiques natifs SVG (donut et comparatifs de puissance).",
-        "Quartier Général Boss exécutif et garage de flotte modernisés avec keycaps et toasts in-UI."
-    ]
+  "resource": "acn_gang_master",
+  "version": "2.1.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added full CodeM MDT (codem-mdt / codem-dispatch) integration.",
+    "Added DisablePoliceCCTV and TogglePoliceCCTV exports to jam police surveillance cameras.",
+    "Added SendDispatchAlert and RegisterPoliceIncident exports for central criminal bridge tracking."
+  ]
 }
