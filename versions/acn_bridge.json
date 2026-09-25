@@ -1,12 +1,12 @@
 {
-    "update_url": "https://portal.cfx.re/",
-    "version": "1.8.0",
-    "changelog": [
-        "Ajout des exports serveur et client UploadItemImage et SaveItemImage pour televerser des images d'items en direct dans le jeu.",
-        "Sauvegarde centralisee et normalisee directement dans inventory_images/images/ (PNG, JPEG, WebP).",
-        "Evenement reseau securise acn_bridge:server:uploadItemImage pour gestion des icones a chaud."
-    ],
     "resource": "acn_bridge",
+    "version": "1.8.3",
     "severity": "recommended",
-    "minimum_supported": "1.0.0"
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Optimisation massive du module client Target : réduction drastique de la consommation CPU des markers et zones.",
+        "Ajout des exports RemoveTargetEntity et RemoveTargetModel pour libérer les entités et props de la mémoire ox_target.",
+        "Suppression sécurisée des zones par nom ou ID numérique évitant toute fuite ou accumulation d'interactions orphelines."
+    ]
 }
