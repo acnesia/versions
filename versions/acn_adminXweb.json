@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.16.0",
+  "version": "5.16.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Major performance optimization eliminating all noclip activation, flight, and landing stutters.",
-    "Drastically reduced CEF rendering overhead and eliminated redundant NUI message streaming.",
-    "Implemented reactive administrative permission caching for zero-latency hotkey execution.",
-    "Optimized client background threads to sleep when idle, saving significant CPU frame time."
+    "Fixed map streaming and low-LOD rendering issue after closing Freecam.",
+    "Added automatic ground collision preloading upon exiting Freecam or NoClip to prevent falling through the map.",
+    "Eliminated state conflicts and asynchronous race conditions between Freecam and NoClip.",
+    "Added emergency /fixlod and /fixmap commands to immediately reload world streaming and collision in 1 click."
   ]
 }
