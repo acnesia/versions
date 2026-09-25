@@ -1,0 +1,14 @@
+{
+  "resource": "acn_gang_master",
+  "version": "2.2.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added unified illegal operations and gang territories hub inside pocket menu (key H).",
+    "Direct in-game access to gang territories map (/gangmap) and nearest contest GPS.",
+    "Integrated quick actions for Go-Fast, illegal drug labs, kidnapping hideouts and gang HQ.",
+    "Direct CodeM MDT CCTV radar jamming button from the illegal hub.",
+    "Added /ganghub, /illegalmenu, and /gangactivities shortcut commands."
+  ]
+}
