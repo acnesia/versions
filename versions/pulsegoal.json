@@ -1,15 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.1",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.1/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.2",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.2/PulseGoal.apk",
     "changelog": [
-        "Section dediee dans les parametres pour changer son statut (Travailleur, Etudiant, Chomeur, Autre)",
-        "Personnalisation precise des heures et minutes de travail (debut et fin)",
-        "Preselections rapides (09h-18h, 08h30-17h30, 07h-15h, 14h-22h, 21h-05h)",
-        "Selection interactive des jours travailles (Lundi a Dimanche)",
-        "Bouton d'acces rapide direct et carte interactive sur l'ecran d'accueil"
+        "Support des ecrans 120Hz / 144Hz et debloquage de la fluidite maximale (144 FPS)",
+        "Resolution complete du probleme d'ecrasement du chat lors de l'ouverture du clavier",
+        "Saisie de message nette et non rognee avec zone d'ecriture confortablement dimensionnee",
+        "Bandeau d'escouade intelligent et repliable pour offrir 100% de l'espace a la conversation",
+        "Consultation interactive des fiches de guerriers et de leurs stats RPG en 1 clic"
     ]
 }
