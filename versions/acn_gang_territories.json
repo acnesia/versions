@@ -1,11 +1,12 @@
 {
   "resource": "acn_gang_territories",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added CodeM MDT (codem-mdt / codem-dispatch) police alert integration.",
-    "Territory contestations and gang wars automatically generate 10-71 shootout dispatch calls."
+    "Fixed Escape key handling and NUI focus restoration when closing map.",
+    "Resolved cursor freeze and input lock when returning from gang menu.",
+    "Added onResourceStop NUI focus cleanup."
   ]
 }
