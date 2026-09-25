@@ -1,16 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.0.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.0.0/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.1.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.1.0/PulseGoal.apk",
     "changelog": [
-        "Refonte graphique totale Apex Obsidian et Aurora Indigo",
-        "Barre de navigation permanente : acces en 1 seul clic a toutes les sections",
-        "Ecran Escouade dedie avec suivi en temps reel des membres en ligne et classement",
-        "Chat d'equipe directement integre avec messages predefinis ultra-rapides",
-        "Widget de presence d'escouade interactif sur l'ecran d'accueil",
-        "Ecran dedie pour les Trophees, Defis du jour et records historiques"
+        "Entraineur IA Camera : detection automatique des pompes, squats et abdos via camera selfie 100% locale",
+        "Validation de forme en direct : detection de profondeur et jauge HUD pour eviter les demi-repetitions",
+        "Notifications de Chat d'Escouade avec option d'activation dans les reglages",
+        "Console web de diffusion des annonces et mises a jour pour tous les utilisateurs",
+        "Verificateur de mise a jour renforce sans delai de cache CDN"
     ]
 }
