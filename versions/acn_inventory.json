@@ -1,11 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "3.1.3",
+  "version": "3.2.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Optimised image uploads to securely compress and resize large image files dynamically without crashing NUI.",
-    "Fixed the Item Manager UI list not visually refreshing after creating or editing an item."
+    "Item image storage and uploads fully integrated into dedicated inventory_images resource.",
+    "Comprehensive admin command suite added (/clearinv, /clearallinv, /clearstash, /cleardrops, /giveitem, /removeitem, /setitem, /viewinv, /wipeplayerinv, /takeinv, /restoreinv, /saveinv)."
   ]
 }
