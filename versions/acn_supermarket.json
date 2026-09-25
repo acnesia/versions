@@ -1,13 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.2",
+    "version": "1.9.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Grouped all supermarket blips under a single clean entry in the pause menu legend ('Supérette (20)').",
-        "Fixed shelf props removal: props now reliably despawn from the 3D world when deleted from admin studio.",
-        "Added automatic orphaned prop sweeper and 'Vider Tous les Rayons' button in admin studio.",
-        "Added global in-game blip controls (enable/disable, grouped name) in configuration view."
+        "Added real-time 3D laser raycast deletion tool to easily delete any unwanted prop or shelf in-game with 1 click.",
+        "Fixed store ID synchronization and migrated legacy IDs to prevent ghost props that could not be deleted.",
+        "Added commercial furniture management in admin studio with individual prop deletion and 3D placement.",
+        "Enhanced store clearing to completely sweep all items, furniture, and orphaned props from the world."
     ]
 }
