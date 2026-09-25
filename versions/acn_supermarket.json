@@ -1,13 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.3",
+    "version": "1.9.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added real-time 3D laser raycast deletion tool to easily delete any unwanted prop or shelf in-game with 1 click.",
-        "Fixed store ID synchronization and migrated legacy IDs to prevent ghost props that could not be deleted.",
-        "Added commercial furniture management in admin studio with individual prop deletion and 3D placement.",
-        "Enhanced store clearing to completely sweep all items, furniture, and orphaned props from the world."
+        "Massive CPU & RAM performance overhaul: eliminated continuous entity pool scans and reduced idle consumption to 0.00-0.03 ms.",
+        "Introduced spatial store caching so props, peds, and markers only stream when player is near a store.",
+        "Fixed 141 MiB memory leak and added periodic automatic garbage collection.",
+        "Optimized NUI live state syncing to only transmit data when admin studio is open."
     ]
 }
