@@ -1,15 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.2",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.2/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.3",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.3/PulseGoal.apk",
     "changelog": [
-        "Support des ecrans 120Hz / 144Hz et debloquage de la fluidite maximale (144 FPS)",
-        "Resolution complete du probleme d'ecrasement du chat lors de l'ouverture du clavier",
-        "Saisie de message nette et non rognee avec zone d'ecriture confortablement dimensionnee",
-        "Bandeau d'escouade intelligent et repliable pour offrir 100% de l'espace a la conversation",
-        "Consultation interactive des fiches de guerriers et de leurs stats RPG en 1 clic"
+        "Lancement du mode Jour de Repos (suspension des exercices et alarmes pour la journee)",
+        "Protection absolue de serie (Streak Protect) : la flamme et les multiplicateurs sont geles sans jamais se briser",
+        "Planification de jours de repos hebdomadaires fixes configurables dans les reglages",
+        "Interface chronometre en teinte sarcelle (#2DD4BF), bandeau avec reprise en 1 clic et bouton rapide 🛌",
+        "Synchronisation Super Island HyperOS et alertes automatiques d'escouade"
     ]
 }
