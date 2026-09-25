@@ -1,13 +1,13 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.0.3",
+    "version": "3.0.5",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Ajout d'indicateurs visuels clairs (activé) et (désactivé) sur tous les interrupteurs et présets de l'interface d'administration.",
-        "Clarification explicite des présets de scénarios (stationnement scénarisé et spawns).",
-        "Neutralisation immédiate de l'agressivité des animaux sauvages et PNJ hostiles lorsque les attaques sont désactivées.",
-        "Déclaration formelle et documentation des exports publics côté client."
+        "Correction des erreurs de natives non conformes bloquant l'initialisation du gestionnaire PNJ.",
+        "Suppression instantanée des étoiles de recherche et patrouilles aléatoires via la boucle par frame.",
+        "Initialisation et mise à jour dynamique des groupes de relations natifs (gangs et animaux).",
+        "Amélioration de la compatibilité des hashes de modèles dans l'interception de population."
     ]
 }
