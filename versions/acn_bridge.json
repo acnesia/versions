@@ -1,12 +1,12 @@
 {
-    "resource": "acn_bridge",
-    "version": "1.8.3",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Optimisation massive du module client Target : réduction drastique de la consommation CPU des markers et zones.",
-        "Ajout des exports RemoveTargetEntity et RemoveTargetModel pour libérer les entités et props de la mémoire ox_target.",
-        "Suppression sécurisée des zones par nom ou ID numérique évitant toute fuite ou accumulation d'interactions orphelines."
-    ]
+  "resource": "acn_bridge",
+  "version": "1.9.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added native Dispatch and Police Alert module supporting codem-mdt and codem-dispatch.",
+    "Added CreateDispatchAlert, DisableCCTV, and ToggleCCTV client/server exports.",
+    "Integrated 10-codes, tactical GPS police blips, and on-duty police notifications."
+  ]
 }
