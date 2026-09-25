@@ -1,14 +1,11 @@
 {
-    "resource": "acn_kidnapping",
-    "version": "2.2.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Suite complète d'administration in-game (/conf_acn_kidnapping) couvrant 100% de config.lua sans exception.",
-        "Gestion interactive des permissions, jobs de police, effectifs et langues (fr/en).",
-        "Tableau dynamique de butin bonus avec ajout et suppression d'items en temps réel.",
-        "Personnalisation en direct des modèles et scénarios de PNJ (commanditaire et cible).",
-        "Restauration automatique en 1 clic du plateau de tournage officiel Rockstar MoCap."
-    ]
+  "resource": "acn_kidnapping",
+  "version": "2.3.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added CodeM MDT (codem-mdt / codem-dispatch) police alert integration.",
+    "Suspicious noise and screaming during interrogations now automatically generates 10-31 dispatch calls."
+  ]
 }
