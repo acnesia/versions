@@ -1,14 +1,14 @@
 {
   "resource": "acn_gang_master",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added unified illegal operations and gang territories hub inside pocket menu (key H).",
-    "Direct in-game access to gang territories map (/gangmap) and nearest contest GPS.",
-    "Integrated quick actions for Go-Fast, illegal drug labs, kidnapping hideouts and gang HQ.",
-    "Direct CodeM MDT CCTV radar jamming button from the illegal hub.",
-    "Added /ganghub, /illegalmenu, and /gangactivities shortcut commands."
+    "Added gang level gating and talent tree requirements for Hub operations (key H).",
+    "Added 'RÃ©seau d'EnlÃ¨vement' and 'Brouilleur CCTV Police' talent nodes in the talent tree.",
+    "Go-Fast operations restricted to Gang Level 2 with GPS waypoint to contactor.",
+    "Removed illegal drug labs completely from the interface to preserve secrecy.",
+    "Restricted Gang HQ GPS card exclusively to gang leaders."
   ]
 }
