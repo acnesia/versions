@@ -1,15 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.0/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.1",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.1/PulseGoal.apk",
     "changelog": [
-        "Gamification RPG : Niveaux de joueur (Niv. 1 a 50) et jauge d'XP par repetition",
-        "Titres et badges de specialisation equipables affiches dans le chat d'escouade",
-        "Systeme de flammes (streak) avec multiplicateur d'XP et points d'equipe (jusqu'a x2.0)",
-        "Graphique interactif de charge hebdomadaire (repartitions des reps du lundi au dimanche)",
-        "Calculateur de calories depensees par exercice et equivalence en temps de marche"
+        "Section dediee dans les parametres pour changer son statut (Travailleur, Etudiant, Chomeur, Autre)",
+        "Personnalisation precise des heures et minutes de travail (debut et fin)",
+        "Preselections rapides (09h-18h, 08h30-17h30, 07h-15h, 14h-22h, 21h-05h)",
+        "Selection interactive des jours travailles (Lundi a Dimanche)",
+        "Bouton d'acces rapide direct et carte interactive sur l'ecran d'accueil"
     ]
 }
