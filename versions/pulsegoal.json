@@ -1,15 +1,14 @@
 {
     "resource": "pulsegoal",
-    "version": "2.1.0",
-    "severity": "important",
+    "version": "2.1.1",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.1.0",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.1.0/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.1.1",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.1.1/PulseGoal.apk",
     "changelog": [
-        "Entraineur IA Camera : detection automatique des pompes, squats et abdos via camera selfie 100% locale",
-        "Validation de forme en direct : detection de profondeur et jauge HUD pour eviter les demi-repetitions",
-        "Notifications de Chat d'Escouade avec option d'activation dans les reglages",
-        "Console web de diffusion des annonces et mises a jour pour tous les utilisateurs",
-        "Verificateur de mise a jour renforce sans delai de cache CDN"
+        "Differenciation visuelle et sonore complete des notifications (Defis, Maintenance, Annonces, Mises a jour)",
+        "Boutons d'actions directs integres dans les notifications Android (Relever le Defi, Telecharger APK)",
+        "Canaux de notification dedies pour chaque univers",
+        "Apercu direct du rendu notification sur la console web d'administration"
     ]
 }
