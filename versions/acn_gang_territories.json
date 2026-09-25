@@ -1,13 +1,11 @@
 {
-    "resource": "acn_gang_territories",
-    "version": "1.1.2",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Full-screen immersive 3D drone camera view hiding map interface and side drawer during live flyover.",
-        "Resolved player movement lock when closing interface or pressing Escape after using 3D view.",
-        "Smooth keyboard WASD/arrows movement, altitude controls, and right-click mouse drag camera rotation in 3D.",
-        "Added forgiving chat command aliases for /conf_acn_gang_territories."
-    ]
+  "resource": "acn_gang_territories",
+  "version": "1.2.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added CodeM MDT (codem-mdt / codem-dispatch) police alert integration.",
+    "Territory contestations and gang wars automatically generate 10-71 shootout dispatch calls."
+  ]
 }
