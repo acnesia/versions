@@ -1,12 +1,12 @@
 {
     "resource": "acn_chat",
-    "version": "3.2.3",
+    "version": "3.2.4",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Configured 10-second automatic fade-out for inactive messages and channel tabs.",
-        "Added interactive auto-hide delay slider in settings menu (from 3s to 30s).",
-        "Enhanced dimensions and readability (530px width, 310px height, smooth mouse wheel scrolling)."
+        "Optimized client resmon tick rate with on-demand input threads (0.00ms idle).",
+        "Added server-side staff permission caching and optimized proximity distance calculations.",
+        "Streamlined command autocomplete caching and boosted NUI message rendering performance."
     ]
 }
