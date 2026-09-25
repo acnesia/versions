@@ -1,14 +1,11 @@
 {
   "resource": "acn_illegal_labs",
-  "version": "1.9.0",
+  "version": "1.9.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Système complet de multi-instances isolées par joueur et par gang à la même adresse.",
-    "Système d'invitations en temps réel et gestion des membres autorisés.",
-    "Achat de laboratoire officiel pour l'ensemble du gang via la trésorerie.",
-    "Prise en compte en direct des talents et bonus de gang (vitesse, rendement, discrétion).",
-    "Sélecteur d'entrée interactif à la porte du laboratoire."
+    "Added CodeM MDT (codem-mdt / codem-dispatch) integration for clandestine chemical activity and toxic incident alerts (10-56).",
+    "Connected gang stealth perk (lab_stealth) to dynamically mitigate or prevent police dispatch detection."
   ]
 }
