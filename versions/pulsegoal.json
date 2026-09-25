@@ -1,0 +1,14 @@
+{
+    "resource": "pulsegoal",
+    "version": "1.1.0",
+    "severity": "important",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v1.1.0",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v1.1.0/PulseGoal.apk",
+    "changelog": [
+        "Correction complete du bug de pause du décompte et maintien du temps restant",
+        "Mise à jour automatique en 1 clic directement intégrée dans l'application",
+        "Bouton de partage direct pour envoyer l'application à un ami en quelques secondes",
+        "Super Island HyperOS et notifications d'arrière-plan optimisées"
+    ]
+}
