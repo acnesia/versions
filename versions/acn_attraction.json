@@ -1,13 +1,13 @@
 {
     "resource": "acn_attraction",
-    "version": "2.16.0",
+    "version": "2.19.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed rollercoaster physics and premature ride abortion bug.",
-        "Overhauled in-game admin menu (/conf_acn_attraction) with real-time distance listings for all machines and vendors.",
-        "Added interactive 3D beacon locator, GPS, teleport, and targeted single-machine deletion.",
-        "Added souvenir photo moderation gallery and instant coaster departure controls."
+        "Overhauled in-game admin menu (/conf_acn_attraction) with sleek luxury matte styling.",
+        "Eliminated default white browser scrollbar under navigation tabs and added smooth horizontal mouse-wheel scrolling.",
+        "Added category count badges and structured coordinate alignment for all placed machines and stalls.",
+        "Harmonized button styling with satin surfaces, clean borders, and intuitive iconography."
     ]
 }
