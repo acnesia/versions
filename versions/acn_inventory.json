@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed player inventory loading race conditions and dropped player sessions on join/reconnect.",
-    "Hooked native FiveM playerDropped event to ensure instant database save and memory cleanup on disconnect.",
-    "Hardened NUI initialization lifecycle and added self-healing sync retry on player spawn."
+    "Ground drops are now fully interactable up to 3.2m away, with [E] prompt and ox_target support.",
+    "Enhanced ground drop visual markers and minimap blips with extended visibility distance.",
+    "Re-engineered image upload pipeline with byte-based base64 decoding and dual storage for instant NUI loading."
   ]
 }
