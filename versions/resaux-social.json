@@ -1,16 +1,15 @@
-﻿{
+{
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-    "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.2.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.2.1/Hors-Piste.apk",
     "changelog": [
-        "Bouton Jeux/Arcade deplace dans la barre de navigation haute.",
-        "Nouveau panneau Parametres avec verificateur de mise a jour integre.",
-        "Navigation mobile simplifiee avec bouton + bien centre.",
-        "Bouton supprimer les publications maintenant visible sur mobile.",
-        "Adresse IP du serveur masquee dans les parametres."
+        "Correction du chronomètre d'enregistrement vocal qui restait bloqué à 00:00.",
+        "Réparation automatique des métadonnées de durée (WebM EBML) éliminant les durées erronées (18s) ou infinies.",
+        "Nouveau lecteur audio synchronisé avec ondes sonores interactives et seeking au clic.",
+        "Ajout d'un bouton pour annuler un enregistrement vocal en cours."
     ]
 }
