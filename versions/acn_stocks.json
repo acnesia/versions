@@ -1,0 +1,14 @@
+{
+    "resource": "acn_stocks",
+    "version": "2.1.2",
+    "severity": "critical",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed critical server tick lag (0.3-0.6ms) by replacing per-tick blocking database inserts with an in-memory price history cache.",
+        "Replaced continuous single-item synchronous database inserts with periodic asynchronous batch persistence.",
+        "Added in-memory society balance caching to eliminate database query spam during society stock calculations.",
+        "Instant chart data retrieval directly from memory without loading the MySQL database.",
+        "Integrated automatic remote version checking system (server/version.lua)."
+    ]
+}
