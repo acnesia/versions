@@ -1,10 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
+    "Removed map blips for ground drops to eliminate pause menu map legend pollution.",
     "Fixed consumable item portions so residual amounts can always be eaten.",
     "Ensured food and drinks are cleanly removed from the inventory when remaining portion reaches zero."
   ]
