@@ -1,12 +1,12 @@
 {
     "resource": "acn_rental",
-    "version": "2.5.2",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enabled continuous driving on credit with zero funds without vehicle despawn.",
-        "Consolidated single-invoice accumulation adding cycle cost in acn_billing every minute.",
-        "Guaranteed direct database synchronization for invoice creation across all frameworks."
+        "Enabled on-demand rental termination via dedicated keybind [U] or /stoprental anywhere on the map.",
+        "Removed agency distance return requirement: players no longer need to bring vehicles back to the counter.",
+        "Added interactive safety confirmation dialog and motion check before contract termination."
     ]
 }
