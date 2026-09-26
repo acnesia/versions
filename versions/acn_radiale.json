@@ -1,13 +1,10 @@
 {
   "resource": "acn_radiale",
-  "version": "3.2.0",
-  "severity": "recommended",
+  "version": "3.2.1",
+  "severity": "optional",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Gestionnaire arborescent 100% en jeu : création de sous-menus et choix libre du dossier parent.",
-    "Édition complète des éléments existants et natifs (nom, icône, commande, parent, état actif/masqué).",
-    "Explorateur hiérarchique avec filtrage instantané par catégorie dans /conf_acn_radiale.",
-    "Persistance automatique KVP et synchronisation temps réel pour tous les joueurs sans redémarrage."
+    "Suppression de l'entrée Documents dans les menus personnalisés par défaut."
   ]
 }
