@@ -1,14 +1,14 @@
 {
     "resource": "acn_acenceur",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete overhaul of the elevator builder with modern luxury satin NUI.",
-        "Interactive 3D Raycast laser placement for precision elevator positioning.",
-        "Brand new interactive elevator cabin panel interface for players.",
-        "Full support for access restrictions (job & min grade) per floor.",
-        "Seamless backward compatibility for existing elevator coordinates."
+        "Ultra-realistic 3D sliding elevator doors cabin ride transition with real-time floor ticker.",
+        "Synthesized pneumatic door slide, elevator shaft rumble, and harmonic arrival chime audio.",
+        "Interactive in-game NUI builder with 3D laser raycast precision positioning.",
+        "Zero-blackout reveal: game screen rendered seamlessly through opening doors.",
+        "Full access restrictions (job & min grade) per floor."
     ]
 }
