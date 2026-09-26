@@ -1,14 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "1.2.2",
+    "version": "1.2.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.2.2/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.2.3/Hors-Piste.apk",
     "changelog": [
-        "Prise en charge complète des vidéos depuis la galerie du téléphone.",
-        "Sélecteur multimédia unifié photos et vidéos.",
-        "Correctif complet du système vocal et du lecteur audio."
+        "Détecteur de mises à jour multi-sources résilient (Releases, CDN, VPS).",
+        "Bouton permanent Réinstaller / Télécharger l'APK en 1 clic.",
+        "Gestionnaire de téléchargement direct Android et WebView sécurisé."
     ]
 }
