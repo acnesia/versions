@@ -4,11 +4,11 @@
     "version": "1.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-    "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.2.2/Hors-Piste.apk",
+    "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.2.2/Hors-Piste.apk",
     "changelog": [
-        "Prise en charge complète des vidéos dans la galerie du téléphone.",
+        "Prise en charge complète des vidéos depuis la galerie du téléphone.",
         "Sélecteur multimédia unifié photos et vidéos.",
-        "Suppression de la contrainte forçant la caméra pour les vidéos."
+        "Correctif complet du système vocal et du lecteur audio."
     ]
 }
