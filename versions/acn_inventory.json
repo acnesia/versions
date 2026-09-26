@@ -1,11 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.2.0",
+  "version": "3.2.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Item image storage and uploads fully integrated into dedicated inventory_images resource.",
-    "Comprehensive admin command suite added (/clearinv, /clearallinv, /clearstash, /cleardrops, /giveitem, /removeitem, /setitem, /viewinv, /wipeplayerinv, /takeinv, /restoreinv, /saveinv)."
+    "Improved ground drop visibility with minimap blips, 3D markers, and extended 2.5m interaction distance.",
+    "Fixed item image upload binary encoding and expanded image format support (WebP, PNG, JPG, JPEG).",
+    "Fixed shared inventory weight synchronization and inventory restore weight handling."
   ]
 }
