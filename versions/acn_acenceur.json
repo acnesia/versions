@@ -1,0 +1,14 @@
+{
+    "resource": "acn_acenceur",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Complete overhaul of the elevator builder with modern luxury satin NUI.",
+        "Interactive 3D Raycast laser placement for precision elevator positioning.",
+        "Brand new interactive elevator cabin panel interface for players.",
+        "Full support for access restrictions (job & min grade) per floor.",
+        "Seamless backward compatibility for existing elevator coordinates."
+    ]
+}
