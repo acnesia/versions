@@ -5,8 +5,8 @@
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed player inventory loading and synchronization on connection without requiring resource restart.",
-    "Resolved concurrency race condition and removed fatal duplicate loading error on character setup.",
-    "Added automatic client-side self-healing sync on inventory key press and new /resyncinventory command."
+    "Fixed player inventory loading race conditions and dropped player sessions on join/reconnect.",
+    "Hooked native FiveM playerDropped event to ensure instant database save and memory cleanup on disconnect.",
+    "Hardened NUI initialization lifecycle and added self-healing sync retry on player spawn."
   ]
 }
