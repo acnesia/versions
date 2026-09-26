@@ -1,14 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.5",
+    "version": "1.9.6",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate items appearing in supermarket kiosk catalog and admin studio.",
-        "Added multi-layer deduplication across server, client, and NUI interfaces.",
-        "Automatic database cleanup of duplicate item entries on startup.",
-        "Categorized default store items into drinks, food, electronics, gold, and tools.",
-        "Optimized spatial store caching and NUI memory teardown."
+        "Added Config.NonStealableItems to define which items cannot be stolen.",
+        "Non-stealable items are instantly removed from inventory and police is called immediately when shoplifted.",
+        "Stealable items keep the classic behavior (stay in inventory after grace period).",
+        "Distinct notification shown to the player when a non-stealable item is confiscated."
     ]
 }
