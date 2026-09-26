@@ -1,15 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-    "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.2.1/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.2.2/Hors-Piste.apk",
     "changelog": [
-        "Correction du chronomètre d'enregistrement vocal qui restait bloqué à 00:00.",
-        "Réparation automatique des métadonnées de durée (WebM EBML) éliminant les durées erronées (18s) ou infinies.",
-        "Nouveau lecteur audio synchronisé avec ondes sonores interactives et seeking au clic.",
-        "Ajout d'un bouton pour annuler un enregistrement vocal en cours."
+        "Prise en charge complète des vidéos dans la galerie du téléphone.",
+        "Sélecteur multimédia unifié photos et vidéos.",
+        "Suppression de la contrainte forçant la caméra pour les vidéos."
     ]
 }
