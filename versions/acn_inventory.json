@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.2.1",
+  "version": "3.2.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Improved ground drop visibility with minimap blips, 3D markers, and extended 2.5m interaction distance.",
-    "Fixed item image upload binary encoding and expanded image format support (WebP, PNG, JPG, JPEG).",
-    "Fixed shared inventory weight synchronization and inventory restore weight handling."
+    "Fixed player inventory loading and synchronization on connection without requiring resource restart.",
+    "Resolved concurrency race condition and removed fatal duplicate loading error on character setup.",
+    "Added automatic client-side self-healing sync on inventory key press and new /resyncinventory command."
   ]
 }
