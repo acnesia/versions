@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.8",
-    "severity": "recommended",
+    "version": "1.9.9",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed cashier NPC despawning/disappearing with Mission Entity status and engine culling protection.",
-        "Eliminated stale network NetIDs on OneSync for seamless cashier persistence across all players.",
+        "Fixed cashier NPC loop spawning and clone duplicates with single-instance local client ped manager.",
+        "Automatic sweep and purge of orphaned/ragdolled cashier peds on startup and store entry.",
         "Guaranteed 100% SQL data persistence across resource starts and server restarts.",
         "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers."
     ]
