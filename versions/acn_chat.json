@@ -1,12 +1,12 @@
 {
     "resource": "acn_chat",
-    "version": "3.2.4",
+    "version": "3.2.5",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Optimized client resmon tick rate with on-demand input threads (0.00ms idle).",
-        "Added server-side staff permission caching and optimized proximity distance calculations.",
-        "Streamlined command autocomplete caching and boosted NUI message rendering performance."
+        "Fixed focus lock when toggling mouse with Alt or clicking channel tabs.",
+        "Added global Escape key handling to close chat and release NUI focus cleanly.",
+        "Added quick close button on the chat bar and channel cycling with Tab."
     ]
 }
