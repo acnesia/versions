@@ -1,13 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.0.5",
+    "version": "3.0.6",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction des erreurs de natives non conformes bloquant l'initialisation du gestionnaire PNJ.",
-        "Suppression instantanée des étoiles de recherche et patrouilles aléatoires via la boucle par frame.",
-        "Initialisation et mise à jour dynamique des groupes de relations natifs (gangs et animaux).",
-        "Amélioration de la compatibilité des hashes de modèles dans l'interception de population."
+        "Support complet des profils d'instances privées via ApplyInstanceProfile.",
+        "Export public de GetScenarioPresetCatalog pour acn_instan.",
+        "Gestion dynamique des étoiles de recherche et densités PNJ en instance."
     ]
 }

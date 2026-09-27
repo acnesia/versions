@@ -1,0 +1,13 @@
+{
+    "resource": "acn_instan",
+    "version": "2.6.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Support et maintien natif du wanted level (0 à 5 étoiles) en instance privée.",
+        "Ajout de la commande standard /conf_acn_instan et suggestions chat.",
+        "Persistance KVP des règles d'instances, labels et météo.",
+        "Synchronisation parfaite avec acn_pnj_gestion."
+    ]
+}
