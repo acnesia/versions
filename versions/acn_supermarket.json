@@ -5,9 +5,8 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Config.NonStealableItems to define which items cannot be stolen.",
-        "Non-stealable items are instantly removed from inventory and police is called immediately when shoplifted.",
-        "Stealable items keep the classic behavior (stay in inventory after grace period).",
-        "Distinct notification shown to the player when a non-stealable item is confiscated."
+        "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers.",
+        "Shopping in realistic mode requires physical shelf picking before checkout.",
+        "Added server and client authoritative safeguards preventing direct catalog purchases in 3D stores."
     ]
 }
