@@ -1,12 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.6",
+    "version": "1.9.7",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Guaranteed 100% SQL data persistence across resource starts and server restarts.",
+        "Removed legacy automatic prop cleanup query that could affect existing store shelves.",
         "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers.",
-        "Shopping in realistic mode requires physical shelf picking before checkout.",
-        "Added server and client authoritative safeguards preventing direct catalog purchases in 3D stores."
+        "Shopping in realistic mode requires physical shelf picking before checkout."
     ]
 }
