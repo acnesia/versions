@@ -1,12 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.1",
+    "version": "1.11.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added bulk purchasing and direct quantity inputs in shopping catalog and cart drawer.",
-        "Added quick 1x take and bulk quantity options (+5, +10, Max) on 3D physical shelves.",
-        "Added prominent in-game error notifications for insufficient money, full inventory, and out of stock."
+        "Fixed UI stuck on screen after clicking 'Terminer' on checkout receipt.",
+        "Ensured full kiosk closure, CEF DOM unloading, and proper player control restoration."
     ]
 }
