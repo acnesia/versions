@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.0",
+    "version": "1.11.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added full map blip customization (presets, color, sprite, scale, and legend grouping) during store creation.",
-        "Added dedicated live in-game 'Enseigne & Blip' management subtab in store editor workspace.",
-        "Fixed store stock linking: enforced strict isolated per-store stock tracking and transaction deduction."
+        "Added bulk purchasing and direct quantity inputs in shopping catalog and cart drawer.",
+        "Added quick 1x take and bulk quantity options (+5, +10, Max) on 3D physical shelves.",
+        "Added prominent in-game error notifications for insufficient money, full inventory, and out of stock."
     ]
 }
