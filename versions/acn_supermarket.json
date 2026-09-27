@@ -1,13 +1,13 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.9.7",
+    "version": "1.9.8",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed cashier NPC despawning/disappearing with Mission Entity status and engine culling protection.",
+        "Eliminated stale network NetIDs on OneSync for seamless cashier persistence across all players.",
         "Guaranteed 100% SQL data persistence across resource starts and server restarts.",
-        "Removed legacy automatic prop cleanup query that could affect existing store shelves.",
-        "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers.",
-        "Shopping in realistic mode requires physical shelf picking before checkout."
+        "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers."
     ]
 }
