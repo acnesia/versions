@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.10.0",
+    "version": "1.11.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added automatic catalog stock replenishment for UI mode stores with cashier animation.",
-        "Fixed cashier NPC loop spawning and clone duplicates with single-instance local client ped manager.",
-        "Guaranteed 100% SQL data persistence across resource starts and server restarts.",
-        "Enforced strict 3D realistic mode: supermarket catalog is hidden on cashiers and registers."
+        "Added full map blip customization (presets, color, sprite, scale, and legend grouping) during store creation.",
+        "Added dedicated live in-game 'Enseigne & Blip' management subtab in store editor workspace.",
+        "Fixed store stock linking: enforced strict isolated per-store stock tracking and transaction deduction."
     ]
 }
