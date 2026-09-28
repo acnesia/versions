@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.2",
+    "version": "1.11.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed UI stuck on screen after clicking 'Terminer' on checkout receipt.",
-        "Ensured full kiosk closure, CEF DOM unloading, and proper player control restoration."
+        "Major performance optimization of shelf auto-restock loop eliminating server thread freezes.",
+        "Single-pass O(P) batch indexing, async chunked database inserts, and lightweight network synchronization."
     ]
 }
