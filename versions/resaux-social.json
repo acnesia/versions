@@ -1,14 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "1.2.3",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.2.3/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.3.0/Hors-Piste.apk",
     "changelog": [
-        "Détecteur de mises à jour multi-sources résilient (Releases, CDN, VPS).",
-        "Bouton permanent Réinstaller / Télécharger l'APK en 1 clic.",
-        "Gestionnaire de téléchargement direct Android et WebView sécurisé."
+        "Réseau 100% en direct : likes, publications, commentaires et suppressions instantanés sans rechargement.",
+        "Republications claires avec bannière dédiée et préservation de l'auteur d'origine.",
+        "Messagerie privée corrigée avec nouveau sélecteur de contacts, statut en direct et accusés de réception."
     ]
 }
