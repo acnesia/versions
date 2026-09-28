@@ -1,13 +1,14 @@
 {
   "resource": "hors_piste",
-  "version": "1.3.0",
+  "app_name": "Hors-Piste",
+  "version": "1.4.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.3.0/Hors-Piste.apk",
+  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.4.0/Hors-Piste.apk",
   "changelog": [
-    "Reseau 100% en direct avec mise a jour instantanee des likes, commentaires et publications.",
-    "Refonte complete des republications avec banniere claire et mise en avant de l'auteur d'origine.",
-    "Deblocage complet de la messagerie privee avec selecteur de contacts et statut en direct."
+    "Chat plein ecran immersif sans defilement parasite, header et footer fixes.",
+    "Banniere de notification in-app interactive avec carillon et vibrations.",
+    "Bouton retour telephone prioritaire, lightbox photo et double coche doree."
   ]
 }
