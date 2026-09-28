@@ -1,0 +1,13 @@
+{
+  "resource": "hors_piste",
+  "version": "1.3.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
+  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v1.3.0/Hors-Piste.apk",
+  "changelog": [
+    "Reseau 100% en direct avec mise a jour instantanee des likes, commentaires et publications.",
+    "Refonte complete des republications avec banniere claire et mise en avant de l'auteur d'origine.",
+    "Deblocage complet de la messagerie privee avec selecteur de contacts et statut en direct."
+  ]
+}
