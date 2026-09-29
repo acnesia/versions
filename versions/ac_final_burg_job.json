@@ -1,12 +1,12 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed customer order revenue not crediting company balance in acn_banking and acn_bossmenu.",
-        "Integrated centralized society money handling with live balance updates and financial transaction logging.",
-        "Synchronized delivery earnings, ingredient supply orders, and drink sales with company funds."
+        "Full acn_inventory integration for Burgershot stash and stock management.",
+        "Smart raw ingredient consumption from player inventory and acn_inventory stash when cooking or dispensing drinks.",
+        "Automated restocking of raw ingredients into acn_inventory stash upon supply delivery."
     ]
 }
