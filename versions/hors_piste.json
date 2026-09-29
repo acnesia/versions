@@ -1,13 +1,13 @@
 {
   "resource": "hors_piste",
-  "version": "1.6.0",
+  "version": "1.6.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.6.0/Hors-Piste.apk",
+  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.6.1/Hors-Piste.apk",
   "changelog": [
-    "Creation de compte et connexion instantanee via Google Sign-In avec Firebase Authentication.",
-    "Gestion unifiee et securisee des comptes utilisateurs propulsee par Firebase et Google Cloud.",
-    "Synchronisation automatique des profils Google (avatar, nom d'affichage, adresse email securisee)."
+    "Integration du bouton Google Sign-In directement sur l'ecran d'accueil et de connexion principal.",
+    "Creation de compte et connexion instantanee via Google et Firebase en 1 clic sans mot de passe.",
+    "Synchronisation automatique et securisee du profil Google (avatar officiel et nom d'affichage)."
   ]
 }
