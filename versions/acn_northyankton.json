@@ -1,0 +1,14 @@
+{
+    "resource": "NorthYankton",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Complete standalone overhaul: Native IPL loader without bob74_ipl dependency.",
+        "Interactive luxury NUI flight ticket & boarding pass system.",
+        "In-game admin configurator (/conf_NorthYankton) with real-time 3D Raycast placement.",
+        "Full acn_bridge integration for economy, notifications, and target systems.",
+        "Automated oxmysql database persistence and live client synchronization."
+    ]
+}
