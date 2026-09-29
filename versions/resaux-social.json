@@ -1,19 +1,15 @@
 {
-    "resource": "resaux-social",
-    "app_name": "Hors-Piste",
-    "version": "1.9.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.9.0/Hors-Piste.apk",
-    "changelog": [
-        "Refonte totale du panneau d'administration backend avec design dark premium et sidebar navigable.",
-        "Gestion ultra-avancee des swaps : actifs en temps reel, declenchement aleatoire, echange manuel cible, arret individuel, sliders duree/intervalle.",
-        "Historique complet des swaps avec pagination, duree calculee et statut en cours / termine.",
-        "Audit logs d'infiltration filtrables par type d'action et par pseudo.",
-        "Gestion des utilisateurs enrichie : recherche, filtres, modal d'edition de profil inline.",
-        "Surveillance des conversations privees avec transcript complet et suppression de messages.",
-        "Moderation du feed avec recherche plein texte, filtre medias et suppression temps reel.",
-        "Broadcast ciblé à un membre ou diffusion generale a tous les membres."
-    ]
+  "resource": "resaux-social",
+  "app_name": "Hors-Piste",
+  "version": "2.2.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
+  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v2.2.0/Hors-Piste.apk",
+  "changelog": [
+    "Systeme d'Accusation Swap (+100 / +1000 Coins) : bouton pour detecter les infiltrations (+100) et denoncer le binome exact (+1000).",
+    "Correctif Scintillement Messagerie : elimination complete du clignotement / spinner lors de la saisie et de l'envoi de messages.",
+    "Notifications Systeme Swap Hors-App : canal prioritaire Android avertissant instantanement de l'infiltration meme application fermee.",
+    "Ergonomie Reponses & Zone Safe : degagement sous le poincon camera et la barre d'etat."
+  ]
 }
