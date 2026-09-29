@@ -1,12 +1,12 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.0.5",
+    "version": "1.0.6",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed burger customizer popup prematurely appearing on the dining start screen.",
-        "Ensured customizer modal only opens when selecting a meal combo.",
-        "Removed remaining backdrop blur filters to optimize FiveM CEF performance."
+        "Fixed customer order revenue not crediting company balance in acn_banking and acn_bossmenu.",
+        "Integrated centralized society money handling with live balance updates and financial transaction logging.",
+        "Synchronized delivery earnings, ingredient supply orders, and drink sales with company funds."
     ]
 }
