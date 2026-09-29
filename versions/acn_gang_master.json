@@ -5,6 +5,8 @@
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
+    "Full integration of illegal activities into operations hub with level gating and GPS routing.",
+    "Removed all ACE permissions in favor of acn_bridge framework administrator groups.",
     "Added new illegal ecosystem perks for weapon crafting, underwater salvage, container heist, and air smuggling.",
     "Integrated universal progression support for all ACN illegal scripts."
   ]
