@@ -1,14 +1,11 @@
 {
     "resource": "acn_NPC_medecin",
-    "version": "1.0.0",
-    "severity": "recommended",
+    "version": "1.0.1",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "NPC Doctor healing and emergency treatment system.",
-        "Strict hunger and thirst preservation preventing accidental food/water restoration.",
-        "100% in-game live configuration via /conf_acn_NPC_medecin with SQL persistence.",
-        "Interactive 3D Raycast laser placement for doctor NPCs with ghost ped preview.",
-        "Seamless acn_bridge integration for banking, societies, notifications, progress and target."
+        "Fixed black overlay showing on resource startup by enforcing strict NUI hidden state.",
+        "Ensured CEF NUI focus and cursor release on resource initialization."
     ]
 }
