@@ -1,14 +1,18 @@
 {
     "resource": "NorthYankton",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "recommended",
-    "minimum_supported": "1.0.0",
+    "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete standalone overhaul: Native IPL loader without bob74_ipl dependency.",
-        "Interactive luxury NUI flight ticket & boarding pass system.",
-        "In-game admin configurator (/conf_NorthYankton) with real-time 3D Raycast placement.",
-        "Full acn_bridge integration for economy, notifications, and target systems.",
-        "Automated oxmysql database persistence and live client synchronization."
+        "Fixed 3D Raycast placement — now uses thread-flag pattern with IsDisabledControl for reliable input detection.",
+        "Added blip toggle command (/yankton blips) and 3D marker toggle (/yankton markers).",
+        "Admin panel now has a Players tab showing all players in North Yankton with expel button.",
+        "Blips tab added — toggle, edit and add blips live from in-game without restarting.",
+        "Fixed file load order to prevent function-undefined crashes on script start.",
+        "Fixed GetResourceKvpInt usage (single-argument signature).",
+        "Added per-player flight cooldown to prevent teleport spam.",
+        "Added automatic waypoint on arrival at destination.",
+        "NUI raycast callback now closes correctly before starting placement mode."
     ]
 }
