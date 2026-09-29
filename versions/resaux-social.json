@@ -1,14 +1,19 @@
 {
-  "resource": "resaux-social",
-  "version": "1.7.0",
-  "severity": "recommended",
-  "minimum_supported": "1.0.0",
-  "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.7.0/Hors-Piste.apk",
-  "changelog": [
-    "Possibilite de modifier son nom d'utilisateur (@pseudo) directement dans la modale de profil.",
-    "Unicite absolue garantie a 100% sur l'ensemble de la plateforme avec controle insensible a la casse.",
-    "Delai de securite anti-usurpation limitant la modification a 1 fois tous les 30 jours.",
-    "Indicateur dynamique et badge cadenas indiquant le nombre de jours restants avant la prochaine modification."
-  ]
+    "resource": "resaux-social",
+    "app_name": "Hors-Piste",
+    "version": "1.9.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.9.0/Hors-Piste.apk",
+    "changelog": [
+        "Refonte totale du panneau d'administration backend avec design dark premium et sidebar navigable.",
+        "Gestion ultra-avancee des swaps : actifs en temps reel, declenchement aleatoire, echange manuel cible, arret individuel, sliders duree/intervalle.",
+        "Historique complet des swaps avec pagination, duree calculee et statut en cours / termine.",
+        "Audit logs d'infiltration filtrables par type d'action et par pseudo.",
+        "Gestion des utilisateurs enrichie : recherche, filtres, modal d'edition de profil inline.",
+        "Surveillance des conversations privees avec transcript complet et suppression de messages.",
+        "Moderation du feed avec recherche plein texte, filtre medias et suppression temps reel.",
+        "Broadcast ciblé à un membre ou diffusion generale a tous les membres."
+    ]
 }
