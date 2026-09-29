@@ -1,14 +1,14 @@
 {
-    "resource": "resaux-social",
-    "app_name": "Hors-Piste",
-    "version": "1.6.1",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.6.1/Hors-Piste.apk",
-    "changelog": [
-        "Integration du bouton Google Sign-In directement sur l'ecran d'accueil et de connexion principal.",
-        "Creation de compte et connexion instantanee via Google et Firebase en 1 clic sans mot de passe.",
-        "Synchronisation automatique et securisee du profil Google (avatar officiel et nom d'affichage)."
-    ]
+  "resource": "resaux-social",
+  "app_name": "Hors-Piste",
+  "version": "1.6.2",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
+  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.6.2/Hors-Piste.apk",
+  "changelog": [
+    "Connexion et inscription Google natives fiabilisees via Google Play Services et Firebase.",
+    "Feuille de selection de compte Google native Android sans blocage de popup ni probleme WebView.",
+    "Passerelle de resilience automatique pour la synchronisation des profils et des adresses email existantes."
+  ]
 }
