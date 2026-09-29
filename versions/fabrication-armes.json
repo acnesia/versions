@@ -1,0 +1,13 @@
+{
+  "resource": "fabrication-armes",
+  "version": "2.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Full integration with acn_gang_master (blackmarket discount, craft speed, gang XP).",
+    "Added brand-new Clandestine Weapon Crafting Workbench and modern NUI.",
+    "Integrated 100% in-game administration panel (/conf_fabrication_armes) with 3D Raycast.",
+    "Refactored to 100% acn_bridge and automated oxmysql database storage."
+  ]
+}

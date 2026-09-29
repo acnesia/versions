@@ -1,0 +1,13 @@
+{
+  "resource": "illegal_gofast",
+  "version": "2.0.0",
+  "severity": "important",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Full integration with acn_gang_master (gang cut, XP, smuggling perks).",
+    "In-game administration via /conf_illegal_gofast and 3D Raycast placement.",
+    "Automated database setup and live synchronization via oxmysql.",
+    "Zero-blur satin CEF interface with optimized memory lifecycle."
+  ]
+}

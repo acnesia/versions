@@ -1,14 +1,11 @@
 {
   "resource": "acn_gang_master",
-  "version": "2.3.1",
+  "version": "2.4.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed modal dialog interaction and pointer events in the admin panel.",
-    "Restored full job select dropdown with framework discovery and custom entry fallback.",
-    "Fixed backspace key causing premature UI closure when typing in inputs.",
-    "Improved admin permissions check with ACE permissions fallback.",
-    "Automatically select and display newly created gangs upon creation."
+    "Added new illegal ecosystem perks for weapon crafting, underwater salvage, container heist, and air smuggling.",
+    "Integrated universal progression support for all ACN illegal scripts."
   ]
 }

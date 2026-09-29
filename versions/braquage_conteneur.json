@@ -1,0 +1,13 @@
+{
+  "resource": "braquage_conteneur",
+  "version": "2.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Full integration with acn_gang_master (gang XP, treasury cut, heist perks).",
+    "Complete in-game administration panel (/conf_braquage_conteneur) with 3D Raycast placement.",
+    "Brand new mission briefing modal and fence buyer trading interface.",
+    "Refactored to 100% acn_bridge and automated oxmysql database storage."
+  ]
+}

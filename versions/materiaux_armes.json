@@ -1,0 +1,13 @@
+{
+  "resource": "materiaux_armes",
+  "version": "2.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Full integration with acn_gang_master (harvest yield perk, gang XP, salvage logs).",
+    "Complete in-game administration panel (/conf_materiaux_armes) with 3D Raycast placement.",
+    "Fixed all backdrop-filter blur CEF issues and updated to ACN Marine Salvage theme.",
+    "Refactored to 100% acn_bridge and automated oxmysql database storage."
+  ]
+}
