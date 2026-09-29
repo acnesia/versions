@@ -1,12 +1,11 @@
-{
-    "resource": "acn_NPC_medecin",
-    "version": "1.1.1",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Fixed black WebGL canvas in the surgery mini-game — Three.js now initializes after the browser paints the DOM.",
-        "Canvas pixel dimensions are now correctly calculated using window.innerWidth/Height as fallback.",
-        "Removed CSS width/height override that conflicted with the Three.js renderer."
-    ]
+﻿{
+    "update_url":  "https://portal.cfx.re/",
+    "version":  "1.1.2",
+    "changelog":  [
+                      "Écran Noir Résolu : Correction d\u0027une erreur JavaScript fatale qui bloquait complètement l\u0027initialisation du moteur WebGL Three.js et figeait l\u0027interface.",
+                      "Correction Survie Injustifiée : Si le temps de l\u0027opération chirurgicale expire (échec), le patient est désormais formellement déclaré décédé par arrêt cardiaque et reste mort."
+                  ],
+    "resource":  "acn_NPC_medecin",
+    "severity":  "important",
+    "minimum_supported":  "1.0.0"
 }
