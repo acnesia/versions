@@ -1,0 +1,14 @@
+{
+    "resource": "acn_advert",
+    "version": "1.2.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "In-game live configuration system (/conf_acn_advert) with real-time SQL persistence.",
+        "Interactive 3D Raycast laser placement for advertisement kiosks and agency desks.",
+        "Complete refactoring to use acn_bridge exclusively with zero framework dependencies.",
+        "NUI zero-leak memory lifecycle and modern satin dark UI compliance.",
+        "Automatic remote version checker and startup diagnostics."
+    ]
+}
