@@ -1,15 +1,15 @@
 {
   "resource": "resaux-social",
   "app_name": "Hors-Piste",
-  "version": "2.2.0",
+  "version": "2.4.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v2.2.0/Hors-Piste.apk",
+  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v2.4.0/Hors-Piste.apk",
   "changelog": [
-    "Systeme d'Accusation Swap (+100 / +1000 Coins) : bouton pour detecter les infiltrations (+100) et denoncer le binome exact (+1000).",
-    "Correctif Scintillement Messagerie : elimination complete du clignotement / spinner lors de la saisie et de l'envoi de messages.",
-    "Notifications Systeme Swap Hors-App : canal prioritaire Android avertissant instantanement de l'infiltration meme application fermee.",
-    "Ergonomie Reponses & Zone Safe : degagement sous le poincon camera et la barre d'etat."
+    "Envoi de videos direct dans les messages prives avec lecteur video integre.",
+    "Enregistrement vocal style Snapchat : maintenir pour envoyer direct, glisser a gauche pour annuler, appui simple pour verrouiller.",
+    "Nouveau lecteur audio haute fidelite avec visualiseur d'ondes (waveform) et selecteur de vitesse 1x, 1.5x, 2x.",
+    "Notifications push 24/7 en arriere-plan et diffusions administratives via Google FCM HTTP v1."
   ]
 }
