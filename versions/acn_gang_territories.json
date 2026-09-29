@@ -1,12 +1,12 @@
 {
   "resource": "acn_gang_territories",
-  "version": "1.2.1",
+  "version": "1.2.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed Escape key handling and NUI focus restoration when closing map.",
-    "Resolved cursor freeze and input lock when returning from gang menu.",
-    "Added onResourceStop NUI focus cleanup."
+    "Fixed mouse cursor remaining on screen after closing tactical map.",
+    "Hardened NUI focus cleanup and camera teardown on UI close.",
+    "Enabled toggle behavior for map commands and keybind."
   ]
 }
