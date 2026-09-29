@@ -1,14 +1,13 @@
 {
-    "resource": "hors_piste",
-    "app_name": "Hors-Piste",
-    "version": "1.5.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.5.0/Hors-Piste.apk",
-    "changelog": [
-        "Notifications push Google Play Services 24/7 (Firebase Cloud Messaging) actives meme app fermee et mode economie.",
-        "Reveil haute priorite et distribution instantanee des alertes de messages prives et interactions sociales.",
-        "Chat plein ecran immersif, header sticky et navigation fluide avec le bouton retour Android."
-    ]
+  "resource": "hors_piste",
+  "version": "1.5.1",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
+  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.5.1/Hors-Piste.apk",
+  "changelog": [
+    "Acces direct et rapide au panneau d'administration sur mobile via la barre superieure, profil et parametres.",
+    "Selecteur photo natif de la galerie Android dans le chat prive sans ouvrir l'explorateur de fichiers brut.",
+    "Bouton capture photo instantanee avec l'appareil photo integre dans la messagerie privee."
+  ]
 }
