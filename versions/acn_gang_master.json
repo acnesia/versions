@@ -6,7 +6,7 @@
   "update_url": "https://portal.cfx.re/",
   "changelog": [
     "Fixed modal dialog interaction and pointer events in the admin panel.",
-    "Added flexible job selector supporting both framework discovery and custom typing.",
+    "Restored full job select dropdown with framework discovery and custom entry fallback.",
     "Fixed backspace key causing premature UI closure when typing in inputs.",
     "Improved admin permissions check with ACE permissions fallback.",
     "Automatically select and display newly created gangs upon creation."
