@@ -1,13 +1,13 @@
 {
   "resource": "hors_piste",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.5.1/Hors-Piste.apk",
+  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.6.0/Hors-Piste.apk",
   "changelog": [
-    "Acces direct et rapide au panneau d'administration sur mobile via la barre superieure, profil et parametres.",
-    "Selecteur photo natif de la galerie Android dans le chat prive sans ouvrir l'explorateur de fichiers brut.",
-    "Bouton capture photo instantanee avec l'appareil photo integre dans la messagerie privee."
+    "Creation de compte et connexion instantanee via Google Sign-In avec Firebase Authentication.",
+    "Gestion unifiee et securisee des comptes utilisateurs propulsee par Firebase et Google Cloud.",
+    "Synchronisation automatique des profils Google (avatar, nom d'affichage, adresse email securisee)."
   ]
 }
