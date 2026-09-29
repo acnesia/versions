@@ -1,14 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.4.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.5.0/Hors-Piste.apk",
     "changelog": [
-        "Chat plein ecran immersif sans defilement parasite, header et footer fixes au-dessus du clavier.",
-        "Banniere de notifications interactives in-app avec avatar, carillon doux et vibration haptique.",
-        "Gestion fluide du bouton retour telephone, visionneuse photo lightbox, suppression et double coche doree."
+        "Notifications push Google Play Services 24/7 (Firebase Cloud Messaging) actives meme app fermee et mode economie.",
+        "Reveil haute priorite et distribution instantanee des alertes de messages prives et interactions sociales.",
+        "Chat plein ecran immersif, header sticky et navigation fluide avec le bouton retour Android."
     ]
 }
