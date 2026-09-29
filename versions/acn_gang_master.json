@@ -1,14 +1,14 @@
 {
   "resource": "acn_gang_master",
-  "version": "2.3.0",
+  "version": "2.3.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added gang level gating and talent tree requirements for Hub operations (key H).",
-    "Added 'RÃ©seau d'EnlÃ¨vement' and 'Brouilleur CCTV Police' talent nodes in the talent tree.",
-    "Go-Fast operations restricted to Gang Level 2 with GPS waypoint to contactor.",
-    "Removed illegal drug labs completely from the interface to preserve secrecy.",
-    "Restricted Gang HQ GPS card exclusively to gang leaders."
+    "Fixed modal dialog interaction and pointer events in the admin panel.",
+    "Added flexible job selector supporting both framework discovery and custom typing.",
+    "Fixed backspace key causing premature UI closure when typing in inputs.",
+    "Improved admin permissions check with ACE permissions fallback.",
+    "Automatically select and display newly created gangs upon creation."
   ]
 }
