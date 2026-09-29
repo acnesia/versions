@@ -1,11 +1,13 @@
 {
     "resource": "acn_chargingYseries",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added live distance calculation and automatic proximity sorting for charging stations.",
-        "Added multi-selection checkboxes and one-click bulk station deletion."
+        "Added direct bank payment method for phone charging stations.",
+        "Added real-time charging notifications showing cost per second, speed, and estimated completion time.",
+        "Added live payment mode and cost per second display in player charging interface.",
+        "Added in-game administration command /conf_acn_chargingYseries with chat suggestions."
     ]
 }
