@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.16.3",
+  "version": "5.17.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed staff duty overhead badges and gamertags remaining visible while in NoClip.",
-    "Staff tags and rank titles are now completely hidden in NoClip for players and ground staff.",
-    "Admins also in NoClip can see other noclipping admins with translucent ghosts and staff indicators."
+    "Added interactive area heal (radius) modal with quick presets (5m, 10m, 20m, 50m, 100m) replacing duplicate self heal.",
+    "Added high-visibility safety confirmation modal in red for server-wide heal to prevent accidental clicks.",
+    "Preserved self-revive functionality in the quick menu."
   ]
 }
