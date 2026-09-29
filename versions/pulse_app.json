@@ -1,14 +1,14 @@
 {
   "resource": "pulse_app",
-  "version": "1.7.0",
+  "version": "1.8.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.7.0/Hors-Piste.apk",
+  "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v1.8.0/Hors-Piste.apk",
   "changelog": [
-    "Possibilite de modifier son nom d'utilisateur (@pseudo) directement dans la modale de profil.",
-    "Unicite absolue garantie a 100% sur l'ensemble de la plateforme avec controle insensible a la casse.",
-    "Delai de securite anti-usurpation limitant la modification a 1 fois tous les 30 jours.",
-    "Indicateur dynamique et badge cadenas indiquant le nombre de jours restants avant la prochaine modification."
+    "Stories Ephemeres 24h : publication et consultation de photos/videos avec compteurs de vues en direct.",
+    "Moteur de Swap d'Identite en Direct : inversion temporaire d'identite avec cycle automatique et controle admin.",
+    "Securite Admin Intacte : les privileges administrateurs restent strictement reserves a l'appareil reel de l'admin.",
+    "Verrouillage des Identifiants & Logs Secrets : interdiction de modifier mot de passe/email/pseudo pendant un swap et journal d'audit secret."
   ]
 }
