@@ -1,12 +1,12 @@
 {
     "resource": "acn_NPC_medecin",
-    "version": "1.0.2",
-    "severity": "important",
+    "version": "1.0.3",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Major 3D Raycast laser engine overhaul using synchronous probe and flags 17.",
-        "Eliminated ped collision self-hits, ghost jumping, and 1-frame asynchronous latency.",
-        "Added laser beam line, ground circle marker, orientation arrow, and A/D keyboard rotation."
+        "Standalone universal 3D raycast laser placement module (client/raycast_standard.lua).",
+        "Added AZERTY keyboard support: physical A and E rotation, mouse wheel, left-click placement with melee suppression, right-click cancel with aim suppression.",
+        "Automatic +1.0m height elevation ensuring peds are never sunk into pavement, with arrow keys fine-tuning."
     ]
 }
