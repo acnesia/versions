@@ -1,14 +1,15 @@
 {
   "resource": "pulse_app",
-  "version": "2.4.0",
+  "version": "2.4.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://github.com/acnesia/resaux-social/releases/latest",
-  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v2.4.0/Pulse.apk",
+  "download_url": "https://github.com/acnesia/resaux-social/releases/download/v2.4.2/Pulse.apk",
   "changelog": [
-    "Envoi de videos direct dans les messages prives avec lecteur video integre.",
-    "Enregistrement vocal style Snapchat : maintenir pour envoyer direct, glisser a gauche pour annuler, appui simple pour verrouiller.",
-    "Nouveau lecteur audio haute fidelite avec visualiseur d'ondes (waveform) et selecteur de vitesse 1x, 1.5x, 2x.",
-    "Notifications push 24/7 en arriere-plan et diffusions administratives via Google FCM HTTP v1."
+    "Aiguillage automatique des notifications push sur le telephone incarnant le compte en cas de swap d'identite.",
+    "Suppression totale des notifications en doublon lors de la reception de messages prives.",
+    "Bandeau permanent SwapStatusBar avec compte incarne, nom affiche et decompte en direct du temps restant.",
+    "Synchronisation immediate de l'identite lors du retour dans l'application sans necessiter de redemarrage.",
+    "Ajout de la commande /conf_resaux_social et /conf_hors_piste pour acceder au panneau d'administration en direct."
   ]
 }

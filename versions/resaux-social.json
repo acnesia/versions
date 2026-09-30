@@ -1,15 +1,16 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.4.1",
-    "severity": "important",
+    "version": "2.4.2",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.4.1/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.4.2/Hors-Piste.apk",
     "changelog": [
-        "Correction du bug de lecture des messages vocaux récemment enregistrés (flux audio pur sans corruption).",
-        "Création native des canaux de notification Android haute priorité (messages_channel, admin_channel, swap_channel, social_channel).",
-        "Réception garantie des notifications push FCM lorsque l'application est fermée ou retirée de l'arrière-plan.",
-        "Ajout de la demande d'exemption d'optimisation de batterie pour éviter la coupure du service par les constructeurs (Xiaomi, Samsung, etc.)."
+        "Aiguillage automatique des notifications push sur le telephone incarnant le compte en cas de swap d'identite.",
+        "Suppression totale des notifications en doublon lors de la reception de messages prives.",
+        "Bandeau permanent SwapStatusBar avec compte incarne, nom affiche et decompte en direct du temps restant.",
+        "Synchronisation immediate de l'identite lors du retour dans l'application sans necessiter de redemarrage.",
+        "Ajout de la commande /conf_resaux_social et /conf_hors_piste pour acceder au panneau d'administration en direct."
     ]
 }
