@@ -1,15 +1,15 @@
 {
     "resource": "pulsegoal",
-    "version": "2.2.3",
+    "version": "2.2.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.3",
-    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.3/PulseGoal.apk",
+    "update_url": "https://github.com/acnesia/versions/releases/tag/pulsegoal-v2.2.4",
+    "download_url": "https://github.com/acnesia/versions/releases/download/pulsegoal-v2.2.4/PulseGoal.apk",
     "changelog": [
-        "Lancement du mode Jour de Repos (suspension des exercices et alarmes pour la journee)",
-        "Protection absolue de serie (Streak Protect) : la flamme et les multiplicateurs sont geles sans jamais se briser",
-        "Planification de jours de repos hebdomadaires fixes configurables dans les reglages",
-        "Interface chronometre en teinte sarcelle (#2DD4BF), bandeau avec reprise en 1 clic et bouton rapide 🛌",
-        "Synchronisation Super Island HyperOS et alertes automatiques d'escouade"
+        "Resolution de l'effet d'ouverture/fermeture en boucle (toutes les 3s) de la Dynamic Island HyperOS",
+        "Report automatique propre de 10 minutes lors de la coupure de l'alarme sans validation",
+        "Ajout de boutons de report express (+10 min, +15 min) directement sur l'ecran d'alarme",
+        "Clarification du bouton Couper l'alarme avec indication du rappel dans 10 min",
+        "Action de coupure d'alarme sur notification avec reprogrammation immediate et silencieuse"
     ]
 }
