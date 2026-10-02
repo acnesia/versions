@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.4",
+    "version": "1.11.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed cashier NPC and checkout point 3D placement raycast inside supermarket interior MLOs.",
-        "Resolved ghost ped raycast blockage and added face-camera angle locking and position freeze.",
-        "Added instant cashier model saving and live client-side ped reconciliation upon repositioning."
+        "Fixed cashier NPC flickering caused by GTA V entity capsule vertical offset.",
+        "Ensured cashier ped remains stably spawned and frozen at the counter without periodic deletion loops.",
+        "Isolated placement mode to prevent proximity streaming collisions."
     ]
 }
