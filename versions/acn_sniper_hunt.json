@@ -1,0 +1,13 @@
+{
+    "resource": "acn_sniper_hunt",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Lancement initial : Mini-jeu cache-cache Sniper vs Fuyard dissimulé.",
+        "Créateur de scènes 100% in-game avec placement Raycast 3D.",
+        "Catalogue de plus de 100 animations civiles et scénarios GTA V.",
+        "Gestion automatique des instances, suppression de densité ambiante et 3 chances du tireur."
+    ]
+}
