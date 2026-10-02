@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.19.1",
+  "version": "5.19.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed gallery reload and refresh callback properly reloading existing screenshots in /admin.",
-    "Redesigned screenshot cards layout with fixed 16:9 aspect ratio, clean object-fit and satin badges.",
-    "Added live anti-cheat HUD telemetry inspector (NUI/menu focus detection, HP, armor, godmode, vehicle, weapon, coords).",
-    "Added solo testing capability for random screenshot feature when alone on the server."
+    "Redesigned screenshot gallery with compact cards and instant zoom lightbox on click.",
+    "Added native real-time FPS counter, frame time latency and FPS drop detection (< 30 FPS).",
+    "Added live On-Screen Display (OSD) overlay showing FPS, ping and screen resolution on captures.",
+    "Fixed CSS layout constraints eliminating any container stretching or horizontal scrolling."
   ]
 }
