@@ -1,12 +1,13 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.0.6",
+    "version": "3.1.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Support complet des profils d'instances privées via ApplyInstanceProfile.",
-        "Export public de GetScenarioPresetCatalog pour acn_instan.",
-        "Gestion dynamique des étoiles de recherche et densités PNJ en instance."
+        "Mise à jour en direct des réglages IA, attaques et densités sans restart.",
+        "Correctif du vol de véhicules PNJ et de l'extraction des conducteurs.",
+        "Rétablissement complet des capacités d'attaque lors de la réactivation.",
+        "Maintien pérenne des densités configurées et portée naturelle de spawn."
     ]
 }
