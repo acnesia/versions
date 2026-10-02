@@ -1,13 +1,15 @@
 {
     "resource": "acn_sniper_hunt",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Stabilisateur de visée et retenue du souffle au sniper [SHIFT].",
-        "Sixième sens du fuyard avec battements de coeur et vignette d'alerte.",
-        "Leurre pièce de monnaie [F] faisant pivoter les PNJ civils aux alentours.",
-        "Alerte et stinger de Mort Subite lors des 60 dernières secondes de match."
+        "Restauration automatique du ped et des tenues Rcore clothing en fin de match.",
+        "MÃ©morisation des coordonnÃ©es initiales et retour propre Ã  l'emplacement d'origine.",
+        "Ajout de blips radar visibles sur la minimap pour localiser les missions du fuyard.",
+        "SÃ©lection facile des joueurs proches dans le lobby sans devoir retenir les IDs.",
+        "Correction du lancement en rÃ´le Fuyard et rÃ©solution de l'ID tireur.",
+        "PossibilitÃ© d'interrompre la partie Ã  tout moment via l'interface ou /stopsniper."
     ]
 }
