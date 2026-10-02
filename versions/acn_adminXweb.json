@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.18.0",
+  "version": "5.18.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added admin ped transformation system with preset library (animals, emergency services, story characters, gangs).",
-    "Added custom ped model input modal and one-click normal skin restoration (/resetped).",
-    "Added dedicated chat commands /ped [model] and /resetped with autocomplete suggestions."
+    "Fixed custom ped modal activation and NUI focus in quick admin menu.",
+    "Added Enter key shortcut for custom ped inputs and improved model name resolution.",
+    "Integrated custom ped prompt with standard admin modal dialog system."
   ]
 }
