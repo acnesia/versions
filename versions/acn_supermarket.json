@@ -1,11 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.3",
+    "version": "1.11.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Major performance optimization of shelf auto-restock loop eliminating server thread freezes.",
-        "Single-pass O(P) batch indexing, async chunked database inserts, and lightweight network synchronization."
+        "Fixed cashier NPC and checkout point 3D placement raycast inside supermarket interior MLOs.",
+        "Resolved ghost ped raycast blockage and added face-camera angle locking and position freeze.",
+        "Added instant cashier model saving and live client-side ped reconciliation upon repositioning."
     ]
 }
