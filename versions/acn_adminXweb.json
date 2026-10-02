@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.19.2",
+  "version": "5.19.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Redesigned screenshot gallery with compact cards and instant zoom lightbox on click.",
-    "Added native real-time FPS counter, frame time latency and FPS drop detection (< 30 FPS).",
-    "Added live On-Screen Display (OSD) overlay showing FPS, ping and screen resolution on captures.",
-    "Fixed CSS layout constraints eliminating any container stretching or horizontal scrolling."
+    "Added full replica in-game HUD overlay on screenshots (Cash, Bank, Black Money, Job, Grade, Time, Street).",
+    "Added live cash badges on gallery thumbnails for instant economy inspection.",
+    "Added HTML5 Canvas export feature allowing administrators to download or share screenshots with the HUD baked in.",
+    "Integrated live game clock, street and zone synchronization into screenshot telemetry."
   ]
 }
