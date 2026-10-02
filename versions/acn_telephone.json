@@ -1,0 +1,12 @@
+{
+    "resource": "acn_telephone",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the Telephone Store MLO.",
+        "Integrated animated swing doors system and collision cuts.",
+        "Automated exterior object sweep and collision replacement."
+    ]
+}
