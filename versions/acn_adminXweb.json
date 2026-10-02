@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.18.1",
+  "version": "5.19.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed custom ped modal activation and NUI focus in quick admin menu.",
-    "Added Enter key shortcut for custom ped inputs and improved model name resolution.",
-    "Integrated custom ped prompt with standard admin modal dialog system."
+    "Added full Fivemanage anti-cheat screenshot surveillance gallery in main /admin menu with search, filters and fullscreen zoomable lightbox.",
+    "Added instant live screen capture option for online players in Quick Admin (F10) menu capturing complete game HUD and NUI interfaces.",
+    "Added random player screen capture feature excluding the requesting administrator.",
+    "Integrated safe anti-concurrency locks and automatic SQL persistence for server screenshot history."
   ]
 }
