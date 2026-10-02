@@ -1,12 +1,13 @@
 {
     "resource": "acn_sniper_hunt",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Support Multi-Fuyards (1 Chasseur au Sniper vs N Fuyards dissimulés).",
-        "Intégration du moteur Raycast Laser standard ACN avec punch-through et sonde MLO.",
-        "Correction du blocage curseur souris lors du placement 3D et déverrouillage caméra GTA V."
+        "Stabilisateur de visée et retenue du souffle au sniper [SHIFT].",
+        "Sixième sens du fuyard avec battements de coeur et vignette d'alerte.",
+        "Leurre pièce de monnaie [F] faisant pivoter les PNJ civils aux alentours.",
+        "Alerte et stinger de Mort Subite lors des 60 dernières secondes de match."
     ]
 }
