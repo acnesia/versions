@@ -1,14 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.21.1",
+  "version": "5.21.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Full Founder immunity (fondateur, founder, owner, Power >= 100) allowing unrestricted testing, noclip, vehicle spawning, and weapon handling without false flags.",
-    "Integrated multi-inventory hash normalization and native acn_inventory search (GetCurrentWeapon & GetInventoryItems) resolving false positive missing weapon reports.",
-    "Active multi-hit Godmode auditor requiring 5+ confirmed hits with body armor depletion verification before sanction.",
-    "Enhanced entity injection filter blocking blacklisted troll peds, crash props/cages, and unauthorized vehicle spawning.",
-    "Integrated anti-dump canary honeypots catching blind cheat executors instantly."
+    "Fixed job and garage vehicle spawning: eliminated false positive popType blocks so buses, job cars, dealership and garage vehicles spawn without disruption.",
+    "Targeted military vehicle blacklist: strictly blocks cheat spawns of tanks (Rhino, Khanjali), jets (Hydra, Lazer), APC, and armed vehicles.",
+    "Remote vehicle spawn interception: cancels external cheat spawns created at abnormal distances (> 120m).",
+    "Mass entity and spam rate limiting: protects players against cheat crash props and burst spawns."
   ]
 }
