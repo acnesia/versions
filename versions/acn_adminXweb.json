@@ -1,12 +1,14 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.20.3",
+  "version": "5.21.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added clear player identification [ID: X | PlayerName] to all staff in-game alerts, chat messages, and logs.",
-    "Eliminated join/spawn animation false positives by introducing a 45s grace period upon player connection for sky cameras and cutscenes.",
-    "Integrated native cutscene and scenario filtering for movement sensors."
+    "Full modularization of oversized server codebase into clean, dedicated, single-responsibility files (idfix.lua, web_api.lua, spectate.lua, staff_notes.lua).",
+    "Isolated Web HTTP API handler and real-time live heartbeat sync into server/web_api.lua.",
+    "Decoupled IDFix unique ID synchronization and reconciling into server/idfix.lua.",
+    "Centralized staff notes and searchable audit logs into server/staff_notes.lua.",
+    "Updated manifest registrations and Tebex escrow exclusions for all modular components."
   ]
 }
