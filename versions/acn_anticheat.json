@@ -1,13 +1,13 @@
 {
     "resource": "acn_anticheat",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial standalone release separated from admin scripts.",
-        "Zero false positive detection for jobs, garages and weapons.",
-        "Integrated test mode with in-game toggle (/actest, /conf_acn_anticheat).",
-        "Automated SQL logs setup and founder immunity bypass."
+        "Fixed standalone Test Mode toggle and staff permission validation.",
+        "Added universal cheat vehicle spawner blocking for all vehicles.",
+        "Seamless automatic spawn authorization for jobs and garages.",
+        "Fixed staff notifications and OneSync distance migration false positives."
     ]
 }
