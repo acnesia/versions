@@ -1,0 +1,12 @@
+{
+  "resource": "acn_donateshop",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release: Luxury Tebex V-Coin store and multi-category marketplace.",
+    "Live in-game administration suite (/conf_acn_donateshop) with 3D raycast placement.",
+    "Direct Tebex webhook integration and automated RCON delivery commands."
+  ]
+}
