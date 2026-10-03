@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.2.0",
+    "version": "3.2.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Animations AFK immersives aleatoires (fumer, attente...) avec pre-alerte visuelle [Y].",
-        "Reglage direct in-game des temporisations d'inactivite et duree d'alerte via /conf_acn_pnj_gestion.",
-        "Reprise de mouvement instantanee et desactivation de la camera cinematique AFK native GTA V."
+        "Pause AFK prolongee parametrable (10 min par defaut) apres confirmation [Y].",
+        "Reglage direct in-game de la pause d'inactivite via /conf_acn_pnj_gestion.",
+        "Confirmation sonore et notification discrète de maintien actif."
     ]
 }
