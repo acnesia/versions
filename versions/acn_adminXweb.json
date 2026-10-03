@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.20.1",
+  "version": "5.20.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Blocked external vehicle spawning from cheat menus via authoritative server entityCreating interception.",
-    "Added dedicated moving NoClip detector with automatic definitive ban on confirmed cheat evasion.",
-    "Fixed staff alerts privacy: warnings and sound cues are strictly broadcast to authorized administrators only."
+    "Added in-game Anti-Cheat Test Mode toggle in /admin header and /actest chat command.",
+    "Test Mode keeps all detections, alerts, audio cues and logs active while bypassing bans, kicks, and rollbacks for hassle-free cheat testing.",
+    "Real-time synchronized test mode state across all connected administrators."
   ]
 }
