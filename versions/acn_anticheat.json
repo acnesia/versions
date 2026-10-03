@@ -1,12 +1,13 @@
 {
     "resource": "acn_anticheat",
-    "version": "1.0.2",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed fatal export lookup crash on startup.",
-        "Guaranteed fail-safe export caller preventing unhandled exceptions.",
-        "Unified Test Mode link between /admin menu, GlobalState and acn_anticheat."
+        "Modular architecture split into clean feature files.",
+        "Universal ped cheat interception blocking injected mission peds.",
+        "Automatic job vehicle whitelist (bus, taxi, trucks) preventing despawn false positives.",
+        "2D horizontal velocity separation in NoClip detection eliminating fall false positives."
     ]
 }
