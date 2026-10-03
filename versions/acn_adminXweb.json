@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.20.2",
+  "version": "5.20.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added in-game Anti-Cheat Test Mode toggle in /admin header and /actest chat command.",
-    "Test Mode keeps all detections, alerts, audio cues and logs active while bypassing bans, kicks, and rollbacks for hassle-free cheat testing.",
-    "Real-time synchronized test mode state across all connected administrators."
+    "Added clear player identification [ID: X | PlayerName] to all staff in-game alerts, chat messages, and logs.",
+    "Eliminated join/spawn animation false positives by introducing a 45s grace period upon player connection for sky cameras and cutscenes.",
+    "Integrated native cutscene and scenario filtering for movement sensors."
   ]
 }
