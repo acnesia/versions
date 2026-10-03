@@ -1,13 +1,12 @@
 {
     "resource": "acn_anticheat",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed standalone Test Mode toggle and staff permission validation.",
-        "Added universal cheat vehicle spawner blocking for all vehicles.",
-        "Seamless automatic spawn authorization for jobs and garages.",
-        "Fixed staff notifications and OneSync distance migration false positives."
+        "Fixed fatal export lookup crash on startup.",
+        "Guaranteed fail-safe export caller preventing unhandled exceptions.",
+        "Unified Test Mode link between /admin menu, GlobalState and acn_anticheat."
     ]
 }
