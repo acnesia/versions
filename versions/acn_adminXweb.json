@@ -1,14 +1,14 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.21.0",
+  "version": "5.21.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Full modularization of oversized server codebase into clean, dedicated, single-responsibility files (idfix.lua, web_api.lua, spectate.lua, staff_notes.lua).",
-    "Isolated Web HTTP API handler and real-time live heartbeat sync into server/web_api.lua.",
-    "Decoupled IDFix unique ID synchronization and reconciling into server/idfix.lua.",
-    "Centralized staff notes and searchable audit logs into server/staff_notes.lua.",
-    "Updated manifest registrations and Tebex escrow exclusions for all modular components."
+    "Full Founder immunity (fondateur, founder, owner, Power >= 100) allowing unrestricted testing, noclip, vehicle spawning, and weapon handling without false flags.",
+    "Integrated multi-inventory hash normalization and native acn_inventory search (GetCurrentWeapon & GetInventoryItems) resolving false positive missing weapon reports.",
+    "Active multi-hit Godmode auditor requiring 5+ confirmed hits with body armor depletion verification before sanction.",
+    "Enhanced entity injection filter blocking blacklisted troll peds, crash props/cages, and unauthorized vehicle spawning.",
+    "Integrated anti-dump canary honeypots catching blind cheat executors instantly."
   ]
 }
