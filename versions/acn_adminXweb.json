@@ -1,17 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.20.0",
+  "version": "5.20.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Contextual Staff Immunity: admins have no bypass unless officially on duty with verified server action statebags.",
-    "Server-side velocity and displacement audits with 0 false positive filters for ragdolls and desyncs.",
-    "Sustained 3.5s confirmation window for Fly and NoClip detection.",
-    "Safe Teleport token exemption system for official elevators, garages, and staff commands.",
-    "Weapon inventory cross-checking on weaponDamageEvent with blacklisted heavy weapon blocker.",
-    "Godmode and verified combat damage resistance detection.",
-    "Explosion distance filtering and entity creation rate limiting (15 entities/s).",
-    "Staff in-game sound and visual broadcast alerts with graduated rollback and ban sanctions."
+    "Blocked external vehicle spawning from cheat menus via authoritative server entityCreating interception.",
+    "Added dedicated moving NoClip detector with automatic definitive ban on confirmed cheat evasion.",
+    "Fixed staff alerts privacy: warnings and sound cues are strictly broadcast to authorized administrators only."
   ]
 }
