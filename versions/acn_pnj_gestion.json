@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Pause AFK prolongee parametrable (10 min par defaut) apres confirmation [Y].",
-        "Reglage direct in-game de la pause d'inactivite via /conf_acn_pnj_gestion.",
-        "Confirmation sonore et notification discrète de maintien actif."
+        "Arret instantane sans latence des animations et scenarios des l'appui sur n'importe quelle touche.",
+        "Suppression immediate des props de scenario (telephone, cigarette...) en main lors du deplacement.",
+        "Detection universelle de toutes les touches clavier/souris meme desactivees par le scenario."
     ]
 }
