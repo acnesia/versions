@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.21.3",
+  "version": "5.21.4",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed Entity Creation Rate Limit false positives: Ambient GTA V traffic and streamed map peds are now strictly ignored, eliminating spurious spam warnings.",
-    "Adjusted entity injection threshold to realistic malicious flooding rates (35+ custom mission entities per second).",
-    "Seamless job and garage vehicle spawning across all frameworks."
+    "Removed false-positive remote vehicle distance checks caused by uninitialized (0, 0, 0) entity coordinates in entityCreating.",
+    "Integrated client-side active vehicle watchdog that detects and automatically despawns unauthorized blacklisted military/combat cheat vehicles in real time.",
+    "Maintained strict vehicle burst spawn rate limits protecting against mass vehicle crash attempts."
   ]
 }
