@@ -1,0 +1,12 @@
+{
+    "resource": "acn_poleemploi",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Lancement officiel du PÃ´le Emploi interactif avec 9 mÃ©tiers d'intÃ©rim.",
+        "Configurateur en jeu 100% interactif avec placement 3D par Raycast (/conf_acn_poleemploi).",
+        "SystÃ¨me de rÃ©compenses et inventaires gÃ©rÃ© via acn_bridge."
+    ]
+}
