@@ -1,13 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.21.2",
+  "version": "5.21.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed job and garage vehicle spawning: eliminated false positive popType blocks so buses, job cars, dealership and garage vehicles spawn without disruption.",
-    "Targeted military vehicle blacklist: strictly blocks cheat spawns of tanks (Rhino, Khanjali), jets (Hydra, Lazer), APC, and armed vehicles.",
-    "Remote vehicle spawn interception: cancels external cheat spawns created at abnormal distances (> 120m).",
-    "Mass entity and spam rate limiting: protects players against cheat crash props and burst spawns."
+    "Fixed Entity Creation Rate Limit false positives: Ambient GTA V traffic and streamed map peds are now strictly ignored, eliminating spurious spam warnings.",
+    "Adjusted entity injection threshold to realistic malicious flooding rates (35+ custom mission entities per second).",
+    "Seamless job and garage vehicle spawning across all frameworks."
   ]
 }
