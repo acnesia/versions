@@ -1,13 +1,13 @@
 {
     "resource": "acn_anticheat",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Modular architecture split into clean feature files.",
-        "Universal ped cheat interception blocking injected mission peds.",
-        "Automatic job vehicle whitelist (bus, taxi, trucks) preventing despawn false positives.",
-        "2D horizontal velocity separation in NoClip detection eliminating fall false positives."
+        "Professional downward ShapeTest raycasting & wall-phase capsule detection for NoClip.",
+        "Anti-Bodyguard OneSync protection neutralizing spoofed ambient peds (Issue #2051).",
+        "Resolved weaponDamageEvent NetID bug and implemented authoritative Canary Damage Probes for Godmode.",
+        "Client watchdog scanning GetPlayerInvincible_2 and SetEntityProofs with jitter."
     ]
 }
