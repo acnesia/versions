@@ -1,13 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Mise à jour en direct des réglages IA, attaques et densités sans restart.",
-        "Correctif du vol de véhicules PNJ et de l'extraction des conducteurs.",
-        "Rétablissement complet des capacités d'attaque lors de la réactivation.",
-        "Maintien pérenne des densités configurées et portée naturelle de spawn."
+        "Animations AFK immersives aleatoires (fumer, attente...) avec pre-alerte visuelle [Y].",
+        "Reglage direct in-game des temporisations d'inactivite et duree d'alerte via /conf_acn_pnj_gestion.",
+        "Reprise de mouvement instantanee et desactivation de la camera cinematique AFK native GTA V."
     ]
 }
