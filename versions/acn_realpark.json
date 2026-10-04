@@ -1,12 +1,11 @@
 {
   "resource": "acn_realpark",
-  "version": "3.4.5",
+  "version": "3.4.6",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau prompt d'interaction moderne en HTML/NUI pour l'ouverture des garages et rangements.",
-    "Correction du dédoublement de touche de contexte [E] [E] sur les interactions.",
-    "Optimisation fluide sans impact de performance avec masquage automatique sur ouverture de menu."
+    "Masquage strict et fiable du badge d'interaction flottant dès l'ouverture du menu du garage.",
+    "Synchronisation d'état Lua/JS interdisant tout affichage de prompt en arrière-plan d'interface."
   ]
 }
