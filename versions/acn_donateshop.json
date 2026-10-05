@@ -1,0 +1,12 @@
+{
+  "resource": "acn_donateshop",
+  "version": "1.1.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "New BlueBird RP Electric Cobalt & Cyan luxury visual theme with Los Santos night skyline.",
+    "Interactive category pill navigation bar covering all store departments.",
+    "Revamped Special Offer bundle showcase and high-performance CEF optimizations."
+  ]
+}
