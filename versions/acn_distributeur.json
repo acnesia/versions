@@ -1,0 +1,11 @@
+{
+  "resource": "acn_distributeur",
+  "version": "1.2.1",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Ajustement de la distance d'interaction cible (1.8m) pour les distributeurs.",
+    "Ajout de la commande admin /conf_acn_distributeur avec autocomplétion chat."
+  ]
+}
