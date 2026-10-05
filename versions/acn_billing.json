@@ -1,13 +1,12 @@
 {
     "resource": "acn_billing",
-    "version": "4.5.0",
+    "version": "4.6.0",
     "severity": "recommended",
     "minimum_supported": "4.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Overhauled tablet UI typography and contrast for enhanced legibility.",
-        "Optimized FiveM CEF rendering by removing 3D perspective and infinite animation loops.",
-        "Added direct one-click invoice payment action buttons in billing tables.",
-        "Streamlined target player selection with direct ID input and nearby player picker."
+        "Added interactive live prompt allowing recipients to directly accept or decline incoming invoices.",
+        "Enabled recipient invoice approval workflow requiring acceptance before payment.",
+        "Integrated fast accept and decline action buttons in received invoices table."
     ]
 }
