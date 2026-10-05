@@ -1,11 +1,11 @@
 {
     "resource": "acn_apartments",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction d'une erreur d'export côté client (GetPlayerIdentifier) pour la compatibilité avec le bridge.",
-        "Amélioration de la synchronisation de l'identifiant joueur."
+        "Fixed automatic SQL table creation on startup with oxmysql.",
+        "Separated multi-statement queries to prevent MariaDB syntax error."
     ]
 }
