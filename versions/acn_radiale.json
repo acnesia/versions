@@ -1,11 +1,11 @@
 {
   "resource": "acn_radiale",
-  "version": "3.2.2",
+  "version": "3.3.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Adaptation et synchronisation complete de l'interface avec le script FiveM.",
-    "Deblocage dynamique des requetes NUI et fermeture fluide via Echap et clic droit."
+    "Interface d'administration in-game complete (/conf_acn_radiale) pour creer et gerer actions et sous-menus en direct.",
+    "Selecteur d'icones rapide et synchronisation instantanee pour tous les joueurs."
   ]
 }
