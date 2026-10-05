@@ -1,11 +1,11 @@
 {
   "resource": "acn_radiale",
-  "version": "3.3.0",
+  "version": "3.3.1",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Interface d'administration in-game complete (/conf_acn_radiale) pour creer et gerer actions et sous-menus en direct.",
-    "Selecteur d'icones rapide et synchronisation instantanee pour tous les joueurs."
+    "Liaison dynamique integrale entre config.lua et le panneau d'administration /conf_acn_radiale.",
+    "Bouton de reimportation rapide depuis config.lua et correction de l'arborescence des sous-menus."
   ]
 }
