@@ -1,12 +1,12 @@
 {
   "resource": "acn_realpark",
-  "version": "3.4.7",
+  "version": "3.4.8",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Restauration du service voiturier et ajout des commandes /valet et /voiturier.",
-    "Organisation automatique des garages par distance dans /conf_acn_realpark.",
-    "Correction des blocages d'interface, du flou et du curseur lors des modifications de garages."
+    "Guidage routier GPS longue portée du voiturier jusqu'au joueur avec anti-blocage.",
+    "Résolution déterministe du point d'apparition du voiturier et placement indépendant.",
+    "Sécurisation des callbacks NUI et ajout des commandes de secours /realpark_fix et /conf_acn_realpark_reset."
   ]
 }
