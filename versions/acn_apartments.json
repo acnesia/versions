@@ -1,11 +1,12 @@
 {
     "resource": "acn_apartments",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed automatic SQL table creation on startup with oxmysql.",
-        "Separated multi-statement queries to prevent MariaDB syntax error."
+        "Fixed RefreshBlips lexical scope nil error on client startup.",
+        "Added /conf and /conf_apartments command aliases for in-game configuration.",
+        "Sanitized admin panel payload serialization for NUI."
     ]
 }
