@@ -1,10 +1,11 @@
 {
   "resource": "acn_radiale",
-  "version": "3.2.1",
-  "severity": "optional",
+  "version": "3.2.2",
+  "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Suppression de l'entrée Documents dans les menus personnalisés par défaut."
+    "Adaptation et synchronisation complete de l'interface avec le script FiveM.",
+    "Deblocage dynamique des requetes NUI et fermeture fluide via Echap et clic droit."
   ]
 }
