@@ -1,11 +1,11 @@
 {
   "resource": "acn_radiale",
-  "version": "3.3.1",
+  "version": "3.3.2",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Liaison dynamique integrale entre config.lua et le panneau d'administration /conf_acn_radiale.",
-    "Bouton de reimportation rapide depuis config.lua et correction de l'arborescence des sous-menus."
+    "Correction du blocage de la roue a pied avec masquage automatique du sous-menu vehicule vide.",
+    "Fiabilisation du repli de secours et migration KVP v3 pour un affichage instantane de toutes les actions."
   ]
 }
