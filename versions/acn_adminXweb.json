@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.21.4",
+  "version": "5.22.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Removed false-positive remote vehicle distance checks caused by uninitialized (0, 0, 0) entity coordinates in entityCreating.",
-    "Integrated client-side active vehicle watchdog that detects and automatically despawns unauthorized blacklisted military/combat cheat vehicles in real time.",
-    "Maintained strict vehicle burst spawn rate limits protecting against mass vehicle crash attempts."
+    "Ajout du panneau de configuration in-game exclusif Fondateur accessible via /conf_acn_adminXweb.",
+    "Controle total et modification directe de la totalite des parametres sans toucher au config.lua.",
+    "Persistance automatique des modifications en base de donnees et synchronisation live.",
+    "Securisation stricte cote serveur reservant l acces et les sauvegardes uniquement aux Fondateurs."
   ]
 }
