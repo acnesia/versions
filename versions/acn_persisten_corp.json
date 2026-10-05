@@ -1,0 +1,12 @@
+{
+    "resource": "acn_persisten_corp",
+    "version": "1.0.1",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed issue where ghost bodies would not spawn on /logout.",
+        "Fixed global skin bug that forced the body's appearance onto all players.",
+        "Restructured and split code into clean, modular files for professional maintainability."
+    ]
+}
