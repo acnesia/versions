@@ -1,12 +1,13 @@
 {
     "resource": "acn_apartments",
-    "version": "1.0.3",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed RefreshBlips lexical scope nil error on client startup.",
-        "Added /conf and /conf_apartments command aliases for in-game configuration.",
-        "Sanitized admin panel payload serialization for NUI."
+        "Complete overhaul: simple, robust apartment creation via /conf.",
+        "Automated rent cycle with periodic deductions via acn_bridge.",
+        "Vanilla GTA V IPLs and shells support with routing buckets.",
+        "Disconnect persistence inside apartments."
     ]
 }
