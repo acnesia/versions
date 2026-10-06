@@ -1,11 +1,11 @@
 {
     "resource": "acn_apartments",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed admin export resolution and hardened permission checks with pcall.",
-        "Ensured zero runtime export errors on server startup."
+        "Automatic database column migration for last_rent_payment and rent_interval_hours.",
+        "Fixed NUI delete crash and added real-time list updating without closing."
     ]
 }
