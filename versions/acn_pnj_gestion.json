@@ -1,11 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.4.2",
+    "version": "3.4.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction d'une erreur native client bloquant l'ouverture du menu /conf_acn_pnj_gestion et /pnj.",
-        "Renforcement du blocage de panique et de fuite des PNJ face aux tirs et menaces."
+        "Migration automatique du schema SQL de la table acn_pnj_settings.",
+        "Initialisation serveur robuste eliminant les erreurs de demarrage sur GetSettings et BroadcastSettings."
     ]
 }
