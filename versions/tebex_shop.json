@@ -1,0 +1,11 @@
+{
+    "resource": "tebex_shop",
+    "version": "1.0.1",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Fixed server nil global coinName error when retrieving store configuration.",
+        "Improved server-side initialization stability."
+    ]
+}
