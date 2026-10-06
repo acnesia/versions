@@ -1,12 +1,11 @@
 {
     "resource": "tebex_shop",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added complete locales isolation (fr/en) with dynamic NUI localization.",
-        "Added /conf_tebex_shop in-game configuration command with chat suggestion.",
-        "Integrated inventory_images standard and CEF zero-leak lifecycle."
+        "Fixed vehicle delivery: automated SQL database garage registration with plate and keys.",
+        "Separated delivery error messages for items, vehicles, and accounts."
     ]
 }
