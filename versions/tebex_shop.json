@@ -1,13 +1,12 @@
 {
     "resource": "tebex_shop",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Super-Admin Power Studio page with live item table, flash sales manager, and category editor.",
-        "Added real-time percentage discounts (-20%, -50%), price strikethroughs, and limited-time mentions.",
-        "Added in-game category addition, deletion, and dropdown selection.",
-        "Server-authoritative effective price calculation preventing client exploit."
+        "Revamped split home hero with giant VIP showcase and starter pack banner.",
+        "Added in-game vehicle 3D photo studio with green screen and automated camera controls.",
+        "Added secure FiveManage API and Discord webhook integration for vehicle snapshots."
     ]
 }
