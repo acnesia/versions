@@ -1,11 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.4.3",
+    "version": "3.4.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Migration automatique du schema SQL de la table acn_pnj_settings.",
-        "Initialisation serveur robuste eliminant les erreurs de demarrage sur GetSettings et BroadcastSettings."
+        "Suppression totale de la panique et des cris des PNJ lors des coups de feu.",
+        "Neutralisation complete des attaques de gangs et animaux sauvages dans leurs territoires.",
+        "Interception immediate des drops d armes mortelles et correction des services de dispatch police."
     ]
 }
