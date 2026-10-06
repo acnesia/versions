@@ -1,12 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.4.4",
+    "version": "3.5.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Suppression totale de la panique et des cris des PNJ lors des coups de feu.",
-        "Neutralisation complete des attaques de gangs et animaux sauvages dans leurs territoires.",
-        "Interception immediate des drops d armes mortelles et correction des services de dispatch police."
+        "Option d'entree vehicule via la portiere et siege les plus proches.",
+        "Gestion 100% in-game du module porte la plus proche avec synchronisation live."
     ]
 }
