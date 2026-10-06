@@ -1,12 +1,13 @@
 {
     "resource": "tebex_shop",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete UI redesign: modern web layout, left sidebar categories, hero banner, and gold balance display.",
-        "Added infinite reward possibilities: console commands, server triggers, and client triggers.",
-        "Added variable placeholders for rewards: {id}, {identifier}, {citizenid}, {count}, {name}."
+        "True fullscreen website experience: 100% viewport, no window borders.",
+        "Multi-page store navigation: Home & Flash Sales Swiper, VIP Tiers comparison, Full catalog by aisles, Readme.",
+        "Interactive product inspection modal with detailed descriptions and attributes.",
+        "Pre-configured rich categories: VIP tiers, imports, stashs, money, and items."
     ]
 }
