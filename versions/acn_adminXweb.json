@@ -1,12 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.24.0",
+  "version": "5.25.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Enregistrement natif de toutes les commandes chat FiveM (/car, /carspawn, /veh, /dv, /repair, /tp, /bring, /freeze, /revive).",
-    "Deblocage des permissions roles et helpers pour /dv et /car avec raycast intelligent et suppression interieure/exterieure.",
-    "Possibilite d attribuer des commandes publiques (ex: /carspawn) a tout le monde via le groupe joueur (user)."
+    "Filtrage dynamique des menus et onglets selon les permissions de chaque role staff (si helper avec kick seul, les autres onglets sont masques).",
+    "Generation dynamique des boutons du dashboard joueur selon les permissions staff autorisees.",
+    "Filtrage et navigation intelligente dans le Quick Menu (F10) sautant les actions non autorisees.",
+    "Ajout de 11 nouvelles permissions granulaires pour le controle d acces aux onglets et sanctions (CanWarn, CanViewPlayers, CanViewMap, etc.)."
   ]
 }
