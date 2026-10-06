@@ -1,14 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.23.0",
+  "version": "5.23.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Refonte complete du systeme de roles : admin devient le grade maitre unique (Power 100, plein pouvoir).",
-    "Support du grade visuel personnalisable (ex: Fondateur, Owner) tout en conservant le groupe FiveM admin.",
-    "Personnalisation de la couleur du badge staff 3D au-dessus de la tete (~r~, ~b~, ~g~, ~y~, ~o~, ~p~, ~c~, ~w~).",
-    "Creation, gestion et suppression libre de roles personnalises in-game avec Power 1 a 99.",
-    "Attribution granulaire de 35 commandes FiveM standard et 32 permissions detaillees par categories."
+    "Correction de l initialisation SQL oxmysql des tables acn_adminxweb_settings et log.",
+    "Elimination de l erreur de syntaxe multi-requetes sur MySQL et MariaDB."
   ]
 }
