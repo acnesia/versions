@@ -1,13 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.4.1",
+    "version": "3.4.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Glissement fluide des barres de reglages (sliders) dans le menu sans blocage.",
-        "Ajustement optimal des multiplicateurs et budgets memoire pour une population vivante a 100%.",
-        "Securisation native des presets de scenarios GTA pour une application stable.",
-        "Amelioration du filtrage des blacklists de modeles et de vehicules."
+        "Correction d'une erreur native client bloquant l'ouverture du menu /conf_acn_pnj_gestion et /pnj.",
+        "Renforcement du blocage de panique et de fuite des PNJ face aux tirs et menaces."
     ]
 }
