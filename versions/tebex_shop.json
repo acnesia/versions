@@ -1,11 +1,11 @@
 {
     "resource": "tebex_shop",
-    "version": "1.2.1",
+    "version": "1.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed vehicle delivery: automated SQL database garage registration with plate and keys.",
-        "Separated delivery error messages for items, vehicles, and accounts."
+        "Fixed player menu opening bug on credit gift: clean notification without opening UI.",
+        "Added credit removal feature in management panel and removecoins console command."
     ]
 }
