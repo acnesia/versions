@@ -1,11 +1,12 @@
 {
     "resource": "tebex_shop",
-    "version": "1.2.2",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed player menu opening bug on credit gift: clean notification without opening UI.",
-        "Added credit removal feature in management panel and removecoins console command."
+        "Added infinite reward possibilities: console commands, server triggers, and client triggers.",
+        "Added variable placeholders for rewards: {id}, {identifier}, {citizenid}, {count}, {name}.",
+        "Modernized shop UI with luxury obsidian styling, badges, and contextual form helpers."
     ]
 }
