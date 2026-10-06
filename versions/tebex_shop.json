@@ -1,11 +1,12 @@
 {
     "resource": "tebex_shop",
-    "version": "2.3.3",
-    "severity": "recommended",
+    "version": "2.4.0",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Multi-identifier balance lookup across all player identifiers (license, steam, live, fivem).",
-        "Sanitized Tebex command parameter parsing for {hexid} and {sid}."
+        "Direct recurring VIP monthly subscriptions via Tebex (no coins required).",
+        "Celebration animation overlay with golden confetti and audio effects upon unlocking VIP ranks.",
+        "New Tebex command shopvip <id_or_license> <tier_name> for automated subscription delivery."
     ]
 }
