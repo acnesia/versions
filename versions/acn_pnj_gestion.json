@@ -1,12 +1,13 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.4.0",
+    "version": "3.4.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "100% de la configuration modifiable en jeu : ajout d'un onglet complet pour tous les modules secondaires et permissions.",
-        "Suppression totale du fichier settings.json au profit de la base de donnees SQL (oxmysql) et du KVP.",
-        "Synchronisation dynamique en direct de l'ensemble des modules (ATM, besoins, regulateur, sac, permissions)."
+        "Glissement fluide des barres de reglages (sliders) dans le menu sans blocage.",
+        "Ajustement optimal des multiplicateurs et budgets memoire pour une population vivante a 100%.",
+        "Securisation native des presets de scenarios GTA pour une application stable.",
+        "Amelioration du filtrage des blacklists de modeles et de vehicules."
     ]
 }
