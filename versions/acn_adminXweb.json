@@ -1,11 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.23.1",
+  "version": "5.24.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction de l initialisation SQL oxmysql des tables acn_adminxweb_settings et log.",
-    "Elimination de l erreur de syntaxe multi-requetes sur MySQL et MariaDB."
+    "Enregistrement natif de toutes les commandes chat FiveM (/car, /carspawn, /veh, /dv, /repair, /tp, /bring, /freeze, /revive).",
+    "Deblocage des permissions roles et helpers pour /dv et /car avec raycast intelligent et suppression interieure/exterieure.",
+    "Possibilite d attribuer des commandes publiques (ex: /carspawn) a tout le monde via le groupe joueur (user)."
   ]
 }
