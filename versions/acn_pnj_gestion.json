@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.2.2",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Arret instantane sans latence des animations et scenarios des l'appui sur n'importe quelle touche.",
-        "Suppression immediate des props de scenario (telephone, cigarette...) en main lors du deplacement.",
-        "Detection universelle de toutes les touches clavier/souris meme desactivees par le scenario."
+        "Architecture modulaire complete : separation des fonctionnalites en modules specialises et legers.",
+        "Lisibilite et maintenabilite accrues facilitant l'edition et la configuration.",
+        "Optimisation accrue des boucles de densite et de gestion du comportement des entites."
     ]
 }
