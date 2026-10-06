@@ -1,11 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.5.0",
+    "version": "3.5.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Option d'entree vehicule via la portiere et siege les plus proches.",
-        "Gestion 100% in-game du module porte la plus proche avec synchronisation live."
+        "Correction de la migration SQL automatique pour la colonne setting_key.",
+        "Fiabilisation du chargement et de la persistance de la table acn_pnj_settings."
     ]
 }
