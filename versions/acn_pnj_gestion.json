@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.3.0",
+    "version": "3.4.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Architecture modulaire complete : separation des fonctionnalites en modules specialises et legers.",
-        "Lisibilite et maintenabilite accrues facilitant l'edition et la configuration.",
-        "Optimisation accrue des boucles de densite et de gestion du comportement des entites."
+        "100% de la configuration modifiable en jeu : ajout d'un onglet complet pour tous les modules secondaires et permissions.",
+        "Suppression totale du fichier settings.json au profit de la base de donnees SQL (oxmysql) et du KVP.",
+        "Synchronisation dynamique en direct de l'ensemble des modules (ATM, besoins, regulateur, sac, permissions)."
     ]
 }
