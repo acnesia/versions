@@ -1,13 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.25.1",
+  "version": "5.25.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Resolution du conflit de commandes dynamiques retablissant le bon fonctionnement du raccourci clavier NoClip.",
-    "Deblocage automatique du service staff lors de l activation des raccourcis claviers autorises.",
-    "Assignation de F5 par defaut pour le NoClip et F6 pour le TP Waypoint GPS.",
-    "Ajout des touches universelles Espace (monter) et Ctrl (descendre) pour les deplacements NoClip."
+    "Autorisation universelle des teleportations (/tp, /goto, /bring, /return, TP vehicule) sans restriction de grade ou hierarchie.",
+    "Possibilite de se teleporter sur ou d appeler n importe quel membre du staff ou joueur sans blocage de puissance.",
+    "Maintien de la protection hierarchique sur les sanctions disciplinaires (kick, ban, warn)."
   ]
 }
