@@ -1,13 +1,11 @@
 {
     "resource": "acn_apartments",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete overhaul: simple, robust apartment creation via /conf.",
-        "Automated rent cycle with periodic deductions via acn_bridge.",
-        "Vanilla GTA V IPLs and shells support with routing buckets.",
-        "Disconnect persistence inside apartments."
+        "Fixed admin export resolution and hardened permission checks with pcall.",
+        "Ensured zero runtime export errors on server startup."
     ]
 }
