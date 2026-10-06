@@ -1,12 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.25.2",
+  "version": "5.25.3",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Autorisation universelle des teleportations (/tp, /goto, /bring, /return, TP vehicule) sans restriction de grade ou hierarchie.",
-    "Possibilite de se teleporter sur ou d appeler n importe quel membre du staff ou joueur sans blocage de puissance.",
-    "Maintien de la protection hierarchique sur les sanctions disciplinaires (kick, ban, warn)."
+    "Verrouillage strict des outils staff (noclip, freecam, godmode, tp) lorsque le joueur n est pas en service staff.",
+    "Blocage de l ouverture du menu principal (/admin) tant que le service staff n est pas active.",
+    "Suppression des activations automatiques clandestines et conditionnement strict du badge 3D au service officiel."
   ]
 }
