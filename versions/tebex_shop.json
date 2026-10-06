@@ -1,11 +1,11 @@
 {
     "resource": "tebex_shop",
-    "version": "2.3.1",
-    "severity": "critical",
+    "version": "2.3.2",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed NUI JavaScript TypeError crash preventing /boutique from opening.",
-        "Guarded all UI event handlers and home hero action listeners."
+        "Upgraded shopcoins to support {hexid}, {sid}, and offline player purchases seamlessly.",
+        "Automatic offline crediting stored by license identifier."
     ]
 }
