@@ -1,13 +1,13 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.25.0",
+  "version": "5.25.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Filtrage dynamique des menus et onglets selon les permissions de chaque role staff (si helper avec kick seul, les autres onglets sont masques).",
-    "Generation dynamique des boutons du dashboard joueur selon les permissions staff autorisees.",
-    "Filtrage et navigation intelligente dans le Quick Menu (F10) sautant les actions non autorisees.",
-    "Ajout de 11 nouvelles permissions granulaires pour le controle d acces aux onglets et sanctions (CanWarn, CanViewPlayers, CanViewMap, etc.)."
+    "Resolution du conflit de commandes dynamiques retablissant le bon fonctionnement du raccourci clavier NoClip.",
+    "Deblocage automatique du service staff lors de l activation des raccourcis claviers autorises.",
+    "Assignation de F5 par defaut pour le NoClip et F6 pour le TP Waypoint GPS.",
+    "Ajout des touches universelles Espace (monter) et Ctrl (descendre) pour les deplacements NoClip."
   ]
 }
