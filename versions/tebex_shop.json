@@ -1,11 +1,11 @@
 {
     "resource": "tebex_shop",
-    "version": "2.3.2",
+    "version": "2.3.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Upgraded shopcoins to support {hexid}, {sid}, and offline player purchases seamlessly.",
-        "Automatic offline crediting stored by license identifier."
+        "Multi-identifier balance lookup across all player identifiers (license, steam, live, fivem).",
+        "Sanitized Tebex command parameter parsing for {hexid} and {sid}."
     ]
 }
