@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.5.1",
+  "version": "3.5.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Synchronisation bidirectionnelle instantanee de l'argent cash (money_item) avec ESX, HUD et BDD.",
-    "Support transparent des alias money, cash et money_item dans toutes les methodes xPlayer.",
-    "Mise a jour en direct du StateBag et des evenements pour tous les HUDs.",
-    "Alignement strict des soldes en ligne sur l'inventaire lors de la conversion sans reinitialisation a 100."
+    "Interoperabilite totale de la monnaie (money_item et monnaie native ESX xPlayer).",
+    "Support transparent de xPlayer.getMoney, getAccount, getInventoryItem et hasItem pour tous les scripts tiers.",
+    "Normalisation automatique des alias money, cash et money_item dans tous les exports d'inventaire.",
+    "Synchronisation instantanee entre inventaire, HUDs, StateBags et base de donnees."
   ]
 }
