@@ -1,13 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.4.0",
+  "version": "3.4.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added client export, server export, and client event integration directly within the in-game Item Creator.",
-    "Added configurable tool durability modes: permanent/infinite tools, durable tools with custom wear rate (%), and standard consumables.",
-    "Added support for custom image file names, direct URLs, and drag-and-drop uploads to inventory_images.",
-    "Added customizable action duration (usetime), animation, and armed-use toggles for usable items and tools."
+    "Fixed cash synchronization between money_item and ESX base player cash.",
+    "Added instant bidirectional syncing for xPlayer.getMoney, addMoney, removeMoney, and setMoney.",
+    "Guaranteed money and black_money registration on inventory startup."
   ]
 }
