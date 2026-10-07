@@ -1,12 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.4.1",
+  "version": "3.5.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed cash synchronization between money_item and ESX base player cash.",
-    "Added instant bidirectional syncing for xPlayer.getMoney, addMoney, removeMoney, and setMoney.",
-    "Guaranteed money and black_money registration on inventory startup."
+    "Panneau admin /items & /conf_acn_inventory unifié avec onglets Items, Inventaires et Monnaie.",
+    "Mode plein écran ergonomique et gestion des inventaires avec inspection double-colonne en direct.",
+    "Synchronisation bidirectionnelle totale et automatique de money_item avec le compte ESX de base.",
+    "Nouvelles fonctions Clear All Money (wipe global) et Convertir & Harmoniser la Monnaie."
   ]
 }
