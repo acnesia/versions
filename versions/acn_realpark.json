@@ -1,12 +1,11 @@
 {
   "resource": "acn_realpark",
-  "version": "3.4.8",
+  "version": "3.4.9",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Guidage routier GPS longue portée du voiturier jusqu'au joueur avec anti-blocage.",
-    "Résolution déterministe du point d'apparition du voiturier et placement indépendant.",
-    "Sécurisation des callbacks NUI et ajout des commandes de secours /realpark_fix et /conf_acn_realpark_reset."
+    "Correction du traitement des plaques à la fourrière évitant toute erreur gsub.",
+    "Sécurisation et fiabilisation des retraits de véhicules et des callbacks NUI."
   ]
 }
