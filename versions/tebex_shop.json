@@ -1,12 +1,11 @@
 {
     "resource": "tebex_shop",
-    "version": "2.4.0",
-    "severity": "important",
+    "version": "2.4.1",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Direct recurring VIP monthly subscriptions via Tebex (no coins required).",
-        "Celebration animation overlay with golden confetti and audio effects upon unlocking VIP ranks.",
-        "New Tebex command shopvip <id_or_license> <tier_name> for automated subscription delivery."
+        "Pre-configured official VIP monthly recurring tiers: Bronze (5â‚¬), Silver (10â‚¬), Gold (15â‚¬), Platinum (25â‚¬).",
+        "Populated ready-to-use catalog in shop.json and config.lua."
     ]
 }
