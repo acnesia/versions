@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.5.0",
+  "version": "3.5.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Panneau admin /items & /conf_acn_inventory unifié avec onglets Items, Inventaires et Monnaie.",
-    "Mode plein écran ergonomique et gestion des inventaires avec inspection double-colonne en direct.",
-    "Synchronisation bidirectionnelle totale et automatique de money_item avec le compte ESX de base.",
-    "Nouvelles fonctions Clear All Money (wipe global) et Convertir & Harmoniser la Monnaie."
+    "Synchronisation bidirectionnelle instantanee de l'argent cash (money_item) avec ESX, HUD et BDD.",
+    "Support transparent des alias money, cash et money_item dans toutes les methodes xPlayer.",
+    "Mise a jour en direct du StateBag et des evenements pour tous les HUDs.",
+    "Alignement strict des soldes en ligne sur l'inventaire lors de la conversion sans reinitialisation a 100."
   ]
 }
