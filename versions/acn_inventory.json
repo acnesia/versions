@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.5.2",
+  "version": "3.6.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Interoperabilite totale de la monnaie (money_item et monnaie native ESX xPlayer).",
-    "Support transparent de xPlayer.getMoney, getAccount, getInventoryItem et hasItem pour tous les scripts tiers.",
-    "Normalisation automatique des alias money, cash et money_item dans tous les exports d'inventaire.",
-    "Synchronisation instantanee entre inventaire, HUDs, StateBags et base de donnees."
+    "Retrocompatibilite economique universelle avec tous les scripts tiers (money_item et monnaie native ESX).",
+    "Support bidirectionnel parfait de /setaccount et /setaccountmoney synchronisant items et comptes.",
+    "Comptage unifie des soldes et resolution d'alias sans duplication (Search, GetItemCount, hasItem).",
+    "Configuration dynamique in-game de la monnaie (/conf_acn_inventory) persistee sans redemarrage serveur."
   ]
 }
