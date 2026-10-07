@@ -1,11 +1,11 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.5.3",
+    "version": "3.5.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction du blocage de regime RPM et acceleration fluide des vehicules.",
-        "Desactivation par defaut et assainissement du regulateur de vitesse."
+        "Suppression permanente des musiques d action et de combat de GTA V.",
+        "Maintien de l autoradio et des effets sonores sans pollution sonore cinematique."
     ]
 }
