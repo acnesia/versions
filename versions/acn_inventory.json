@@ -1,12 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.4",
+  "version": "3.7.5",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Affichage instantane des nouvelles icones d'items sans necessiter de redemarrer le serveur ou la ressource (Zero Restart).",
-    "Actualisation automatique en arriere-plan du conteneur d'images inventory_images des le televersement.",
-    "Diffusion et mise en cache memoire temps reel des icones aupres de tous les clients connectes."
+    "Resolution de l'erreur JSON (type 'function' not supported) lors de la creation/edition d'items.",
+    "Sanitization recursive complete de tous les flux de donnees NUI et callbacks reseau d'items.",
+    "Enregistrement du callback serveur acn_inventory:getItemList pour la synchronisation du catalogue.",
+    "Securisation des slots et suppression des erreurs de donnees indefinies dans l'interface."
   ]
 }
