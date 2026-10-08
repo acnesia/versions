@@ -1,13 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "3.6.0",
+  "version": "3.6.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Retrocompatibilite economique universelle avec tous les scripts tiers (money_item et monnaie native ESX).",
-    "Support bidirectionnel parfait de /setaccount et /setaccountmoney synchronisant items et comptes.",
-    "Comptage unifie des soldes et resolution d'alias sans duplication (Search, GetItemCount, hasItem).",
-    "Configuration dynamique in-game de la monnaie (/conf_acn_inventory) persistee sans redemarrage serveur."
+    "Correctif critique de portee de variable dans SetSlot lors de l'attribution d'items et d'argent.",
+    "Harmonisation de l'item d'argent par defaut sur money avec support des alias."
   ]
 }
