@@ -1,11 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "3.6.1",
+  "version": "3.6.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correctif critique de portee de variable dans SetSlot lors de l'attribution d'items et d'argent.",
-    "Harmonisation de l'item d'argent par defaut sur money avec support des alias."
+    "Resolution definitive des debits et credits d'argent en double lors des paiements ou ajouts de scripts tiers.",
+    "Suppression des doublons d'evenements d'interface et d'actualisation de compte ESX."
   ]
 }
