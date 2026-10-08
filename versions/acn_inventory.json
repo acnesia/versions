@@ -1,11 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.6.2",
+  "version": "3.7.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Resolution definitive des debits et credits d'argent en double lors des paiements ou ajouts de scripts tiers.",
-    "Suppression des doublons d'evenements d'interface et d'actualisation de compte ESX."
+    "Upload et affichage automatique en direct des icones d'items dans inventory_images.",
+    "Decoupage reseau par paquets (chunking) et anti-cache CEF pour rechargement immediat sans reboot.",
+    "Architecture modulaire du panneau d'administration et des commandes serveur."
   ]
 }
