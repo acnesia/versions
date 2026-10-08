@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.1",
+  "version": "3.7.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction definitive du bug de persistence et d'annulation de sauvegarde des items sous Windows.",
-    "Resolution du blocage du selecteur d'image (reinitialisation immediate du champ et multi-selection sans friction).",
-    "Suppression des icones d'images brisees et acces direct en 1 clic a la modification d'icone.",
-    "Gestion amelioree des retours d'erreurs et des notifications de succes."
+    "Creation instantanee des items en 1 clic sans manipulation et selection automatique immediate.",
+    "Normalisation et slugification automatique des accents lors de la creation d'items.",
+    "Double couche d'ecriture native FiveM (SaveResourceFile et I/O systeme) 100% autonome et plug & play sur Linux et Windows.",
+    "Affichage ameliore des erreurs contextuelles et verrouillage de securite pendant les transferts."
   ]
 }
