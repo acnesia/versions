@@ -1,13 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.2",
+  "version": "3.7.3",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Creation instantanee des items en 1 clic sans manipulation et selection automatique immediate.",
-    "Normalisation et slugification automatique des accents lors de la creation d'items.",
-    "Double couche d'ecriture native FiveM (SaveResourceFile et I/O systeme) 100% autonome et plug & play sur Linux et Windows.",
-    "Affichage ameliore des erreurs contextuelles et verrouillage de securite pendant les transferts."
+    "Ouverture instantanee du menu sans delai grace a l'utilisation des items en cache memoire client (0 ms).",
+    "Resolution du blocage Chromium CEF lors du choix d'image grace au declencheur HTML natif label htmlFor.",
+    "Transfert d'upload accelere avec chunks a 48 Ko (1 seule requete directe pour la majorite des icones)."
   ]
 }
