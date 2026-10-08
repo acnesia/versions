@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.3",
+  "version": "3.7.4",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Ouverture instantanee du menu sans delai grace a l'utilisation des items en cache memoire client (0 ms).",
-    "Resolution du blocage Chromium CEF lors du choix d'image grace au declencheur HTML natif label htmlFor.",
-    "Transfert d'upload accelere avec chunks a 48 Ko (1 seule requete directe pour la majorite des icones)."
+    "Affichage instantane des nouvelles icones d'items sans necessiter de redemarrer le serveur ou la ressource (Zero Restart).",
+    "Actualisation automatique en arriere-plan du conteneur d'images inventory_images des le televersement.",
+    "Diffusion et mise en cache memoire temps reel des icones aupres de tous les clients connectes."
   ]
 }
