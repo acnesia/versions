@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.9.0",
+  "version": "3.10.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Refonte visuelle et complete du createur d'elements avec support natif des armes FiveM et 24 presets.",
-    "Creation assistee de nourriture et boissons avec jauges de faim/soif, animations GTA V et props attaches.",
-    "Unification totale de /items et /conf_acn_inventory en un tableau de bord NUI satiné tout-en-un.",
-    "Reglage live des slots et poches et lancement en 1-clic du Gizmo 3D pour les armes sur le dos."
+    "Restauration complete de toutes les options d'items standards (switches, conteneurs, outils durables/infinis, temps, anims, exports).",
+    "Creation assistee d'armes FiveM avec presets GTA V 1-clic et validation serveur robuste des calibres et durabilites.",
+    "Creation rapide de consommables Nourriture et Boissons avec sliders interactifs de faim/soif et props 3D en main.",
+    "Televerseur d'icones universel direct dans inventory_images avec liaison automatique."
   ]
 }
