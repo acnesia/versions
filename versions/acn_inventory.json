@@ -1,16 +1,14 @@
 {
   "resource": "acn_inventory",
-  "version": "3.8.1",
+  "version": "3.8.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Deplacement du compartiment Les Mains (touches 1 a 5) tout en haut de l'inventaire personnel.",
-    "Creation systematique du tas de vetements en main lors du retrait d'un habit.",
-    "Restriction exclusive du tas de vetements aux mains (slots 1 a 5).",
-    "Persistance continue du prop et de l'animation de portage tant que le paquet est tenu.",
-    "Reequipement fluide via bouton de tenue, clic droit Enfiler ou utilisation directe (double-clic / touches 1-5).",
-    "Verrouillage total et transparence fantome accrue des cases de compartiments non portes.",
-    "Correction de l'erreur registerContext et fonctionnement complet du menu d'administration in-game /conf_acn_inventory."
+    "Conservation reelle et immediate du contenu des poches dans le conteneur du tas de vetements.",
+    "Suppression de la restriction de slot : les vetements replies peuvent etre deplaces librement dans tout l'inventaire.",
+    "Enfilage sequentiel un par un avec animations GTA V adaptees (pantalon, veste, gilet, sac).",
+    "Indicateur de progression flottant style avec compteur d'etapes et pourcentage en temps reel.",
+    "Detection d'inventaire complet et alerte explicite si le baluchon d'affaires a ete jete au sol."
   ]
 }
