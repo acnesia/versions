@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.10.0",
+  "version": "3.10.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Restauration complete de toutes les options d'items standards (switches, conteneurs, outils durables/infinis, temps, anims, exports).",
-    "Creation assistee d'armes FiveM avec presets GTA V 1-clic et validation serveur robuste des calibres et durabilites.",
-    "Creation rapide de consommables Nourriture et Boissons avec sliders interactifs de faim/soif et props 3D en main.",
-    "Televerseur d'icones universel direct dans inventory_images avec liaison automatique."
+    "Fallback intelligent de rangement du baluchon de vetements dans une poche disponible lorsque les mains sont pleines.",
+    "Depot securise au sol du slot 5 des mains avec notification si les mains et poches sont pleines.",
+    "Raccourci Ctrl + Clic ameliore pour transferer directement les items entre mains et poches sans risque de jeter au sol.",
+    "Raccourci Ctrl + Shift + Clic dedie pour jeter directement un objet ou une pile au sol."
   ]
 }
