@@ -1,14 +1,16 @@
 {
   "resource": "acn_inventory",
-  "version": "3.8.0",
+  "version": "3.8.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Systeme immersif de compartiments corporels (Veste, Gilet, Pantalon, Sac, Mains) avec jauges de poids dediees.",
-    "Mecanique du tas de linge en main lors du retrait de vetements avec objets dans les poches.",
-    "Animation de portage, prop de paquet de vetements, et fusion multi-vetements en main.",
-    "Reequipement realiste via clic droit Enfiler (4s a l'arret) et restrictions de sprint/armes lourdes en main.",
-    "Configuration et ajustement des jauges de poids 100% in-game via /conf_acn_inventory."
+    "Deplacement du compartiment Les Mains (touches 1 a 5) tout en haut de l'inventaire personnel.",
+    "Creation systematique du tas de vetements en main lors du retrait d'un habit.",
+    "Restriction exclusive du tas de vetements aux mains (slots 1 a 5).",
+    "Persistance continue du prop et de l'animation de portage tant que le paquet est tenu.",
+    "Reequipement fluide via bouton de tenue, clic droit Enfiler ou utilisation directe (double-clic / touches 1-5).",
+    "Verrouillage total et transparence fantome accrue des cases de compartiments non portes.",
+    "Correction de l'erreur registerContext et fonctionnement complet du menu d'administration in-game /conf_acn_inventory."
   ]
 }
