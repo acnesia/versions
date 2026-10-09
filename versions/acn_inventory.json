@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.8.3",
+  "version": "3.8.4",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Configuration in-game en direct du nombre de slots de poches par compartiment avec mise a jour HTML instantanee.",
-    "Bascule live du systeme de compartiments restaurant l'inventaire unifie complet sans redemarrer le serveur.",
-    "Affichage direct des armes lourdes et portees sur le dos/corps des joueurs (jusqu'a 10 armes simultanees).",
-    "Manipulateur 3D interactif (Gizmo/Object Controller) pour regler avec precision la position des armes sur le corps."
+    "Transformation de la fouille en controle de securite immersif en deux etapes avec rapport de palpation NUI.",
+    "Detection et decompte du nombre d'objets presents dans chaque zone corporelle (Mains, Veste, Gilet, Pantalon, Sac).",
+    "Fouille ciblee par compartiment avec isolation visuelle et transparence des zones non ciblees.",
+    "Barre de navigation rapide pour la police et reglages in-game direct via /conf_acn_inventory."
   ]
 }
