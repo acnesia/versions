@@ -1,11 +1,11 @@
 {
   "resource": "bridge_apex_radio",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed item export payload arguments and slot resolving in acn_inventory preventing invalid radio error.",
-    "Added toggle capability to /radio command and stabilized inventory slot discovery."
+    "Added full diagnostics suite and in-game /debug_radio command.",
+    "Verbose logging of export payloads, catalog inspection, and inventory slots."
   ]
 }
