@@ -1,12 +1,11 @@
 {
   "resource": "bridge_apex_radio",
-  "version": "1.1.4",
+  "version": "1.1.5",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Resolution du double basculement (double toggle) lors de l'ouverture de la radio.",
-    "Support et reconnaissance de l'item radio standard et des variantes de terrain.",
-    "Optimisation du callback d'inventaire useItem."
+    "Correction de la transmission d'arguments d'export sans perte de contexte.",
+    "Compatibilite native avec le pont d'exports in-memory d'acn_inventory."
   ]
 }
