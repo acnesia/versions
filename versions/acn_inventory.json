@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.6",
+  "version": "3.7.7",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Ajout des exports client GetSlot et GetItem pour la compatibilite avec les accessoires tiers.",
-    "Resolution des erreurs de promesse NUI fetch sur l'action useItem.",
-    "Decouplage de la directive provide pour une compatibilite modulaire."
+    "Pont d'exports in-memory universel pour la compatibilite ox_inventory.",
+    "Correction de la transmission d'arguments dans les exports d'items.",
+    "Ajout des alias de callbacks serveur pour l'utilisation des objets."
   ]
 }
