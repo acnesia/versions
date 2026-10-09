@@ -1,11 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.5.4",
+    "version": "3.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Suppression permanente des musiques d action et de combat de GTA V.",
-        "Maintien de l autoradio et des effets sonores sans pollution sonore cinematique."
+        "Systeme complet de Secours PNJ SAMU avec intervention d ambulance, CPR et reanimation.",
+        "Gestion totale des musiques GTA V, vol, combat et coupure auto autoradio en vehicule.",
+        "Equilibrage precision tirs PNJ, degats armes, anti-headshot lethal et conduite calme."
     ]
 }
