@@ -1,11 +1,11 @@
 {
   "resource": "bridge_apex_radio",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Initial release of universal bridge for Apex Radio and custom inventories.",
-    "Auto-closing passive monitor and spam protection."
+    "Added full support for all Apex Radio models and jammers (radio_field, radio_scout, radio_tactical, radio_jammer, radio_jammer_md, radio_jammer_lg).",
+    "Dynamic export dispatch for useRadio and useJammer upon inventory item usage."
   ]
 }
