@@ -1,13 +1,13 @@
 {
   "resource": "acn_inventory",
-  "version": "3.8.4",
+  "version": "3.9.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Transformation de la fouille en controle de securite immersif en deux etapes avec rapport de palpation NUI.",
-    "Detection et decompte du nombre d'objets presents dans chaque zone corporelle (Mains, Veste, Gilet, Pantalon, Sac).",
-    "Fouille ciblee par compartiment avec isolation visuelle et transparence des zones non ciblees.",
-    "Barre de navigation rapide pour la police et reglages in-game direct via /conf_acn_inventory."
+    "Refonte visuelle et complete du createur d'elements avec support natif des armes FiveM et 24 presets.",
+    "Creation assistee de nourriture et boissons avec jauges de faim/soif, animations GTA V et props attaches.",
+    "Unification totale de /items et /conf_acn_inventory en un tableau de bord NUI satiné tout-en-un.",
+    "Reglage live des slots et poches et lancement en 1-clic du Gizmo 3D pour les armes sur le dos."
   ]
 }
