@@ -1,12 +1,14 @@
 {
   "resource": "acn_inventory",
-  "version": "3.7.7",
+  "version": "3.8.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Pont d'exports in-memory universel pour la compatibilite ox_inventory.",
-    "Correction de la transmission d'arguments dans les exports d'items.",
-    "Ajout des alias de callbacks serveur pour l'utilisation des objets."
+    "Systeme immersif de compartiments corporels (Veste, Gilet, Pantalon, Sac, Mains) avec jauges de poids dediees.",
+    "Mecanique du tas de linge en main lors du retrait de vetements avec objets dans les poches.",
+    "Animation de portage, prop de paquet de vetements, et fusion multi-vetements en main.",
+    "Reequipement realiste via clic droit Enfiler (4s a l'arret) et restrictions de sprint/armes lourdes en main.",
+    "Configuration et ajustement des jauges de poids 100% in-game via /conf_acn_inventory."
   ]
 }
