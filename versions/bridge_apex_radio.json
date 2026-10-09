@@ -1,11 +1,11 @@
 {
   "resource": "bridge_apex_radio",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added full support for all Apex Radio models and jammers (radio_field, radio_scout, radio_tactical, radio_jammer, radio_jammer_md, radio_jammer_lg).",
-    "Dynamic export dispatch for useRadio and useJammer upon inventory item usage."
+    "Fixed item export payload arguments and slot resolving in acn_inventory preventing invalid radio error.",
+    "Added toggle capability to /radio command and stabilized inventory slot discovery."
   ]
 }
