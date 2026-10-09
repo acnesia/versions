@@ -1,0 +1,11 @@
+{
+  "resource": "bridge_apex_radio",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Initial release of universal bridge for Apex Radio and custom inventories.",
+    "Auto-closing passive monitor and spam protection."
+  ]
+}
