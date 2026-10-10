@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.10.2",
+  "version": "3.10.3",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Resolution de l'erreur createWeapon lors de la creation d'armes ou items armes dans le menu admin.",
-    "Harmonisation du routage automatique et de la synchronisation entre items, armes et munitions.",
-    "Synchronisation instantanee des icones d'armes et munitions creees dans le catalogue d'inventaire."
+    "Support et chargement dynamique des armes moddees et addon (RequestWeaponAsset).",
+    "Correction de l'erreur d'equipement failed to equip (cause unknown) pour les armes personnalisees.",
+    "Attribution automatique du modele et du hash lors de la creation d'armes sans modele explicite."
   ]
 }
