@@ -1,11 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.7",
+    "version": "2.4.8",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Eliminated internal mini-bridges to route 100% of inventory and target logic through acn_bridge.",
-        "Added full ox_inventory card metadata support and updated comprehensive documentation."
+        "Fixed duplicate bank teller interaction prompt in target systems.",
+        "Added strict zone tracking and automatic target cleanup on reload."
     ]
 }
