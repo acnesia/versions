@@ -1,12 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Completely overhauled realistic Bank Card & Account Creation Suite with EMV gold chip rendering, dual security tiers, tactile PIN keypad, and luxury satin aesthetics.",
-        "Completely overhauled in-game administration & live config suite (/conf_acn_banking) with Dashboard KPIs, 16 live feature switches, and accounts management.",
+        "Complete Revolut-inspired Fintech visual overhaul: geometric billboard typography, iconic pill-shaped controls, deep obsidian & charcoal matte surfaces (#090c10, #131722), high-contrast transaction ledger, and border-contrast depth.",
+        "Overhauled realistic Bank Card & Account Creation Suite with EMV gold chip rendering, dual security tiers, and tactile PIN keypad.",
+        "Overhauled in-game administration & live config suite (/conf_acn_banking) with Dashboard KPIs, 16 live feature switches, and accounts management.",
         "Added interactive 3D Raycast ATM placement with ghost preview and on-screen HUD instructions.",
         "Fixed ox_inventory bank card detection bug at ATMs."
     ]
