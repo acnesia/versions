@@ -3,10 +3,10 @@
   "severity": "recommended",
   "minimum_supported": "1.9.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "changelog": [
-    "Automatic script detection for frameworks, inventories, banking, targets, notifications, progress bars, and dispatch.",
-    "Seamless hybrid mode: use 'auto' or choose and force your preferred resources directly in config.lua.",
-    "Added GetAutoDetectedSystems export on both client and server sides."
+    "Added stylized post-startup server diagnostic banner displaying detected and missing components.",
+    "Added /bridge_status console/admin command and PrintDiagnostics export.",
+    "Integrated Menu/Context and Radial Menu active script auto-detection."
   ]
 }
