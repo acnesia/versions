@@ -1,12 +1,12 @@
 {
   "resource": "acn_bridge",
-  "version": "1.9.0",
   "severity": "recommended",
-  "minimum_supported": "1.0.0",
+  "minimum_supported": "1.9.0",
   "update_url": "https://portal.cfx.re/",
+  "version": "2.0.0",
   "changelog": [
-    "Added native Dispatch and Police Alert module supporting codem-mdt and codem-dispatch.",
-    "Added CreateDispatchAlert, DisableCCTV, and ToggleCCTV client/server exports.",
-    "Integrated 10-codes, tactical GPS police blips, and on-duty police notifications."
+    "Automatic script detection for frameworks, inventories, banking, targets, notifications, progress bars, and dispatch.",
+    "Seamless hybrid mode: use 'auto' or choose and force your preferred resources directly in config.lua.",
+    "Added GetAutoDetectedSystems export on both client and server sides."
   ]
 }
