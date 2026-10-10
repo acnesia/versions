@@ -1,12 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.5.3",
+    "version": "2.5.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Authentic Apex-style interactive 4-step account opening ceremony with tactile security PIN keypad, animated biometric laser fingerprint scanner, and instant card issuance.",
-        "Restored original card management interface in the Cards tab with seamless PIN changes and status toggling.",
-        "Full Apex Banking V2 visual redesign with deep obsidian satin surfaces, brand aurora glow, crisp hairline borders, and dedicated transfer review sidebar."
+        "Complete realistic Physical ATM Terminal design overhaul with anti-glare screen enclosure, steel chassis, and mechanical tactile keypad.",
+        "Modernized ATM card selection menu with interactive cards, EMV gold chips, and branded security cues."
     ]
 }
