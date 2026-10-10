@@ -1,11 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.8",
+    "version": "2.5.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate bank teller interaction prompt in target systems.",
-        "Added strict zone tracking and automatic target cleanup on reload."
+        "Completely overhauled in-game administration & live config suite (/conf_acn_banking) with Dashboard KPIs, 16 live feature switches, and accounts management.",
+        "Added interactive 3D Raycast ATM placement with ghost preview and on-screen HUD instructions.",
+        "Fixed ox_inventory bank card detection bug at ATMs."
     ]
 }
