@@ -6,6 +6,7 @@
     "update_url": "https://portal.cfx.re/",
     "changelog": [
         "Configured 3D ATM screen feature as Coming Soon with informative notification.",
+        "Added ox_inventory card metadata integration and comprehensive documentation.",
         "Preserved all 3D engine codes, offsets, and keybindings ready for future activation."
     ]
 }
