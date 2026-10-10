@@ -1,12 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.5",
+    "version": "2.4.6",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Optimized savings interest and daily fee processing to eliminate server frame stutter.",
-        "Added atomic transaction batching and non-blocking database queries.",
-        "Improved real-time savings UI updates with instant in-memory synchronization."
+        "Configured 3D ATM screen feature as Coming Soon with informative notification.",
+        "Preserved all 3D engine codes, offsets, and keybindings ready for future activation."
     ]
 }
