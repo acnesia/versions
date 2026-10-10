@@ -1,12 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.6",
+    "version": "2.4.7",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Configured 3D ATM screen feature as Coming Soon with informative notification.",
-        "Added ox_inventory card metadata integration and comprehensive documentation.",
-        "Preserved all 3D engine codes, offsets, and keybindings ready for future activation."
+        "Eliminated internal mini-bridges to route 100% of inventory and target logic through acn_bridge.",
+        "Added full ox_inventory card metadata support and updated comprehensive documentation."
     ]
 }
