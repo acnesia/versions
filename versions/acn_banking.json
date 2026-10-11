@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.0",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Revolut luxury fintech UI styling with atmospheric deep violet gradient header and high-contrast typography.",
-        "Dedicated in-game configuration suite (/conf_acn_banking) with live feature toggles and 3D ATM placement.",
-        "Resolved ox_inventory bankcard detection and removed duplicate interactions on banker NPCs."
+        "Complete visual and structural redesign of the banking dashboard matching luxury private banking standards.",
+        "Interactive 3D debit card widget with gold EMV chip, cardholder info, and direct cards management.",
+        "Dynamic 7-day cashflow analytics chart and detailed expense category breakdown."
     ]
 }
