@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.5.5",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete standalone Luxury ATM Terminal Suite with realistic debit cards, tactile keypad, and audio feedback.",
-        "Full two-way back navigation between card selection, PIN authentication, and cash operations.",
-        "Refined satin operations view for cash withdrawals and deposits with zero visual clutter."
+        "Complete Revolut Mobile Dashboard & Donut Chart Analytics interface.",
+        "Categorized transaction ledger with circular semantic badges and clean high-contrast typography.",
+        "Interactive modals for instant deposits, cash withdrawals, and bank transfers with quick presets."
     ]
 }
