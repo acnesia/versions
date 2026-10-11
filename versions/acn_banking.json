@@ -1,11 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.5.4",
+    "version": "2.5.5",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete realistic Physical ATM Terminal design overhaul with anti-glare screen enclosure, steel chassis, and mechanical tactile keypad.",
-        "Modernized ATM card selection menu with interactive cards, EMV gold chips, and branded security cues."
+        "Complete standalone Luxury ATM Terminal Suite with realistic debit cards, tactile keypad, and audio feedback.",
+        "Full two-way back navigation between card selection, PIN authentication, and cash operations.",
+        "Refined satin operations view for cash withdrawals and deposits with zero visual clutter."
     ]
 }
