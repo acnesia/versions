@@ -1,11 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate transaction issue where deposit and withdrawal operations executed twice.",
-        "Fixed Lua locales parsing syntax error with escaped quote characters."
+        "Fixed bank loading callback hanging for regular players without society jobs.",
+        "Connected live transfer recipient resolution unlocking instant transfers.",
+        "Synchronized card operations and PINs with item metadata and ATM terminal."
     ]
 }
