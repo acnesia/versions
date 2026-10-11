@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.6.0",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete Revolut Mobile Dashboard & Donut Chart Analytics interface.",
-        "Categorized transaction ledger with circular semantic badges and clean high-contrast typography.",
-        "Interactive modals for instant deposits, cash withdrawals, and bank transfers with quick presets."
+        "Revolut luxury fintech UI styling with atmospheric deep violet gradient header and high-contrast typography.",
+        "Dedicated in-game configuration suite (/conf_acn_banking) with live feature toggles and 3D ATM placement.",
+        "Resolved ox_inventory bankcard detection and removed duplicate interactions on banker NPCs."
     ]
 }
