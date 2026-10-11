@@ -1,12 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete visual and structural redesign of the banking dashboard matching luxury private banking standards.",
-        "Interactive 3D debit card widget with gold EMV chip, cardholder info, and direct cards management.",
-        "Dynamic 7-day cashflow analytics chart and detailed expense category breakdown."
+        "Fixed duplicate transaction issue where deposit and withdrawal operations executed twice.",
+        "Fixed Lua locales parsing syntax error with escaped quote characters."
     ]
 }
