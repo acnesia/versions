@@ -1,12 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Aperçu overview styling: formatted 5-panel fintech grid and constrained card preview aspect ratio.",
-        "Added remaining daily withdrawal limit badge in ATM terminal.",
-        "Fixed player character respawning in height / floating upon exiting ATM."
+        "Fixed notification formatting for automatic loan repayments to properly display deducted amounts.",
+        "Removed local translation scope shadowing ensuring all notifications and logs resolve formatted text correctly."
     ]
 }
