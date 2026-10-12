@@ -1,12 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.11.5",
+    "version": "1.12.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed cashier NPC flickering caused by GTA V entity capsule vertical offset.",
-        "Ensured cashier ped remains stably spawned and frozen at the counter without periodic deletion loops.",
-        "Isolated placement mode to prevent proximity streaming collisions."
+        "Physical NPC cashier restock sequence: walks to depleted shelves carrying a supply box and restocks items with custom animations.",
+        "Complete codebase modularization into domain-specific files eliminating monolithic main.lua files."
     ]
 }
