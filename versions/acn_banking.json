@@ -1,11 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete luxury fintech dashboard layout overhaul with top navigation, primary card preview, and financial breakdown panels.",
-        "Fixed ATM debit card detection: resolved MySQL.Sync oxmysql compatibility and added multi-tier inventory search."
+        "Fixed ReferenceError crash when opening bank interface at clerk PNJ.",
+        "Eliminated duplicate ATM interface collision when visiting ATMs."
     ]
 }
