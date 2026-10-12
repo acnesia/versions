@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.12.0",
+    "version": "1.12.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Physical NPC cashier restock sequence: walks to depleted shelves carrying a supply box and restocks items with custom animations.",
-        "Complete codebase modularization into domain-specific files eliminating monolithic main.lua files."
+        "Fixed store preset and blip settings saving: fast presets (Rob's Liquor, LTD Gasoline, etc.) now properly save blip color, sprite, scale, and custom name.",
+        "Resolved NUI and backend payload structure mismatch to ensure instant SQL persistence and live map blip synchronization."
     ]
 }
