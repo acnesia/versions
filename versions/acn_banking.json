@@ -1,11 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.4.8",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate bank teller interaction prompt in target systems.",
-        "Added strict zone tracking and automatic target cleanup on reload."
+        "Complete luxury fintech dashboard layout overhaul with top navigation, primary card preview, and financial breakdown panels.",
+        "Fixed ATM debit card detection: resolved MySQL.Sync oxmysql compatibility and added multi-tier inventory search."
     ]
 }
