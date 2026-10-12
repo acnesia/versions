@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.5",
+    "version": "2.7.6",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed bank card deletion across inventory slots and database synchronization.",
-        "Resolved physical card item retention preventing deleted cards from reappearing in pocket.",
-        "Added society card management support and immediate NUI state updates."
+        "Fixed deposit and withdrawal operations in banking interface.",
+        "Fixed real-time bank and cash balance synchronization with database.",
+        "Fixed ATM bank balance loading and accurate checking account hero display."
     ]
 }
