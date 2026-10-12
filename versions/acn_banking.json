@@ -1,11 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.1",
+    "version": "2.7.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed ReferenceError crash when opening bank interface at clerk PNJ.",
-        "Eliminated duplicate ATM interface collision when visiting ATMs."
+        "Overhauled Cards tab with authentic luxury ATM debit cards (EMV chip, NFC wave, action controls).",
+        "Fixed responsive window size across all tabs (Cartes, Épargne, Prêts) preventing layout distortion.",
+        "Translated technical keys in transaction history to clean French descriptions.",
+        "Dynamic 7-day cash flow and category expense breakdown with 100% vector SVG icons."
     ]
 }
