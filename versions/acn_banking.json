@@ -1,11 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.4",
+    "version": "2.7.5",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed notification formatting for automatic loan repayments to properly display deducted amounts.",
-        "Removed local translation scope shadowing ensuring all notifications and logs resolve formatted text correctly."
+        "Fixed bank card deletion across inventory slots and database synchronization.",
+        "Resolved physical card item retention preventing deleted cards from reappearing in pocket.",
+        "Added society card management support and immediate NUI state updates."
     ]
 }
