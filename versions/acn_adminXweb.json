@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.27.0",
+  "version": "5.28.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Le menu admin en jeu affiche le grade staff et le niveau de pouvoir des joueurs connectés.",
-    "Un filtre permet de voir rapidement les joueurs gradés ou sans grade."
+    "Le menu admin recense tous les personnages, en ligne et hors ligne, avec recherche et filtres par statut et grade staff.",
+    "Les couleurs des grades et leur niveau Power sont affichés ; les grades hors ligne inconnus sont signalés."
   ]
 }
