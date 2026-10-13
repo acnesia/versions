@@ -5,7 +5,7 @@
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Synchronisation en direct intégrale de l'arborescence et des commandes dans /conf_acn_radiale.",
-    "Restauration d'une interface AAA unifiée zéro-fuite et intégration directe acn_bridge."
+    "Synchronisation 100% en direct de toutes les actions, commandes et reglages.",
+    "Correction complete de l'ajout et de l'affichage des commandes personnalisees."
   ]
 }
