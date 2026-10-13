@@ -1,0 +1,11 @@
+{
+  "resource": "acn_radiale_adapte",
+  "version": "3.4.0",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Synchronisation 100% en direct de toutes les actions, commandes et reglages.",
+    "Correction complete de l'ajout et de l'affichage des commandes personnalisees."
+  ]
+}
