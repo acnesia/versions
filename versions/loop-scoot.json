@@ -1,14 +1,12 @@
 {
     "resource": "loop-scoot",
-    "version": "1.41.0",
+    "version": "1.41.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Ajout d'un système complet de création in-game (/conf_loop_scoot) avec placement 3D interactif par raycast laser et ghost preview.",
-        "Séparation des props, véhicules et stream assets dans la ressource dédiée loop-scoot-assets pour éliminer les crashs au restart.",
-        "Sécurisation des boucles d'affichage DUI et de suppression des entités pour un redémarrage 100% stable sans crash client.",
-        "Synchronisation réseau en temps réel et persistance immédiate des stations créées.",
-        "Intégration directe des exports acn_bridge pour les permissions, les paiements et les clés de véhicules."
+        "Possibilite de rendre la trottinette directement avec [E] en etant dessus ou a pied pres de la station.",
+        "Affichage immediat de l'interaction de retour lors de l'arrivee sur le pad de la station.",
+        "Separation des assets dans loop-scoot-assets pour eviter tout crash au restart."
     ]
 }
