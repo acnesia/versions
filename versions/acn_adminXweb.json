@@ -1,12 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.25.3",
+  "version": "5.26.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Verrouillage strict des outils staff (noclip, freecam, godmode, tp) lorsque le joueur n est pas en service staff.",
-    "Blocage de l ouverture du menu principal (/admin) tant que le service staff n est pas active.",
-    "Suppression des activations automatiques clandestines et conditionnement strict du badge 3D au service officiel."
+    "Affichage du grade staff et du niveau de pouvoir pour les joueurs connectés.",
+    "Filtre par grade avec un statut clair pour les joueurs hors ligne."
   ]
 }
