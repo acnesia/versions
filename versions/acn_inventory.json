@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.11.0",
+  "version": "3.12.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Saisie libre de tout modele d'arme custom / moddee / addon sans forcer un preset vanilla.",
-    "Systeme d'armes jetables et a usage unique pre-chargees sans munition externe requise.",
-    "Autodestruction ou casse automatique de l'arme apres la derniere balle tiree."
+    "Creation directe et onglet dedie de munitions personnalisees dans le createur en jeu.",
+    "Liaison et auto-creation en 1 clic de munitions sur-mesure pour armes moddees / addon.",
+    "Capacite de chargeur personnalisee et correction du rechargement des armes addons sans meta."
   ]
 }
