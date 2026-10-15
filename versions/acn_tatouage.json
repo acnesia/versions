@@ -1,12 +1,12 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.4.4",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive body zone filter tabs (All, Head, Torso, Back, Arms, Legs) with live motif count badges.",
-        "Added dynamic camera anti-wall-clipping raycast safety to prevent viewing through walls or exterior shop geometry.",
-        "Automatic room clearance detection to orient ped into open studio interior."
+        "Fixed the player ped turning invisible inside interiors while the studio is open.",
+        "Custom tattoos are now projected in 3D on the body, with position, mirror and reset controls.",
+        "Cleaner studio interface and automatic memory cleanup on close."
     ]
 }
