@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.15.2",
+    "version": "1.15.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restyled the shelf prompt as a compact in-world interaction badge inspired by the reference video.",
-        "Shows the selected item, stock count, shelf level, and controls while keeping the store view clear."
+        "Kept the white shelf marker visible near and far from an item, including while the interaction badge is open.",
+        "Anchored the marker to a real shelf prop and refreshed its position smoothly as the camera moves."
     ]
 }
