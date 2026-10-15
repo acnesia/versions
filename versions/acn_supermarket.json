@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.14.2",
+    "version": "1.15.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added direct access to place the shared purchase point from the cashier and checkout settings.",
-        "Fixed 3D placement by waiting for raycasts to return their hit position.",
-        "Players can buy an available supermarket from an in-game 3D purchase point."
+        "Added custom shelf interactions with mouse-wheel level selection and an in-game quantity picker.",
+        "Added in-game controls for shelf marker distance, interaction distance, and aiming precision.",
+        "Kept both ox_target shelf modes available."
     ]
 }
