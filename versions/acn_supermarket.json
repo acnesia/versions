@@ -1,11 +1,11 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.17.1",
+  "version": "1.18.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed an ownership purchase database update that rejected valid supermarket purchases.",
-    "Purchase errors now show the correct cause and refund the player when saving fails."
+    "Redesigned shop kiosk, cart, checkout, receipt and shelf quantity picker with a premium retail look.",
+    "New owner dashboard with KPI tiles, stock ordering, upgrades and an in-UI resale confirmation."
   ]
 }
