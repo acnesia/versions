@@ -1,13 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.13.0",
+    "version": "1.14.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added per-shelf batch customization modal: modify item and 3D prop model independently on any shelf.",
-        "Live 3D prop replacement: existing entities in the supermarket immediately update when changing shelf prop models.",
-        "Added 3D beacon locator and direct teleport tools to find and edit any shelf in seconds.",
-        "Added [TAB] shortcut during 3D placement to cycle through grocery prop model presets in real-time."
+        "Players can buy an available supermarket from an in-game 3D purchase point.",
+        "Owners can enable an NPC manager that orders replacement stock using store revenue.",
+        "Fixed cashier restocking locks and stopped instant props from replacing a physical restocking trip."
     ]
 }
