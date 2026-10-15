@@ -1,12 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.8.2",
+    "version": "2.9.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced robotic speech with natural French neural voice generation.",
-        "Added instant in-memory audio caching for 0ms voice response latency.",
-        "Added multi-tiered audio playback fallback chain with server proxy."
+        "Integrated complete Push-to-Talk [N] detection with real-time visual indicators.",
+        "Added Dual-Mode audio capture in CEF with server-side Groq Whisper support.",
+        "Added automatic French number-to-words converter and pure native French TTS.",
+        "Added hybrid Server AI engine (Groq, Gemini, OpenRouter, Pollinations) and local fuzzy NLU."
     ]
 }
