@@ -1,13 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.0",
+    "version": "2.9.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Integrated complete Push-to-Talk [N] detection with real-time visual indicators.",
-        "Added Dual-Mode audio capture in CEF with server-side Groq Whisper support.",
-        "Added automatic French number-to-words converter and pure native French TTS.",
-        "Added hybrid Server AI engine (Groq, Gemini, OpenRouter, Pollinations) and local fuzzy NLU."
+        "Fixed ESX shared object initialization in server AI handler (sv_ai.lua).",
+        "Optimized script load order in fxmanifest.lua for seamless server startup."
     ]
 }
