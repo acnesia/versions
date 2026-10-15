@@ -1,10 +1,10 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.7",
+    "version": "2.9.8",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Voice recordings are sent with their actual audio format, and Groq transcription errors include a safe diagnostic detail."
+        "Voice commands fixed: audio is converted to a Whisper-compatible format, resolving the HTTP 400 transcription error."
     ]
 }
