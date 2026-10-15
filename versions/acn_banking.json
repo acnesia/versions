@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.8.0",
+    "version": "2.8.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated ATM terminals and bank teller interactions.",
-        "Preserved 100% of the visual ATM terminal interface.",
-        "Introduced native voice-driven bank teller dialogue with French STT, TTS, and live subtitles."
+        "Added interactive mouse cursor and clickable dialogue choice buttons.",
+        "Added quick amount chips and sub-panels for withdrawal and deposit.",
+        "Added Push-to-Talk via in-game key [N] and live balance pill."
     ]
 }
