@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.15.1",
+    "version": "1.15.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced the shelf interaction label with a clean HTML prompt positioned above the selected item.",
-        "Fixed mouse wheel direction and hid shelf prompts when walls block the view."
+        "Restyled the shelf prompt as a compact in-world interaction badge inspired by the reference video.",
+        "Shows the selected item, stock count, shelf level, and controls while keeping the store view clear."
     ]
 }
