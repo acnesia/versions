@@ -1,11 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.15.5",
+    "version": "1.15.6",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "The selected shelf product now shows its inventory icon beside the product name.",
-        "A compact scroll hint appears when multiple shelf levels can be selected."
+        "The selected shelf product shows its inventory icon beside the product name.",
+        "A compact mouse-wheel icon and clear label explain how to change shelf levels."
     ]
 }
