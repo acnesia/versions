@@ -1,12 +1,13 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.5.0",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed the player ped turning invisible inside interiors while the studio is open.",
-        "Custom tattoos are now projected in 3D on the body, with position, mirror and reset controls.",
-        "Cleaner studio interface and automatic memory cleanup on close."
+        "Custom tattoos can now be uploaded straight from the player's computer (stored server-side).",
+        "Realistic ink rendering with 4 styles: Black & Grey, Fine line, Colour and Aged.",
+        "Tattoos now wrap around the limb and follow the ped's animations.",
+        "Fully redesigned custom tattoo workshop."
     ]
 }
