@@ -1,12 +1,11 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.15.0",
+    "version": "1.15.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added custom shelf interactions with mouse-wheel level selection and an in-game quantity picker.",
-        "Added in-game controls for shelf marker distance, interaction distance, and aiming precision.",
-        "Kept both ox_target shelf modes available."
+        "Replaced the shelf interaction label with a clean HTML prompt positioned above the selected item.",
+        "Fixed mouse wheel direction and hid shelf prompts when walls block the view."
     ]
 }
