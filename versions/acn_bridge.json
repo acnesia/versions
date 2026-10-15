@@ -1,12 +1,10 @@
 {
-  "resource": "acn_bridge",
-  "severity": "recommended",
-  "minimum_supported": "1.9.0",
-  "update_url": "https://portal.cfx.re/",
-  "version": "2.0.1",
-  "changelog": [
-    "Added stylized post-startup server diagnostic banner displaying detected and missing components.",
-    "Added /bridge_status console/admin command and PrintDiagnostics export.",
-    "Integrated Menu/Context and Radial Menu active script auto-detection."
-  ]
+    "resource": "acn_bridge",
+    "severity": "recommended",
+    "minimum_supported": "1.9.0",
+    "update_url": "https://portal.cfx.re/",
+    "version": "2.0.2",
+    "changelog": [
+        "Avoided forwarding unknown zone names as ox_target IDs and cleared stale tracked IDs when ox_target restarts."
+    ]
 }
