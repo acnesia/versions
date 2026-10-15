@@ -1,12 +1,10 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.3",
+    "version": "2.9.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate spoken replies when multiple speech recognition methods return the same request.",
-        "Prevented fallback audio from playing more than once after a playback error.",
-        "Improved microphone permission guidance and text fallback for bank teller voice interactions."
+        "Removed stale bank target zones across resource restarts to prevent old ox_target callbacks from firing."
     ]
 }
