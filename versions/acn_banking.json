@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.6",
+    "version": "2.8.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed deposit and withdrawal operations in banking interface.",
-        "Fixed real-time bank and cash balance synchronization with database.",
-        "Fixed ATM bank balance loading and accurate checking account hero display."
+        "Separated ATM terminals and bank teller interactions.",
+        "Preserved 100% of the visual ATM terminal interface.",
+        "Introduced native voice-driven bank teller dialogue with French STT, TTS, and live subtitles."
     ]
 }
