@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.14.0",
+    "version": "1.14.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed 3D placement by waiting for raycasts to return their hit position.",
         "Players can buy an available supermarket from an in-game 3D purchase point.",
-        "Owners can enable an NPC manager that orders replacement stock using store revenue.",
-        "Fixed cashier restocking locks and stopped instant props from replacing a physical restocking trip."
+        "Owners can enable an NPC manager that orders replacement stock using store revenue."
     ]
 }
