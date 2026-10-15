@@ -1,12 +1,12 @@
 {
     "resource": "acn_supermarket",
-    "version": "1.14.1",
+    "version": "1.14.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Added direct access to place the shared purchase point from the cashier and checkout settings.",
         "Fixed 3D placement by waiting for raycasts to return their hit position.",
-        "Players can buy an available supermarket from an in-game 3D purchase point.",
-        "Owners can enable an NPC manager that orders replacement stock using store revenue."
+        "Players can buy an available supermarket from an in-game 3D purchase point."
     ]
 }
