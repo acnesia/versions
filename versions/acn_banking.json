@@ -1,10 +1,10 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.4",
+    "version": "2.9.5",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed stale bank target zones across resource restarts to prevent old ox_target callbacks from firing."
+        "Clarified voice transcription errors and preserved push-to-talk recordings while transcription completes."
     ]
 }
