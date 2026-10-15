@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.2",
+    "version": "2.9.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added master toggles to easily enable or disable AI and external APIs.",
-        "Guaranteed 100% local fuzzy NLU operation when AI or external APIs are disabled.",
-        "Added Config.EnableBankerVoice toggle in config.lua."
+        "Fixed duplicate spoken replies when multiple speech recognition methods return the same request.",
+        "Prevented fallback audio from playing more than once after a playback error.",
+        "Improved microphone permission guidance and text fallback for bank teller voice interactions."
     ]
 }
