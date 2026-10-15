@@ -1,11 +1,12 @@
 {
-    "resource": "acn_supermarket",
-    "version": "1.16.0",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Each supermarket can now have its own saved purchase point and store-specific offer.",
-        "Choose the custom 3D interaction or target zones through acn_bridge in the in-game settings."
-    ]
+  "resource": "acn_supermarket",
+  "version": "1.17.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added a complete owner panel for supermarket stock, employees, upgrades, and resale.",
+    "Manual stock orders use personal funds, while hired stock managers automate restocking with store funds.",
+    "Upgrade prices and the resale refund rate can be adjusted in-game."
+  ]
 }
