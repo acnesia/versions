@@ -1,11 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.1",
+    "version": "2.9.2",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed ESX shared object initialization in server AI handler (sv_ai.lua).",
-        "Optimized script load order in fxmanifest.lua for seamless server startup."
+        "Added master toggles to easily enable or disable AI and external APIs.",
+        "Guaranteed 100% local fuzzy NLU operation when AI or external APIs are disabled.",
+        "Added Config.EnableBankerVoice toggle in config.lua."
     ]
 }
