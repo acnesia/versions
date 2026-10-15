@@ -1,13 +1,12 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed custom tattoos not rendering on the ped.",
-        "Body map labels now point at the real body parts and follow the ped.",
-        "Automatic plain-background removal for every ink style.",
-        "Added /tattoo_debug to visualise tattoo placement."
+        "Fixed custom tattoos not being saved (uploads now stored in data/ with write verification).",
+        "Custom tattoos now hug the real body shape instead of floating in front of it.",
+        "Clear error messages in the workshop when a purchase fails."
     ]
 }
