@@ -1,13 +1,13 @@
 {
     "resource": "acn_tatouage",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Custom tattoos can now be uploaded straight from the player's computer (stored server-side).",
-        "Realistic ink rendering with 4 styles: Black & Grey, Fine line, Colour and Aged.",
-        "Tattoos now wrap around the limb and follow the ped's animations.",
-        "Fully redesigned custom tattoo workshop."
+        "Fixed custom tattoos not rendering on the ped.",
+        "Body map labels now point at the real body parts and follow the ped.",
+        "Automatic plain-background removal for every ink style.",
+        "Added /tattoo_debug to visualise tattoo placement."
     ]
 }
