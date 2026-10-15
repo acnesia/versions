@@ -1,10 +1,10 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.6",
+    "version": "2.9.7",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Quick actions and banking voice commands no longer wait for the external dialogue service, and transcription failures show the Groq HTTP status."
+        "Voice recordings are sent with their actual audio format, and Groq transcription errors include a safe diagnostic detail."
     ]
 }
