@@ -1,14 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.9.0",
+    "version": "10.10.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Unrestricted 90-degree celestial sky observation camera mode (/ciel, /stargaze, /skycam) bypassing GTA V pitch limits.",
-        "Astronomical mouse scroll wheel zoom from 105-degree panoramic sky down to 22-degree telescope magnification.",
-        "Single-click celestial auto-alignment ([SPACE]) locking onto solar eclipses, auroras, or meteor radiants.",
-        "Discreet satin celestial HUD with azimuth, zenith elevation, FOV, and screenshot hide mode ([H]).",
-        "Direct sky observation launch button integrated in the celestial command deck of /weathertime."
+        "Added Tri-Regional Climate System splitting San Andreas into 3 distinct macro-regions (South, Central, North) with independent weather and temperatures.",
+        "Smooth 200m buffer blending zone preventing sudden weather jumps when traveling between regions.",
+        "Overtime weather transitions via SetWeatherTypeOvertimePersist with gradual atmospheric fading.",
+        "Real-time continuous temperature blending with physiological thermodynamics and felt temperature support.",
+        "Comprehensive configuration in config.lua and developer exports for dynamic runtime toggling."
     ]
 }
