@@ -1,15 +1,16 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.6.0",
+    "version": "10.7.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Brand-new executive AAA celestial observatory dashboard with spacious layout.",
-        "Interactive 24-hour celestial solar/lunar orbit dial with live trajectory scrubber.",
-        "Categorized atmospheric weather families with French labels, visibility, humidity, and wind stats.",
-        "Tactile admin weather transition mode selector (Instant 0s, Fast 10s, Realistic Front 30s).",
-        "Redesigned environmental zones studio with 1-click presets and humanized screen effects.",
-        "Chromium CEF zero-leak architecture with full memory cleanup on panel exit."
+        "Isobaric atmospheric engine & barometric pressure simulation with moving depression and anticyclone fronts.",
+        "Human thermodynamics & felt temperature with altitude thermal loss, wind chill, and building/vehicle shelter detection.",
+        "Full 4-seasons calendar cycle with summer heat haze mirages, autumn winds, winter frost, and spring showers.",
+        "Live Doppler weather radar reflectivity simulation & civilian portable weather tablet (/meteo_tablet).",
+        "Aerodynamic flight turbulence in clouds/storms, helicopter urban windshear, and maritime boat drift.",
+        "Rare celestial phenomena: solar eclipses with twilight darkening, northern aurora borealis, and meteor showers.",
+        "Interactive San Andreas map in the admin panel (/conf_acn_weathertime) for visual zone creation and microclimates."
     ]
 }
