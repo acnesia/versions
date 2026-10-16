@@ -1,13 +1,12 @@
 {
     "resource": "acn_essence",
-    "version": "1.4.4",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed refueling stop key responsiveness to immediately stop on input.",
-        "Automatic wallet budget capping: stops refuel when player runs out of money.",
-        "Blocked melee punching while carrying the fuel nozzle.",
-        "Added interactive gasoline spraying (left click at feet, right+left click forward)."
+        "Added Alt target interaction on gas pumps to refill fuel cans (jerrycans) to 100%.",
+        "Added full inventory durability and fuel metadata validation for jerrycan refilling.",
+        "Added empty fuel can support, refilling animation with prop, and station economy integration."
     ]
 }
