@@ -1,14 +1,15 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.10.0",
+    "version": "10.11.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Tri-Regional Climate System splitting San Andreas into 3 distinct macro-regions (South, Central, North) with independent weather and temperatures.",
-        "Smooth 200m buffer blending zone preventing sudden weather jumps when traveling between regions.",
-        "Overtime weather transitions via SetWeatherTypeOvertimePersist with gradual atmospheric fading.",
-        "Real-time continuous temperature blending with physiological thermodynamics and felt temperature support.",
-        "Comprehensive configuration in config.lua and developer exports for dynamic runtime toggling."
+        "Added progressive cold exposure timer (default 30 minutes continuous exposure before stamina drain).",
+        "Shelter and heat source detection: warming up in vehicles, interiors, under roofs, or near campfires and heaters.",
+        "Discreet cold warning notification and floating toast banner when felt temperature drops below 2°C.",
+        "Subtle cold frost blue screen vignette effect with adaptive opacity and zero CEF performance overhead.",
+        "100% in-game and config toggles for visual effects, warnings, stamina drain, optional cold damage, and exposure duration.",
+        "Exposed client exports GetColdExposurePercent, IsPlayerFreezing, and GetThermodynamicsSettings."
     ]
 }
