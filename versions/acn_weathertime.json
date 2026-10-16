@@ -1,13 +1,15 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.5.0",
+    "version": "10.6.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed extreme weather events and natural disaster simulations (tornado, hurricane, hail, global sandstorm, extreme blizzard).",
-        "Preserved environmental zones (desert sandstorm, freezing summit, toxic, radiation).",
-        "Retained ocean level elevation and tsunami alert restart systems.",
-        "Streamlined NUI dashboard and added /conf_acn_weathertime standard command."
+        "Brand-new executive AAA celestial observatory dashboard with spacious layout.",
+        "Interactive 24-hour celestial solar/lunar orbit dial with live trajectory scrubber.",
+        "Categorized atmospheric weather families with French labels, visibility, humidity, and wind stats.",
+        "Tactile admin weather transition mode selector (Instant 0s, Fast 10s, Realistic Front 30s).",
+        "Redesigned environmental zones studio with 1-click presets and humanized screen effects.",
+        "Chromium CEF zero-leak architecture with full memory cleanup on panel exit."
     ]
 }
