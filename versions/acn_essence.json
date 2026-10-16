@@ -1,12 +1,12 @@
 {
     "resource": "acn_essence",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Alt target interaction on gas pumps to refill fuel cans (jerrycans) to 100%.",
-        "Added full inventory durability and fuel metadata validation for jerrycan refilling.",
-        "Added empty fuel can support, refilling animation with prop, and station economy integration."
+        "Added full vehicle Jerry Can refueling via ox_target, prompt [E], and direct inventory use.",
+        "Fixed durability and fuel level synchronization to prevent false 100% full checks.",
+        "Added prorated fuel cost calculation based on missing fuel percentage for Jerry Can refills."
     ]
 }
