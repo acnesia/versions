@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "4.1.0",
+  "version": "4.2.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouvel onglet Parametres dans /items : reglages de l'inventaire modifiables en jeu et appliques en direct.",
-    "Correction d'une erreur console des armes portees sur le corps.",
-    "Suppression de l'avertissement esx:setPlayerData."
+    "Options de deplacement en jeu : ouvrir / utiliser l'inventaire a pied, en conducteur ou en passager.",
+    "La boite a gants ne se ferme plus quand le vehicule roule.",
+    "Champs des parametres lisibles dans /items."
   ]
 }
