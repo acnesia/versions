@@ -1,14 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.8.0",
+    "version": "10.8.1",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Unified executive /weathertime and /conf_acn_weathertime console with direct access to all 8 modules.",
-        "8K multi-tile interactive tactical map engine with seamless pointer drag-pan, cursor-centered wheel zoom, and instant reset.",
-        "Live interactive zone placement and polygon tracing directly on the map with real-time SVG shape and pin rendering.",
-        "Zone microclimates with customizable weather distribution percentages and quick 1-click climate presets.",
-        "Direct control decks for solar eclipses, aurora borealis, perseids meteor showers, flight turbulences, and live Doppler radar."
+        "Connected live Doppler radar to real in-game environmental zones with physical coordinates, radii, and dBZ badges.",
+        "Zero fake cells on clear days and coherent frontal precipitation bands aligned with isobaric wind headings.",
+        "Instant celestial event triggering with automatic daylight/night shift and smooth 60 FPS solar eclipse occlusion.",
+        "Interactive 3D laser raycasting ground placement for in-game zone creation and polyline editing.",
+        "Multi-tile 8K tactical map integration with smooth pan, cursor zoom, and microclimate probability configuration."
     ]
 }
