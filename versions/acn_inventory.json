@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "3.12.0",
+  "version": "4.0.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Creation directe et onglet dedie de munitions personnalisees dans le createur en jeu.",
-    "Liaison et auto-creation en 1 clic de munitions sur-mesure pour armes moddees / addon.",
-    "Capacite de chargeur personnalisee et correction du rechargement des armes addons sans meta."
+    "Nouveau systeme de sacs a dos par item a niveaux (10 a 50 places), invisibles et reglables en jeu.",
+    "Interface d'inventaire modernisee et plus lisible, corrections d'affichage.",
+    "Gestionnaire /items refait : catalogue, recherche, createur d'objet simplifie et synchro instantanee."
   ]
 }
