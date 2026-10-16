@@ -1,13 +1,13 @@
 {
     "resource": "acn_loadingscreen",
-    "version": "1.3.3",
-    "severity": "important",
+    "version": "2.0.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Resolution definitive du reafichage intempestif bloquant la connexion et le curseur.",
-        "Isolation complete du mode test en jeu via une page NUI zero-fuite dediee.",
-        "Fermeture proactive et securisee de l ecran de chargement a l apparition du joueur.",
-        "Ajout de la commande d administration et suggestion chat /conf_acn_loadingscreen."
+        "Nouveau design complet, sobre et lisible a toutes les resolutions.",
+        "Barre de progression reelle FiveM par etapes (moteur, carte, session, ressources).",
+        "Lecteur musique complet : play/pause, pistes, volume, muet, visualiseur.",
+        "Bluebird Clicker embarque en plein ecran avec sauvegarde, touches avec recherche."
     ]
 }
