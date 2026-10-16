@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.28.0",
+  "version": "5.31.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Le menu admin recense tous les personnages, en ligne et hors ligne, avec recherche et filtres par statut et grade staff.",
-    "Les couleurs des grades et leur niveau Power sont affichés ; les grades hors ligne inconnus sont signalés."
+    "Maintien permanent du NoClip en cas d'inactivité (AFK sans coupure inattendue).",
+    "Neutralisation automatique de la caméra cinématique GTA pendant le NoClip."
   ]
 }
