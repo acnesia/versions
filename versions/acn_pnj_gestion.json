@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnj_gestion",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Systeme complet de Secours PNJ SAMU avec intervention d ambulance, CPR et reanimation.",
-        "Gestion totale des musiques GTA V, vol, combat et coupure auto autoradio en vehicule.",
-        "Equilibrage precision tirs PNJ, degats armes, anti-headshot lethal et conduite calme."
+        "Nouveau boost de population : densite Humains et Trafic reglable jusqu a 300 pourcent avec ajout reel de passants et de vehicules.",
+        "Correction du budget de population qui pouvait rester bloque en instance et reglages des modeles optimises.",
+        "Diagnostic automatique du server.cfg (OneSync, onesync_population, sv_entityLockdown) affiche en console et dans le menu."
     ]
 }
