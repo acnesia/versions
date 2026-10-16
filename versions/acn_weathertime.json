@@ -1,15 +1,16 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.11.0",
+    "version": "11.0.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added progressive cold exposure timer (default 30 minutes continuous exposure before stamina drain).",
-        "Shelter and heat source detection: warming up in vehicles, interiors, under roofs, or near campfires and heaters.",
-        "Discreet cold warning notification and floating toast banner when felt temperature drops below 2°C.",
-        "Subtle cold frost blue screen vignette effect with adaptive opacity and zero CEF performance overhead.",
-        "100% in-game and config toggles for visual effects, warnings, stamina drain, optional cold damage, and exposure duration.",
-        "Exposed client exports GetColdExposurePercent, IsPlayerFreezing, and GetThermodynamicsSettings."
+        "Added decoupled Tri-Regional Climate system (South temperate, Central desert basin, North alpine) with smooth 200m buffer blending.",
+        "Implemented human thermodynamics 30-minute cold exposure accumulator, cold warning toast, adaptive blue vignette, and heat source warming.",
+        "Added real-time native 2D Flight Instruments HUD for planes and helicopters (barometric altimeter MSL/QNH, variometer, crosswind, turbulence, windshear warning).",
+        "Added interactive dynamic storm cell spawner directly on the Doppler radar canvas with localized in-game storms.",
+        "Enforced strict night-only astronomical occurrences for Aurora Borealis and Perseid meteor showers with live astronomical forecasting.",
+        "Integrated interactive 4-step Zone Tutorial guide in the admin management interface.",
+        "100% in-game live configuration and toggles for all new atmospheric systems without server restart."
     ]
 }
