@@ -1,11 +1,10 @@
 {
     "resource": "esx_status",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "severity": "recommended",
     "minimum_supported": "1.0.1",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Updated remote version checker with standardized startup diagnostics and formatted console outputs.",
-        "Synchronized release metadata for automated version tracking."
+        "Added seamless forwarders to the unified acn_status engine for full backward compatibility across all legacy exports and event calls."
     ]
 }
