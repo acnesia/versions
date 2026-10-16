@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau systeme de sacs a dos par item a niveaux (10 a 50 places), invisibles et reglables en jeu.",
-    "Interface d'inventaire modernisee et plus lisible, corrections d'affichage.",
-    "Gestionnaire /items refait : catalogue, recherche, createur d'objet simplifie et synchro instantanee."
+    "Inventaire plein ecran et suppression du fond Liquid Glass en double.",
+    "Poids maximum respecte pour chaque vetement et pour les mains.",
+    "Correction du don d'item dans /items et du blocage a la fermeture du menu admin."
   ]
 }
