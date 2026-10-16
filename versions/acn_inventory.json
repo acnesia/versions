@@ -1,12 +1,12 @@
 {
   "resource": "acn_inventory",
-  "version": "4.0.1",
+  "version": "4.1.0",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Inventaire plein ecran et suppression du fond Liquid Glass en double.",
-    "Poids maximum respecte pour chaque vetement et pour les mains.",
-    "Correction du don d'item dans /items et du blocage a la fermeture du menu admin."
+    "Nouvel onglet Parametres dans /items : reglages de l'inventaire modifiables en jeu et appliques en direct.",
+    "Correction d'une erreur console des armes portees sur le corps.",
+    "Suppression de l'avertissement esx:setPlayerData."
   ]
 }
