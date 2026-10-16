@@ -1,16 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.7.0",
+    "version": "10.8.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Isobaric atmospheric engine & barometric pressure simulation with moving depression and anticyclone fronts.",
-        "Human thermodynamics & felt temperature with altitude thermal loss, wind chill, and building/vehicle shelter detection.",
-        "Full 4-seasons calendar cycle with summer heat haze mirages, autumn winds, winter frost, and spring showers.",
-        "Live Doppler weather radar reflectivity simulation & civilian portable weather tablet (/meteo_tablet).",
-        "Aerodynamic flight turbulence in clouds/storms, helicopter urban windshear, and maritime boat drift.",
-        "Rare celestial phenomena: solar eclipses with twilight darkening, northern aurora borealis, and meteor showers.",
-        "Interactive San Andreas map in the admin panel (/conf_acn_weathertime) for visual zone creation and microclimates."
+        "Unified executive /weathertime and /conf_acn_weathertime console with direct access to all 8 modules.",
+        "8K multi-tile interactive tactical map engine with seamless pointer drag-pan, cursor-centered wheel zoom, and instant reset.",
+        "Live interactive zone placement and polygon tracing directly on the map with real-time SVG shape and pin rendering.",
+        "Zone microclimates with customizable weather distribution percentages and quick 1-click climate presets.",
+        "Direct control decks for solar eclipses, aurora borealis, perseids meteor showers, flight turbulences, and live Doppler radar."
     ]
 }
