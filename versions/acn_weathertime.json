@@ -1,14 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "10.8.1",
+    "version": "10.9.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Connected live Doppler radar to real in-game environmental zones with physical coordinates, radii, and dBZ badges.",
-        "Zero fake cells on clear days and coherent frontal precipitation bands aligned with isobaric wind headings.",
-        "Instant celestial event triggering with automatic daylight/night shift and smooth 60 FPS solar eclipse occlusion.",
-        "Interactive 3D laser raycasting ground placement for in-game zone creation and polyline editing.",
-        "Multi-tile 8K tactical map integration with smooth pan, cursor zoom, and microclimate probability configuration."
+        "Unrestricted 90-degree celestial sky observation camera mode (/ciel, /stargaze, /skycam) bypassing GTA V pitch limits.",
+        "Astronomical mouse scroll wheel zoom from 105-degree panoramic sky down to 22-degree telescope magnification.",
+        "Single-click celestial auto-alignment ([SPACE]) locking onto solar eclipses, auroras, or meteor radiants.",
+        "Discreet satin celestial HUD with azimuth, zenith elevation, FOV, and screenshot hide mode ([H]).",
+        "Direct sky observation launch button integrated in the celestial command deck of /weathertime."
     ]
 }
