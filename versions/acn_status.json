@@ -1,14 +1,12 @@
 {
     "resource": "acn_status",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Unified esx_status and acn_basicneeds into a single high-performance resource.",
-        "Added /conf_acn_status in-game live configuration suite with config.json persistence.",
-        "Integrated 3D Gizmo and Raycast prop attachment editor directly in-game.",
-        "Modernized notification system with acn_bridge:Notify and UTF-8 encoding fix.",
-        "Full backward compatibility with legacy esx_status and devcore_needs events/exports."
+        "Added 8 realism modules (metabolism, thermoregulation, cold chain, food poisoning, buffs, addiction, duo toasts, and bladder).",
+        "Added Modules & Realism configuration tab in the /conf_acn_status admin dashboard.",
+        "Fixed admin dashboard modal centering and layout on all screen sizes."
     ]
 }
