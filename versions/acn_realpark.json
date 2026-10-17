@@ -1,11 +1,11 @@
 {
   "resource": "acn_realpark",
-  "version": "4.3.0",
+  "version": "4.3.1",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Gestion avancée du rangement : interdiction de ranger à la sortie avec paramètres configurables (dépôt dédié, PNJ, sortie).",
-    "Inspection et pénalités de retour : vérification des dégâts, essence, saleté et transferts inter-garages."
+    "Suppression des invites intrusives sur les sorties de véhicule pour un affichage plus propre et immersif.",
+    "Gestion avancée du rangement avec règles configurables et inspections au retour."
   ]
 }
