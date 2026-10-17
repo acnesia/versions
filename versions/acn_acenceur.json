@@ -1,12 +1,11 @@
 {
     "resource": "acn_acenceur",
-    "version": "2.2.2",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Upgraded 3D raycast and polygon modes with acn_illegal_labs high precision asynchronous camera probe.",
-        "Added screen center crosshair aiming dot and volumetric wireframe enclosure loop preview.",
-        "Ergonomic keybinds: Left Click / E to place vertex, G / R to undo, Enter to validate cabin."
+        "Added server-authoritative cabin lock preventing multiple players from opening the elevator interface concurrently in the same elevator.",
+        "Automatic lock release on interface close, ride arrival, excessive distance, death, or player disconnect."
     ]
 }
