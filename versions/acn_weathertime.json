@@ -1,15 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "12.0.0",
+    "version": "12.2.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete premium redesign of the weather console: matte command-center look, SVG icons, Doppler radar console with dBZ ruler.",
-        "Radar storm 'Dissolve' button now actually removes temporary storm cells.",
-        "Zone 3D placement now correctly returns to the console after confirm/cancel; sky camera releases NUI focus.",
-        "Tsunami alert and siren now stop properly; tri-regional mode and regional weather now persist across restarts.",
-        "Seasons set in-game are no longer reverted in calendar mode; permissions routed through acn_bridge IsAdmin.",
-        "Database loading waits for oxmysql tables before applying settings and zones."
+        "Interactive high-definition multi-tile GTA V map engine for civilian & admin tablet (/meteo_tablet).",
+        "Point inspection popover with real-time weather, temperature, humidity, and storm intersection.",
+        "Comprehensive storm spawn probability scheduler with configurable global and per-type rates.",
+        "Added Sandstorm and Toxic storm categories with severity scaling (moderate to cataclysmic).",
+        "Direct click-to-spawn modal on Doppler radar map and instant random storm generator."
     ]
 }
