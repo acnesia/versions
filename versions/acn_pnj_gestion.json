@@ -1,11 +1,11 @@
 {
   "resource": "acn_pnj_gestion",
-  "version": "3.7.1",
+  "version": "3.7.2",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Les véhicules créés par des scripts ne sont plus protégés automatiquement contre les dégâts.",
-    "Le multiplicateur de dégâts s'applique de nouveau aux véhicules non protégés."
+    "Les collisions appliquent maintenant des dégâts au moteur, à la carrosserie et au réservoir, même sans perte de santé signalée par GTA.",
+    "Le multiplicateur global peut monter jusqu'à 5."
   ]
 }
