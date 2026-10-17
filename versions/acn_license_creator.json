@@ -1,0 +1,14 @@
+{
+    "resource": "acn_license_creator",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release: Comprehensive in-game document and license creator.",
+        "Dynamic template editor with custom fields, layouts and color schemes.",
+        "Job rank permissions and hierarchical supervisor approval workflow.",
+        "Realistic physical metadata document items and proximity sharing.",
+        "In-game admin management with 3D Raycast station placement."
+    ]
+}
