@@ -1,12 +1,11 @@
 {
-    "resource": "acn_pnj_gestion",
-    "version": "3.7.0",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Nouveau boost de population : densite Humains et Trafic reglable jusqu a 300 pourcent avec ajout reel de passants et de vehicules.",
-        "Correction du budget de population qui pouvait rester bloque en instance et reglages des modeles optimises.",
-        "Diagnostic automatique du server.cfg (OneSync, onesync_population, sv_entityLockdown) affiche en console et dans le menu."
-    ]
+  "resource": "acn_pnj_gestion",
+  "version": "3.7.1",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Les véhicules créés par des scripts ne sont plus protégés automatiquement contre les dégâts.",
+    "Le multiplicateur de dégâts s'applique de nouveau aux véhicules non protégés."
+  ]
 }
