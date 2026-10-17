@@ -1,11 +1,11 @@
 {
   "resource": "acn_realpark",
-  "version": "3.4.9",
+  "version": "4.3.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction du traitement des plaques à la fourrière évitant toute erreur gsub.",
-    "Sécurisation et fiabilisation des retraits de véhicules et des callbacks NUI."
+    "Gestion avancée du rangement : interdiction de ranger à la sortie avec paramètres configurables (dépôt dédié, PNJ, sortie).",
+    "Inspection et pénalités de retour : vérification des dégâts, essence, saleté et transferts inter-garages."
   ]
 }
