@@ -1,13 +1,12 @@
 {
     "resource": "acn_status",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added real-time Sprint & Metabolism Telemetry Diagnostic HUD (/statusdebug, /sprintdebug).",
-        "Added live IsPedSprinting detection, physical exertion multiplier, and entity speed telemetry.",
-        "Added precise caloric burn calculations on the 1,000,000 status scale with percentage drain and time remaining estimations.",
-        "Added in-game status simulation controls for rapid debugging."
+        "Fixed resource restart and hot-reload freeze: engine now instantly recovers and requests player status automatically upon restart.",
+        "Added automatic status synchronization and clean-up hooks on resource stop, preventing stuck props and saving progress to database.",
+        "Added self-healing fallback loop starting status depletion even if server network packets are delayed during live server reloads."
     ]
 }
