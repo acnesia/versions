@@ -1,12 +1,12 @@
 {
     "resource": "acn_pnjshop",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete NPC invisibility for unauthorized players: restricted shop peds, 3D markers, ox_target interactions, and prompts are now completely hidden if the player lacks the required job/grade.",
-        "Real-time reactive entity synchronization upon job change, promotion, or demotion without reconnecting.",
-        "Enhanced server-authoritative security preventing unauthorized item catalog retrieval on restricted shops."
+        "Instant entity cleanup for unauthorized shops using GetGamePool('CPed') with aggressive map offset deletion.",
+        "Systematic ped purge when unauthorized players approach restricted shops even across hot-restarts.",
+        "Admin creator supports both job datalist autocomplete and free text input without reset issues."
     ]
 }
