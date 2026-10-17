@@ -1,0 +1,12 @@
+{
+    "resource": "acn_hud",
+    "version": "1.3.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Modular HUD block dissociation: decouple and freely reposition identity, vitals, needs, modules and voice blocks.",
+        "Added physiological Stress and Bladder status modules with calm, warm, and critical states.",
+        "Complete /conf_acn_hud redesign: enlarged panel, instant text search filter, and distinct visual cards."
+    ]
+}
