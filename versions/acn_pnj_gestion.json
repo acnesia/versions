@@ -1,11 +1,11 @@
 {
   "resource": "acn_pnj_gestion",
-  "version": "3.7.2",
+  "version": "3.8.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Les collisions appliquent maintenant des dégâts au moteur, à la carrosserie et au réservoir, même sans perte de santé signalée par GTA.",
-    "Le multiplicateur global peut monter jusqu'à 5."
+    "Gestionnaire complet des animations AFK dans /conf_acn_pnj_gestion : activez, modifiez et ajoutez vos scénarios ou animations personnalisées.",
+    "Tolérance caméra optimisée : regarder autour de son personnage n'annule plus les animations d'inactivité."
   ]
 }
