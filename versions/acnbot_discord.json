@@ -5,7 +5,7 @@
   "minimum_supported": "4.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Boîte à Confessions & Questions Anonymes Modérées (/confess) : soumission anonyme via modale, approbation staff et diffusion publique.",
+    "Boîte à Confessions & Questions Anonymes Modérées (/confess, /setup-confess) : soumission via modale, panneau interactif de gestion in-game et diffusion publique.",
     "Carte de Profil Universelle Canvas (/profile) : fusion complète XP, ancienneté, économie, réputation, métiers et personnalisation (bio, cadre, fonds d'écran /shop).",
     "Page Publique « Vitrine » pour chaque Serveur (/server/:slug) : landing page propre avec stats en direct, classement XP Top 10 et lien d'invitation personnalisé.",
     "Agrégateur Universel de Flux : suivi automatisé Steam News, GitHub, Reddit et flux RSS/Atom avec publication d'embeds riches dans les salons configurés.",
