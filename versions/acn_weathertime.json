@@ -1,14 +1,15 @@
 {
     "resource": "acn_weathertime",
-    "version": "11.1.0",
+    "version": "12.0.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fully interactive Doppler Radar map with mouse pan, cursor zoom, GTA coordinates readout, and floating controls.",
-        "Click-to-spawn dynamic temporary localized storm cells with custom weather, radius, and duration on Doppler radar.",
-        "Regional Climate Selector in Weather tab allowing independent weather assignment to South, Central, or North regions.",
-        "Complete flight turbulence physics softening and rate-limiting with in-game toggle for silky-smooth aircraft handling.",
-        "Quick Tri-Regional mode toggle button and live regional meteorological telemetry badges."
+        "Complete premium redesign of the weather console: matte command-center look, SVG icons, Doppler radar console with dBZ ruler.",
+        "Radar storm 'Dissolve' button now actually removes temporary storm cells.",
+        "Zone 3D placement now correctly returns to the console after confirm/cancel; sky camera releases NUI focus.",
+        "Tsunami alert and siren now stop properly; tri-regional mode and regional weather now persist across restarts.",
+        "Seasons set in-game are no longer reverted in calendar mode; permissions routed through acn_bridge IsAdmin.",
+        "Database loading waits for oxmysql tables before applying settings and zones."
     ]
 }
