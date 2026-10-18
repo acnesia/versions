@@ -1,13 +1,13 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.9.0",
+    "version": "5.10.0",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Automated 3D vehicle photography studio with dynamic camera framing.",
-        "Automatic in-browser background removal for transparent vehicle renders.",
-        "One-click fleet batch photography from the in-game admin panel.",
-        "Updated catalog vehicle cards with high-definition transparent photos."
+        "Flexible vehicle storage supporting both target and 3D text interactions while driving or on foot.",
+        "Grade-based vehicle listing filter hiding higher rank vehicles from unauthorized employees.",
+        "Job-restricted NPC visibility ensuring only eligible employees can see garage attendants.",
+        "Increased vehicle storage interaction radius for smoother parking and return workflows."
     ]
 }
