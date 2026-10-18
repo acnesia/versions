@@ -1,11 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "1.0.1",
+    "version": "2.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Switched admin checks to ESX/framework permission groups (Config.AdminGroups).",
-        "Fixed /conf_acn_license_creator permission validation and RPC sync."
+        "Complete visual redesign with obsidian satin theme and department badge graphics.",
+        "Interactive live WYSIWYG studio with real-time physical document preview.",
+        "Fixed giant SVG button icon scaling and filled admin panel with live metrics."
     ]
 }
