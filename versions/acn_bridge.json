@@ -3,8 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "changelog": [
-        "Usable items now also hook acn_inventory / ox_inventory server-side for reliable item use."
+        "RegisterUsableItem uses acn_inventory's direct registration first for reliable item use."
     ]
 }

@@ -1,12 +1,11 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.3.0",
+    "version": "3.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "New /cartes menu listing all your cards, with an optional keybind.",
-        "Show your card to the players you choose: animation and card displayed top-right on their screen.",
-        "Startup check warns when acn_bridge or acn_inventory is outdated or not restarted."
+        "Using a card from the inventory now opens it reliably with acn_inventory.",
+        "New /cartes menu and show your card to the players you choose (top-right display)."
     ]
 }
