@@ -1,14 +1,14 @@
 {
     "resource": "acn_hud",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Hunger/thirst notifications are now a freely movable block (drag in edit mode).",
+        "New notification settings: alignment, width, scale, stacking direction.",
         "Deep HUD customization: background color/transparency, borders, shadow, colors, 5 bar styles, spacing, icon size.",
         "Presets (Minimal, Glass, Solid, Floating, Compact) and style export / import.",
-        "Fixed 'hide when everything is fine' (now covers stress and bladder) and removed duplicate options.",
-        "Reorganized configuration menu with clear tabs.",
-        "New widgets: clock, ammo, dirty money, society balance, money change animation."
+        "Fixed 'hide when everything is fine' (now covers stress and bladder) and removed duplicate options."
     ]
 }
