@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.32.0",
+  "version": "5.32.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Découverte dynamique de 100% des commandes FiveM et scripts tiers dans le configurateur de rôles.",
-    "Synchronisation automatique des permissions ACE FiveM natives et élévation éphémère (JIT) transparente."
+    "Prise en charge automatique des permissions ACE spécifiques aux scripts tiers (ex: apex.scenedirector).",
+    "Élévation de privilèges synchrone garantissant une ouverture instantanée des scripts sans latence."
   ]
 }
