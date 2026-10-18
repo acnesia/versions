@@ -1,13 +1,13 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.8.0",
+    "version": "5.9.0",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Modular file architecture separating core domains.",
-        "Integrated Chromium CEF zero-leak lifecycle management.",
-        "Refined acn_bridge export consumption and permissions.",
-        "Optimized 3D raycast laser placement responsiveness."
+        "Automated 3D vehicle photography studio with dynamic camera framing.",
+        "Automatic in-browser background removal for transparent vehicle renders.",
+        "One-click fleet batch photography from the in-game admin panel.",
+        "Updated catalog vehicle cards with high-definition transparent photos."
     ]
 }
