@@ -1,14 +1,12 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.10.1",
+    "version": "5.10.2",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed vehicle spawn button visibility and card height in player garage menu.",
-        "Fixed minimap and radar bleed-through in photo studio with continuous per-frame HUD suppression.",
-        "Fixed photo studio background removal with stratosphere framing (Z=2800) and cloudless sky gradient.",
-        "Added automatic database saving and 380px WebP downscaling for all photographed vehicle fleets.",
-        "Added explicit visual error indicators when vehicle spawn models are invalid or fail to load."
+        "Fixed vehicle creation in photo studio by teleporting player to trigger local entity streaming.",
+        "Adjusted photo studio altitude to 950m with upward sky framing and zero collision interference.",
+        "Sanitized vehicle model strings to support all custom addon vehicle models reliably."
     ]
 }
