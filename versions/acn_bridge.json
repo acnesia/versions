@@ -3,8 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.0.2",
+    "version": "2.1.0",
     "changelog": [
-        "Avoided forwarding unknown zone names as ox_target IDs and cleared stale tracked IDs when ox_target restarts."
+        "Added server exports RegisterUsableItem (ESX, QBCore, Qbox, ox_inventory, acn_inventory) and GetCharacterInfo (ESX, QBCore, Qbox)."
     ]
 }

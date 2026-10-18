@@ -1,12 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "2.0.0",
+    "version": "3.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete visual redesign with obsidian satin theme and department badge graphics.",
-        "Interactive live WYSIWYG studio with real-time physical document preview.",
-        "Fixed giant SVG button icon scaling and filled admin panel with live metrics."
+        "Brand new visual card editor: ID cards, driving licences with points, business cards and more.",
+        "Players can print their own cards at print stations and show them with an animation.",
+        "Card registry for police: points, suspension, revocation and renewal."
     ]
 }
