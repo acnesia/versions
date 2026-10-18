@@ -1,11 +1,11 @@
 {
   "resource": "acn_pnj_gestion",
-  "version": "3.8.0",
+  "version": "3.9.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Gestionnaire complet des animations AFK dans /conf_acn_pnj_gestion : activez, modifiez et ajoutez vos scénarios ou animations personnalisées.",
-    "Tolérance caméra optimisée : regarder autour de son personnage n'annule plus les animations d'inactivité."
+    "AFK fiable : bouger la souris ou la caméra n'annule plus l'attente, et tous les délais/tolérances se règlent en jeu.",
+    "Nombreux correctifs : secours PNJ sécurisé, civils qui ne deviennent plus agressifs, réglages qui se désactivent enfin, seuils de soif, sac de vêtements."
   ]
 }
