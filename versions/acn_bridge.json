@@ -3,8 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.2.4",
+    "version": "2.2.5",
     "changelog": [
-        "Correction native IsPlayerAceAllowed dans GetPlayerGroup et sécurisation des appels d'exports."
+        "Prise en charge des callbacks d'exports (tables proxy FiveM) dans RegisterUsableItem."
     ]
 }
