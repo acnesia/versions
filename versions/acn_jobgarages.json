@@ -1,13 +1,13 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.7.0",
+    "version": "5.8.0",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Standardized in-game admin command to /conf_acn_jobgarages with chat completion.",
-        "Integrated multi-language locales (locales/fr.lua, locales/en.lua).",
-        "Streamlined bridge routing through acn_bridge exports.",
-        "Updated server console & chat version broadcasting on startup."
+        "Modular file architecture separating core domains.",
+        "Integrated Chromium CEF zero-leak lifecycle management.",
+        "Refined acn_bridge export consumption and permissions.",
+        "Optimized 3D raycast laser placement responsiveness."
     ]
 }
