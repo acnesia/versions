@@ -1,14 +1,14 @@
 {
     "resource": "acn_hud",
-    "version": "1.5.1",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Hunger/thirst notifications are now a freely movable block (drag in edit mode).",
-        "New notification settings: alignment, width, scale, stacking direction.",
-        "Deep HUD customization: background color/transparency, borders, shadow, colors, 5 bar styles, spacing, icon size.",
-        "Presets (Minimal, Glass, Solid, Floating, Compact) and style export / import.",
-        "Fixed 'hide when everything is fine' (now covers stress and bladder) and removed duplicate options."
+        "Live engine health and tachometer (RPM) with gear indicators.",
+        "6 distinct speedometer styles for cars (Classic, Realistic, Sport GT, Luxury, Cyber, Compact).",
+        "6 dedicated aeronautical instrument styles for airplanes (PFD artificial horizon, Six-Pack, Jet HUD, Minimal Aero, Transport, Retro).",
+        "6 dedicated instrument styles for helicopters (Glass MFD, Tactical FLIR, Analog dual-needle, Rescue SAR, Minimal Heli, Offshore).",
+        "Live in-game style selection and telemetry toggles in /hud and /conf_acn_hud."
     ]
 }
