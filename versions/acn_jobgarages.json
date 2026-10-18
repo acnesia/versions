@@ -1,13 +1,14 @@
 {
     "resource": "acn_jobgarages",
-    "version": "5.10.0",
+    "version": "5.10.1",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Flexible vehicle storage supporting both target and 3D text interactions while driving or on foot.",
-        "Grade-based vehicle listing filter hiding higher rank vehicles from unauthorized employees.",
-        "Job-restricted NPC visibility ensuring only eligible employees can see garage attendants.",
-        "Increased vehicle storage interaction radius for smoother parking and return workflows."
+        "Fixed vehicle spawn button visibility and card height in player garage menu.",
+        "Fixed minimap and radar bleed-through in photo studio with continuous per-frame HUD suppression.",
+        "Fixed photo studio background removal with stratosphere framing (Z=2800) and cloudless sky gradient.",
+        "Added automatic database saving and 380px WebP downscaling for all photographed vehicle fleets.",
+        "Added explicit visual error indicators when vehicle spawn models are invalid or fail to load."
     ]
 }
