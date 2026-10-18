@@ -1,14 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "12.2.0",
+    "version": "13.0.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Interactive high-definition multi-tile GTA V map engine for civilian & admin tablet (/meteo_tablet).",
-        "Point inspection popover with real-time weather, temperature, humidity, and storm intersection.",
-        "Comprehensive storm spawn probability scheduler with configurable global and per-type rates.",
-        "Added Sandstorm and Toxic storm categories with severity scaling (moderate to cataclysmic).",
-        "Direct click-to-spawn modal on Doppler radar map and instant random storm generator."
+        "Every config.lua option (300+) is now editable in-game from the new Configuration tab of /conf_acn_weathertime.",
+        "Changes apply live to all players and are saved automatically (SQL + KVP), no restart needed.",
+        "Smart schema-driven interface: options appear or hide depending on your choices, with search, per-field reset, export and import.",
+        "Coordinates (zones, Cayo protection...) are placed in-game with a laser raycast tool.",
+        "New server exports GetConfigValue / SetConfigValue."
     ]
 }
