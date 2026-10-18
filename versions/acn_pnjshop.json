@@ -1,12 +1,11 @@
 {
     "resource": "acn_pnjshop",
-    "version": "2.3.1",
+    "version": "2.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Instant entity cleanup for unauthorized shops using GetGamePool('CPed') with aggressive map offset deletion.",
-        "Systematic ped purge when unauthorized players approach restricted shops even across hot-restarts.",
-        "Admin creator supports both job datalist autocomplete and free text input without reset issues."
+        "Job-restricted shop cleanup now only removes peds created by acn_pnjshop, fixing flickering NPCs from other scripts.",
+        "Prevented duplicate vendor peds when spawning concurrently."
     ]
 }
