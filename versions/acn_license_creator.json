@@ -1,11 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.3.1",
+    "version": "3.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Using a card from the inventory now opens it reliably with acn_inventory.",
-        "New /cartes menu and show your card to the players you choose (top-right display)."
+        "Cards can now be used and shown directly from inventory without /cartes.",
+        "/cartes now strictly checks that the card is in your inventory.",
+        "One-click 'Montrer autour de moi' to broadcast card to all nearby players."
     ]
 }
