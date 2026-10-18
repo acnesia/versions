@@ -3,9 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.2.0",
+    "version": "2.2.1",
     "changelog": [
-        "Added server exports RegisterUsableItem (ESX, QBCore, Qbox, ox_inventory, acn_inventory) and GetCharacterInfo (ESX, QBCore, Qbox).",
-        "Added server export GetItemList (all inventory items as name + label, sorted, cached 60 s)."
+        "Usable items now also hook acn_inventory / ox_inventory server-side for reliable item use."
     ]
 }

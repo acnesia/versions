@@ -1,12 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Job permissions per template and live licence points with reasons, auto-suspension at 0 and full history.",
-        "Roadside check of the nearest player's cards and job-editable card fields.",
-        "In-game inventory item picker; fixed cards not usable with acn_inventory on ESX."
+        "NPC vendors selling cards (ID card, licences...) with per-vendor prices, and unique cards replaced on re-issue.",
+        "Admins can give any card to any online player; jobs can issue from the registry.",
+        "All settings editable in-game; fixed cards not usable or showable with acn_inventory."
     ]
 }
