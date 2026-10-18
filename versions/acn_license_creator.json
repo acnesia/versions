@@ -1,12 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "NPC vendors selling cards (ID card, licences...) with per-vendor prices, and unique cards replaced on re-issue.",
-        "Admins can give any card to any online player; jobs can issue from the registry.",
-        "All settings editable in-game; fixed cards not usable or showable with acn_inventory."
+        "New /cartes menu listing all your cards, with an optional keybind.",
+        "Show your card to the players you choose: animation and card displayed top-right on their screen.",
+        "Startup check warns when acn_bridge or acn_inventory is outdated or not restarted."
     ]
 }
