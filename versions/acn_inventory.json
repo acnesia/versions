@@ -1,11 +1,10 @@
 {
   "resource": "acn_inventory",
-  "version": "4.2.3",
+  "version": "4.2.4",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction intégrale du rechargement et de l'utilisation des munitions personnalisées et moddées.",
-    "Résolution du rechargement via [R] et de l'auto-rechargement pour les munitions moddées."
+    "Correction des items utilisables d'autres scripts (cartes acn_license_creator) qui ne faisaient rien sous ESX."
   ]
 }
