@@ -1,14 +1,14 @@
 {
     "resource": "acn_hud",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fully redesigned slim and modern HUD interface.",
-        "Hunger, thirst, stress and bladder shown as descriptive text (admin option for percentages).",
-        "Option to remove block backgrounds.",
-        "New Job & Money block (job, grade, cash, bank).",
-        "Minimap back to normal GTA size with a rebindable expand key."
+        "Deep HUD customization: background color/transparency, borders, shadow, colors, 5 bar styles, spacing, icon size.",
+        "Presets (Minimal, Glass, Solid, Floating, Compact) and style export / import.",
+        "Fixed 'hide when everything is fine' (now covers stress and bladder) and removed duplicate options.",
+        "Reorganized configuration menu with clear tabs.",
+        "New widgets: clock, ammo, dirty money, society balance, money change animation."
     ]
 }
