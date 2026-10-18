@@ -1,13 +1,14 @@
 {
     "resource": "acn_hud",
-    "version": "1.3.2",
+    "version": "1.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Stabilized minimap controller: calibrated radar initialization and continuous on-foot / vehicle visibility.",
-        "Asynchronous non-blocking minimap scaleform loading and native GTA V health/armor bars suppression.",
-        "Modular HUD block dissociation: decouple and freely reposition identity, vitals, needs, modules and voice blocks.",
-        "Added physiological Stress and Bladder status modules with calm, warm, and critical states."
+        "Fully redesigned slim and modern HUD interface.",
+        "Hunger, thirst, stress and bladder shown as descriptive text (admin option for percentages).",
+        "Option to remove block backgrounds.",
+        "New Job & Money block (job, grade, cash, bank).",
+        "Minimap back to normal GTA size with a rebindable expand key."
     ]
 }
