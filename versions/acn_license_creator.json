@@ -1,12 +1,13 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.4.0",
+    "version": "3.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Cards can now be used and shown directly from inventory without /cartes.",
-        "/cartes now strictly checks that the card is in your inventory.",
-        "One-click 'Montrer autour de moi' to broadcast card to all nearby players."
+        "Added police inspection command (/policecards) with clipboard animation.",
+        "Inspect physical cards carried in a nearby player's pockets.",
+        "Directly add/deduct licence points with reason prompt, audit logs and auto-suspend.",
+        "Full in-game customization of police check in /conf_acn_license_creator."
     ]
 }
