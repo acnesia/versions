@@ -1,11 +1,11 @@
 {
   "resource": "acn_inventory",
-  "version": "4.2.1",
+  "version": "4.2.2",
   "severity": "recommended",
   "minimum_supported": "3.1.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Amélioration de l'utilisation du Jerry Can sur les véhicules à proximité.",
-    "Support des effets d'objets sur les armes avec repli automatique vers l'équipement en main."
+    "Correction et détection automatique intégrale des armes créées ou moddées (addons/streamées).",
+    "Correction de l'affichage dans le menu administrateur (/items) : statut utilisable et non empilable garanti pour toutes les armes."
   ]
 }
