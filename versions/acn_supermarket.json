@@ -1,11 +1,11 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.21.0",
+  "version": "1.21.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "New global Prop Catalog: set an item's 3D model once and every store (and its placed shelves) updates at the same time.",
-    "Choose which stores sell each item, bulk import items, and keep a store-specific model when needed."
+    "Fixed shelf item interaction: zones match the real shelf row, no more flicker when items are taken, and the prompt keeps your selected layer.",
+    "E and mouse-wheel presses on the personal shelf prompt are no longer lost."
   ]
 }
