@@ -1,14 +1,11 @@
 {
   "resource": "acnbot_discord",
-  "version": "4.22.0",
+  "version": "4.23.0",
   "severity": "recommended",
   "minimum_supported": "4.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Boîte à Confessions & Questions Anonymes Modérées (/confess, /setup-confess) : soumission via modale, panneau interactif de gestion in-game et diffusion publique.",
-    "Carte de Profil Universelle Canvas (/profile) : fusion complète XP, ancienneté, économie, réputation, métiers et personnalisation (bio, cadre, fonds d'écran /shop).",
-    "Page Publique « Vitrine » pour chaque Serveur (/server/:slug) : landing page propre avec stats en direct, classement XP Top 10 et lien d'invitation personnalisé.",
-    "Agrégateur Universel de Flux : suivi automatisé Steam News, GitHub, Reddit et flux RSS/Atom avec publication d'embeds riches dans les salons configurés.",
-    "Synchronisation Inter-Serveurs (Rôles & Profils) : gestion de réseaux multi-serveurs sur le panel web (/cross-sync) avec harmonisation des rôles et de l'XP en temps réel."
+    "Salons Vocaux Temporaires & Emojis : palette d'emojis intégrée, variables dynamiques ({user}, {displayName}, {game}, {emoji}) et aperçu en direct sur le panel web.",
+    "Correctif Réseaux Sociaux & TikTok : fiabilisation des relais RSS publics avec priorisation des relais actifs et bouton de test/synchronisation direct."
   ]
 }
