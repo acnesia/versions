@@ -1,13 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.5.0",
+    "version": "3.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added police inspection command (/policecards) with clipboard animation.",
-        "Inspect physical cards carried in a nearby player's pockets.",
-        "Directly add/deduct licence points with reason prompt, audit logs and auto-suspend.",
-        "Full in-game customization of police check in /conf_acn_license_creator."
+        "In-game image library: upload logos and card backgrounds, then pick them in the editor.",
+        "7 new ready-made cards: LSPD/EMS badges, vehicle registration, health insurance, hunting, fishing and VIP club cards.",
+        "Job-editable fields can be filled in when issuing a card."
     ]
 }

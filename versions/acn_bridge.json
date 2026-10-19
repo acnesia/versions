@@ -3,8 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.2.5",
+    "version": "2.3.0",
     "changelog": [
-        "Prise en charge des callbacks d'exports (tables proxy FiveM) dans RegisterUsableItem."
+        "Les images envoyées via UploadItemImage sont servies immédiatement (redémarrage automatique d'inventory_images)."
     ]
 }
