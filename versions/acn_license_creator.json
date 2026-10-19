@@ -1,16 +1,15 @@
 {
     "resource": "acn_license_creator",
-    "version": "4.1.2",
+    "version": "4.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Photo studio: the booth camera prop reappears after the photo.",
-        "Photo studio: the booth camera prop is hidden for the photographer and the default framing is wider.",
-        "3D placement: precise surface aiming, ignores your own character, smoother rotation and correct key help.",
-        "Points removal: stack several offences at once (speeding, red light, drunk driving...), each worth its own configurable amount.",
-        "Gradual points recovery: offence-free drivers get points back over time (days and amount set in-game).",
-        "Giving points back no longer asks for a reason.",
-        "Fixed the 'Show this card to' window: player names are readable again."
+        "License & card unlocks system: connect driving schools, job approvals, and scripts.",
+        "NPC / kiosk unlock requirement: citizens must pass exams or obtain approval before printing official cards.",
+        "Visual unlock badges (unlocked vs locked) displayed in station catalogs.",
+        "Live in-game unlock manager in /conf_acn_license_creator to grant or revoke credentials in 1 click.",
+        "Public API exports: UnlockCard, LockCard, HasUnlockedCard, GetPlayerUnlocks.",
+        "Pre-configured boat and pilot license templates ready out-of-the-box."
     ]
 }
