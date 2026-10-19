@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.32.1",
-  "severity": "recommended",
+  "version": "5.32.2",
+  "severity": "critical",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Prise en charge automatique des permissions ACE spécifiques aux scripts tiers (ex: apex.scenedirector).",
-    "Élévation de privilèges synchrone garantissant une ouverture instantanée des scripts sans latence."
+    "Correction de sécurité majeure : suppression de l'héritage abusif des permissions admin pour les joueurs réguliers.",
+    "Révocation automatique des principaux administrateurs FiveM (group.admin) pour les utilisateurs de base."
   ]
 }

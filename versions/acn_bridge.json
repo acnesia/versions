@@ -1,10 +1,10 @@
 {
     "resource": "acn_bridge",
-    "severity": "recommended",
+    "severity": "critical",
     "minimum_supported": "1.9.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "changelog": [
-        "Les images envoyées via UploadItemImage sont servies immédiatement (redémarrage automatique d'inventory_images)."
+        "Correction de sécurité majeure sur la détection des permissions : suppression du contrôle de l'ACE command qui accordait les privilèges administrateur à tous les joueurs."
     ]
 }
