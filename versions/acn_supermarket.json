@@ -1,11 +1,12 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.21.1",
+  "version": "1.22.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed shelf item interaction: zones match the real shelf row, no more flicker when items are taken, and the prompt keeps your selected layer.",
-    "E and mouse-wheel presses on the personal shelf prompt are no longer lost."
+    "New Obsidian Gaming Dark theme: ultra-modern UI, silky smooth micro-interactions, 60 FPS without blur filter.",
+    "Added stealable and RFID security management with in-table toggles and modal switch.",
+    "Restored propagation and developer confirmation dialogs."
   ]
 }
