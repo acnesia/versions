@@ -1,11 +1,11 @@
 {
   "resource": "acnbot_discord",
-  "version": "4.23.0",
+  "version": "4.24.0",
   "severity": "recommended",
   "minimum_supported": "4.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Salons Vocaux Temporaires & Emojis : palette d'emojis intégrée, variables dynamiques ({user}, {displayName}, {game}, {emoji}) et aperçu en direct sur le panel web.",
-    "Correctif Réseaux Sociaux & TikTok : fiabilisation des relais RSS publics avec priorisation des relais actifs et bouton de test/synchronisation direct."
+    "Nouveau Module Entretien (/entretien & /conf_entretien) : convocations en message privé avec confirmation d'horaires, recueil de disponibilités via modal et création automatique de salons d'entretien privés.",
+    "Contrôles Intégrés & Transcripts : panneau d'évaluation staff, création de salon vocal dédié, verdict final et export automatique des échanges en transcript HTML."
   ]
 }
