@@ -1,12 +1,12 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "In-game image library: upload logos and card backgrounds, then pick them in the editor.",
-        "7 new ready-made cards: LSPD/EMS badges, vehicle registration, health insurance, hunting, fishing and VIP club cards.",
-        "Job-editable fields can be filled in when issuing a card."
+        "Direct show shortcut: show card directly to looked-at/aimed player without menus (/showcard or H keybind).",
+        "Interactive first-launch onboarding tutorial for administrators opening the card studio.",
+        "Comprehensive buyer documentation (README.md & docs.md) with inventory setup and developer exports API."
     ]
 }
