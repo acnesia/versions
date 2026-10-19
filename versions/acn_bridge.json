@@ -3,9 +3,10 @@
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.4.0",
+    "version": "2.4.1",
     "changelog": [
-        "Nouvelle commande acn_restart_all et export RestartAllResources pour relancer toutes les ressources déclarées.",
-        "Script utilitaire Linux VPS restart_resources.sh avec support screen, tmux et génération de restart_all.cfg."
+        "Filtrage exclusif des ressources : cible uniquement vos ressources (acn_*, ACN_*, inventory_images) sans toucher aux dépendances tierces.",
+        "Suppression des erreurs 'Access denied for command stop/start' via les natives moteur FiveM StopResource et StartResource.",
+        "Seules les ressources actuellement actives sur le serveur sont redémarrées pour préserver les scripts arrêtés."
     ]
 }
