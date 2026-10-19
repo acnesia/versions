@@ -1,10 +1,11 @@
 {
     "resource": "acn_tebex",
-    "version": "3.3.2",
+    "version": "3.3.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed SVG icon centering inside guarantee bubbles and category badges."
+        "Studio image upload: instant preview, clear error messages, no more stuck upload button.",
+        "Server console logs every image upload with its result."
     ]
 }
