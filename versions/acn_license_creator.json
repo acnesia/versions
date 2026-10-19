@@ -1,13 +1,14 @@
 {
     "resource": "acn_license_creator",
-    "version": "3.7.1",
+    "version": "4.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed duplicate vendor peds appearing when placing or saving stations.",
-        "Direct show shortcut: show card directly to looked-at/aimed player without menus (/showcard or H keybind).",
-        "Interactive first-launch onboarding tutorial for administrators opening the card studio.",
-        "Comprehensive buyer documentation (README.md & docs.md) with inventory setup and developer exports API."
+        "Request queue: players file card requests at stations, job agents approve or refuse them with /demandes.",
+        "Identity photo studio: booth with a fixed camera, adjustable pose and expression (requires screenshot-basic).",
+        "Import and export templates as JSON to share designs or keep backups.",
+        "Admin statistics: cards issued per day, revenue and most requested templates.",
+        "Redesigned interfaces across the whole resource."
     ]
 }
