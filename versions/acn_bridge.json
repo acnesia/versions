@@ -1,10 +1,11 @@
 {
     "resource": "acn_bridge",
-    "severity": "critical",
-    "minimum_supported": "1.9.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.3.1",
+    "version": "2.4.0",
     "changelog": [
-        "Correction de sécurité majeure sur la détection des permissions : suppression du contrôle de l'ACE command qui accordait les privilèges administrateur à tous les joueurs."
+        "Nouvelle commande acn_restart_all et export RestartAllResources pour relancer toutes les ressources déclarées.",
+        "Script utilitaire Linux VPS restart_resources.sh avec support screen, tmux et génération de restart_all.cfg."
     ]
 }
