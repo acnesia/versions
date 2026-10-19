@@ -1,0 +1,12 @@
+{
+    "resource": "acn_tebex",
+    "version": "3.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Brand new premium store interface: banners, flash deals with countdowns, cart, gifts, promo codes and live purchases feed.",
+        "New management studio (/conf_acn_tebex): sales dashboard, live item editor and everything editable in game.",
+        "Now requires acn_bridge."
+    ]
+}
