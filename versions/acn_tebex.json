@@ -1,12 +1,12 @@
 {
     "resource": "acn_tebex",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Cinematic opening intro, background video or Ken Burns photos, animated particles and mouse parallax.",
-        "3D tilting cards with moving light, purchase reveal with light rays, fly-in page animations.",
-        "All effects can be toggled in game (Studio > Look & general > Effects & media)."
+        "Upload images from your PC directly in the studio (saved to inventory_images).",
+        "Full-screen layout so the animated background is fully visible.",
+        "Fixed banner text shifting on open and menu buttons re-animating on every click."
     ]
 }
