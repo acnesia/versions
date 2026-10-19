@@ -1,12 +1,12 @@
 {
     "resource": "acn_tebex",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Bold game-store redesign: rarity system (Common to Legendary) on every item.",
-        "Flash deals zone with flip countdown, diagonal discount ribbons, lit product pedestals.",
-        "VIP ranks with metal finishes and credit packs shown as coin stacks."
+        "Cinematic opening intro, background video or Ken Burns photos, animated particles and mouse parallax.",
+        "3D tilting cards with moving light, purchase reveal with light rays, fly-in page animations.",
+        "All effects can be toggled in game (Studio > Look & general > Effects & media)."
     ]
 }
