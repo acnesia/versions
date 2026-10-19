@@ -1,14 +1,11 @@
 {
     "resource": "acn_hud",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Live engine health and tachometer (RPM) with gear indicators.",
-        "6 distinct speedometer styles for cars (Classic, Realistic, Sport GT, Luxury, Cyber, Compact).",
-        "6 dedicated aeronautical instrument styles for airplanes (PFD artificial horizon, Six-Pack, Jet HUD, Minimal Aero, Transport, Retro).",
-        "6 dedicated instrument styles for helicopters (Glass MFD, Tactical FLIR, Analog dual-needle, Rescue SAR, Minimal Heli, Offshore).",
-        "Live in-game style selection and telemetry toggles in /hud and /conf_acn_hud."
+        "Instant HUD money update upon dropping cash on the ground, transfers and payments (under 1 second maximum).",
+        "Reactive framework and inventory transaction listeners with optimized refresh rate."
     ]
 }
