@@ -1,14 +1,13 @@
 {
     "resource": "acn_license_creator",
-    "version": "4.0.0",
+    "version": "4.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Request queue: players file card requests at stations, job agents approve or refuse them with /demandes.",
-        "Identity photo studio: booth with a fixed camera, adjustable pose and expression (requires screenshot-basic).",
-        "Import and export templates as JSON to share designs or keep backups.",
-        "Admin statistics: cards issued per day, revenue and most requested templates.",
-        "Redesigned interfaces across the whole resource."
+        "Points removal: stack several offences at once (speeding, red light, drunk driving...), each worth its own configurable amount.",
+        "Gradual points recovery: offence-free drivers get points back over time (days and amount set in-game).",
+        "Giving points back no longer asks for a reason.",
+        "Fixed the 'Show this card to' window: player names are readable again."
     ]
 }
