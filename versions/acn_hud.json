@@ -1,11 +1,11 @@
 {
     "resource": "acn_hud",
-    "version": "1.6.1",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Instant HUD money update upon dropping cash on the ground, transfers and payments (under 1 second maximum).",
-        "Reactive framework and inventory transaction listeners with optimized refresh rate."
+        "Added all status bar styles from 0r-hud-v3: circle, square, hexagon, hexagon-w, zarg, wave-c, wave-h, classic, universal, grt-premium, zarg-m.",
+        "Added all 10 vehicle speedometer styles from 0r-hud-v3: classic_old, time_bomb, grt_one, grt_two, bmg, gmg, globe, semi_circle, hud_v2, race_hud."
     ]
 }
