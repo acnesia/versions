@@ -1,11 +1,12 @@
 {
   "resource": "acnbot_discord",
-  "version": "4.24.0",
+  "version": "4.25.0",
   "severity": "recommended",
   "minimum_supported": "4.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau Module Entretien (/entretien & /conf_entretien) : convocations en message privé avec confirmation d'horaires, recueil de disponibilités via modal et création automatique de salons d'entretien privés.",
-    "Contrôles Intégrés & Transcripts : panneau d'évaluation staff, création de salon vocal dédié, verdict final et export automatique des échanges en transcript HTML."
+    "Panneau de Contrôle Interactif (/panel_entretien & /entretien panel) : interface Discord tout-en-un avec stats en direct, sélection d'entretien et actions rapides.",
+    "Réponse Directe au Candidat via le Bot : bouton interactif pour répondre directement en MP aux questions des candidats avec accusé de réception et traçabilité.",
+    "Relais Bidirectionnel des Messages Privés : transfert automatique des messages MP des candidats aux responsables d'entretien."
   ]
 }
