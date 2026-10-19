@@ -1,10 +1,11 @@
 {
     "resource": "acn_license_creator",
-    "version": "4.2.1",
+    "version": "4.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Card designs now keep the logos and background images picked from the library when saved.",
         "Image library fixed: uploaded logos and backgrounds now show instantly, no restart needed.",
         "Images are now stored in the script's own uploads/ folder instead of the inventory resource."
     ]
