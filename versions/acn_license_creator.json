@@ -1,15 +1,11 @@
 {
     "resource": "acn_license_creator",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "License & card unlocks system: connect driving schools, job approvals, and scripts.",
-        "NPC / kiosk unlock requirement: citizens must pass exams or obtain approval before printing official cards.",
-        "Visual unlock badges (unlocked vs locked) displayed in station catalogs.",
-        "Live in-game unlock manager in /conf_acn_license_creator to grant or revoke credentials in 1 click.",
-        "Public API exports: UnlockCard, LockCard, HasUnlockedCard, GetPlayerUnlocks.",
-        "Pre-configured boat and pilot license templates ready out-of-the-box."
+        "Image library fixed: uploaded logos and backgrounds now show instantly, no restart needed.",
+        "Images are now stored in the script's own uploads/ folder instead of the inventory resource."
     ]
 }
