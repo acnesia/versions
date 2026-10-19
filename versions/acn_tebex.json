@@ -1,12 +1,10 @@
 {
     "resource": "acn_tebex",
-    "version": "3.3.1",
+    "version": "3.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced emojis with crisp, modern SVG vector icons for trust cards and categories.",
-        "Automatic emoji-to-SVG conversion for existing databases and custom items.",
-        "Live icon preview in the studio with custom SVG name support."
+        "Fixed SVG icon centering inside guarantee bubbles and category badges."
     ]
 }
