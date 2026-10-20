@@ -1,16 +1,11 @@
 {
     "resource": "acn_ems",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Commandes admin /revive [id] et /reviveall.",
-        "Réanimation naturelle : le joueur se relève du sol, sans effet de respawn.",
-        "Blessures par zone du corps : une balle dans la jambe gauche fait boiter, saigner et souffrir la jambe gauche.",
-        "Interface médicale 3D avec mini-jeux : désinfecter, extraire, suturer, bandage, attelle, injection, gel brûlure.",
-        "Moniteur de constantes vitales : rythme cardiaque, saturation, tension, sang et douleur.",
-        "Système de coma, saignement, réanimation (massage, défibrillateur, transfusion, adrénaline) et réapparition.",
-        "Hôpital avec check-in, portage et mise en véhicule, configuration en jeu via /conf_acn_ems."
+        "Nouvelle commande /hardrevive : réanimation, soins, faim et soif au maximum, stress à zéro.",
+        "/revive reste une réanimation simple avec soins, sans effet de respawn."
     ]
 }

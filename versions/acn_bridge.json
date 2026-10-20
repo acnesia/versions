@@ -3,10 +3,8 @@
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.4.1",
+    "version": "2.5.0",
     "changelog": [
-        "Filtrage exclusif des ressources : cible uniquement vos ressources (acn_*, ACN_*, inventory_images) sans toucher aux dépendances tierces.",
-        "Suppression des erreurs 'Access denied for command stop/start' via les natives moteur FiveM StopResource et StartResource.",
-        "Seules les ressources actuellement actives sur le serveur sont redémarrées pour préserver les scripts arrêtés."
+        "Nouvel export serveur ResetNeeds : faim et soif au maximum, stress à zéro, compatible ESX, QBCore et Qbox."
     ]
 }
