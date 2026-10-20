@@ -1,10 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.2.6",
+    "version": "4.2.7",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction : l'inventaire se rouvre correctement après une réanimation (plus de blocage \"blessure fatale\")."
+        "Optimisation des performances serveur, client et interface (aucun changement de comportement)."
     ]
 }
