@@ -1,0 +1,11 @@
+{
+    "resource": "acn_keylock",
+    "version": "2.4.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Creating an original key now also gives the vehicle registration card with a photo of the car (requires acn_license_creator).",
+        "Key creation checks vehicle ownership and is protected against spam."
+    ]
+}
