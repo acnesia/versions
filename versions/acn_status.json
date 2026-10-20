@@ -1,12 +1,12 @@
 {
     "resource": "acn_status",
-    "version": "1.2.1",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed resource restart and hot-reload freeze: engine now instantly recovers and requests player status automatically upon restart.",
-        "Added automatic status synchronization and clean-up hooks on resource stop, preventing stuck props and saving progress to database.",
-        "Added self-healing fallback loop starting status depletion even if server network packets are delayed during live server reloads."
+        "La faim et la soif refonctionnent après une réanimation (perte de vie et alertes de nouveau actives).",
+        "Nouveau remplissage complet faim/soif (export fill) avec sauvegarde immédiate, utilisé par /hardrevive.",
+        "Fixed food and drink items not being usable with acn_inventory: hunger and thirst are restored again."
     ]
 }
