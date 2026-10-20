@@ -1,16 +1,18 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.4.2",
+    "version": "2.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.4.2/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.5.0/Hors-Piste.apk",
     "changelog": [
-        "Aiguillage automatique des notifications push sur le telephone incarnant le compte en cas de swap d'identite.",
-        "Suppression totale des notifications en doublon lors de la reception de messages prives.",
-        "Bandeau permanent SwapStatusBar avec compte incarne, nom affiche et decompte en direct du temps restant.",
-        "Synchronisation immediate de l'identite lors du retour dans l'application sans necessiter de redemarrage.",
-        "Ajout de la commande /conf_resaux_social et /conf_hors_piste pour acceder au panneau d'administration en direct."
+        "Nouvelle interface façon Instagram : photos en grand, carrousels, stories avec anneaux, Explorer en grille, profils en grille.",
+        "Caméra intégrée : photo en un tap, vidéo en maintenant, filtres en glissant, publication en 3 taps.",
+        "Nouvel éditeur de stories : texte stylé, stickers, sondages en direct, dessin, et « Vu par ».",
+        "Messages privés refaits : vocaux avec forme d'onde et vitesse, réponses, réactions, thèmes, fonds d'écran et effets d'envoi.",
+        "Swap avancé : missions secrètes, accusations, indices, saisons et récap « Swap Wrapped ».",
+        "Jeux entre potes : Imposteur, Qui est le plus, Duel, 2 vérités 1 mensonge, Dessine et devine, Photo Roulette.",
+        "Mise à jour en un clic directement depuis l'application."
     ]
 }
