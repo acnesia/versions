@@ -1,10 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.2.5",
+    "version": "4.2.6",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Nouvel export RegisterUsableItem : les items d'autres scripts (cartes) sont utilisables de façon fiable et jamais consommés."
+        "Correction : l'inventaire se rouvre correctement après une réanimation (plus de blocage \"blessure fatale\")."
     ]
 }

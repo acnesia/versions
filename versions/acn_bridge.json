@@ -3,8 +3,9 @@
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.5.1",
+    "version": "2.6.0",
     "changelog": [
+        "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target.",
         "ResetNeeds remplit vraiment la faim et la soif d'acn_status, avec sauvegarde immédiate.",
         "Nouvel export serveur ResetNeeds : faim et soif au maximum, stress à zéro, compatible ESX, QBCore et Qbox."
     ]
