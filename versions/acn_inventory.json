@@ -1,10 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.2.7",
+    "version": "4.2.8",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Optimisation des performances serveur, client et interface (aucun changement de comportement)."
+        "Correction : les vêtements retirés ne sont plus perdus quand les mains sont pleines (arme ou objet en main).",
+        "Optimisation des performances serveur, client et interface."
     ]
 }
