@@ -1,12 +1,12 @@
 {
     "resource": "acn_status",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "La faim et la soif refonctionnent après une réanimation (perte de vie et alertes de nouveau actives).",
-        "Nouveau remplissage complet faim/soif (export fill) avec sauvegarde immédiate, utilisé par /hardrevive.",
-        "Fixed food and drink items not being usable with acn_inventory: hunger and thirst are restored again."
+        "Manger/boire refonctionne : la touche E ne reste plus bloquée avec l'objet en main.",
+        "Plus de doubles effets ni de prop fantôme ; /propfix débloque complètement.",
+        "Failles corrigées : apparition d'objets via les verres, plats gratuits, éthylotest usurpé."
     ]
 }
