@@ -3,8 +3,9 @@
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "changelog": [
+        "ResetNeeds compatible avec la protection anti-triche d'acn_status 1.4.0.",
         "/acn_restart_all redémarre automatiquement tous les scripts ACN déjà démarrés, sans liste à maintenir.",
         "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target.",
         "ResetNeeds remplit vraiment la faim et la soif d'acn_status, avec sauvegarde immédiate.",
