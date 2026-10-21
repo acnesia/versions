@@ -1,15 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "4.3.0",
+    "version": "4.3.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Poches Secrètes & Faux-Fonds Clandestins : stockage indétectable en palpation sommaire nécessitant une fouille approfondie.",
-        "Détecteur de Métaux Portatif & Portiques de Sécurité : scan rapide sans fouille intrusive pour policiers et agents.",
-        "Tri Automatique & Fusion des Piles en 1 Clic : réorganisation intelligente par catégorie, poids ou nom.",
-        "Atelier de Réparation & Nettoyage d'Armes : kits d'entretien et restauration de durabilité avec animations dédiées.",
-        "Sélecteur de Quantité Rapide NUI : presets 1, 5, 10, 25, 50, Max, slider tactile et bouton de tri.",
-        "Boîtes Mystères & Paquets Cadeaux Scellés : lootboxes RP avec tirage au sort transparent côté serveur."
+        "Tri Intelligent par Compartiments : maintien strict des objets dans leurs poches respectives (vestes, gilets tactiques, pantalons, sacs).",
+        "Visibilité des Poches Secrètes : nouveau module visuel identifiable avec bouton d'accès rapide en 1 clic dans l'inventaire.",
+        "Synchronisation NUI & Fermeture Fluide : rafraîchissement immédiat des slots sans désynchronisation ni blocage à la fermeture."
     ]
 }
