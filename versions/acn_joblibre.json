@@ -1,10 +1,11 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Mission-style yellow route blip to the depot after signing; purple admin teleport blips on agency and depots.",
         "Removed the cooldown between job changes (sign / quit).",
         "Fixed locales not loading at startup (texts showed raw keys).",
         "Initial release: interim agency with free side jobs and per-job progression.",
