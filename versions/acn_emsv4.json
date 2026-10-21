@@ -1,0 +1,16 @@
+{
+    "resource": "acn_emsv4",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Système balistique et anatomique ultra-poussé avec détection de traumatismes par os.",
+        "Gestion avancée des blessures par balle (balle logée, douleur aiguë localisée, boiterie dynamique, altération physique).",
+        "Chirurgie 3D interactive avec caméra cinématique orientée sur le membre blessé.",
+        "Mini-jeux chirurgicaux immersifs : extraction de balle aux pinces et suture 3D pour recoudre la plaie.",
+        "Défibrillateur interactif avec moniteur ECG animé et synthèse audio temps réel.",
+        "Brancard réaliste, lits d'hôpital interactifs avec rémission progressive et accueil automatisé.",
+        "Configurateur 100% en jeu (/conf_acn_emsv4) avec placement Raycast 3D et persistance SQL."
+    ]
+}
