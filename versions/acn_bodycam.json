@@ -1,0 +1,14 @@
+{
+    "resource": "acn_bodycam",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of ACN Bodycam & Tactical Dashcam Ecosystem.",
+        "Added Axon Body 3 realistic HUD overlay with officer badge, live telemetry, and compass.",
+        "Added live tactical dispatch monitoring terminal with real-time bodycam video spectator feeds.",
+        "Added physical docking stations with 3D props for battery recharging and log offloading.",
+        "Added 100% in-game configuration and 3D Raycast laser placement (/conf_acn_bodycam)."
+    ]
+}
