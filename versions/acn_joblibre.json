@@ -1,10 +1,11 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed locales not loading at startup (texts showed raw keys).",
         "Initial release: interim agency with free side jobs and per-job progression.",
         "9 side jobs: firefighter, trucker, tow, metal detector, train & metro, farmer, garbage, car wash, gas station.",
         "Duty system with depots, automatic outfits and level based pay bonus.",
