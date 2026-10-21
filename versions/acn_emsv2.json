@@ -1,0 +1,12 @@
+{
+    "resource": "acn_emsv2",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of ACN EMS V2 with localized anatomical bone injuries.",
+        "Added 3D surgical cameras and interactive suture, bullet extraction, bandage, and defibrillation mini-games.",
+        "Added stretchers, hospital beds, and live in-game 3D raycast configuration via /conf_acn_emsv2."
+    ]
+}
