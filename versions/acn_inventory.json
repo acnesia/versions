@@ -1,12 +1,14 @@
 {
     "resource": "acn_inventory",
-    "version": "4.3.1",
+    "version": "4.4.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Importation Groupée d'Items (JSON & Lua) : import en masse via script JSON ou table Lua dans /items.",
+        "Injection Directe dans l'Inventaire : option pour ajouter automatiquement les items créés dans vos poches.",
+        "Prévisualisation en Direct : détection temps réel des items et validation instantanée.",
         "Tri Intelligent par Compartiments : maintien strict des objets dans leurs poches respectives (vestes, gilets tactiques, pantalons, sacs).",
-        "Visibilité des Poches Secrètes : nouveau module visuel identifiable avec bouton d'accès rapide en 1 clic dans l'inventaire.",
-        "Synchronisation NUI & Fermeture Fluide : rafraîchissement immédiat des slots sans désynchronisation ni blocage à la fermeture."
+        "Visibilité des Poches Secrètes : nouveau module visuel identifiable avec bouton d'accès rapide en 1 clic dans l'inventaire."
     ]
 }
