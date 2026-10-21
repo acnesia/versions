@@ -1,13 +1,12 @@
 {
     "resource": "acn_emsv3",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of ACN EMS v3 featuring real-time 3D ballistic bone trauma and localized limb pain alerts.",
-        "Added interactive 3D Limb Surgery Suite with 3D bullet extraction, point-by-point 3D wound suturing, and 3D X-Ray fracture alignment.",
-        "Added 60 FPS world-space 3D bone camera zoom and holographic diagnostic pins directly anchored to GTA V player bones.",
-        "Added full in-game live configuration (/conf_acn_emsv3) with interactive 3D Raycast and 3D Axis Gizmo placement."
+        "Added /revive [id] and /heal [id] administrative and medical commands (defaults to self).",
+        "Registered interactive chat auto-completion suggestions for /revive, /heal, /ems_revive, and /ems_heal.",
+        "Full trauma, coma, and vital signs reset upon executing admin heal/revive."
     ]
 }
