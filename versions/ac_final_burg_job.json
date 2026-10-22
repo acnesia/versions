@@ -1,13 +1,12 @@
 {
     "resource": "ac_final_burg_job",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Major performance optimization on client, server and interface.",
-        "All framework, inventory and notification calls now routed through acn_bridge.",
-        "Fixed double payment on registers and lost items when inventory is full.",
-        "Server-side anti-abuse checks on cooking, deliveries, supplies and receipts."
+        "Complete redesign of every interface: kiosk, register, card terminal, back-office, minigames and kitchen screen.",
+        "New consistent dark theme, more readable with bigger buttons.",
+        "Removed looping background animations for a lighter interface."
     ]
 }
