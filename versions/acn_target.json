@@ -1,0 +1,12 @@
+{
+    "resource": "acn_target",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.17.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Renamed to acn_target, still a drop-in ox_target replacement: exports.ox_target, qtarget, dependency 'ox_target' and GetResourceState('ox_target') keep working.",
+        "In server.cfg use 'ensure acn_target' and remove the old ox_target folder.",
+        "Staff menu is now /conf_acn_target. Player choices and key bindings are kept."
+    ]
+}

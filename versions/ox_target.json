@@ -1,13 +1,13 @@
 {
     "resource": "ox_target",
-    "version": "1.19.0",
+    "version": "2.0.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Cursor mode is now the default for every player.",
-        "Each player's /targetui choice is saved in the database.",
-        "New /conf_ox_target staff menu to change the default mode, reset everyone or set a player's mode.",
-        "Removed the Overextended update checker; only ACN versions are checked now."
+        "This resource is now named acn_target: download v2.0.0 and replace your ox_target folder.",
+        "Renamed to acn_target, still a drop-in ox_target replacement: exports.ox_target, qtarget, dependency 'ox_target' and GetResourceState('ox_target') keep working.",
+        "In server.cfg use 'ensure acn_target' and remove the old ox_target folder.",
+        "Staff menu is now /conf_acn_target. Player choices and key bindings are kept."
     ]
 }
