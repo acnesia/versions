@@ -1,0 +1,13 @@
+{
+    "resource": "acn_burgershop_job",
+    "version": "2.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Resource renamed to acn_burgershop_job (previously ac_final_burg_job).",
+        "New in-game admin menu /conf_acn_burgershop_job with live config and 3D placement.",
+        "Brand new ordering kiosk design.",
+        "Old admin commands replaced by the new menu."
+    ]
+}
