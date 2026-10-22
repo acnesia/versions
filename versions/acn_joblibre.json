@@ -1,18 +1,16 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Interactive service selector modal for multi-mode jobs (Metro vs Freight) with mouse and keyboard shortcuts (1, 2, Esc).",
+        "Full GPS waypoint navigation (SetNewWaypoint) for all 9 jobs guiding players to depots, stops, fields, zones, and vehicles.",
+        "Glowing vertical 3D platform beam markers and floating arrival indicators for train stations.",
+        "Automatic vehicle entry warping on spawn for service trucks (garbage, tow, firefighter, trucker).",
+        "Added [GPS Depot] button in the /joblibre agency interface to replot the work route at any time.",
         "Clarity pass: objective banner, per-job briefing (F7), plain-French HUD, world markers, reworked train controls, many job bug fixes.",
-        "Mission-style yellow route blip to the depot after signing; purple admin teleport blips on agency and depots.",
-        "Removed the cooldown between job changes (sign / quit).",
-        "Fixed locales not loading at startup (texts showed raw keys).",
-        "Initial release: interim agency with free side jobs and per-job progression.",
-        "9 side jobs: firefighter, trucker, tow, metal detector, train & metro, farmer, garbage, car wash, gas station.",
-        "Duty system with depots, automatic outfits and level based pay bonus.",
-        "Full in-game configuration editor (/conf_acn_joblibre) with 3D raycast placement.",
-        "Built-in mini-games and job HUD."
+        "Mission-style yellow route blip to the depot after signing; purple admin teleport blips on agency and depots."
     ]
 }
