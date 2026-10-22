@@ -1,10 +1,12 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Teleport button on every coordinate row of the /conf_acn_joblibre editor.",
+        "Admin debug mode: shows every configured job point in the world with labels; aim at one and press G (configurable) to re-place it with the raycast, saved and synced live.",
         "Fixed in-game 3D placement in /conf_acn_joblibre: editor hides during placement, synchronous punch-through raycast, ghost ped follows aim.",
         "Full NUI redesign: modern admin editor (sidebar, grouped cards, field search, coordinate chips, confirm modal, toasts) and restyled agency/HUD.",
         "Interactive service selector modal for multi-mode jobs (Metro vs Freight) with mouse and keyboard shortcuts (1, 2, Esc).",
