@@ -1,10 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.8",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Voice commands fixed: audio is converted to a Whisper-compatible format, resolving the HTTP 400 transcription error."
+        "Nouvelle interface Stitch ACN Premier Banking (thème fintech sombre haute précision, cartes métalliques et typographie tabulaire).",
+        "Migration 100% acn_bridge, correction des traductions FR/PT, réparation du placement ATM 3D Raycast et gestion complète des comptes entreprises."
     ]
 }
