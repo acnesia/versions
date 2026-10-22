@@ -1,14 +1,13 @@
 {
     "resource": "ox_target",
-    "version": "1.18.1",
+    "version": "1.19.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a game crash when hovering an NPC or a player in Cursor mode.",
-        "New Cursor mode: press Alt to free your mouse, aim at anything and click to interact.",
-        "Works with every existing ox_target interaction (entities, models, zones, bones, groups, items, submenus).",
-        "Built-in context actions on the sky, ground, players, NPCs, vehicles and objects, with server-checked staff tools (weather, time, teleport, heal, revive, repair, delete...).",
-        "/targetui now opens a small menu to pick between Classic, ACN and Cursor modes."
+        "Cursor mode is now the default for every player.",
+        "Each player's /targetui choice is saved in the database.",
+        "New /conf_ox_target staff menu to change the default mode, reset everyone or set a player's mode.",
+        "Removed the Overextended update checker; only ACN versions are checked now."
     ]
 }
