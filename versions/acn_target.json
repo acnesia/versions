@@ -1,10 +1,11 @@
 {
     "resource": "acn_target",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed targets of other scripts breaking after acn_target is restarted.",
         "Fixed the big FPS drop while the Alt cursor was open.",
         "Targeting only scans the world when you move the mouse or camera.",
         "Default hover refresh is now 80 ms (cursor.hoverInterval in config.lua)."
