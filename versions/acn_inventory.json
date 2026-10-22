@@ -1,13 +1,12 @@
 ﻿{
     "resource": "acn_inventory",
-    "version": "4.5.0",
+    "version": "4.5.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Poches Secrètes Interactives : emplacements directs 76-78 pour glisser-déposer vos objets sans restriction.",
-        "Zones de Fouille Policière Approfondie : création de zones polygonales en jeu via Raycast 3D (/conf_secret_zone).",
-        "Fouille Approfondie 15s : interaction policière ciblée (/fouille_secrete) disponible uniquement dans les zones dédiées.",
-        "Tri Corporel Strict & Fermeture Fluide : étanchéité parfaite de chaque poche et correction du blocage à la fermeture."
+        "Glisser-Déposer Poches Secrètes : correction de l'initialisation des slots Redux pour un transfert immédiat.",
+        "Capacité Rehaussée : support d'objets lourds et d'armes longues jusqu'à 50 kg dans les doublures.",
+        "Zones de Fouille Policière Approfondie : création de zones polygonales en jeu via Raycast 3D (/conf_secret_zone)."
     ]
 }
