@@ -1,14 +1,12 @@
 {
     "resource": "acn_target",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Cursor key option: Toggle or Hold, chosen per player in /targetui (saved in the database).",
-        "Staff set the server default in /conf_acn_target.",
-        "Renamed to acn_target, still a drop-in ox_target replacement: exports.ox_target, qtarget, dependency 'ox_target' and GetResourceState('ox_target') keep working.",
-        "In server.cfg use 'ensure acn_target' and remove the old ox_target folder.",
-        "Staff menu is now /conf_acn_target. Player choices and key bindings are kept."
+        "Fixed the big FPS drop while the Alt cursor was open.",
+        "Targeting only scans the world when you move the mouse or camera.",
+        "Default hover refresh is now 80 ms (cursor.hoverInterval in config.lua)."
     ]
 }
