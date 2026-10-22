@@ -1,10 +1,11 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Clarity pass: objective banner, per-job briefing (F7), plain-French HUD, world markers, reworked train controls, many job bug fixes.",
         "Mission-style yellow route blip to the depot after signing; purple admin teleport blips on agency and depots.",
         "Removed the cooldown between job changes (sign / quit).",
         "Fixed locales not loading at startup (texts showed raw keys).",
