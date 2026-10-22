@@ -1,12 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.5.2",
+    "version": "4.5.3",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Affichage Réaliste des Armes Moddées / Addon dans le Dos : résolution dynamique des modèles 3D pour toutes les armes personnalisées.",
-        "Prise en Charge Universelle : détection automatique des modèles d'armes d'archetype GTA V et des définitions personnalisées.",
-        "Mise en cache ultra-légère (0.00 ms) et détachement fluide à la prise en main."
+        "Fluidité Maximale du Glisser-Déposer : suppression des ralentissements lors du déplacement d'objets entre les poches et compartiments.",
+        "Retrait et Remise des Vêtements Réparés : correction complète du retrait des vêtements, de la création du tas de vêtements et de la prise en charge des personnages masculins et féminins."
     ]
 }
