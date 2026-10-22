@@ -1,14 +1,13 @@
-{
+﻿{
     "resource": "acn_inventory",
-    "version": "4.4.0",
+    "version": "4.5.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Importation Groupée d'Items (JSON & Lua) : import en masse via script JSON ou table Lua dans /items.",
-        "Injection Directe dans l'Inventaire : option pour ajouter automatiquement les items créés dans vos poches.",
-        "Prévisualisation en Direct : détection temps réel des items et validation instantanée.",
-        "Tri Intelligent par Compartiments : maintien strict des objets dans leurs poches respectives (vestes, gilets tactiques, pantalons, sacs).",
-        "Visibilité des Poches Secrètes : nouveau module visuel identifiable avec bouton d'accès rapide en 1 clic dans l'inventaire."
+        "Poches Secrètes Interactives : emplacements directs 76-78 pour glisser-déposer vos objets sans restriction.",
+        "Zones de Fouille Policière Approfondie : création de zones polygonales en jeu via Raycast 3D (/conf_secret_zone).",
+        "Fouille Approfondie 15s : interaction policière ciblée (/fouille_secrete) disponible uniquement dans les zones dédiées.",
+        "Tri Corporel Strict & Fermeture Fluide : étanchéité parfaite de chaque poche et correction du blocage à la fermeture."
     ]
 }
