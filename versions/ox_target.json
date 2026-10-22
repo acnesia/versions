@@ -1,0 +1,13 @@
+{
+    "resource": "ox_target",
+    "version": "1.18.0",
+    "severity": "recommended",
+    "minimum_supported": "1.17.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "New Cursor mode: press Alt to free your mouse, aim at anything and click to interact.",
+        "Works with every existing ox_target interaction (entities, models, zones, bones, groups, items, submenus).",
+        "Built-in context actions on the sky, ground, players, NPCs, vehicles and objects, with server-checked staff tools (weather, time, teleport, heal, revive, repair, delete...).",
+        "/targetui now opens a small menu to pick between Classic, ACN and Cursor modes."
+    ]
+}
