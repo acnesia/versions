@@ -1,12 +1,12 @@
-﻿{
+{
     "resource": "acn_inventory",
-    "version": "4.5.1",
+    "version": "4.5.2",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Glisser-Déposer Poches Secrètes : correction de l'initialisation des slots Redux pour un transfert immédiat.",
-        "Capacité Rehaussée : support d'objets lourds et d'armes longues jusqu'à 50 kg dans les doublures.",
-        "Zones de Fouille Policière Approfondie : création de zones polygonales en jeu via Raycast 3D (/conf_secret_zone)."
+        "Affichage Réaliste des Armes Moddées / Addon dans le Dos : résolution dynamique des modèles 3D pour toutes les armes personnalisées.",
+        "Prise en Charge Universelle : détection automatique des modèles d'armes d'archetype GTA V et des définitions personnalisées.",
+        "Mise en cache ultra-légère (0.00 ms) et détachement fluide à la prise en main."
     ]
 }
