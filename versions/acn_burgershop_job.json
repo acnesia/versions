@@ -1,12 +1,10 @@
 {
     "resource": "acn_burgershop_job",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed big FPS drops when holding ALT near kiosks and the order screen.",
-        "3D kiosk screens now load only when you are nearby.",
-        "Lighter kitchen order screen rendering."
+        "Fixed interactions (kiosks, stations, stash) not working after the target system was restarted."
     ]
 }
