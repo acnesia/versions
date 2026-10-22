@@ -1,10 +1,11 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.3.0",
+    "version": "1.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Car wash: water jet now leaves the lance tip and follows the player's aim.",
         "Teleport button on every coordinate row of the /conf_acn_joblibre editor.",
         "Admin debug mode: shows every configured job point in the world with labels; aim at one and press G (configurable) to re-place it with the raycast, saved and synced live.",
         "Fixed in-game 3D placement in /conf_acn_joblibre: editor hides during placement, synchronous punch-through raycast, ghost ped follows aim.",
