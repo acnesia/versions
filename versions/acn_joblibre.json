@@ -1,10 +1,12 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed in-game 3D placement in /conf_acn_joblibre: editor hides during placement, synchronous punch-through raycast, ghost ped follows aim.",
+        "Full NUI redesign: modern admin editor (sidebar, grouped cards, field search, coordinate chips, confirm modal, toasts) and restyled agency/HUD.",
         "Interactive service selector modal for multi-mode jobs (Metro vs Freight) with mouse and keyboard shortcuts (1, 2, Esc).",
         "Full GPS waypoint navigation (SetNewWaypoint) for all 9 jobs guiding players to depots, stops, fields, zones, and vehicles.",
         "Glowing vertical 3D platform beam markers and floating arrival indicators for train stations.",
