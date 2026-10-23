@@ -1,10 +1,11 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.6.2",
+    "version": "1.6.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Train: no more in/out teleport loop; the driver keeps the first seat the game accepts or rides attached in the front cab (server accepts both). Hold F to end the service.",
         "Train: the driver is reliably seated in the cab after spawning (retries while the networked train settles) and put back aboard if ejected.",
         "Train: the right train variation is now detected automatically on every game build (metro was spawning as a freight config on recent builds), all carriage models are preloaded.",
         "New Neo-Brutalist Pop UI across every screen (agency, service selector, HUD, objective banner, briefing, mini-games, editor).",
