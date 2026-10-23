@@ -1,10 +1,11 @@
 {
     "resource": "acn_target",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed the cursor selecting your own character when clicking next to it.",
         "New HTML admin panel in /conf_acn_target: custom cursor actions per context, built-in toggles, live settings, import/export.",
         "Fixed admin actions in submenus doing nothing (heal, revive, give weapon, kick...).",
         "Fixed player actions failing for players with a 0 ping."
