@@ -1,10 +1,12 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "New Neo-Brutalist Pop UI across every screen (agency, service selector, HUD, objective banner, briefing, mini-games, editor).",
+        "Train: mission trains now spawn reliably (train system enabled before CreateMissionTrain, F8 logs on failure).",
         "No more flickering UI: HUD and objective banner update smoothly without flashing or replaying their animation.",
         "Train: metro and freight trains spawn reliably again (start area is streamed in first, missing carriage models are skipped).",
         "Readable debug mode: short point names, per-kind colours/markers, text only up close and for the nearest site.",
