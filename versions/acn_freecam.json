@@ -1,0 +1,12 @@
+{
+    "resource": "acn_freecam",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the Hybrid Photo & Staff Freecam Studio.",
+        "Added 20 cinematic filters, live Depth of Field, FOV zoom, roll tilt, and local weather/time controls.",
+        "Added /conf_acn_freecam live administration menu and 3D Raycast scenic viewpoints."
+    ]
+}
