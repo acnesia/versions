@@ -1,13 +1,12 @@
 {
     "resource": "acn_target",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Alt cursor admin menu connected to acn_adminXweb with many new player, vehicle, ground and entity actions.",
-        "Admin options only visible to staff, filtered by acn_adminXweb permissions and re-checked server side.",
-        "You can now click your own character and the vehicle you are in.",
-        "Fixed far ground being detected as the sky."
+        "New HTML admin panel in /conf_acn_target: custom cursor actions per context, built-in toggles, live settings, import/export.",
+        "Fixed admin actions in submenus doing nothing (heal, revive, give weapon, kick...).",
+        "Fixed player actions failing for players with a 0 ping."
     ]
 }
