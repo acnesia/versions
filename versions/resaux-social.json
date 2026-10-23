@@ -1,17 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.6.0",
+    "version": "2.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.1/Hors-Piste.apk",
     "changelog": [
-        "Fusion Instagram × Twitter (Threads) : fil hybride mêlant photos/vidéos grand format et threads écrits.",
-        "Studio de Threads complet : écrivez des threads simples ou enchaînés (1/N, 2/N...) avec ligne de connexion verticale.",
-        "Sondages interactifs en direct : ajoutez jusqu'à 4 choix de vote dans vos threads avec résultats animés en temps réel.",
-        "Reposts & Citations (Quote Posts) : repostez en un tap ou citez n'importe quelle publication dans votre propre thread.",
-        "Tendances & #Hashtags en feu : filtres rapides (Mix, Threads, Médias), hashtags cliquables et onglet Threads en feu dans Explorer et sur les profils.",
-        "Optimisations de fluidité mobile : rendu différé intelligent du fil et indexation base de données."
+        "Alerte de mise à jour native : notification système automatique sur l'appareil dès qu'une nouvelle version est disponible au téléchargement.",
+        "Mémorisation du refus : si vous fermez ou ignorez la notification de mise à jour dans l'application, celle-ci ne réapparaît plus jamais pour cette version.",
+        "Ouverture directe au toucher : appuyer sur la notification Android ouvre immédiatement l'installateur en un clic."
     ]
 }
