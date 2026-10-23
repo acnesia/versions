@@ -1,11 +1,10 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.32.2",
-  "severity": "critical",
+  "version": "5.33.0",
+  "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Correction de sécurité majeure : suppression de l'héritage abusif des permissions admin pour les joueurs réguliers.",
-    "Révocation automatique des principaux administrateurs FiveM (group.admin) pour les utilisateurs de base."
+    "Nouveaux exports pour le menu curseur d'acn_target (RunAction, RequestSpectate, RequestScreenshot, Audit)."
   ]
 }
