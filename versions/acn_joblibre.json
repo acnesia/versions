@@ -1,10 +1,12 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "No more flickering UI: HUD and objective banner update smoothly without flashing or replaying their animation.",
+        "Train: metro and freight trains spawn reliably again (start area is streamed in first, missing carriage models are skipped).",
         "Readable debug mode: short point names, per-kind colours/markers, text only up close and for the nearest site.",
         "Gas station: customer cars actually drive to the pump (re-task when stuck, discreet fallback).",
         "Gas station: single 'serve the customer' action on the customer's pump only, with arrow and GPS on the car; fuel grade picked automatically.",
