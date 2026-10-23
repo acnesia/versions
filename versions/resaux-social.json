@@ -1,14 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.6.1",
+    "version": "2.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.1/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.2/Hors-Piste.apk",
     "changelog": [
-        "Alerte de mise à jour native : notification système automatique sur l'appareil dès qu'une nouvelle version est disponible au téléchargement.",
-        "Mémorisation du refus : si vous fermez ou ignorez la notification de mise à jour dans l'application, celle-ci ne réapparaît plus jamais pour cette version.",
-        "Ouverture directe au toucher : appuyer sur la notification Android ouvre immédiatement l'installateur en un clic."
+        "Correctif du filtre de fil (Mix / Threads / Photos & Vidéos) : filtrage instantané côté client et réactivité immédiate.",
+        "Correctif des sondages interactifs : vote optimiste immédiat, prise en charge de la question, mémorisation locale et synchronisation base de données.",
+        "Mise à niveau de la base MySQL avec création des tables de sondages et styles de threads."
     ]
 }
