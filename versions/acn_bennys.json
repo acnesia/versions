@@ -1,10 +1,11 @@
 {
     "resource": "acn_bennys",
-    "version": "4.2.0",
+    "version": "4.2.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Live preview: hovering a part, colour, tint, xenon, livery or extra now shows it on the car instantly, and it goes back when you move away.",
         "New Custom mods tab in /conf_acn_bennys: rename, re-price, add a picture to or hide any mod, for all cars or one specific car (addon cars included).",
         "Part pictures no longer need screenshots: every option is previewed live on the car. The unreliable capture tool was removed.",
         "Workshop camera: mouse rotation is no longer inverted.",
