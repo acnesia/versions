@@ -1,10 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.10.0",
+    "version": "2.10.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed script loading parse error in server.lua.",
         "Added competitive Multi-Bank ecosystem (Fleeca, Maze Bank, Pacific Standard, Bank of Liberty).",
         "Added prestigious card tiers (Classic, Silver, Gold, Black/Metal) with custom perks and sounds.",
         "Added joint accounts and shared vaults with co-holder live spending notifications.",
