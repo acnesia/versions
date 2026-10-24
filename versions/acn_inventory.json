@@ -1,10 +1,13 @@
 {
     "resource": "acn_inventory",
-    "version": "4.7.2",
+    "version": "4.8.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added metal detector finds and farmer crop items used by acn_joblibre."
+        "Fixed search zone editor UI freeze when creating or redrawing zones.",
+        "Added universal polymorphic JSON & Lua import for weapons, ammo, containers, food, drinks, and items.",
+        "Full support for client/server exports, events, status effects, animations, and props injection via JSON.",
+        "Integrated one-click example templates in the bulk importer (Food, Drink, Weapon, Ammo, Container, Master Bundle)."
     ]
 }
