@@ -1,0 +1,12 @@
+{
+    "resource": "acn_notify",
+    "version": "2.1.0",
+    "severity": "recommended",
+    "minimum_supported": "2.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Nouveau design studio Neo-Brutalist Pop / Cartoon UI (zéro flou GPU, ombres franches 0px, palette chaleureuse crème/rose/jaune).",
+        "Mode Déplacement Libre : positionnement au millimètre près n'importe où sur l'écran par glisser-déposer interactif.",
+        "Nouveau style de notification Neo-Brutalist Pop et refonte des styles modernes avec conformité 100% acn_bridge."
+    ]
+}
