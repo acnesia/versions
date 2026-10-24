@@ -5,7 +5,7 @@
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Optimisation NUI & Chromium CEF Zero-Leak : suppression complète des backdrop-filter blur et gestion autoritaire du cycle de vie.",
-        "Gestion audio optimisée (pool AudioContext partagé, arrêt immédiat à la fermeture) et support universel des images d'inventaire."
+        "Architecture 100% acn_bridge universelle, suppression de toutes les dépendances directes aux frameworks et création automatique de l'ensemble des tables SQL.",
+        "Sécurisation autoritaire des cartes, PINs et prêts, administration /conf_acn_banking avec placement ATM 3D laser Raycast, et optimisation NUI CEF zéro-fuite sans flou."
     ]
 }
