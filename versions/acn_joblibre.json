@@ -5,6 +5,13 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Firefighter: reliable extinguisher inventory management and immediate weapon hold.",
+        "Firefighter: fixed water jet particle angle to prevent shooting into the ground.",
+        "Firefighter: water tank now drains reliably on spray ticks (cannon/hose) and synchronizes with server.",
+        "Firefighter: SCBA mask and oxygen bottle visual gear reliably persists when exiting vehicles.",
+        "Garbage: proximity E keypress directly takes bags, lifts dumpsters, throws into truck, and compacts.",
+        "Garbage: enabled sprinting and running while carrying trash bags.",
+        "Garbage: crash-proof dumpster lifting animation using temporary prop clone.",
         "Global money: multi-tier payment fallback (money, cash, bank, inventory item) and visible salary notification.",
         "Ped spawning: ground probing bounds prevent agency peds, depot peds, and farm animals from spawning on roofs.",
         "Farmer: trailer attachment distance and timing fixed, implement lowering key rebound to [G], and full fallback payment if inventory cannot carry produce.",
