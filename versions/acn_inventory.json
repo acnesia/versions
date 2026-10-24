@@ -1,12 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.7.0",
+    "version": "4.7.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Poches cachées : plus de doublon dans l'inventaire, invisibles et intouchables sans fouille approfondie.",
-        "Zones de fouille gérées depuis un onglet du panneau /items, avec un placement laser repensé.",
-        "Nouveau thème Pop / Cartoon activable dans /items > Paramètres."
+        "Textes du panneau admin /items réparés (plus de codes techniques affichés).",
+        "Bouton Sombre / Pop en haut du panneau /items pour changer de thème en un clic."
     ]
 }
