@@ -5,6 +5,7 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Metal detector: digging now gives the found item instead of a false \"inventory full\" error (requires acn_inventory 4.7.2).",
         "Editor: switch metal detector zones and farmer fields between circle/rectangle and polygon, drawn in-game; editor fully translated.",
         "Admin: show all points of a job in-game and move them; purple admin markers only visible in debug mode.",
         "Multiplayer crew system: invite, shared map blips and nearby crew payout bonus.",
