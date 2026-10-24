@@ -1,12 +1,16 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.11",
+    "version": "2.10.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed module configuration saving in /conf_acn_banking and added direct save button.",
-        "Live server-wide synchronization of all banking modules with SQL database and connected clients.",
-        "Enforced real-time feature restrictions across transactions, ATMs, cards, loans, and society accounts."
+        "Added competitive Multi-Bank ecosystem (Fleeca, Maze Bank, Pacific Standard, Bank of Liberty).",
+        "Added prestigious card tiers (Classic, Silver, Gold, Black/Metal) with custom perks and sounds.",
+        "Added joint accounts and shared vaults with co-holder live spending notifications.",
+        "Added automated recurring standing orders and company payroll scheduler.",
+        "Added Revolut-style spare change Vault Roundups into micro-savings.",
+        "Added wireless handheld POS terminal (TPE) with 3D animation and contactless NFC payments.",
+        "Added overdraft protection lines, cardless ATM OTP withdrawals, disposable virtual cards, and term deposits."
     ]
 }
