@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.5.3",
+    "version": "4.6.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fluidité Maximale du Glisser-Déposer : suppression des ralentissements lors du déplacement d'objets entre les poches et compartiments.",
-        "Retrait et Remise des Vêtements Réparés : correction complète du retrait des vêtements, de la création du tas de vêtements et de la prise en charge des personnages masculins et féminins."
+        "Armes dans le dos corrigées : une arme sortie, lâchée ou donnée disparaît immédiatement du dos, plus aucun modèle fantôme.",
+        "Création des zones de fouille poche cachée en jeu (création, édition, suppression) avec placement laser 3D, sauvegarde SQL et synchronisation instantanée."
     ]
 }
