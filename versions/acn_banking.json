@@ -1,15 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.10",
+    "version": "2.9.11",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed critical transaction authorization exploit and enforced strict numeric bounds.",
-        "Full acn_bridge multi-framework support and universal callback dispatching.",
-        "Interactive 3D Raycast ATM placement with left click and mouse wheel controls.",
-        "Replaced all native browser dialogs with responsive in-UI modals and toasts.",
-        "Added missing Revolut suite assets and enabled Tebex Escrow exemption for html/**.",
-        "Enhanced audio cleanup and zero-leak lifecycle management across web interfaces."
+        "Fixed module configuration saving in /conf_acn_banking and added direct save button.",
+        "Live server-wide synchronization of all banking modules with SQL database and connected clients.",
+        "Enforced real-time feature restrictions across transactions, ATMs, cards, loans, and society accounts."
     ]
 }
