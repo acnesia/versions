@@ -13,6 +13,7 @@
         "Trucker: fixed missing payout, locked contract board and docking validation; added step help.",
         "Tow: broken-down vehicles now spawn reliably on the ground with fallback models.",
         "Metal detector: polygon search zones drawn in-game.",
-        "Firefighter: left-click cannon water visual fixed; native extinguisher weapon given via inventory."
+        "Firefighter: left-click cannon water visual fixed; native extinguisher weapon given via inventory.",
+        "Farmer: fixed frozen work loop, rejected cells on slopes, trailer hitching and wrong key hints; auto lower/hitch; polygon fields."
     ]
 }
