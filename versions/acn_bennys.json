@@ -1,10 +1,11 @@
 {
     "resource": "acn_bennys",
-    "version": "4.1.0",
+    "version": "4.1.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "More compact workshop interface so the vehicle stays visible.",
         "New /conf_acn_bennys admin panel with a colourful Pop / Cartoon design: search, per-setting reset and live preview of both themes.",
         "Brand new interface plus a blue 'Bluebird' theme, switchable live in game by admins.",
         "Every GTA customization is now available: Benny's parts, wheel types, neons, extras, liveries and more.",
