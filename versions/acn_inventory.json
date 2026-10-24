@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "4.6.0",
+    "version": "4.7.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Armes dans le dos corrigées : une arme sortie, lâchée ou donnée disparaît immédiatement du dos, plus aucun modèle fantôme.",
-        "Création des zones de fouille poche cachée en jeu (création, édition, suppression) avec placement laser 3D, sauvegarde SQL et synchronisation instantanée.",
-        "Poches cachées visibles et modifiables par les admins dans la vue d'inventaire du menu admin."
+        "Poches cachées : plus de doublon dans l'inventaire, invisibles et intouchables sans fouille approfondie.",
+        "Zones de fouille gérées depuis un onglet du panneau /items, avec un placement laser repensé.",
+        "Nouveau thème Pop / Cartoon activable dans /items > Paramètres."
     ]
 }
