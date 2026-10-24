@@ -1,14 +1,12 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.0.0",
+    "version": "13.0.1",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Every config.lua option (300+) is now editable in-game from the new Configuration tab of /conf_acn_weathertime.",
-        "Changes apply live to all players and are saved automatically (SQL + KVP), no restart needed.",
-        "Smart schema-driven interface: options appear or hide depending on your choices, with search, per-field reset, export and import.",
-        "Coordinates (zones, Cayo protection...) are placed in-game with a laser raycast tool.",
-        "New server exports GetConfigValue / SetConfigValue."
+        "Instant menu opening: heavy 8K map worlds and secondary tabs now load on demand when switching tabs instead of blocking on open.",
+        "Smooth Doppler radar sweep using GPU rotation and smart 8K tile loading with full memory cleanup on close.",
+        "Fixed regional weather target cards (South / Central / North) and removed slider network spam and placement marker flicker."
     ]
 }
