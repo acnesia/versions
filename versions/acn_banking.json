@@ -1,11 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.7.0",
+    "version": "2.9.9",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Nouvelle interface Stitch ACN Premier Banking (thème fintech sombre haute précision, cartes métalliques et typographie tabulaire).",
-        "Migration 100% acn_bridge, correction des traductions FR/PT, réparation du placement ATM 3D Raycast et gestion complète des comptes entreprises."
+        "Optimisation NUI & Chromium CEF Zero-Leak : suppression complète des backdrop-filter blur et gestion autoritaire du cycle de vie.",
+        "Gestion audio optimisée (pool AudioContext partagé, arrêt immédiat à la fermeture) et support universel des images d'inventaire."
     ]
 }
