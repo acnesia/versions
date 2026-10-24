@@ -1,11 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.9.9",
+    "version": "2.9.10",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Architecture 100% acn_bridge universelle, suppression de toutes les dépendances directes aux frameworks et création automatique de l'ensemble des tables SQL.",
-        "Sécurisation autoritaire des cartes, PINs et prêts, administration /conf_acn_banking avec placement ATM 3D laser Raycast, et optimisation NUI CEF zéro-fuite sans flou."
+        "Replaced all native browser dialogs (alert/confirm/prompt) with responsive in-UI modals and toasts.",
+        "Added missing Revolut suite files declaration and enabled Tebex Escrow exemption for all html assets.",
+        "Enhanced audio cleanup and zero-leak lifecycle management across web interfaces.",
+        "Integrated universal inventory images resolution for cards and items."
     ]
 }
