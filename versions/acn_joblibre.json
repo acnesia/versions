@@ -1,10 +1,14 @@
 {
     "resource": "acn_joblibre",
-    "version": "1.6.5",
+    "version": "1.6.6",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Global money: multi-tier payment fallback (money, cash, bank, inventory item) and visible salary notification.",
+        "Ped spawning: ground probing bounds prevent agency peds, depot peds, and farm animals from spawning on roofs.",
+        "Farmer: trailer attachment distance and timing fixed, implement lowering key rebound to [G], and full fallback payment if inventory cannot carry produce.",
+        "Trucker: upgraded contract board from archaic 2D rects to modern sleek service selector UI.",
         "Metro: doors now actually close (every carriage door closed explicitly, built-in station stops disabled) and passengers spawn on the auto-detected platform side instead of the rails.",
         "Train: variation detection now picks the full-length train (counts carriages against the configured wagons) instead of a single car.",
         "Train: no more in/out teleport loop; the driver keeps the first seat the game accepts or rides attached in the front cab (server accepts both). Hold F to end the service.",
