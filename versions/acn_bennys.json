@@ -1,11 +1,14 @@
 {
     "resource": "acn_bennys",
-    "version": "3.3.6",
+    "version": "4.0.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Protected vehicles against premature repair when selecting services in workshop menu.",
-        "Repairs now strictly wait for customer payment confirmation before beginning."
+        "Brand new interface plus a blue 'Bluebird' theme, switchable live in game by admins.",
+        "Every GTA customization is now available: Benny's parts, wheel types, neons, extras, liveries and more.",
+        "Automatic part images with the /bennys_capture admin command.",
+        "Customization presets, random build, reset to stock and employee discount.",
+        "New /conf_acn_bennys in-game admin configuration menu."
     ]
 }
