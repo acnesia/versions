@@ -1,10 +1,13 @@
 {
     "resource": "acn_bennys",
-    "version": "4.1.1",
+    "version": "4.2.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "New Custom mods tab in /conf_acn_bennys: rename, re-price, add a picture to or hide any mod, for all cars or one specific car (addon cars included).",
+        "Part pictures no longer need screenshots: every option is previewed live on the car. The unreliable capture tool was removed.",
+        "Workshop camera: mouse rotation is no longer inverted.",
         "More compact workshop interface so the vehicle stays visible.",
         "New /conf_acn_bennys admin panel with a colourful Pop / Cartoon design: search, per-setting reset and live preview of both themes.",
         "Brand new interface plus a blue 'Bluebird' theme, switchable live in game by admins.",
