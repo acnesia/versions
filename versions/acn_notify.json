@@ -1,12 +1,12 @@
 {
     "resource": "acn_notify",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Nouveau design Dark Neo-Brutalist Pop : version sombre intégrale du studio admin, du HUD de déplacement et des alertes.",
-        "Sélecteur de mode Sombre / Clair instantané dans l'en-tête du studio avec persistance.",
-        "Nouveaux presets de thèmes Neo-Dark Pop et Neo-Light Pop avec contours mécaniques 0px blur."
+        "Refonte visuelle Modern Azure & White Gradient : interface studio et notifications sublimées en tons bleu nuit, saphir et dégradés blancs lumineux.",
+        "Nouveau thème de notification 'Modern Blue' par défaut avec liseré dégradé bleu-blanc et badges nets.",
+        "Boutons d'action, HUD de placement libre et contrôles redessinés avec une finition moderne et zéro blur CEF."
     ]
 }
