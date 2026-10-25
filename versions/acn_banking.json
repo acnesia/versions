@@ -1,10 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "2.12.0",
+    "version": "2.12.1",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Interface fixes: menu overflow, unreadable text, duplicated bank names, ATM card display and slots.",
         "Four distinct bank interfaces (Fleeca, Maze Bank, Pacific Standard, Bank of Liberty), each with its own look and real perks.",
         "Banking at another bank's branch shows a comparison banner and lets you switch banks on the spot.",
         "Four ATM designs by brand; withdrawing at another bank's ATM costs an out-of-network fee, shown before you confirm.",
