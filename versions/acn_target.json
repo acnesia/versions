@@ -1,13 +1,12 @@
 {
     "resource": "acn_target",
-    "version": "2.4.0",
+    "version": "2.5.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Pixel-perfect Alt cursor clicks on every resolution, aspect ratio and FOV.",
-        "Hover and click now always select the same target.",
-        "New cursor magnetism: clicks a few pixels next to a ped, vehicle or prop snap onto it (adjustable in /conf_acn_target).",
-        "More precise map prop and far ground detection."
+        "Staff and admin actions are now grouped into a dedicated Administration submenu.",
+        "Prevents tall interaction menus from overflowing the screen.",
+        "New live setting to toggle admin submenu grouping (/conf_acn_target or config.lua)."
     ]
 }
