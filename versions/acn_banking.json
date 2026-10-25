@@ -5,9 +5,10 @@
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Four distinct bank interfaces (Fleeca, Maze Bank, Pacific Standard, Liberty) with their own layouts and benefits.",
-        "Each bank can be switched from the bank app; available banks and fees come from the admin panel.",
-        "ATM screens now follow the bank brand, and the withdrawal fee is shown before you confirm.",
-        "New admin section to edit banks (names, colours, fees, perks) and ATM brands, live, without restarting."
+        "Four distinct bank interfaces (Fleeca, Maze Bank, Pacific Standard, Bank of Liberty), each with its own look and real perks.",
+        "Banking at another bank's branch shows a comparison banner and lets you switch banks on the spot.",
+        "Four ATM designs by brand; withdrawing at another bank's ATM costs an out-of-network fee, shown before you confirm.",
+        "New 'Banks' admin tab to edit names, colours, skin, icon, fees and perks, plus ATM and branch branding, live.",
+        "Fixed ATM sounds stopping after a few clicks, admin panel buttons breaking on names with quotes, and windows overflowing small screens."
     ]
 }
