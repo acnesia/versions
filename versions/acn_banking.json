@@ -1,12 +1,12 @@
-{
-    "resource": "acn_banking",
-    "version": "2.10.3",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Fixed MySQL 'Illegal mix of collations' error in GetPlayerCardsFromDB.",
-        "Immune card querying against database collation mismatches.",
-        "Full NUI dashboard, ATM OTP numpad, and 3D card creator integration for all 10 Fintech & RP modules."
-    ]
+﻿{
+    "update_url":  "https://portal.cfx.re/",
+    "version":  "2.10.4",
+    "changelog":  [
+                      "Fixed bank switch modal sizing, centering and responsive overflow.",
+                      "Aesthetic two-column layout for bank choices with no text clipping.",
+                      "Added top-right quick close button and fixed modal scrolling."
+                  ],
+    "resource":  "acn_banking",
+    "severity":  "recommended",
+    "minimum_supported":  "2.0.0"
 }
