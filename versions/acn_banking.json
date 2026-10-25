@@ -8,7 +8,7 @@
         "Fixed Black Card unlimited ATM daily limit bug showing $0 remaining and blocking withdrawals.",
         "Integrated interactive 3D Card Studio directly into 'Commander une Carte' with real-time live card display.",
         "Replaced Mastercard logo with FiveM-safe lore 'SharkPay' network badge across all cards.",
-        "Upgraded savings livret system with in-app tier progression (Standard, Évolué, Prestige, VIP Patrimonial) with boostable interest rates.",
+        "Upgraded savings livret system with in-app tier progression (Standard, Evolue, Prestige, VIP Patrimonial) with boostable interest rates.",
         "Fixed savings deposit and withdrawal quick-action preset buttons with robust ceiling validation.",
         "Removed handheld POS / TPE terminal module and its logic completely."
     ]
