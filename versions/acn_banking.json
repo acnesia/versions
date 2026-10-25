@@ -1,10 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "3.0.0",
+    "version": "3.1.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "New dashboard: wealth & spending pie charts, 7-day cash flow chart, balance cards and a modern sidebar layout.",
         "Complete Sovereign Vault UI Redesign: Ground-up overhaul using Stitch cyber-fintech obsidian interfaces with zero performance drops (strictly no blur).",
         "Direct 3D Card Studio Workflow: Ordering a card opens the interactive 3D studio directly and syncs newly minted cards to the player's account in real-time with zero interface reloads.",
         "SharkPay Lore Network Branding: Completely replaced all real-world Mastercard brand elements with 100% FiveM TOS compliant SharkPay emblems across all cards, ATM interfaces, and card studios.",
