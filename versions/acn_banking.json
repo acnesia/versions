@@ -1,15 +1,15 @@
 {
     "resource": "acn_banking",
-    "version": "2.12.1",
+    "version": "2.13.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Interface fixes: menu overflow, unreadable text, duplicated bank names, ATM card display and slots.",
-        "Four distinct bank interfaces (Fleeca, Maze Bank, Pacific Standard, Bank of Liberty), each with its own look and real perks.",
-        "Banking at another bank's branch shows a comparison banner and lets you switch banks on the spot.",
-        "Four ATM designs by brand; withdrawing at another bank's ATM costs an out-of-network fee, shown before you confirm.",
-        "New 'Banks' admin tab to edit names, colours, skin, icon, fees and perks, plus ATM and branch branding, live.",
-        "Fixed ATM sounds stopping after a few clicks, admin panel buttons breaking on names with quotes, and windows overflowing small screens."
+        "Fixed Black Card unlimited ATM daily limit bug showing $0 remaining and blocking withdrawals.",
+        "Integrated interactive 3D Card Studio directly into 'Commander une Carte' with real-time live card display.",
+        "Replaced Mastercard logo with FiveM-safe lore 'SharkPay' network badge across all cards.",
+        "Upgraded savings livret system with in-app tier progression (Standard, Évolué, Prestige, VIP Patrimonial) with boostable interest rates.",
+        "Fixed savings deposit and withdrawal quick-action preset buttons with robust ceiling validation.",
+        "Removed handheld POS / TPE terminal module and its logic completely."
     ]
 }
