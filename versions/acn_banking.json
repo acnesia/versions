@@ -1,12 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "2.11.0",
+    "version": "2.12.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Complete UI and UX redesign across all 6 interfaces (Main Dashboard, ATM, Admin Panel, 3D Card Creator, Onboarding Wizard, and Mobile Neobank App).",
-        "Added quick amount presets, tabular-nums balances, unified modals, thermal ATM receipts, and interactive 3D card flip/tilt.",
-        "Full FiveM CEF performance compliance and clean UTF-8 French typography."
+        "Four distinct bank interfaces (Fleeca, Maze Bank, Pacific Standard, Liberty) with their own layouts and benefits.",
+        "Each bank can be switched from the bank app; available banks and fees come from the admin panel.",
+        "ATM screens now follow the bank brand, and the withdrawal fee is shown before you confirm.",
+        "New admin section to edit banks (names, colours, fees, perks) and ATM brands, live, without restarting."
     ]
 }
