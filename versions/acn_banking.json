@@ -1,12 +1,12 @@
 {
     "resource": "acn_banking",
-    "version": "2.10.2",
+    "version": "2.10.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Full NUI dashboard, ATM OTP numpad, and 3D card creator integration for all 10 Fintech & RP modules.",
-        "Connected core withdrawals, transfers, card limits, and savings rates to Multi-Bank perks, Overdraft, and Roundups.",
-        "Fixed SQL ENUM transaction logging in recurring orders and offline bank balance handling."
+        "Fixed MySQL 'Illegal mix of collations' error in GetPlayerCardsFromDB.",
+        "Immune card querying against database collation mismatches.",
+        "Full NUI dashboard, ATM OTP numpad, and 3D card creator integration for all 10 Fintech & RP modules."
     ]
 }
