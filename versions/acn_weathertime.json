@@ -1,12 +1,12 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.0.1",
+    "version": "13.1.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Instant menu opening: heavy 8K map worlds and secondary tabs now load on demand when switching tabs instead of blocking on open.",
-        "Smooth Doppler radar sweep using GPU rotation and smart 8K tile loading with full memory cleanup on close.",
-        "Fixed regional weather target cards (South / Central / North) and removed slider network spam and placement marker flicker."
+        "New System Modules Hub: enable or disable major features (Doppler radar, dynamic storm cells, seasons, celestial events, thermodynamics) in a single click.",
+        "Prominent Save button in the configuration panel with instant visual feedback and reliable SQL/KVP persistence.",
+        "Instant storm dissipation when storm cells module is turned off."
     ]
 }
