@@ -1,12 +1,12 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.1.0",
+    "version": "13.1.1",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "New System Modules Hub: enable or disable major features (Doppler radar, dynamic storm cells, seasons, celestial events, thermodynamics) in a single click.",
-        "Prominent Save button in the configuration panel with instant visual feedback and reliable SQL/KVP persistence.",
-        "Instant storm dissipation when storm cells module is turned off."
+        "Fixed weather transition dynamics: Instant, Fast Front (10s), and Realistic Front (30s) now transition properly without snapping.",
+        "Smooth real-time skybox and atmosphere blending across the full transition duration.",
+        "Transition dynamics support both global weather and regional weather targets."
     ]
 }
