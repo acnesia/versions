@@ -1,17 +1,14 @@
 {
     "resource": "acn_banking",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "New dashboard: wealth & spending pie charts, 7-day cash flow chart, balance cards and a modern sidebar layout.",
-        "Complete Sovereign Vault UI Redesign: Ground-up overhaul using Stitch cyber-fintech obsidian interfaces with zero performance drops (strictly no blur).",
-        "Direct 3D Card Studio Workflow: Ordering a card opens the interactive 3D studio directly and syncs newly minted cards to the player's account in real-time with zero interface reloads.",
-        "SharkPay Lore Network Branding: Completely replaced all real-world Mastercard brand elements with 100% FiveM TOS compliant SharkPay emblems across all cards, ATM interfaces, and card studios.",
-        "High-Yield Upgradable Savings Vault: Full in-UI tier progression (Standard, Évolué, Prestige, and VIP Patrimonial) featuring live capacity gauges, instant compound interest simulators, and quick deposit/withdrawal presets.",
-        "Fixed Black Card unlimited spending & ATM daily limit bug where withdrawals were incorrectly blocked by ATM checks.",
-        "NUI Memory Leak & CEF Optimization: Fully implemented dynamic DOM mounting/unmounting architecture (// @cef-zero-leak) with total garbage collection cleanup when closed.",
-        "Removed legacy handheld POS / TPE terminal files and configuration overhead completely."
+        "Upgradable savings book with 4 levels and a new visual savings page (curve, breakdown chart, key figures).",
+        "'Commander une carte' opens the 3D Studio and the new card shows up instantly.",
+        "Original 'ACN Pay' card logo; payment terminal (TPE) removed.",
+        "Fixed Black cards being blocked by a daily limit at ATMs; savings buttons fixed.",
+        "Restored the 4-bank interface and branded ATMs."
     ]
 }
