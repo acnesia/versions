@@ -1,14 +1,13 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.6.2",
-    "severity": "recommended",
-    "minimum_supported": "1.0.0",
+    "version": "2.6.3",
+    "severity": "mandatory",
+    "minimum_supported": "2.6.3",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.2/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.3/Hors-Piste.apk",
     "changelog": [
-        "Correctif du filtre de fil (Mix / Threads / Photos & Vidéos) : filtrage instantané côté client et réactivité immédiate.",
-        "Correctif des sondages interactifs : vote optimiste immédiat, prise en charge de la question, mémorisation locale et synchronisation base de données.",
-        "Mise à niveau de la base MySQL avec création des tables de sondages et styles de threads."
+        "Mise à jour obligatoire : les anciennes versions de l'application sont désormais bloquées, seule la dernière version peut se connecter.",
+        "Nouvelle fenêtre de mise à jour obligatoire (non fermable) lorsque la version installée n'est plus supportée."
     ]
 }
