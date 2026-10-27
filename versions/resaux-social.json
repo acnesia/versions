@@ -1,13 +1,15 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.6.3",
-    "severity": "mandatory",
-    "minimum_supported": "2.6.3",
+    "version": "2.7.0",
+    "severity": "critical",
+    "minimum_supported": "2.7.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.6.3/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.7.0/Hors-Piste.apk",
     "changelog": [
-        "Mise à jour obligatoire : les anciennes versions de l'application sont désormais bloquées, seule la dernière version peut se connecter.",
-        "Nouvelle fenêtre de mise à jour obligatoire (non fermable) lorsque la version installée n'est plus supportée."
+        "Nouvelle série quotidienne 🔥 : ouvre l'app chaque jour pour faire grimper ta série et gagner des pièces (jusqu'à 100 🪙 le 7e jour, bonus de 300 🪙 à 30 jours).",
+        "Rappel le soir quand ta série est sur le point de s'éteindre.",
+        "Notifications quand tes amis ont posté ou t'ont écrit pendant ton absence.",
+        "Mise à jour obligatoire : les anciennes versions de l'application ne peuvent plus se connecter."
     ]
 }
