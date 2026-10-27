@@ -1,13 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.8.0",
+    "version": "4.8.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed search zone editor UI freeze when creating or redrawing zones.",
-        "Added universal polymorphic JSON & Lua import for weapons, ammo, containers, food, drinks, and items.",
-        "Full support for client/server exports, events, status effects, animations, and props injection via JSON.",
-        "Integrated one-click example templates in the bulk importer (Food, Drink, Weapon, Ammo, Container, Master Bundle)."
+        "Fixed large server hitches (up to ~380 ms) caused by rebuilding the item list on every inventory sync.",
+        "Inventory sync requests no longer trigger a duplicate reload and money database writes; repeated requests are throttled."
     ]
 }
