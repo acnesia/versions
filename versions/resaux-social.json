@@ -1,15 +1,17 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.7.0",
-    "severity": "critical",
+    "version": "2.8.0",
+    "severity": "recommended",
     "minimum_supported": "2.7.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.7.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.8.0/Hors-Piste.apk",
     "changelog": [
-        "Nouvelle série quotidienne 🔥 : ouvre l'app chaque jour pour faire grimper ta série et gagner des pièces (jusqu'à 100 🪙 le 7e jour, bonus de 300 🪙 à 30 jours).",
-        "Rappel le soir quand ta série est sur le point de s'éteindre.",
-        "Notifications quand tes amis ont posté ou t'ont écrit pendant ton absence.",
-        "Mise à jour obligatoire : les anciennes versions de l'application ne peuvent plus se connecter."
+        "Plateforme d'analytique et télémétrie en direct sur le site web et dans l'application.",
+        "Suivi précis de l'adoption des mises à jour : découvrez qui est à jour et qui utilise une version obsolète.",
+        "Statistiques démographiques complètes : répartition par genre (hommes, femmes, autre) et tranches d'âge.",
+        "Comptage des ouvertures d'application, suivi des sessions et détection des utilisateurs en ligne en temps réel.",
+        "Détection automatique des terminaux (Android natif APK, Web mobile, Web desktop) et modèles de smartphones.",
+        "Outil de relance ciblé en un clic par notification push pour inviter les retardataires à mettre à jour."
     ]
 }
