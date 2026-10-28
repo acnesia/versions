@@ -1,14 +1,17 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.8.1",
-    "severity": "critical",
+    "version": "2.9.0",
+    "severity": "recommended",
     "minimum_supported": "2.7.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.8.1/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.9.0/Hors-Piste.apk",
     "changelog": [
-        "Tu restes connecté même quand le serveur redémarre ou que le réseau coupe : l'app se reconnecte toute seule.",
-        "Le serveur attend correctement la base de données au démarrage au lieu de démarrer sur une base vide.",
-        "Les anciennes versions peuvent à nouveau se connecter (y compris avec Google) pour recevoir la mise à jour en un clic."
+        "Nouveau haut de feed plus compact : « Pour vous » en haut à gauche, touche-le pour passer sur « Abonnements ».",
+        "Recadrage de la photo de profil et de la bannière : déplace, zoome (pincement ou curseur) avant d'envoyer.",
+        "La grille du profil n'affiche plus que les photos et vidéos ; les textes, cartes et sondages sont dans l'onglet Threads.",
+        "Inscription complétée : sexe, date de naissance et confirmation du mot de passe. Les comptes Google renseignent ces infos une seule fois.",
+        "Sexe : seulement Homme, Femme ou Non spécifié.",
+        "Sondages : le champ indique clairement « Posez votre question »."
     ]
 }
