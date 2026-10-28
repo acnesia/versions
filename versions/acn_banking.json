@@ -1,13 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "3.3.1",
+    "version": "1.0.1",
     "severity": "recommended",
-    "minimum_supported": "2.0.0",
+    "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Business and Settings pages showing as unstyled text in game (missing stylesheet).",
+        "Official release build (out of beta).",
+        "Fixed Business and Settings pages showing as unstyled text in game.",
         "Create your own banks, partnerships, welcome bonus and default bank from /conf_acn_banking.",
-        "Create your own savings levels; new 'Réglages' tab makes prices, limits, hours and loan offers editable in-game.",
-        "Turning a module off now really hides it for players; the accounts list loads without searching."
+        "Create your own savings levels; new 'Réglages' tab makes prices, limits, hours and loan offers editable in-game."
     ]
 }
