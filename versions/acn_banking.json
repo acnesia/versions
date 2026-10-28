@@ -1,11 +1,13 @@
 {
     "resource": "acn_banking",
-    "version": "3.2.1",
-    "severity": "optional",
+    "version": "3.3.0",
+    "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Large warning banner when you are in another bank's branch; top-bar badge turns amber.",
-        "All panels (piggy bank, overdraft, etc.) now follow the bank's colours instead of dark blue."
+        "Create your own banks, partnerships, welcome bonus and default bank from /conf_acn_banking.",
+        "Create your own savings levels; new 'Réglages' tab makes prices, limits, hours and loan offers editable in-game.",
+        "Turning a module off now really hides it for players; the accounts list loads without searching.",
+        "Savings, Loans, Business and Settings pages redesigned (no more stretched layout)."
     ]
 }
