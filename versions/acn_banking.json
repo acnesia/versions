@@ -1,14 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "3.2.0",
-    "severity": "recommended",
+    "version": "3.2.1",
+    "severity": "optional",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Upgradable savings book with 4 levels and a new visual savings page (curve, breakdown chart, key figures).",
-        "'Commander une carte' opens the 3D Studio and the new card shows up instantly.",
-        "Original 'ACN Pay' card logo; payment terminal (TPE) removed.",
-        "Fixed Black cards being blocked by a daily limit at ATMs; savings buttons fixed.",
-        "Restored the 4-bank interface and branded ATMs."
+        "Large warning banner when you are in another bank's branch; top-bar badge turns amber.",
+        "All panels (piggy bank, overdraft, etc.) now follow the bank's colours instead of dark blue."
     ]
 }
