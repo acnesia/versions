@@ -1,17 +1,21 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "2.9.0",
-    "severity": "recommended",
-    "minimum_supported": "2.7.0",
+    "version": "3.0.0",
+    "severity": "required",
+    "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v2.9.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.0.0/Hors-Piste.apk",
     "changelog": [
-        "Nouveau haut de feed plus compact : « Pour vous » en haut à gauche, touche-le pour passer sur « Abonnements ».",
-        "Recadrage de la photo de profil et de la bannière : déplace, zoome (pincement ou curseur) avant d'envoyer.",
-        "La grille du profil n'affiche plus que les photos et vidéos ; les textes, cartes et sondages sont dans l'onglet Threads.",
-        "Inscription complétée : sexe, date de naissance et confirmation du mot de passe. Les comptes Google renseignent ces infos une seule fois.",
-        "Sexe : seulement Homme, Femme ou Non spécifié.",
-        "Sondages : le champ indique clairement « Posez votre question »."
+        "Sécurité renforcée partout : connexion Google vérifiée, connexions temps réel protégées, limites anti-piratage, fichiers envoyés contrôlés.",
+        "Swap plus sûr : celui qui a ton compte ne peut plus rien supprimer, dépenser tes pièces ni changer tes réglages.",
+        "Tu choisis ce qu'il voit : anciens messages (montrer, juste le nombre ou cacher) et anciennes photos.",
+        "Mode swap : Public (recommandé), Amis de confiance ou Désactivé, avec ta liste de confiance.",
+        "Bouton « Arrêter le swap » (1 fois par semaine), signalement d'abus et journal « Ce que @x a fait sur ton compte ».",
+        "Bloquer et signaler un membre, un post, un commentaire, une story ou un message.",
+        "Compte privé avec demandes d'abonnement.",
+        "Mot de passe oublié, vérification de l'email et suppression du compte depuis l'app.",
+        "CGU et politique de confidentialité, âge minimum 13 ans.",
+        "Nouvelle présentation au premier lancement et rapports de crash automatiques."
     ]
 }
