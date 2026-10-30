@@ -1,21 +1,16 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "3.0.0",
-    "severity": "required",
+    "version": "3.1.0",
+    "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.0.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.1.0/Hors-Piste.apk",
     "changelog": [
-        "Sécurité renforcée partout : connexion Google vérifiée, connexions temps réel protégées, limites anti-piratage, fichiers envoyés contrôlés.",
-        "Swap plus sûr : celui qui a ton compte ne peut plus rien supprimer, dépenser tes pièces ni changer tes réglages.",
-        "Tu choisis ce qu'il voit : anciens messages (montrer, juste le nombre ou cacher) et anciennes photos.",
-        "Mode swap : Public (recommandé), Amis de confiance ou Désactivé, avec ta liste de confiance.",
-        "Bouton « Arrêter le swap » (1 fois par semaine), signalement d'abus et journal « Ce que @x a fait sur ton compte ».",
-        "Bloquer et signaler un membre, un post, un commentaire, une story ou un message.",
-        "Compte privé avec demandes d'abonnement.",
-        "Mot de passe oublié, vérification de l'email et suppression du compte depuis l'app.",
-        "CGU et politique de confidentialité, âge minimum 13 ans.",
-        "Nouvelle présentation au premier lancement et rapports de crash automatiques."
+        "Nouveau design des reposts : badge discret avec icône repost sur la photo de profil, onglet dédié 'Reposts amis' dans le fil et onglet 'Reposts' sur votre profil.",
+        "Avis & Suggestions : partagez directement vos idées, améliorations ou signalements de bugs depuis les Paramètres.",
+        "Explorer séparé : onglets distincts pour Threads, Galerie photos et Membres avec recherche ciblée dans chaque catégorie.",
+        "Caméra améliorée : correction du bug d'initialisation et du retournement caméra pour une ouverture instantanée et fluide.",
+        "Studio de création et Story : déplacement, zoom, recadrage et annotations texte sur les publications, et correction de la gomme en Story."
     ]
 }
