@@ -1,12 +1,13 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.1.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.1.1/Hors-Piste.apk",
     "changelog": [
+        "Correctif d'installation : la mise à jour s'installe de nouveau par-dessus l'application existante (sans désinstaller).",
         "Nouveau design des reposts : badge discret avec icône repost sur la photo de profil, onglet dédié 'Reposts amis' dans le fil et onglet 'Reposts' sur votre profil.",
         "Avis & Suggestions : partagez directement vos idées, améliorations ou signalements de bugs depuis les Paramètres.",
         "Explorer séparé : onglets distincts pour Threads, Galerie photos et Membres avec recherche ciblée dans chaque catégorie.",
