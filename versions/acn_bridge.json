@@ -1,17 +1,18 @@
 {
-    "resource": "acn_bridge",
-    "severity": "recommended",
-    "minimum_supported": "2.0.0",
-    "update_url": "https://portal.cfx.re/",
-    "version": "2.7.0",
-    "changelog": [
-        "/acn_versions no longer gets stuck and now lists resources with a missing version file or a failed check.",
-        "Society money sync can no longer be triggered by non-admin players.",
-        "Client GetJobs now returns the real ESX jobs.",
-        "Errors in third-party inventory, target, progress and notify scripts no longer crash the calling script.",
-        "Vehicle spawn authorization no longer errors when the anti-cheat export is missing or not ready.",
-        "ResetNeeds compatible avec la protection anti-triche d'acn_status 1.4.0.",
-        "/acn_restart_all redémarre automatiquement tous les scripts ACN déjà démarrés, sans liste à maintenir.",
-        "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target."
-    ]
+  "resource": "acn_bridge",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "version": "2.7.1",
+  "changelog": [
+    "Added bridge exports for inventory stash and hook registration through the configured ACN or ox inventory.",
+    "/acn_versions no longer gets stuck and now lists resources with a missing version file or a failed check.",
+    "Society money sync can no longer be triggered by non-admin players.",
+    "Client GetJobs now returns the real ESX jobs.",
+    "Errors in third-party inventory, target, progress and notify scripts no longer crash the calling script.",
+    "Vehicle spawn authorization no longer errors when the anti-cheat export is missing or not ready.",
+    "ResetNeeds compatible avec la protection anti-triche d'acn_status 1.4.0.",
+    "/acn_restart_all redémarre automatiquement tous les scripts ACN déjà démarrés, sans liste à maintenir.",
+    "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target."
+  ]
 }
