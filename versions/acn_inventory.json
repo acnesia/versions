@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.8.1",
+    "version": "4.8.2",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed large server hitches (up to ~380 ms) caused by rebuilding the item list on every inventory sync.",
-        "Inventory sync requests no longer trigger a duplicate reload and money database writes; repeated requests are throttled."
+        "Fixed the inventory initialising dozens of times on join, which spammed the ready notification and could disconnect players.",
+        "Players joining while world drops exist no longer get stuck loading their inventory."
     ]
 }
