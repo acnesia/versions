@@ -3,12 +3,15 @@
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
-    "version": "2.6.2",
+    "version": "2.7.0",
     "changelog": [
+        "/acn_versions no longer gets stuck and now lists resources with a missing version file or a failed check.",
+        "Society money sync can no longer be triggered by non-admin players.",
+        "Client GetJobs now returns the real ESX jobs.",
+        "Errors in third-party inventory, target, progress and notify scripts no longer crash the calling script.",
+        "Vehicle spawn authorization no longer errors when the anti-cheat export is missing or not ready.",
         "ResetNeeds compatible avec la protection anti-triche d'acn_status 1.4.0.",
         "/acn_restart_all redémarre automatiquement tous les scripts ACN déjà démarrés, sans liste à maintenir.",
-        "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target.",
-        "ResetNeeds remplit vraiment la faim et la soif d'acn_status, avec sauvegarde immédiate.",
-        "Nouvel export serveur ResetNeeds : faim et soif au maximum, stress à zéro, compatible ESX, QBCore et Qbox."
+        "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target."
     ]
 }
