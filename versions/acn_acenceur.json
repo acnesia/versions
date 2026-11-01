@@ -1,11 +1,11 @@
 {
     "resource": "acn_acenceur",
-    "version": "2.3.0",
+    "version": "2.3.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added server-authoritative cabin lock preventing multiple players from opening the elevator interface concurrently in the same elevator.",
-        "Automatic lock release on interface close, ride arrival, excessive distance, death, or player disconnect."
+        "Polygon cabin edges are now hidden during normal gameplay and shown only in debug mode.",
+        "The debug outline now sits level with the floor."
     ]
 }
