@@ -1,0 +1,10 @@
+{
+  "resource": "es_extended",
+  "version": "1.14.1",
+  "severity": "recommended",
+  "minimum_supported": "1.14.1",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "ESX now recognizes um-ronin-multicharacter and avoids running its built-in spawn flow alongside the custom character selector."
+  ]
+}
