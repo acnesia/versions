@@ -1,12 +1,11 @@
 {
-    "resource": "acn_target",
-    "version": "2.5.0",
-    "severity": "recommended",
-    "minimum_supported": "1.17.0",
-    "update_url": "https://portal.cfx.re/",
-    "changelog": [
-        "Staff and admin actions are now grouped into a dedicated Administration submenu.",
-        "Prevents tall interaction menus from overflowing the screen.",
-        "New live setting to toggle admin submenu grouping (/conf_acn_target or config.lua)."
-    ]
+  "resource": "acn_target",
+  "version": "2.6.0",
+  "severity": "recommended",
+  "minimum_supported": "1.17.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added a vehicle submenu with controls for front, rear and all doors, including the hood and trunk.",
+    "Translated the remaining English interface labels into French."
+  ]
 }
