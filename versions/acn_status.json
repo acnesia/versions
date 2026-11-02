@@ -1,15 +1,15 @@
 {
     "resource": "acn_status",
-    "version": "1.4.0",
+    "version": "1.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Faim et soif contrôlées par le serveur : plus de triche pour rester à 100 %.",
-        "Gains calculés par le serveur selon la quantité mangée ou bue ; option anti-triche dans /conf_acn_status.",
-        "Nouveaux exports serveur addStatus / setStatus / fillNeeds ; shots et verres bien retirés une fois bus.",
-        "Manger/boire refonctionne : la touche E ne reste plus bloquée avec l'objet en main.",
-        "Plus de doubles effets ni de prop fantôme ; /propfix débloque complètement.",
-        "Failles corrigées : apparition d'objets via les verres, plats gratuits, éthylotest usurpé."
+        "Ajout et modification de produits réparés : plus d'erreur en boucle dans F8.",
+        "Panneau /conf_acn_status retravaillé : responsive, confirmations, réglages non enregistrés signalés.",
+        "Éditeur de prop 3D de nouveau accessible, réinitialisation réellement fonctionnelle.",
+        "Toilettes, éthylotest et réglages inactifs réparés.",
+        "Anti-triche renforcé et données du panneau vérifiées par le serveur.",
+        "Interface libérée à la fermeture, effets d'alcool et synchronisation allégés."
     ]
 }
