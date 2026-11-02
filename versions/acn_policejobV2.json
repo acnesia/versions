@@ -1,10 +1,13 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "The police menu now lives in the target, with nested menus on vehicles and anywhere.",
+        "Radial menu is optional with no default key.",
+        "New design and icons on every screen. Requires acn_bridge 2.9.0.",
         "First release of the rebuilt police job: duty, handcuffs, escort, searches, citations, fleet, armory, uniforms, impound, BOLO and officer GPS.",
         "Server-read speed cameras, portable cameras, patrol radar and traffic control with spike strips, road zones and stop orders.",
         "Every setting can be changed in game with /conf_acn_policejobV2. Requires acn_bridge 2.8.1."
