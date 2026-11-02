@@ -1,11 +1,10 @@
 {
     "resource": "acn_target",
-    "version": "2.9.0",
+    "version": "2.10.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Vehicle controls are now organized into nested arrow menus.",
-        "The cursor no longer shows duplicate vehicle door actions and stays open after selection."
+        "Front, rear and all-door controls now toggle open and closed on successive clicks."
     ]
 }
