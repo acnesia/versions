@@ -1,11 +1,11 @@
 {
     "resource": "acn_target",
-    "version": "2.8.0",
+    "version": "2.9.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "French is now the default, with French and English selectable in config.lua.",
-        "Vehicle doors can be operated individually or in groups from one shared submenu; opening all doors does not close those already open."
+        "Vehicle controls are now organized into nested arrow menus.",
+        "The cursor no longer shows duplicate vehicle door actions and stays open after selection."
     ]
 }
