@@ -1,10 +1,12 @@
 {
     "resource": "acn_status",
-    "version": "1.5.0",
+    "version": "1.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Touche G : trinquer avec une boisson, poser sur la table avec de la nourriture.",
+        "Donner fonctionne sans menu externe, et les plats se posent bien sur les tables.",
         "Ajout et modification de produits réparés : plus d'erreur en boucle dans F8.",
         "Panneau /conf_acn_status retravaillé : responsive, confirmations, réglages non enregistrés signalés.",
         "Éditeur de prop 3D de nouveau accessible, réinitialisation réellement fonctionnelle.",
