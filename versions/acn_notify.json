@@ -1,13 +1,13 @@
 {
     "resource": "acn_notify",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Nouveau thème Papier Manuscrit : feuille de papier réaliste avec adhésif, écriture manuscrite authentique et retour sonore de crayon.",
-        "Différenciation visuelle complète de tous les thèmes : chaque style possède désormais sa propre identité graphique (bordures, fonds, pastilles d'icônes).",
-        "Bouton de test global en jeu : envoi d'une notification de test simultanée à tous les joueurs connectés.",
-        "Gestion 100% en jeu (/conf_acn_notify et /conf-acn_notify) : espacement, débordement, volume et échelle modifiables à chaud sans ouvrir config.lua."
+        "Personnalisation individuelle par joueur : commandes /notif, /notifpos et /notifpref permettant à chaque joueur d'ajuster son propre emplacement d'écran, style et volume sans permission admin.",
+        "Sauvegarde locale indépendante (KVP) : les préférences du joueur sont enregistrées sur son propre jeu sans altérer les réglages serveur des autres joueurs.",
+        "Réinitialisation en 1 clic (/notifreset) : restauration immédiate des réglages par défaut définis par l'administrateur du serveur.",
+        "Thème Papier Manuscrit & différenciation visuelle complète de toutes les palettes graphiques."
     ]
 }
