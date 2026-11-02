@@ -1,17 +1,16 @@
 {
     "resource": "acn_status",
-    "version": "1.5.1",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Touche G : trinquer avec une boisson, poser sur la table avec de la nourriture.",
-        "Donner fonctionne sans menu externe, et les plats se posent bien sur les tables.",
-        "Ajout et modification de produits réparés : plus d'erreur en boucle dans F8.",
+        "Requires acn_bridge 2.8.0 or newer: es_extended is no longer a direct dependency.",
         "Panneau /conf_acn_status retravaillé : responsive, confirmations, réglages non enregistrés signalés.",
+        "Ajout et modification de produits réparés : plus d'erreur en boucle dans F8.",
+        "Touche G : trinquer avec une boisson, poser sur la table avec de la nourriture.",
         "Éditeur de prop 3D de nouveau accessible, réinitialisation réellement fonctionnelle.",
-        "Toilettes, éthylotest et réglages inactifs réparés.",
-        "Anti-triche renforcé et données du panneau vérifiées par le serveur.",
-        "Interface libérée à la fermeture, effets d'alcool et synchronisation allégés."
+        "Toilettes, éthylotest et réglages inactifs réparés ; anti-triche renforcé.",
+        "Menus Donner et éthylotest : utilisent le menu installé sur le serveur."
     ]
 }

@@ -3,8 +3,10 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.7.1",
+  "version": "2.8.0",
   "changelog": [
+    "New player exports (IsPlayerLoaded, GetLoadedPlayers, GetClosestPlayer, GetPlayersInArea, OpenContextMenu...) and inventory exports (GetSlot, GetInventoryItems, GetItemDefinition...).",
+    "New bridge events (playerLoaded, playerUnloaded, playerDied, itemUsed) so scripts no longer listen to the framework directly.",
     "Added bridge exports for inventory stash and hook registration through the configured ACN or ox inventory.",
     "/acn_versions no longer gets stuck and now lists resources with a missing version file or a failed check.",
     "Society money sync can no longer be triggered by non-admin players.",
