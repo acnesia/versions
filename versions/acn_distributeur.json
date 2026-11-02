@@ -1,11 +1,11 @@
 {
   "resource": "acn_distributeur",
-  "version": "2.0.0",
-  "severity": "major",
+  "version": "2.0.1",
+  "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "3D JIDO vending interface with a central machine showcase and dedicated shop and management screens.",
-    "Players can buy and place a machine or claim an existing one, then manage stock, prices, sales and revenue."
+    "The NUI stays transparent while closed, so starting the resource no longer covers the game screen.",
+    "Players can still buy or claim vending machines and manage their stock, prices, sales and revenue."
   ]
 }
