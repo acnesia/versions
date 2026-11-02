@@ -1,12 +1,13 @@
 {
     "resource": "acn_notify",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Refonte visuelle Modern Azure & White Gradient : interface studio et notifications sublimées en tons bleu nuit, saphir et dégradés blancs lumineux.",
-        "Nouveau thème de notification 'Modern Blue' par défaut avec liseré dégradé bleu-blanc et badges nets.",
-        "Boutons d'action, HUD de placement libre et contrôles redessinés avec une finition moderne et zéro blur CEF."
+        "Architecture Dual Visual Engine : support complet des éditions Lovable (SaaS & IA) et Stitch (tactique & modulaire) avec sélecteur instantané.",
+        "Refonte des notifications Lovable (cartes douces, lueur radiale, avatar circulaire) et Stitch (structure modulaire, liseré néon 4px, badges monospace).",
+        "Nouveau double synthétiseur audio Web Audio API : carillons harmoniques soyeux pour Lovable et bips électroniques tactiques pour Stitch.",
+        "Nouveaux boutons de prévisualisation live dans le studio pour tester et comparer les deux styles côte à côte sur écran."
     ]
 }
