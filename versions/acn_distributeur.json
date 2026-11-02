@@ -1,11 +1,12 @@
 {
   "resource": "acn_distributeur",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "The NUI stays transparent while closed, so starting the resource no longer covers the game screen.",
+    "The FiveM game stays visible while the vending interface is closed, including during resource startup.",
+    "The empty NUI mount no longer paints a fullscreen layer over the game.",
     "Players can still buy or claim vending machines and manage their stock, prices, sales and revenue."
   ]
 }
