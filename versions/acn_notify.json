@@ -5,9 +5,9 @@
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Refonte totale de A à Z : nouveau studio haute fidélité avec écran virtuel 16:9 interactif, rail de navigation latéral et sélecteur de moteur instantané.",
-        "Édition Lovable (SaaS & IA) : interface luxe, lueur radiale violette/fuchsia, avatar circulaire et carillon harmonique d'ondes pures.",
-        "Édition Stitch (Tactique Pro) : console modulaire industrielle, liseré néon 4px, badges monospace de télémétrie et bips cyber électroniques.",
-        "Système de placement 16:9 interactif avec calcul de coordonnées en direct, 9 zones de snap et mode plein écran 3D en jeu."
+        "Nouvelle architecture de studio et notifications : surfaces mates, bordures fines et suppression totale des artefacts néons.",
+        "Double édition Lovable (SaaS minimaliste, angles 12px, carillon acoustique) et Stitch (modulaire sombre, bande latérale 3px, clics tactiles).",
+        "Écran de prévisualisation 16:9 interactif avec calcul anti-débordement sur les bords d'écran.",
+        "Mode de placement 3D en jeu interactif avec clic direct et réglage de hauteur à la molette."
     ]
 }
