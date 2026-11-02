@@ -1,0 +1,12 @@
+{
+    "resource": "acn_policejob",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial commercial release of ACN Police Job (LSPD / BCSO / SASP).",
+        "Added tactical command tablet, cuff/escort/frisk interactions, armory, fleet garage, impound lot, ALPR radar, roadblocks, and penal code citations.",
+        "Added 100% live in-game admin configurator (/conf_acn_policejob) with 3D raycast placement."
+    ]
+}
