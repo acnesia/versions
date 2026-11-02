@@ -1,13 +1,13 @@
 {
     "resource": "acn_notify",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "important",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Correction du positionnement d'écran : la notification tout à droite ne revient plus vers le milieu et colle parfaitement à la bordure d'écran.",
-        "Mode de placement en direct transformé en véritable drag and drop : vous pouvez glisser-déposer la carte n'importe où jusqu'au bord extrême droit.",
-        "Aperçu instantané des styles : cliquer sur un thème affiche immédiatement une notification d'exemple avec carillon sonore.",
-        "Suppression complète du style Stitch pour se concentrer à 100% sur le design Lovable Minimal SaaS épuré et moderne."
+        "Nouveau thème Papier Manuscrit : feuille de papier réaliste avec adhésif, écriture manuscrite authentique et retour sonore de crayon.",
+        "Différenciation visuelle complète de tous les thèmes : chaque style possède désormais sa propre identité graphique (bordures, fonds, pastilles d'icônes).",
+        "Bouton de test global en jeu : envoi d'une notification de test simultanée à tous les joueurs connectés.",
+        "Gestion 100% en jeu (/conf_acn_notify et /conf-acn_notify) : espacement, débordement, volume et échelle modifiables à chaud sans ouvrir config.lua."
     ]
 }
