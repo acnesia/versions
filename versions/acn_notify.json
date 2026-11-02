@@ -1,13 +1,13 @@
 {
     "resource": "acn_notify",
-    "version": "3.3.0",
-    "severity": "important",
+    "version": "3.3.1",
+    "severity": "critical",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Personnalisation individuelle par joueur : commandes /notif, /notifpos et /notifpref permettant à chaque joueur d'ajuster son propre emplacement d'écran, style et volume sans permission admin.",
-        "Sauvegarde locale indépendante (KVP) : les préférences du joueur sont enregistrées sur son propre jeu sans altérer les réglages serveur des autres joueurs.",
-        "Réinitialisation en 1 clic (/notifreset) : restauration immédiate des réglages par défaut définis par l'administrateur du serveur.",
-        "Thème Papier Manuscrit & différenciation visuelle complète de toutes les palettes graphiques."
+        "Verrouillage de sécurité administrateur : correction stricte de la vérification de permissions (acn_bridge & groupes admin), interdisant tout accès non autorisé à /conf_acn_notify et /conf_acn_menu.",
+        "Interface Joueur dédiée (/notify) : vue allégée et intuitive sans options techniques serveur, centrée sur le placement d'écran, le thème favori et le volume.",
+        "Bouton de test en jeu instantané : vérification immédiate du style et de la position choisie en 1 clic.",
+        "Prise en charge native des commandes /notify, /notif et /conf_acn_menu dans l'autocomplétion du chat."
     ]
 }
