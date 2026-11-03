@@ -1,10 +1,15 @@
 {
     "resource": "acn_pets",
-    "version": "1.1.1",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a script parsing syntax error in server/admin.lua on resource startup."
+        "Added categorized target sub-menus for clean pet interactions.",
+        "Added police animal impound capability with notifications.",
+        "Redesigned the pet shop with animal categories, quantity steppers, and multi-buy cart.",
+        "Enhanced veterinary clinic with real medical certificates, full checkup reports, and health restorations.",
+        "Moved pet HUD to bottom-right with interactive in-game drag & drop repositioning.",
+        "Added complicity heart gauges, level unlock guides, and an onboarding tutorial."
     ]
 }
