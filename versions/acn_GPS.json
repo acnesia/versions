@@ -1,0 +1,14 @@
+{
+    "resource": "acn_GPS",
+    "version": "1.1.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Brand new responsive HTML/NUI interface for managing GPS channels, signal state, callsigns, and pseudos.",
+        "Added support for custom Matricule / Callsign displayed directly on map blips for teammates.",
+        "Added support for custom Pseudo / Display Name overrides.",
+        "Multi-language localization system with French and English included.",
+        "Better inventory integration and automatic position cleanup when removing or dropping the GPS item."
+    ]
+}
