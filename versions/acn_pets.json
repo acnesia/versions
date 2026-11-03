@@ -1,13 +1,10 @@
 {
     "resource": "acn_pets",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Full French and English localization across all NUI interfaces and admin menus.",
-        "Live language switching without restart when saving in /conf_acn_pets.",
-        "Added install/items.json with all 33 pet items for inventory integration.",
-        "Improved species, coat colors and care history translations."
+        "Fixed a script parsing syntax error in server/admin.lua on resource startup."
     ]
 }
