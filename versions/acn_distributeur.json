@@ -1,12 +1,11 @@
 {
   "resource": "acn_distributeur",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "The FiveM game stays visible while the vending interface is closed, including during resource startup.",
-    "The empty NUI mount no longer paints a fullscreen layer over the game.",
-    "Players can still buy or claim vending machines and manage their stock, prices, sales and revenue."
+    "Redesigned every vending screen (shop, owner management, my machines, purchase and admin) with instant search, sorting and filters.",
+    "Fixed the target interaction error when opening a vending machine to buy an item, along with world machine lookup and stock checks."
   ]
 }
