@@ -1,10 +1,11 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed speed camera form scrolling: added vertical scrolling with sleek scrollbar and expanded modal max height so all fields and buttons are accessible on any resolution.",
         "Speed camera overhaul: streamed 3D physical props, interactive laser fan placement with live model cycling, 3D double xenon flash with world audio, speed limit presets, and target dismantling/reconfiguration.",
         "Speed camera creator with resizable zones, fines sent as invoices, timed searches, sized traffic zones and a brand new MDT. Requires acn_bridge 2.12.0.",
         "Fixed placement missing clicks, one press now places exactly one item.",
