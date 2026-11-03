@@ -1,10 +1,11 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed placement missing clicks, one press now places exactly one item.",
         "Police menu opens on hover, new deployment menu with series placement from 1 to 10 items or continuous.",
         "Fixed the quick menu freezing when acn_bridge was not up to date.",
         "Quick menu driven by the arrow keys while moving, Alt shows a cursor. Requires acn_bridge 2.11.0.",
