@@ -1,11 +1,11 @@
 {
   "resource": "acn_distributeur",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Redesigned every vending screen (shop, owner management, my machines, purchase and admin) with instant search, sorting and filters.",
-    "Fixed the target interaction error when opening a vending machine to buy an item, along with world machine lookup and stock checks."
+    "Complete real-time 3D Japanese vending machine (Jidohanbaiki) with WebGL shaders, clear front product labels, camera pan/zoom, and a hinged owner door.",
+    "Added 3D payment & pickup mini-games (hold 3D IC card on reader, feed 3D banknote into slot, lift the pickup flap and grab your item) plus simplified owner restock & unloading."
   ]
 }
