@@ -1,27 +1,10 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.8.0",
+    "version": "1.8.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "New Terminal radar manager with instant GPS routing and 10m on-site dismantle check, 80% screen tablet UI, simplified multi-lane form and DrawSpotLight native fix.",
-        "Multi-lane speed trap placement across highways, real FOV cone detection (60-360 degrees), 200ms reactive radar server loop, and seamless quick menu navigation.",
-        "Fixed speed camera form scrolling: added vertical scrolling with sleek scrollbar and expanded modal max height so all fields and buttons are accessible on any resolution.",
-        "Speed camera overhaul: streamed 3D physical props, interactive laser fan placement with live model cycling, 3D double xenon flash with world audio, speed limit presets, and target dismantling/reconfiguration.",
-        "Speed camera creator with resizable zones, fines sent as invoices, timed searches, sized traffic zones and a brand new MDT. Requires acn_bridge 2.12.0.",
-        "Fixed placement missing clicks, one press now places exactly one item.",
-        "Police menu opens on hover, new deployment menu with series placement from 1 to 10 items or continuous.",
-        "Fixed the quick menu freezing when acn_bridge was not up to date.",
-        "Quick menu driven by the arrow keys while moving, Alt shows a cursor. Requires acn_bridge 2.11.0.",
-        "Searches open the real inventory, only when the person is cuffed, down or has their hands up.",
-        "New hands up with a smooth animation and walking handcuffs by default.",
-        "Clock in on the duty NPC, new quick list menu. Requires acn_bridge 2.10.0.",
-        "The police menu now lives in the target, with nested menus on vehicles and anywhere.",
-        "Radial menu is optional with no default key.",
-        "New design and icons on every screen. Requires acn_bridge 2.9.0.",
-        "First release of the rebuilt police job: duty, handcuffs, escort, searches, citations, fleet, armory, uniforms, impound, BOLO and officer GPS.",
-        "Server-read speed cameras, portable cameras, patrol radar and traffic control with spike strips, road zones and stop orders.",
-        "Every setting can be changed in game with /conf_acn_policejobV2. Requires acn_bridge 2.8.1."
+        "Fixed Terminal Radar buttons: clean GPS and edit labels with pin icon, radar fines routed to acn_billing via acn_bridge without instant auto-debit, and speed camera placement restricted to grade 4+ by default."
     ]
 }
