@@ -3,8 +3,9 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.9.0",
+  "version": "2.10.0",
   "changelog": [
+    "New ForceOpenInventory server export.",
     "New target exports for global vehicle options and options available anywhere.",
     "Fixed RegisterStash and RegisterInventoryHook, which silently failed because the stash name was lost.",
     "New player exports (IsPlayerLoaded, GetLoadedPlayers, GetClosestPlayer, GetPlayersInArea, OpenContextMenu...) and inventory exports (GetSlot, GetInventoryItems, GetItemDefinition...).",
