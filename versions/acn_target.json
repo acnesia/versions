@@ -1,10 +1,11 @@
 {
     "resource": "acn_target",
-    "version": "2.10.0",
+    "version": "2.11.0",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Menus from other scripts now open on hover in cursor mode, like the Administration menu.",
         "Front, rear and all-door controls now toggle open and closed on successive clicks."
     ]
 }
