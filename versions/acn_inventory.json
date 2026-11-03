@@ -1,12 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "4.8.3",
+    "version": "4.8.4",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Image upload errors now explain the exact reason (unsupported format, file too large, too small or corrupted, incomplete upload, missing permission, or write failure).",
-        "Uploaded images are now checked by their real content, not their declared type.",
-        "Image uploads no longer report failure when the image was saved but the image index could not refresh."
+        "The inventory interface was built from an outdated copy of the code; all recent features are visible in game again.",
+        "JSON item import has all its options back: categories, ready-made templates, animations, props, exports and client/server events.",
+        "The admin Zones tab, player compartments, tooltips and drag preview are back."
     ]
 }
