@@ -1,0 +1,12 @@
+{
+    "resource": "acn_pets",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release: complete pet system with 16 species, needs, diseases, aging and full genetics breeding.",
+        "Pet shop, shelter, pound, vet, K9 and guard dog jobs, pastel collar tablet and HUD.",
+        "Everything configurable in-game with /conf_acn_pets (raycast placement)."
+    ]
+}
