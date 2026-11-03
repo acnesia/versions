@@ -3,8 +3,9 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.11.0",
+  "version": "2.12.0",
   "changelog": [
+    "New CreateInvoice server export routed to acn_billing.",
     "New DisableTargeting client export.",
     "New ForceOpenInventory server export.",
     "New target exports for global vehicle options and options available anywhere.",
