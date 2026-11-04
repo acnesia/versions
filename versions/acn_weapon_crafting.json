@@ -1,10 +1,10 @@
 {
   "resource": "acn_weapon_crafting",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Renamed the resource and its administration command."
+    "Weapon materials gathering and crafting are now included together."
   ]
 }
