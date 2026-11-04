@@ -1,12 +1,12 @@
 {
     "resource": "acn_pets",
-    "version": "1.4.4",
+    "version": "1.4.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restricted veterinary care and animal shelter impound strictly to authorized jobs.",
-        "Ensured immediate global entity despawn when capturing or impounding animals.",
-        "Allowed pet retrieval across all shelter and refuge locations."
+        "Fixed client spawn lifecycle error when receiving spawn packets during script loading.",
+        "Added asynchronous polling guards for all pet networking event listeners.",
+        "Reordered client scripts so the spawn module initializes immediately after main state."
     ]
 }
