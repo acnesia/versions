@@ -1,17 +1,17 @@
 {
   "resource": "acn_security",
-  "version": "1.2.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
+  "version": "1.2.0",
   "changelog": [
-    "Complete Phase 3 release: PvP intrusions, firewall & honeypots defense console.",
-    "Coop operations: 2-4 hackers squad missions with multi-role cooperation and shared payouts.",
-    "Anonymous Hacker Chat with live multi-channel rooms and alias communication.",
-    "Darknet P2P Market with escrow protection for software licences, stolen files and crypto lots.",
-    "Capture The Flag (CTF) tournament competitions with live scoreboards and prizes.",
-    "Real-time 3D CCTV municipal camera viewer, blackout effects and SCADA traffic light hacks.",
-    "Field missions: physical USB server injections, rogue Wi-Fi sniffer deployment and terminal repairs.",
-    "New terminal minigames: lockpick/pin, cipherdrill and sequence challenges."
+    "Co-op: invite up to 3 players on a contract, each with their own part of the job and a shared payout.",
+    "Player vs player intrusions on placed PCs, with live owner alerts, firewall, decoy files and an intrusion log.",
+    "Anonymous hacker forum, player market with escrow, and contracts posted by players.",
+    "Field missions (USB key on a server rack, capture box near a building, kiosk repair), with points placed in game.",
+    "City effects: temporary camera access, neighbourhood blackout and traffic light disruption, plus exports for other scripts.",
+    "CTF events launched by staff or scheduled weekly, with a live leaderboard and rewards, and 3 new terminal mini-games.",
+    "Darknet, crypto wallet, darknet software, desktop hardware components and police Cyber-crime tools (1.1.0).",
+    "Laptop and placeable desktop PC running ACN OS, procedural missions, tutorial, shop and full in-game configuration (1.0.0)."
   ]
 }
