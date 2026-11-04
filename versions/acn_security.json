@@ -1,0 +1,12 @@
+{
+  "resource": "acn_security",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "version": "1.0.0",
+  "changelog": [
+    "Initial release: laptop and placeable desktop PC running ACN OS (terminal, mail and contracts, files, profile, manual, settings).",
+    "Procedural white-hat missions in four categories (network, defense, crypto, forensics) with a mandatory tutorial, hints, two terminal mini-games, XP ranks, challenges and achievements.",
+    "Computer shop NPC and full in-game configuration with /conf_acn_security (raycast placement, prices, settings, placed PCs, logs and Discord webhook)."
+  ]
+}

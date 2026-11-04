@@ -3,23 +3,16 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.12.0",
+  "version": "2.13.0",
   "changelog": [
+    "New dirty money, police, and server callback exports.",
+    "Client dispatch alerts are now rate limited and validated.",
     "New CreateInvoice server export routed to acn_billing.",
     "New DisableTargeting client export.",
     "New ForceOpenInventory server export.",
     "New target exports for global vehicle options and options available anywhere.",
     "Fixed RegisterStash and RegisterInventoryHook, which silently failed because the stash name was lost.",
-    "New player exports (IsPlayerLoaded, GetLoadedPlayers, GetClosestPlayer, GetPlayersInArea, OpenContextMenu...) and inventory exports (GetSlot, GetInventoryItems, GetItemDefinition...).",
-    "New bridge events (playerLoaded, playerUnloaded, playerDied, itemUsed) so scripts no longer listen to the framework directly.",
-    "Added bridge exports for inventory stash and hook registration through the configured ACN or ox inventory.",
-    "/acn_versions no longer gets stuck and now lists resources with a missing version file or a failed check.",
-    "Society money sync can no longer be triggered by non-admin players.",
-    "Client GetJobs now returns the real ESX jobs.",
-    "Errors in third-party inventory, target, progress and notify scripts no longer crash the calling script.",
-    "Vehicle spawn authorization no longer errors when the anti-cheat export is missing or not ready.",
-    "ResetNeeds compatible avec la protection anti-triche d'acn_status 1.4.0.",
-    "/acn_restart_all redémarre automatiquement tous les scripts ACN déjà démarrés, sans liste à maintenir.",
-    "Nouveaux exports AddTargetGlobalPlayer et RemoveTargetGlobalPlayer pour cibler les joueurs avec ox_target ou qb-target."
+    "Added player, nearby-player, help text, context menu and inventory slot exports.",
+    "Added loaded, unloaded, death and item-used events that work the same on every framework."
   ]
 }
