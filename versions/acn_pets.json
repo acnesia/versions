@@ -1,13 +1,10 @@
 {
     "resource": "acn_pets",
-    "version": "1.4.2",
+    "version": "1.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed lost and impounded pet retrieval at the animal shelter.",
-        "Renamed municipal pound to animal shelter (Refuge animalier) across all UI and blips.",
-        "Added immediate in-world entity despawn when capturing or impounding animals.",
-        "Upgraded shelter retrieval interface with breed avatars, boarding dates, and fee breakdown."
+        "Fixed a JavaScript TypeError in NUI loader when opening pet command sheets and modals."
     ]
 }
