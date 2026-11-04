@@ -1,10 +1,11 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.11.1",
+    "version": "1.12.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Scene editor rebuilt: clickable in-game panel with catalog, piece list, nudge buttons and labelled 3D gizmo.",
         "Front and back cuffing use distinct animations; ground sitting now seats the suspect instead of kneeling.",
         "New in-game scene editor (/conf_acn_policejobV2_scenes) with a 3D gizmo to place every prop and vehicle of a scene.",
         "Cuffing, sit-on-ground, escort and vehicle seating reworked: no more teleporting, smoother animations, no stuck poses.",
