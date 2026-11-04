@@ -1,12 +1,13 @@
 {
     "resource": "acn_pets",
-    "version": "1.3.0",
+    "version": "1.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive collar medallion HTML modal when reading a pet's collar.",
-        "Integrated RP character name (Firstname & Lastname) across all pet identification and collar tags.",
-        "Added pet collar inspection option directly from the target interaction menu for owners."
+        "Replaced default context menus with a modern custom HTML pet command sheet.",
+        "Added sleek pet and option picker modal for vet clinics, bowl refills, and K9 actions.",
+        "Fixed player freezing and movement lock when executing pet orders or target options.",
+        "Added instant Escape and backdrop dismiss with zero input or CEF memory leaks."
     ]
 }
