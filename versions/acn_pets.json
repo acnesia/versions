@@ -1,13 +1,13 @@
 {
     "resource": "acn_pets",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced default context menus with a modern custom HTML pet command sheet.",
-        "Added sleek pet and option picker modal for vet clinics, bowl refills, and K9 actions.",
-        "Fixed player freezing and movement lock when executing pet orders or target options.",
-        "Added instant Escape and backdrop dismiss with zero input or CEF memory leaks."
+        "Enabled immediate guard mode activation from level 1 with automatic guard role promotion.",
+        "Replaced redundant 1-choice role dropdown with a clean badge for companion pets.",
+        "Hidden guard mode selector for non-guarding species like cats, birds, and small pets.",
+        "Added guard capabilities across all dog breeds with live database synchronization."
     ]
 }
