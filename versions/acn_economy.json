@@ -1,12 +1,11 @@
 {
   "resource": "acn_economy",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "I replaced /conf_acn_economy with a dedicated HTML administration dashboard.",
-    "Search shops and warehouses, adjust stocks, manage supply orders and review diagnostics from one panel.",
-    "Open the existing 3D placement tools from the dashboard."
+    "I removed the document dark color scheme and blurred exterior shadows to prevent an opaque NUI background.",
+    "The NUI stays transparent at startup and while closed; confirmations no longer add a black full-screen veil."
   ]
 }
