@@ -1,10 +1,12 @@
 {
     "resource": "acn_pets",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a JavaScript TypeError in NUI loader when opening pet command sheets and modals."
+        "Restricted veterinary care and animal shelter impound strictly to authorized jobs.",
+        "Ensured immediate global entity despawn when capturing or impounding animals.",
+        "Allowed pet retrieval across all shelter and refuge locations."
     ]
 }
