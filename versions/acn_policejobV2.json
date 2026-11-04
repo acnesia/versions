@@ -1,10 +1,11 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.12.1",
+    "version": "1.13.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Scene editor: free camera, redesigned interface and easier selection and dragging of pieces.",
         "Seated suspects use a ledge-sit pose and can always be stood up with a key prompt.",
         "Scene editor rebuilt: clickable in-game panel with catalog, piece list, nudge buttons and labelled 3D gizmo.",
         "Front and back cuffing use distinct animations; ground sitting now seats the suspect instead of kneeling.",
