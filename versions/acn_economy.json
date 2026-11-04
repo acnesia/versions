@@ -1,0 +1,15 @@
+{
+    "resource": "acn_economy",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of the ACN Economy persistent stock and logistics engine.",
+        "Centralized physical stocks for retail businesses and regional warehouses.",
+        "Server-authoritative double-entry transaction and movement ledger.",
+        "In-game logistics with live delivery missions, box carry animations, and warehouse orders.",
+        "Full in-game 3D Raycast admin configurator via /conf_acn_economy.",
+        "Seamless native integration with acn_bridge and acn_supermarket v1.25.0."
+    ]
+}
