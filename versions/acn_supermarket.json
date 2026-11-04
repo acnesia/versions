@@ -1,10 +1,11 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.24.1",
+  "version": "1.25.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed the anti-theft item list: items left unchecked now stay in the thief's inventory; the global list overrides per-store settings."
+    "Integrated centralized economy engine (acn_economy) via acn_bridge with stock reservations, sync, and fail-closed safeguards.",
+    "Real-time physical shelf restock capping based on centralized inventory levels."
   ]
 }
