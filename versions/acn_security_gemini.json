@@ -1,13 +1,12 @@
 {
     "resource": "acn_security_gemini",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of ACN-OS Cybersecurity & Ethical Hacking Operating System.",
-        "Interactive server-authoritative terminal with dual syntax and auto-completion.",
-        "3D Raycast placement for workstations with axial rotation and SQL persistence.",
-        "Wi-Fi cracker, ShieldWall DDoS logs, Darknet bazaar and procedural contracts."
+        "Fixed nil index error on Config.Hardware at resource startup.",
+        "Standardized Hardware, Dispatch, Market, and Missions configuration tables.",
+        "Synchronized player profile progression caching and darknet transactions."
     ]
 }
