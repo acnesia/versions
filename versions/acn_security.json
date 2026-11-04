@@ -3,8 +3,11 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "changelog": [
+    "Windows-style desktop on the PC tower (centered taskbar, start menu grid, Windows lock screen) and a hacker Linux look on the laptop (top panel, terminal boot).",
+    "New 'Match device' wallpaper, used by default.",
+    "Fixed a game crash when placing the shop NPC with the placement tool.",
     "Co-op: invite up to 3 players on a contract, each with their own part of the job and a shared payout.",
     "Player vs player intrusions on placed PCs, with live owner alerts, firewall, decoy files and an intrusion log.",
     "Anonymous hacker forum, player market with escrow, and contracts posted by players.",
