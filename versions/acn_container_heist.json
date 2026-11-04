@@ -1,0 +1,10 @@
+{
+  "resource": "acn_container_heist",
+  "version": "3.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Renamed the resource and its administration command."
+  ]
+}

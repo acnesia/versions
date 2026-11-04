@@ -1,0 +1,10 @@
+{
+  "resource": "acn_air_gofast",
+  "version": "3.0.0",
+  "severity": "important",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Renamed the resource and its administration command."
+  ]
+}
