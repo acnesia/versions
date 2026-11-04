@@ -3,12 +3,12 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.14.0",
+  "version": "2.15.0",
   "changelog": [
+    "/conf_acn_bridge is now a full in-game control panel: change almost every setting live, saved directly into config.lua, no restart needed.",
     "Added centralized economy engine (acn_economy) integration with fail-closed safety.",
     "New economy exports for stock reservations, purchases, ledger records, and diagnostics.",
     "Camera (CCTV) actions sent from a player's game are now rate limited and validated.",
-    "New dirty money, police, and server callback exports.",
-    "Client dispatch alerts are now rate limited and validated."
+    "New dirty money, police, and server callback exports."
   ]
 }
