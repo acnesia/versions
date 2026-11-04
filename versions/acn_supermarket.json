@@ -1,11 +1,11 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.22.0",
+  "version": "1.23.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added configurable stealable items in admin menu: shoplifters can only steal permitted goods while non-stealable items are confiscated at the door.",
-    "Fixed store deletion persistence: deleted stores never reappear upon server reboot and props/cashiers are immediately despawned on all clients."
+    "Added a new precise 'Smart aim' shelf detection mode: aim at an item and press E to pick the quantity.",
+    "Shelf interaction mode (ACN target with cursor, smart aim, or the previous custom prompt) and aim tolerance are now selectable in /conf_acn_supermarket."
   ]
 }
