@@ -1,13 +1,13 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Progressive Front & Rear Handcuffs with automatic relative position detection and paired animations.",
-        "Zero-lag escort (grab) synchronization with mutual collision bypass eliminating jitter.",
-        "Forced ground sitting and kneeling interactions with fluid transitions and stand-up recovery.",
-        "Animated vehicle placement and extraction with physical vehicle door opening and closing mechanics."
+        "14 predefined scenes for grade 6+ officers: roadblocks, checkpoints, accident and crime scenes, tactical staging.",
+        "Place a whole scene with one raycast click, wheel to rotate, with a ghost preview of every piece.",
+        "New scenes-per-officer setting; scenes editable live in /conf_acn_policejobV2.",
+        "Progressive Front & Rear Handcuffs with automatic relative position detection and paired animations."
     ]
 }
