@@ -1,13 +1,13 @@
 {
     "resource": "acn_pets",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enabled immediate guard mode activation from level 1 with automatic guard role promotion.",
-        "Replaced redundant 1-choice role dropdown with a clean badge for companion pets.",
-        "Hidden guard mode selector for non-guarding species like cats, birds, and small pets.",
-        "Added guard capabilities across all dog breeds with live database synchronization."
+        "Fixed lost and impounded pet retrieval at the animal shelter.",
+        "Renamed municipal pound to animal shelter (Refuge animalier) across all UI and blips.",
+        "Added immediate in-world entity despawn when capturing or impounding animals.",
+        "Upgraded shelter retrieval interface with breed avatars, boarding dates, and fee breakdown."
     ]
 }
