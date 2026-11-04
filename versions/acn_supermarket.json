@@ -1,11 +1,11 @@
 {
   "resource": "acn_supermarket",
-  "version": "1.23.1",
+  "version": "1.24.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed the admin studio list not scrolling, so every store is reachable again.",
-    "Store list can now be sorted by clicking any column (brand, ID, mode, distance, coordinates, props, items, status)."
+    "Added an anti-theft item list in the global config: pick which items are removed from a thief's inventory and which ones they keep.",
+    "Fixed the admin studio list not scrolling and added sortable columns."
   ]
 }
