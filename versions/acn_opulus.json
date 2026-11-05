@@ -1,14 +1,13 @@
 {
     "resource": "acn_opulus",
-    "version": "1.2.0",
+    "version": "1.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "After the boot screen you now pick your game in a full-screen selection menu (Opulus Apocalypse available, more coming soon).",
-        "All map blips are now hidden while you are inside Opulus and come back when you leave.",
-        "First release of Opulus VR: put on the headset and explore Los Santos in a private instance.",
-        "Your character stays visible in the real world while you are inside.",
-        "Admin menu /conf_acn_opulus to place the demo spawn point in game."
+        "Pont d'instanciation intelligent avec acn_instan et repli natif transparent.",
+        "Synchronisation corporelle RP avancée avec ped clone, casque VR 3D et ancrage bucket 0.",
+        "Catalogue NUI interactif conforme fivem-nui-focus sans flou CEF et raccourci d'urgence [X].",
+        "Panneau d'administration en jeu /conf_acn_opulus avec sauvegarde KVP des coordonnées."
     ]
 }
