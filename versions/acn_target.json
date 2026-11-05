@@ -1,10 +1,10 @@
 {
     "resource": "acn_target",
-    "version": "2.12.0",
+    "version": "2.12.1",
     "severity": "recommended",
     "minimum_supported": "1.17.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Custom actions in /conf_acn_target can now be restricted to specific jobs (police, ambulance...)."
+        "Actions limited to a job now appear directly in the cursor menu for the players who may use them."
     ]
 }
