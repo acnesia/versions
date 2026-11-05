@@ -1,10 +1,11 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.1.1",
+    "version": "13.1.2",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed time/weather flicker: a paused sync (PauseSync export) now fully stops every weather and clock write until resumed.",
         "Fixed weather transition dynamics: Instant, Fast Front (10s), and Realistic Front (30s) now transition properly without snapping.",
         "Smooth real-time skybox and atmosphere blending across the full transition duration.",
         "Transition dynamics support both global weather and regional weather targets."
