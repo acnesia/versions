@@ -1,13 +1,16 @@
 {
     "resource": "acn_evidence",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of ACN Evidence & Forensics System.",
-        "Added real-time ballistic casings, blood DNA traces, vehicle paint fragments, and latent fingerprints.",
-        "Added UV Forensic Scanner mode and interactive CSI Laboratory terminal with multi-scene matching.",
-        "Added 100% in-game configuration and 3D Raycast laboratory placement (/conf_acn_evidence)."
+        "Added interactive 3D Ballistic Comparison Microscope with Three.js (striation alignment).",
+        "Added Latent Fingerprint UV & Magnetic Powder station with AFIS minutiae tagging.",
+        "Added DNA Gel Electrophoresis Sequencer with 120V electric field migration and STR matching.",
+        "Added automatic weapon burst casing scatter (spawns 3-4 realistic casings per burst).",
+        "Replaced 'G' keybind with dedicated /uvscan2 command.",
+        "Added live elapsed time counter (minutes/seconds) and full street/crossroad/zone geolocation.",
+        "Replaced raster image dependencies with crisp vector SVG icons."
     ]
 }
