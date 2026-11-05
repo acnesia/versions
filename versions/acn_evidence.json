@@ -1,13 +1,13 @@
 {
     "resource": "acn_evidence",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Overhauled Ballistic Comparison Microscope with authentic Leeds primer percussion and rifling modes.",
-        "Redesigned laboratory interface with bespoke Matte Carbon & Forensic Gold theme (zero cyan slop).",
-        "Enhanced DNA Blood Electrophoresis with micropipette loading, voltage regulator, and STR caliper.",
-        "Fixed ground evidence lifespan to exactly 40 minutes with live countdown display in 3D world."
+        "Fixed latent fingerprint positioning upon vehicle exit directly at the door handle.",
+        "Overhauled vehicle collision detection to reliably drop paint fragments during crashes.",
+        "Added full GTA V paint palette with authentic color names and dual-vehicle crash reconstruction.",
+        "Corrected glove detection logic and added vaulting obstacle latent fingerprints."
     ]
 }
