@@ -1,16 +1,13 @@
 {
     "resource": "acn_evidence",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive 3D Ballistic Comparison Microscope with Three.js (striation alignment).",
-        "Added Latent Fingerprint UV & Magnetic Powder station with AFIS minutiae tagging.",
-        "Added DNA Gel Electrophoresis Sequencer with 120V electric field migration and STR matching.",
-        "Added automatic weapon burst casing scatter (spawns 3-4 realistic casings per burst).",
-        "Replaced 'G' keybind with dedicated /uvscan2 command.",
-        "Added live elapsed time counter (minutes/seconds) and full street/crossroad/zone geolocation.",
-        "Replaced raster image dependencies with crisp vector SVG icons."
+        "Overhauled Ballistic Comparison Microscope with authentic Leeds primer percussion and rifling modes.",
+        "Redesigned laboratory interface with bespoke Matte Carbon & Forensic Gold theme (zero cyan slop).",
+        "Enhanced DNA Blood Electrophoresis with micropipette loading, voltage regulator, and STR caliper.",
+        "Fixed ground evidence lifespan to exactly 40 minutes with live countdown display in 3D world."
     ]
 }
