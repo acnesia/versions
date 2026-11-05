@@ -1,15 +1,14 @@
 {
     "resource": "folio",
     "package": "fr.folio.photos",
-    "version": "3.6.0",
+    "version": "3.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
-    "update_url": "https://github.com/acnesia/folio/releases/tag/v3.6.0",
-    "download_url": "https://github.com/acnesia/acn-store/releases/download/fr.folio.photos-v3.6.0/Folio-3.6.0.apk",
+    "update_url": "https://github.com/acnesia/folio/releases/tag/v3.7.0",
+    "download_url": "https://github.com/acnesia/acn-store/releases/download/fr.folio.photos-v3.7.0/Folio-3.7.0.apk",
     "changelog": [
-        "Refonte visuelle complete : nouvelle interface sombre OLED epuree, conteneurs modernes et palette Stitch",
-        "Filtrage granulaire des sources et messageries : detection et tri dedie pour WhatsApp, Facebook, Instagram, Camera, Captures, Telechargements",
-        "Nouvel onglet Sources & Applications : jauge de stockage et acces direct 1-clic pour chaque application",
-        "Cartes de tri enrichies : capsule haute avec icone, poids, duree video, boutons d'acces rapide plein ecran et tampons dynamiques"
+        "Nettoyage intelligent : detection locale des doublons, rafales et photos floues, avec la meilleure photo proposee",
+        "Statistiques : objectif quotidien reglable, serie de jours consecutifs, graphique 7 jours et espace a liberer cumule",
+        "Pastille d'objectif du jour dans l'ecran de tri avec retour haptique"
     ]
 }
