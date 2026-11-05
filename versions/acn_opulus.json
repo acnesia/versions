@@ -1,10 +1,11 @@
 {
     "resource": "acn_opulus",
-    "version": "1.1.0",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "After the boot screen you now pick your game in a full-screen selection menu (Opulus Apocalypse available, more coming soon).",
         "All map blips are now hidden while you are inside Opulus and come back when you leave.",
         "First release of Opulus VR: put on the headset and explore Los Santos in a private instance.",
         "Your character stays visible in the real world while you are inside.",
