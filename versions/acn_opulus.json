@@ -1,0 +1,12 @@
+{
+    "resource": "acn_opulus",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "First release of Opulus VR: put on the headset and explore Los Santos in a private instance.",
+        "Your character stays visible in the real world while you are inside.",
+        "Admin menu /conf_acn_opulus to place the demo spawn point in game."
+    ]
+}
