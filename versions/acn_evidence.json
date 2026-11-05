@@ -1,13 +1,13 @@
 {
     "resource": "acn_evidence",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed DNA Electrophoresis sidebar overflow with smooth vertical scrolling and custom scrollbars.",
+        "Streamlined DNA, Fingerprint, and Paint workstation panels for seamless access to validation buttons.",
         "Brand new Automotive Paint Spectrophotometry minigame with 4-layer stratigraphy & FTIR interferometer.",
-        "Overhauled Latent Fingerprint station with responsive magnetic powder dusting and 365nm UV fluorescence.",
-        "Fixed canvas event blocking allowing smooth real-time fingerprint ridge revelation and AFIS minutiae matching.",
-        "Accurate vehicle paint OEM color resolution and real-time spectrum concordance with National PDQ database."
+        "Overhauled Latent Fingerprint station with responsive magnetic powder dusting and 365nm UV fluorescence."
     ]
 }
