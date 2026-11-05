@@ -5,9 +5,11 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Pont d'instanciation intelligent avec acn_instan et repli natif transparent.",
-        "Synchronisation corporelle RP avancée avec ped clone, casque VR 3D et ancrage bucket 0.",
-        "Catalogue NUI interactif conforme fivem-nui-focus sans flou CEF et raccourci d'urgence [X].",
-        "Panneau d'administration en jeu /conf_acn_opulus avec sauvegarde KVP des coordonnées."
+        "Opulus Apocalypse: open-world zombie survival with AI zombies, bosses, separate VR inventory, loot, vehicles with fuel, day/night, survival HUD, leaderboard and a full in-game /conf_acn_opulus (requires oxmysql and acn_bridge 2.16.0+).",
+        "After the boot screen you now pick your game in a full-screen selection menu (Opulus Apocalypse available, more coming soon).",
+        "All map blips are now hidden while you are inside Opulus and come back when you leave.",
+        "First release of Opulus VR: put on the headset and explore Los Santos in a private instance.",
+        "Your character stays visible in the real world while you are inside.",
+        "Admin menu /conf_acn_opulus to place the demo spawn point in game."
     ]
 }

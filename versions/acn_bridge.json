@@ -3,8 +3,9 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.15.0",
+  "version": "2.16.0",
   "changelog": [
+    "New SetInventoryBusy client export: lets a script lock the RP inventory (and holster the weapon) while a player is in a special mode.",
     "/conf_acn_bridge is now a full in-game control panel: change almost every setting live, saved directly into config.lua, no restart needed.",
     "Added centralized economy engine (acn_economy) integration with fail-closed safety.",
     "New economy exports for stock reservations, purchases, ledger records, and diagnostics.",
