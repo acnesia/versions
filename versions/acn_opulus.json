@@ -1,10 +1,11 @@
 {
     "resource": "acn_opulus",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "The survival HUD now sits on the right side of the screen.",
         "Fixed a startup error when the instance script is older than 2.7.0 (missing setEntityInstance export).",
         "Loot window for containers, bags and dropped piles, real drag & drop in the VR inventory, weapons usable in VR, no more time/weather flicker, zombie spawn fix and a friendlier /conf_acn_opulus (requires acn_bridge 2.16.1+ and acn_weathertime 13.1.2+).",
         "Opulus Apocalypse: open-world zombie survival with AI zombies, bosses, separate VR inventory, loot, vehicles with fuel, day/night, survival HUD, leaderboard and a full in-game /conf_acn_opulus (requires oxmysql and acn_bridge 2.16.0+).",
