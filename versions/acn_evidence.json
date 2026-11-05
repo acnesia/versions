@@ -1,13 +1,13 @@
 {
     "resource": "acn_evidence",
-    "version": "1.1.2",
+    "version": "1.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed latent fingerprint positioning upon vehicle exit directly at the door handle.",
-        "Overhauled vehicle collision detection to reliably drop paint fragments during crashes.",
-        "Added full GTA V paint palette with authentic color names and dual-vehicle crash reconstruction.",
-        "Corrected glove detection logic and added vaulting obstacle latent fingerprints."
+        "Brand new Automotive Paint Spectrophotometry minigame with 4-layer stratigraphy & FTIR interferometer.",
+        "Overhauled Latent Fingerprint station with responsive magnetic powder dusting and 365nm UV fluorescence.",
+        "Fixed canvas event blocking allowing smooth real-time fingerprint ridge revelation and AFIS minutiae matching.",
+        "Accurate vehicle paint OEM color resolution and real-time spectrum concordance with National PDQ database."
     ]
 }
