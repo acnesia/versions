@@ -3,8 +3,10 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.6.1",
+  "version": "1.7.0",
   "changelog": [
+    "New node-based mission editor (Scenarios tab): create your own legal or illegal contracts and rewrite the texts and guide commands of the built-in ones.",
+    "The contract board now refreshes as soon as a mission ends.",
     "Terminal: a loading bar with the remaining time is shown while a slow machine is answering.",
     "Terminal response delay reworked: the laptop is very slow (about 15-20 s), the tower about 5 s, and upgrades speed it up (tower near instant, laptop never below 5 s).",
     "New counter-hack duel during illegal missions: a rival hacker hits back and you must out-type them, or you lose the mission.",
