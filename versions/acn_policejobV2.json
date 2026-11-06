@@ -1,20 +1,14 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.13.0",
+    "version": "1.14.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Scene editor: free camera, redesigned interface and easier selection and dragging of pieces.",
-        "Seated suspects use a ledge-sit pose and can always be stood up with a key prompt.",
-        "Scene editor rebuilt: clickable in-game panel with catalog, piece list, nudge buttons and labelled 3D gizmo.",
-        "Front and back cuffing use distinct animations; ground sitting now seats the suspect instead of kneeling.",
-        "New in-game scene editor (/conf_acn_policejobV2_scenes) with a 3D gizmo to place every prop and vehicle of a scene.",
-        "Cuffing, sit-on-ground, escort and vehicle seating reworked: no more teleporting, smoother animations, no stuck poses.",
-        "Deployment menu now lets you keep moving; Alt toggles the cursor.",
-        "14 predefined scenes for grade 6+ officers: roadblocks, checkpoints, accident and crime scenes, tactical staging.",
-        "Place a whole scene with one raycast click, wheel to rotate, with a ghost preview of every piece.",
-        "New scenes-per-officer setting; scenes editable live in /conf_acn_policejobV2.",
-        "Progressive Front & Rear Handcuffs with automatic relative position detection and paired animations."
+        "Native Police Tape integration with realistic wind sway, sag, and physics collision.",
+        "100 built-in tape styles for Police, Sheriff, Crime Scene, Fire/EMS, and Hazard.",
+        "In-game Tape Studio to design, preview, and save custom styles in real time.",
+        "21 physical holders including delineator post and 20 cones with knock-over physics.",
+        "Integrated modern CEF interface for style picker, holders, and HUD prompts."
     ]
 }
