@@ -3,8 +3,10 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "changelog": [
+    "Illegal contracts now show up in the Darknet app on illegal devices (and no longer in the mail board).",
+    "The in-game configuration has no limits anymore (any value, including 0 or huge numbers), with a global search and a cleaner layout.",
     "Legal and illegal editions of the laptop and the tower, each sold by its own vendor (upgrades are sold by both).",
     "Legal devices run white-hat contracts only; illegal devices add black-hat, darknet, crypto wallet, hacker chat, market and intrusions.",
     "Tower desktop rebuilt in a Windows 11 style (search, start menu, notifications, tray, right-click menu); laptop keeps its own Linux look.",
