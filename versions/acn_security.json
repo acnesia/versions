@@ -3,8 +3,12 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.4.1",
+  "version": "1.5.0",
   "changelog": [
+    "Legal and illegal editions of the laptop and the tower, each sold by its own vendor (upgrades are sold by both).",
+    "Legal devices run white-hat contracts only; illegal devices add black-hat, darknet, crypto wallet, hacker chat, market and intrusions.",
+    "Tower desktop rebuilt in a Windows 11 style (search, start menu, notifications, tray, right-click menu); laptop keeps its own Linux look.",
+    "Terminal answers are grouped in readable blocks, and an un-upgraded tower now takes time to answer (CPU and SSD shorten it).",
     "Fixed desktop PCs disappearing after a resource restart (automatic client sync on startup).",
     "Fixed Tier 1 mission level requirements: whois command is now available from level 1 and active mission commands bypass level locks.",
     "Terminal overhaul: toolbar, right-click menu, persistent history with Ctrl+R search, ghost suggestions, column completion, aliases, echo, copy and timestamp commands.",
