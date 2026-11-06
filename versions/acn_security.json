@@ -3,8 +3,10 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.5.1",
+  "version": "1.6.0",
   "changelog": [
+    "Terminal response delay reworked: the laptop is very slow (about 15-20 s), the tower about 5 s, and upgrades speed it up (tower near instant, laptop never below 5 s).",
+    "New counter-hack duel during illegal missions: a rival hacker hits back and you must out-type them, or you lose the mission.",
     "Illegal contracts now show up in the Darknet app on illegal devices (and no longer in the mail board).",
     "The in-game configuration has no limits anymore (any value, including 0 or huge numbers), with a global search and a cleaner layout.",
     "Legal and illegal editions of the laptop and the tower, each sold by its own vendor (upgrades are sold by both).",
