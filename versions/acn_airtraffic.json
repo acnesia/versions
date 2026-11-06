@@ -1,0 +1,12 @@
+{
+  "resource": "acn_airtraffic",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "version": "1.0.0",
+  "changelog": [
+    "First release: virtual air traffic controller job with a modern radar, flight strips and a full set of aircraft orders.",
+    "Random and scripted crises, 5 editable grades with XP and pay, and a session report.",
+    "/conf_acn_airtraffic configures everything live in game, including raycast placement of the tower post and a visual airport map editor."
+  ]
+}
