@@ -3,8 +3,9 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.7.0",
+  "version": "1.7.1",
   "changelog": [
+    "New admin command /conf_acn_security_duel to try the counter-hack mini-game instantly; the rival can now strike right from the start of a mission.",
     "New node-based mission editor (Scenarios tab): create your own legal or illegal contracts and rewrite the texts and guide commands of the built-in ones.",
     "The contract board now refreshes as soon as a mission ends.",
     "Terminal: a loading bar with the remaining time is shown while a slow machine is answering.",
