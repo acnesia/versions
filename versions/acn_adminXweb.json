@@ -1,10 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.34.1",
+  "version": "5.34.2",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Revive/heal compatible avec tous les scripts d'ambulance via le système de soin officiel de txAdmin."
+    "Nouveaux boutons Remise à Neuf (soin + faim/soif) pour soi et pour tous les joueurs.",
+    "Faim et soif réellement restaurées via acn_bridge."
   ]
 }
