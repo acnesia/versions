@@ -1,13 +1,14 @@
 {
     "resource": "acn_attraction",
-    "version": "2.19.0",
+    "version": "2.25.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Overhauled in-game admin menu (/conf_acn_attraction) with sleek luxury matte styling.",
-        "Eliminated default white browser scrollbar under navigation tabs and added smooth horizontal mouse-wheel scrolling.",
-        "Added category count badges and structured coordinate alignment for all placed machines and stalls.",
-        "Harmonized button styling with satin surfaces, clean borders, and intuitive iconography."
+        "Basketball rebuilt: smooth eye-level camera, real ball arc, clean exits and a fixed double-ticket bug.",
+        "Roller coaster: new onboard/chase/side ride cameras plus an in-game camera calibration tool (/coaster_cam).",
+        "Shooting range: the musket no longer disappears and reappears during a round.",
+        "Every interaction now shows once; arcade, punch machine and air hockey prizes and exits fixed.",
+        "Duck fishing: rod held properly in hand and real duck/pond textures restored in the sources."
     ]
 }
