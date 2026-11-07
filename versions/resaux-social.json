@@ -1,15 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.2.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.3.0/Hors-Piste.apk",
     "changelog": [
-        "Amis proches : créez votre liste d'amis proches et publiez des photos, vidéos, stories et threads visibles uniquement par eux (cercle et badge vert émeraude).",
-        "Mode Privé · Mutuels : partagez vos images et publications uniquement avec les personnes qui vous suivent et que vous suivez en retour.",
-        "Gestion rapide : gérez votre liste depuis votre profil, les paramètres, l'écran de publication ou en 1 geste sur le profil d'un membre (sans notification).",
-        "Confidentialité totale : repost et partage externe désactivés sur les contenus privés, aucune exposition dans Explorer / Tendances."
+        "Correctif Samsung : résolution complète du bug qui fermait l'application lors des premières notifications.",
+        "Notifications intelligentes : une seule notification en direct quand l'application est ouverte, et réception immédiate en arrière-plan quand elle est fermée.",
+        "7 nouveaux mini-jeux multijoueurs : Je n'ai jamais, Tu préfères, Quiz Culture & Pop, Tic-Tac Bombe, Le Mytho / Bluff, Drapeau Rouge et Devine l'Emoji."
     ]
 }
