@@ -1,23 +1,17 @@
 {
   "resource": "acn_airtraffic",
+  "version": "1.4.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.3.0",
   "changelog": [
-    "Added 1x, 2x, 3x and 4x speed multiplier buttons to accelerate virtual traffic pacing and simulation clock on the fly.",
-    "Added approach controls in Simple mode: order a go-around (remise de gaz) or hold at any time for approaching aircraft.",
-    "Emergency priority landings automatically wave off conflicting traffic on the runway.",
-    "Added in-game 3D raycast runway placement tool in /conf_acn_airtraffic with laser preview and auto QFU designation.",
-    "Enhanced visual interface with airline brand badges and cleaner status cards.",
-    "New Simple mode (default): pilots send requests and you answer with one or two big buttons; aircraft fly and taxi on their own. Expert mode still available.",
-    "Guided tutorial with training traffic on the first shift, plus a Help button.",
-    "Controller NPC and map blip at the tower post, easier post placement (left click or E) and a setup guide in /conf_acn_airtraffic.",
-    "Brand-new controller interface: sharp radar with non-overlapping labels, compact flight strips, heading dial and clearer orders.",
-    "Redesigned admin panel with a better airport map editor, on-demand crisis trigger, Advanced tuning tab and full French translation.",
-    "Fixed the post getting locked for everyone, the player sinking into the floor, the target vanishing after an acn_bridge restart and the cursor on the session report.",
-    "First release: virtual air traffic controller job with a modern radar, flight strips and a full set of aircraft orders.",
-    "Random and scripted crises, 5 editable grades with XP and pay, and a session report.",
-    "/conf_acn_airtraffic configures everything live in game, including raycast placement of the tower post and a visual airport map editor."
+    "Turbo speed multipliers (1x, 2x, 4x, 8x, 16x) and re-tuned airport distances for fast-paced FiveM sessions.",
+    "Fixed patience penalty for aircraft authorized and flying their final approach.",
+    "Player-driven mode switcher: choose between Simple mode and Expert mode on the fly from the top bar.",
+    "Expert mode bonus: +50% boost on score, career XP, and salary payout when playing in Expert mode.",
+    "3D DUI computer workstation: placing the post spawns an in-game dual-monitor computer prop with live 3D DUI radar and eye-level camera zoom.",
+    "Interactive in-game 3D raycast runway placement tool in /conf_acn_airtraffic.",
+    "Approach controls in Simple mode: abort approach, go-around, or hold at any time.",
+    "Enhanced visual interface with airline brand badges (Air France, British Airways, Lufthansa, Emirates, etc.)."
   ]
 }
