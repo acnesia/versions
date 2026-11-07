@@ -1,14 +1,12 @@
 {
     "resource": "acn_policejobV2",
-    "version": "1.14.0",
+    "version": "1.14.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Native Police Tape integration with realistic wind sway, sag, and physics collision.",
-        "100 built-in tape styles for Police, Sheriff, Crime Scene, Fire/EMS, and Hazard.",
-        "In-game Tape Studio to design, preview, and save custom styles in real time.",
-        "21 physical holders including delineator post and 20 cones with knock-over physics.",
-        "Integrated modern CEF interface for style picker, holders, and HUD prompts."
+        "Fixed police tape posts and cones failing to spawn when placing the second tie point.",
+        "Improved tape placement exit controls (Right-Click, Escape, Backspace, X, and quick menu toggle).",
+        "Native Police Tape integration with 100 styles, Tape Studio, and 21 physical holders."
     ]
 }
