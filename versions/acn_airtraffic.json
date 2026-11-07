@@ -3,8 +3,11 @@
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "changelog": [
+    "New Simple mode (default): pilots send requests and you answer with one or two big buttons; aircraft fly and taxi on their own. Expert mode still available.",
+    "Guided tutorial with training traffic on the first shift, plus a Help button.",
+    "Controller NPC and map blip at the tower post, easier post placement (left click or E) and a setup guide in /conf_acn_airtraffic.",
     "Brand-new controller interface: sharp radar with non-overlapping labels, compact flight strips, heading dial and clearer orders.",
     "Redesigned admin panel with a better airport map editor, on-demand crisis trigger, Advanced tuning tab and full French translation.",
     "Fixed the post getting locked for everyone, the player sinking into the floor, the target vanishing after an acn_bridge restart and the cursor on the session report.",
