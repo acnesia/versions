@@ -1,10 +1,11 @@
 {
     "resource": "acn_opulus",
-    "version": "1.5.1",
+    "version": "1.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Polyzone editor freecam: fly around to place vertices quickly (F toggles it).",
         "Reload now uses the native GTA reload animation instead of a progress bar.",
         "Polyzones: draw polygon zones in game with safe zones, zombie spawn/damage/speed multipliers, loot and survival effects, dangerous areas and no-PvP.",
         "Admin edit mode: edit Opulus points from inside the Opulus world (solo or live instance), then return to your exact spot.",
