@@ -1,11 +1,10 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.34.0",
+  "version": "5.34.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau panel 'Effectif & Membres du Staff' dans l'onglet Staff & Sessions (/admin).",
-    "Gestion interactive des rôles staff en jeu (révocation, modification, promotion et suivi des heures de service)."
+    "Revive/heal compatible avec tous les scripts d'ambulance via le système de soin officiel de txAdmin."
   ]
 }
