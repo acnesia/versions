@@ -1,10 +1,11 @@
 {
     "resource": "acn_opulus",
-    "version": "1.5.3",
+    "version": "1.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Zombie corpse looting: players can search dead zombies with animations, progress bar, damage/movement cancellation, and 100% customizable loot tables in config.lua.",
         "Weapons rebuilt: no more ammo taken from the inventory when shooting, the weapon stays in hand when empty, reload with R using the GTA animation.",
         "Polyzone editor freecam: fly around to place vertices quickly (F toggles it).",
         "Reload now uses the native GTA reload animation instead of a progress bar.",
