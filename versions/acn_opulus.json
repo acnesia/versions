@@ -1,10 +1,15 @@
 {
     "resource": "acn_opulus",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Opulus Give Menu NUI: full visual interface accessible via /opulus_give (with no args) or dedicated button in /conf_acn_opulus VR Items tab, featuring target player selector, visual item search grid, category filters, quantity steppers, and firearm reserve ammo controls.",
+        "Opulus Item Creator NUI: complete item builder interface accessible via /opulus_item, /opulus_item_create, or in /conf_acn_opulus to create, configure, and register custom VR items live in catalog with instant KVP persistence and hot-sync across all clients.",
+        "Live Card Preview: dynamic real-time item preview updating instantly with thumbnail, slug, category badge, weapon models, ammo links, health/hunger/thirst/fuel values, and description.",
+        "Type-specific dynamic attributes: contextual form fields for weapons (GTA models and associated ammunition), medical items, food, drinks, vehicle fuel, and stackable materials.",
+        "Instant in-game test integration: added 1-click test button right after creating an item to test it immediately in your VR backpack.",
         "Opulus vehicle commands: /opulus_car [model] and /opulus_veh to instantly spawn vehicles in your instance routing bucket with keys, full fuel, unlocked doors, and auto-driver warp.",
         "Automatic routing bucket sync & vehicle claim: approaching or entering any vehicle automatically shifts it to your virtual instance bucket, unlocks doors, grants keys, and provides fuel.",
         "In-game vehicle test button: added quick 1-click test spawn button in /conf_acn_opulus Map tab under Vehicles and on each vehicle card.",
