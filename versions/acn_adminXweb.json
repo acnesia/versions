@@ -1,11 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.34.2",
+  "version": "5.35.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveaux boutons Remise à Neuf (soin + faim/soif) pour soi et pour tous les joueurs.",
-    "Faim et soif réellement restaurées via acn_bridge."
+    "Nouveau module de Téléportation Intelligente par Coordonnées dans le Panel Dev et le QuickMenu.",
+    "Analyseur de coordonnées puissant : support vector3/vector4, tables {x,y,z}, x: y: z:, et texte brut libre.",
+    "Nouvelle commande chat /tpcoords pour se téléporter à chaud depuis n'importe quelle chaîne copiée."
   ]
 }
