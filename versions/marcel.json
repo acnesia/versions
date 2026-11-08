@@ -1,0 +1,13 @@
+{
+  "resource": "marcel",
+  "version": "1.0.0",
+  "severity": "recommended",
+  "minimum_supported": "1.0.0",
+  "update_url": "https://github.com/acnesia/acn-store/releases/download/com.marcel.judgment-v1.0/Marcel-1.0.apk",
+  "download_url": "https://github.com/acnesia/acn-store/releases/download/com.marcel.judgment-v1.0/Marcel-1.0.apk",
+  "changelog": [
+    "Sortie officielle de Marcel : Export WhatsApp to Judgment.",
+    "Analyse balistique des temps de réponse, monologues et excuses.",
+    "Détection des pièces à conviction sous scellés et verdict impitoyable de l'inspecteur Marcel."
+  ]
+}
