@@ -1,10 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.8.5",
+    "version": "4.9.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed drag and drop when releasing an item back onto its original slot, properly cancelling the move instead of dropping it onto the ground."
+        "Added multi-selection in the /item admin catalog to delete several items at once.",
+        "Saving an item in the admin editor now keeps the editor open with your changes instead of wiping the form."
     ]
 }
