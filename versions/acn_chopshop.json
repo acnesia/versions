@@ -1,10 +1,11 @@
 {
     "resource": "acn_chopshop",
-    "version": "3.1.0",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "New admin Debug tab: give blocks, press parts, XP or levels to test the whole loop quickly.",
         "Deliveries: blocks now wait in crates beside the truck (crate spots placeable in-game); the laptop always offers a contract matching your level.",
         "Fixed vehicle drive-in check at hangar bays to eliminate false 'Too far' errors.",
         "Added full 3D Text & [E] interaction system inside hangars with zero ox_target dependency.",
