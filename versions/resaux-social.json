@@ -1,14 +1,13 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "3.4.0",
+    "version": "3.4.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.4.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.4.1/Hors-Piste.apk",
     "changelog": [
-        "Sécurité maximale pendant les Swaps : blocage matériel des captures d'écran et des enregistrements vidéo d'écran.",
-        "Protection des photos en messages privés : floutage automatique dans la discussion et affichage uniquement en maintenant 1 doigt appuyé (masquage immédiat au relâchement ou geste multi-doigts).",
-        "Interdiction d'enregistrer, télécharger ou exporter des photos/vidéos pendant un swap, avec alerte en direct dans le journal d'activité du propriétaire du compte."
+        "Correctif des commentaires en double : publier un commentaire sur une photo dans « Pour vous » (Mix) ne l'affiche plus deux fois.",
+        "Correction du compteur de commentaires lors de l'envoi d'une réponse en temps réel."
     ]
 }
