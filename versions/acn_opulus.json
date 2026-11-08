@@ -1,10 +1,14 @@
 {
     "resource": "acn_opulus",
-    "version": "1.7.0",
+    "version": "1.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Opulus vehicle commands: /opulus_car [model] and /opulus_veh to instantly spawn vehicles in your instance routing bucket with keys, full fuel, unlocked doors, and auto-driver warp.",
+        "Automatic routing bucket sync & vehicle claim: approaching or entering any vehicle automatically shifts it to your virtual instance bucket, unlocks doors, grants keys, and provides fuel.",
+        "In-game vehicle test button: added quick 1-click test spawn button in /conf_acn_opulus Map tab under Vehicles and on each vehicle card.",
+        "Spawned vehicle usability fix: resolved issue where spawned vehicles were unusable due to routing bucket mismatch or uninitialized fuel.",
         "Gunshot noise detection & horde rush: unsuppressed gunfire alerts zombies within 130m and triggers aggressive reinforcement hordes.",
         "Zombie horde spawn points: in-game /conf_acn_opulus horde points with % chance, min/max horde size, and cooldowns.",
         "Periodic roaming hordes: dynamic wandering horde waves hunt players for increased survival difficulty.",
@@ -17,23 +21,6 @@
         "Anti-ped duplication: automatic server and client purge of all clone entities on resource stop and restart.",
         "Vehicle access fix: dirtbikes, motorcycles, and vehicles are now unlocked and accessible upon spawn with key bypass.",
         "Hunger and thirst isolation: RP needs are safely saved upon entering Opulus and perfectly restored upon returning to the normal server.",
-        "Cross-framework status synchronization: Opulus survival status is synchronized in real time with the framework HUD, and default VR experiences provide 100% full needs.",
-        "In-game Blips & POIs manager: admins can create, edit, duplicate and delete custom map blips and 3D in-game markers for any Opulus experience with 3D raycast placement and live sync.",
-        "Zombie corpse looting: players can search dead zombies with animations, progress bar, damage/movement cancellation, and 100% customizable loot tables in config.lua.",
-        "Weapons rebuilt: no more ammo taken from the inventory when shooting, the weapon stays in hand when empty, reload with R using the GTA animation.",
-        "Polyzone editor freecam: fly around to place vertices quickly (F toggles it).",
-        "Reload now uses the native GTA reload animation instead of a progress bar.",
-        "Polyzones: draw polygon zones in game with safe zones, zombie spawn/damage/speed multipliers, loot and survival effects, dangerous areas and no-PvP.",
-        "Admin edit mode: edit Opulus points from inside the Opulus world (solo or live instance), then return to your exact spot.",
-        "Your Opulus position is saved with your inventory; manual reload on R and no more infinite ammo; you are revived on exit if you died in VR.",
-        "The survival HUD now sits on the right side of the screen.",
-        "Fixed a startup error when the instance script is older than 2.7.0 (missing setEntityInstance export).",
-        "Loot window for containers, bags and dropped piles, real drag & drop in the VR inventory, weapons usable in VR, no more time/weather flicker, zombie spawn fix and a friendlier /conf_acn_opulus (requires acn_bridge 2.16.1+ and acn_weathertime 13.1.2+).",
-        "Opulus Apocalypse: open-world zombie survival with AI zombies, bosses, separate VR inventory, loot, vehicles with fuel, day/night, survival HUD, leaderboard and a full in-game /conf_acn_opulus (requires oxmysql and acn_bridge 2.16.0+).",
-        "After the boot screen you now pick your game in a full-screen selection menu (Opulus Apocalypse available, more coming soon).",
-        "All map blips are now hidden while you are inside Opulus and come back when you leave.",
-        "First release of Opulus VR: put on the headset and explore Los Santos in a private instance.",
-        "Your character stays visible in the real world while you are inside.",
-        "Admin menu /conf_acn_opulus to place the demo spawn point in game."
+        "Cross-framework status synchronization: Opulus survival status is synchronized in real time with the framework HUD, and default VR experiences provide 100% full needs."
     ]
 }
