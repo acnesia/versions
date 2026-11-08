@@ -1,10 +1,11 @@
 {
     "resource": "acn_chopshop",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "French by default with an in-game language switch; much more detailed admin panel with teleports and live rental management.",
         "First release: rent a hangar, steal and dismantle vehicles, press scrap blocks and truck them out.",
         "Lockpicking, unscrewing and scrap press minigames.",
         "Full in-game configuration with /conf_acn_chopshop."
