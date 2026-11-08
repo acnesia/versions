@@ -1,10 +1,13 @@
 {
     "resource": "acn_opulus",
-    "version": "1.6.1",
+    "version": "1.6.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Crash & restart protection: dual-layer persistent origin tracking (server + client KVP) and auto-restore to original location and bucket 0 on crash, restart, or disconnect.",
+        "Anti-ped duplication: automatic server and client purge of all clone entities on resource stop and restart.",
+        "Vehicle access fix: dirtbikes, motorcycles, and vehicles are now unlocked and accessible upon spawn with key bypass.",
         "Hunger and thirst isolation: RP needs are safely saved upon entering Opulus and perfectly restored upon returning to the normal server.",
         "Cross-framework status synchronization: Opulus survival status is synchronized in real time with the framework HUD, and default VR experiences provide 100% full needs.",
         "In-game Blips & POIs manager: admins can create, edit, duplicate and delete custom map blips and 3D in-game markers for any Opulus experience with 3D raycast placement and live sync.",
