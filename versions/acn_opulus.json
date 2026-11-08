@@ -1,10 +1,13 @@
 {
     "resource": "acn_opulus",
-    "version": "1.6.2",
+    "version": "1.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Admin VR give command: /opulus_give to give any VR item, weapon, or ammo with auto-mag loading, reserve ammo, and offline profile persistence.",
+        "In-game VR item creator: /opulus_item create/delete/list to register and manage custom items directly from chat or console.",
+        "1-Click VR test buttons: instant Give to me (VR) button in editor and quick-give buttons on every item card in /conf_acn_opulus.",
         "Crash & restart protection: dual-layer persistent origin tracking (server + client KVP) and auto-restore to original location and bucket 0 on crash, restart, or disconnect.",
         "Anti-ped duplication: automatic server and client purge of all clone entities on resource stop and restart.",
         "Vehicle access fix: dirtbikes, motorcycles, and vehicles are now unlocked and accessible upon spawn with key bypass.",
