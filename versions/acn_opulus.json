@@ -1,10 +1,12 @@
 {
     "resource": "acn_opulus",
-    "version": "1.6.0",
+    "version": "1.6.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Hunger and thirst isolation: RP needs are safely saved upon entering Opulus and perfectly restored upon returning to the normal server.",
+        "Cross-framework status synchronization: Opulus survival status is synchronized in real time with the framework HUD, and default VR experiences provide 100% full needs.",
         "In-game Blips & POIs manager: admins can create, edit, duplicate and delete custom map blips and 3D in-game markers for any Opulus experience with 3D raycast placement and live sync.",
         "Zombie corpse looting: players can search dead zombies with animations, progress bar, damage/movement cancellation, and 100% customizable loot tables in config.lua.",
         "Weapons rebuilt: no more ammo taken from the inventory when shooting, the weapon stays in hand when empty, reload with R using the GTA animation.",
