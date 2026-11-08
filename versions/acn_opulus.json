@@ -5,6 +5,7 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "In-game Blips & POIs manager: admins can create, edit, duplicate and delete custom map blips and 3D in-game markers for any Opulus experience with 3D raycast placement and live sync.",
         "Zombie corpse looting: players can search dead zombies with animations, progress bar, damage/movement cancellation, and 100% customizable loot tables in config.lua.",
         "Weapons rebuilt: no more ammo taken from the inventory when shooting, the weapon stays in hand when empty, reload with R using the GTA animation.",
         "Polyzone editor freecam: fly around to place vertices quickly (F toggles it).",
