@@ -1,10 +1,11 @@
 {
     "resource": "acn_chopshop",
-    "version": "3.2.0",
+    "version": "3.3.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Wreck yard: dismantled cars stay as wrecks outside (capacity per hangar size, spots placed in-game), emptied by flatbed run to the junkyard; overflow raises police evidence and dispatch alerts.",
         "New admin Debug tab: give blocks, press parts, XP or levels to test the whole loop quickly.",
         "Deliveries: blocks now wait in crates beside the truck (crate spots placeable in-game); the laptop always offers a contract matching your level.",
         "Fixed vehicle drive-in check at hangar bays to eliminate false 'Too far' errors.",
