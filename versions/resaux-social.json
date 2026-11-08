@@ -1,14 +1,14 @@
 {
     "resource": "resaux-social",
     "app_name": "Hors-Piste",
-    "version": "3.3.0",
+    "version": "3.4.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://github.com/acnesia/hors-piste-releases/releases/latest",
-    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.3.0/Hors-Piste.apk",
+    "download_url": "https://github.com/acnesia/hors-piste-releases/releases/download/v3.4.0/Hors-Piste.apk",
     "changelog": [
-        "Correctif Samsung : résolution complète du bug qui fermait l'application lors des premières notifications.",
-        "Notifications intelligentes : une seule notification en direct quand l'application est ouverte, et réception immédiate en arrière-plan quand elle est fermée.",
-        "7 nouveaux mini-jeux multijoueurs : Je n'ai jamais, Tu préfères, Quiz Culture & Pop, Tic-Tac Bombe, Le Mytho / Bluff, Drapeau Rouge et Devine l'Emoji."
+        "Sécurité maximale pendant les Swaps : blocage matériel des captures d'écran et des enregistrements vidéo d'écran.",
+        "Protection des photos en messages privés : floutage automatique dans la discussion et affichage uniquement en maintenant 1 doigt appuyé (masquage immédiat au relâchement ou geste multi-doigts).",
+        "Interdiction d'enregistrer, télécharger ou exporter des photos/vidéos pendant un swap, avec alerte en direct dans le journal d'activité du propriétaire du compte."
     ]
 }
