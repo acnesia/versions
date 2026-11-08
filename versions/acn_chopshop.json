@@ -1,12 +1,14 @@
 {
     "resource": "acn_chopshop",
-    "version": "2.0.0",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Full rework: contracts, lockpick/hack, GPS tracker, tool-based dismantling with a dedicated camera, fences, physical shelves and truck loading.",
-        "Reputation levels, hangar upgrades, crew invites and police raids.",
-        "New industrial look and a completely redesigned admin dashboard."
+        "Fixed admin interface icons and tool grid layout.",
+        "Added configurable outside exit teleport points for all hangars.",
+        "Overhauled 3D raycast placement with laser beam and zero flicker.",
+        "Added high-visibility delivery markers and vehicle drive-in prompt ([E]).",
+        "Fixed premature vehicle despawns and enabled inside dismantling for small hangars."
     ]
 }
