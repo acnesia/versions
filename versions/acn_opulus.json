@@ -5,6 +5,11 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Gunshot noise detection & horde rush: unsuppressed gunfire alerts zombies within 130m and triggers aggressive reinforcement hordes.",
+        "Zombie horde spawn points: in-game /conf_acn_opulus horde points with % chance, min/max horde size, and cooldowns.",
+        "Periodic roaming hordes: dynamic wandering horde waves hunt players for increased survival difficulty.",
+        "Stealth advantage: melee weapons and silencer attachments remain silent without alerting hordes.",
+        "Hardcore zombie difficulty: broader sight and hearing range, higher damage, faster attack speeds, and increased population cap.",
         "Admin VR give command: /opulus_give to give any VR item, weapon, or ammo with auto-mag loading, reserve ammo, and offline profile persistence.",
         "In-game VR item creator: /opulus_item create/delete/list to register and manage custom items directly from chat or console.",
         "1-Click VR test buttons: instant Give to me (VR) button in editor and quick-give buttons on every item card in /conf_acn_opulus.",
