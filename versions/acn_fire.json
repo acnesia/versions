@@ -1,10 +1,10 @@
 {
     "resource": "acn_fire",
-    "version": "1.7.1",
+    "version": "1.8.0",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Water drops are now limited to the CL-415 water bomber."
+        "Real water scooping for the CL-415, wind-driven fire spread, smoke visibility, automatic fire scenarios and flame culling for performance."
     ]
 }
