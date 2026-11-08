@@ -1,10 +1,10 @@
 {
     "resource": "acn_fire",
-    "version": "1.8.0",
+    "version": "1.9.0",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Real water scooping for the CL-415, wind-driven fire spread, smoke visibility, automatic fire scenarios and flame culling for performance."
+        "Water now puts out fires, long-range smoke, rebuilt config menu, SCBA, rekindles, victims, target markers, drop report, red retardant and payouts."
     ]
 }
