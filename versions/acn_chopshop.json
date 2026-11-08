@@ -1,14 +1,12 @@
 {
     "resource": "acn_chopshop",
-    "version": "1.1.0",
+    "version": "2.0.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Several tenants per hangar in private instances (acn_instan), admin-defined limit; placeable exit door; panel stays open; restart-safe.",
-        "French by default with an in-game language switch; much more detailed admin panel with teleports and live rental management.",
-        "First release: rent a hangar, steal and dismantle vehicles, press scrap blocks and truck them out.",
-        "Lockpicking, unscrewing and scrap press minigames.",
-        "Full in-game configuration with /conf_acn_chopshop."
+        "Full rework: contracts, lockpick/hack, GPS tracker, tool-based dismantling with a dedicated camera, fences, physical shelves and truck loading.",
+        "Reputation levels, hangar upgrades, crew invites and police raids.",
+        "New industrial look and a completely redesigned admin dashboard."
     ]
 }
