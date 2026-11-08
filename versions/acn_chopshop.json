@@ -1,14 +1,14 @@
 {
     "resource": "acn_chopshop",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed admin interface icons and tool grid layout.",
-        "Added configurable outside exit teleport points for all hangars.",
-        "Overhauled 3D raycast placement with laser beam and zero flicker.",
-        "Added high-visibility delivery markers and vehicle drive-in prompt ([E]).",
-        "Fixed premature vehicle despawns and enabled inside dismantling for small hangars."
+        "Added full 3D Text & [E] interaction system inside hangars with zero ox_target dependency.",
+        "Converted shelves into map emplacements with 3D raycast snapping to warehouse racks.",
+        "Added Semi-Truck + Trailer transport rig with per-hangar spawn placement and 3D ghost previews.",
+        "Integrated Three.js 3D & custom 2D minigames per vehicle part without repetitive tool screens.",
+        "Overhauled UI visuals with high-res dark industrial chop-shop wallpapers and card banners."
     ]
 }
