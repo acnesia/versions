@@ -5,11 +5,10 @@
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed the crash (pool size request) when teleporting out of a hangar from the admin panel.",
+        "Fixed vehicle drive-in check at hangar bays to eliminate false 'Too far' errors.",
         "Added full 3D Text & [E] interaction system inside hangars with zero ox_target dependency.",
         "Converted shelves into map emplacements with 3D raycast snapping to warehouse racks.",
         "Added Semi-Truck + Trailer transport rig with per-hangar spawn placement and 3D ghost previews.",
-        "Integrated Three.js 3D & custom 2D minigames per vehicle part without repetitive tool screens.",
-        "Overhauled UI visuals with high-res dark industrial chop-shop wallpapers and card banners."
+        "Integrated Three.js 3D & custom 2D minigames per vehicle part without repetitive tool screens."
     ]
 }
