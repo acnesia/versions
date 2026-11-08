@@ -1,10 +1,11 @@
 {
     "resource": "acn_chopshop",
-    "version": "3.3.1",
+    "version": "3.3.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed cargo sinking into the trailer deck: blocks and wrecks now sit on the real deck.",
         "Spot placement now shows the already placed spots (stack wrecks) and chains placements without reopening the menu.",
         "Wreck yard: dismantled cars stay as wrecks outside (capacity per hangar size, spots placed in-game), emptied by flatbed run to the junkyard; overflow raises police evidence and dispatch alerts.",
         "New admin Debug tab: give blocks, press parts, XP or levels to test the whole loop quickly.",
