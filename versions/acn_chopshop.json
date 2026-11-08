@@ -1,10 +1,11 @@
 {
     "resource": "acn_chopshop",
-    "version": "3.3.3",
+    "version": "3.3.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Clean restart: trucks and job vehicles are removed, blocks are never lost; debug crates are real hangar blocks.",
         "Clearer deliveries: drop-off on the map, GPS route, unload marker with [E] prompt, automatic departure from the driver seat.",
         "Fixed cargo sinking into the trailer deck: blocks and wrecks now sit on the real deck.",
         "Spot placement now shows the already placed spots (stack wrecks) and chains placements without reopening the menu.",
