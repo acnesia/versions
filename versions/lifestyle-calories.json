@@ -1,0 +1,16 @@
+{
+    "resource": "lifestyle-calories",
+    "name": "LifeStyle Calories",
+    "version": "1.1.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://github.com/acnesia/acn-store/releases/tag/com.lifestyle.calories-v1.1",
+    "download_url": "https://github.com/acnesia/acn-store/releases/download/com.lifestyle.calories-v1.1/LifeStyleCalories-1.1.apk",
+    "changelog": [
+        "Nouvelle page de connexion et inscription avec gestion des sessions.",
+        "Accès direct et débloqué à l'API Gemini pour le compte Master luc.clmx@gmail.com.",
+        "Possibilité pour les utilisateurs d'ajouter leur propre clé API Gemini personnelle.",
+        "Mise à niveau de l'IA vers Gemini 2.5 Flash avec sortie structurée (responseSchema).",
+        "Optimisation du téléversement et redimensionnement automatique des photos de repas."
+    ]
+}
