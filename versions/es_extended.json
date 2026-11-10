@@ -5,6 +5,7 @@
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
+    "Unified in-game configuration and administration dashboard (/conf_es_extended).",
     "Live server telemetry & profiler dashboard with in-game NUI and console (/esx_profiler).",
     "Developer sandbox and virtual player simulation system (/esx_mock).",
     "Native unified 3D zones & PolyZone engine (Sphere, Box, Polygon, Combo) with spatial culling."
