@@ -1,13 +1,12 @@
 {
   "resource": "es_extended",
-  "version": "2.0.0",
-  "severity": "important",
+  "version": "2.1.0",
+  "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Complete generation 2.0 framework modernization.",
-    "Native modular architecture with high-performance dirty persistence.",
-    "Integrated Guard security subsystem, atomic transfers, and structured audit logs.",
-    "Native multi-job engine with 100% legacy API compatibility."
+    "Live server telemetry & profiler dashboard with in-game NUI and console (/esx_profiler).",
+    "Developer sandbox and virtual player simulation system (/esx_mock).",
+    "Native unified 3D zones & PolyZone engine (Sphere, Box, Polygon, Combo) with spatial culling."
   ]
 }
