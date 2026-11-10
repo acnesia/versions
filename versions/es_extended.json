@@ -1,10 +1,13 @@
 {
   "resource": "es_extended",
-  "version": "1.14.1",
-  "severity": "recommended",
-  "minimum_supported": "1.14.1",
+  "version": "2.0.0",
+  "severity": "important",
+  "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "ESX now recognizes um-ronin-multicharacter and avoids running its built-in spawn flow alongside the custom character selector."
+    "Complete generation 2.0 framework modernization.",
+    "Native modular architecture with high-performance dirty persistence.",
+    "Integrated Guard security subsystem, atomic transfers, and structured audit logs.",
+    "Native multi-job engine with 100% legacy API compatibility."
   ]
 }
