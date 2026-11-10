@@ -1,0 +1,12 @@
+{
+    "resource": "acn_hotreload",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release: real-time file watcher & smart hot-reload resource.",
+        "Automatic debounce and cooldown safeguards against infinite reload loops.",
+        "In-game admin management menu with /conf_acn_hotreload."
+    ]
+}
