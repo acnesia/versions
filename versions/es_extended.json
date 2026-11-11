@@ -1,12 +1,12 @@
 {
   "resource": "es_extended",
-  "version": "2.1.2",
+  "version": "2.2.0",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed developer sandbox mock players by automatically creating temporary database user entries upon spawn.",
-    "Prevented crashes in external bridge and framework scripts querying users on esx:playerLoaded.",
-    "Updated ESX.GetPlayers() to iterate all active ESX players including mocks, making them visible in admin menus."
+    "Added Dev Mode Hot-Reload for es_extended on file save or via /hotreload es_extended without restarting the server.",
+    "Integrated automatic connected player session restoration, eliminating the need to reconnect or relog during core development.",
+    "Fixed developer sandbox mock players database registration and ESX.GetPlayers() mock visibility."
   ]
 }
