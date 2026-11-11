@@ -1,12 +1,12 @@
 {
   "resource": "es_extended",
-  "version": "2.1.1",
+  "version": "2.1.2",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed server tickrate telemetry and health thresholds in /conf_es_extended to accurately target FXServer's native 20 TPS loop.",
-    "Resolved false 'DEGRADED' indicators during normal server operation.",
-    "Localized health status badges (OPTIMAL, MODÉRÉ, DÉGRADÉ) in the in-game administration dashboard."
+    "Fixed developer sandbox mock players by automatically creating temporary database user entries upon spawn.",
+    "Prevented crashes in external bridge and framework scripts querying users on esx:playerLoaded.",
+    "Updated ESX.GetPlayers() to iterate all active ESX players including mocks, making them visible in admin menus."
   ]
 }
