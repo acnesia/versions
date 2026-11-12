@@ -1,0 +1,12 @@
+{
+  "resource": "acn_sit",
+  "version": "2.5.0",
+  "severity": "recommended",
+  "minimum_supported": "2.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added smooth walk-up approach, heading alignment, sit-down settle, seat-cycling, and stand-up animations without abrupt teleportation.",
+    "Overhauled /sitcreator Manage view with real-time distance calculation, proximity sorting, search bar, type/nearby filters, and 3D locator.",
+    "Added in-game raycast prop and zone detector to identify and open existing seating configurations directly, plus inline slot editing."
+  ]
+}
