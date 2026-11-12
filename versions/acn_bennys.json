@@ -1,10 +1,13 @@
 {
     "resource": "acn_bennys",
-    "version": "4.2.1",
+    "version": "4.3.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Added VehicleLife system: persistent VIN, real mileage tracking, previous owners & accident log, 7-component progressive wear, hidden faults, and realistic driving symptoms.",
+        "Added Public Vehicle Logbook (/carhistory & target) and Mechanic Expertise (/expertise & target) with targeted component repairs, full overhaul, and automatic Benny's workshop repair sync.",
+        "Added live VehicleLife settings tab in /conf_acn_bennys and automatic startup SQL migration for existing vehicles.",
         "Live preview: hovering a part, colour, tint, xenon, livery or extra now shows it on the car instantly, and it goes back when you move away.",
         "New Custom mods tab in /conf_acn_bennys: rename, re-price, add a picture to or hide any mod, for all cars or one specific car (addon cars included).",
         "Part pictures no longer need screenshots: every option is previewed live on the car. The unreliable capture tool was removed.",

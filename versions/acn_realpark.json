@@ -5,8 +5,7 @@
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added VehicleLife system: real mileage, owner & accident history, progressive wear, hidden faults, pre-purchase public report, and mechanic expertise.",
     "Added SmartParking system: anti-false-positive world monitor, 3D no-parking zones, tow/police GPS dispatch tablet, and persistent RP impound actions.",
-    "Full live configuration for both systems via /conf_acn_realpark and automatic migration of existing vehicles."
+    "Full live configuration via /conf_acn_realpark with automatic SQL migration."
   ]
 }
