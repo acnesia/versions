@@ -1,11 +1,12 @@
 {
   "resource": "acn_realpark",
-  "version": "4.3.1",
+  "version": "4.4.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Suppression des invites intrusives sur les sorties de véhicule pour un affichage plus propre et immersif.",
-    "Gestion avancée du rangement avec règles configurables et inspections au retour."
+    "Added VehicleLife system: real mileage, owner & accident history, progressive wear, hidden faults, pre-purchase public report, and mechanic expertise.",
+    "Added SmartParking system: anti-false-positive world monitor, 3D no-parking zones, tow/police GPS dispatch tablet, and persistent RP impound actions.",
+    "Full live configuration for both systems via /conf_acn_realpark and automatic migration of existing vehicles."
   ]
 }
