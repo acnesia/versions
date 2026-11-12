@@ -1,12 +1,12 @@
 {
   "resource": "acn_buildV1",
-  "version": "1.5.0",
+  "version": "1.5.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "GMod-style Physics Gun placement with a smooth floating beam.",
-    "Full 3D rotation (wheel, R + mouse, angle snap) saved and synced.",
-    "New /physgun command to grab and move your placed props."
+    "Physgun hold distance now measured from the player, aim from the camera.",
+    "Props rest against walls and floors instead of clipping through.",
+    "/physgun grab range counted from the player."
   ]
 }
