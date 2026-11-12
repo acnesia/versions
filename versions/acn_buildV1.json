@@ -1,12 +1,12 @@
 {
   "resource": "acn_buildV1",
-  "version": "1.4.0",
+  "version": "1.5.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added 'Tout prendre en photo' batch photo studio capture button.",
-    "Automatic sequential 3D framing, cutout, and thumbnail generation for all catalog props.",
-    "Real-time HUD progress overlay with cancel shortcut and safe persistence."
+    "GMod-style Physics Gun placement with a smooth floating beam.",
+    "Full 3D rotation (wheel, R + mouse, angle snap) saved and synced.",
+    "New /physgun command to grab and move your placed props."
   ]
 }
