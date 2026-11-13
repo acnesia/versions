@@ -1,12 +1,10 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.3.1",
+    "version": "13.3.2",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Reordered the Climate & Weather tab so Region Scope, Climate Catalogue, Transition Mode, and Apply button appear immediately at the top.",
-        "Added persistent Quick Controls in the top header bar (Dynamic Weather, Real Weather, Freeze Time, Instant Time, and Quick Time Apply) accessible from any tab.",
-        "Removed public chat version broadcast on startup so version logs appear only in the server console."
+        "Fixed short backward time adjustments (up to 3 hours, e.g. 10:03 to 10:00) so the clock rewinds smoothly instead of spinning 24 hours forward."
     ]
 }
