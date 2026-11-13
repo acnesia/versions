@@ -1,10 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.11",
+    "version": "1.0.12",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added Left/Right arrow keys to cycle 3D prop models and Up/Down arrow keys to cycle minigame types live during Multi-Points Raycast placement."
+        "Fixed GridOS.confirmDialog TypeError when confirming batch equipment deletion in /conf_acn_electrician."
     ]
 }
