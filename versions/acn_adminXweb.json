@@ -1,12 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.35.0",
+  "version": "5.36.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau module de Téléportation Intelligente par Coordonnées dans le Panel Dev et le QuickMenu.",
-    "Analyseur de coordonnées puissant : support vector3/vector4, tables {x,y,z}, x: y: z:, et texte brut libre.",
-    "Nouvelle commande chat /tpcoords pour se téléporter à chaud depuis n'importe quelle chaîne copiée."
+    "Refonte des interfaces Web Panel et NUI en jeu au format sombre Bento UI (Midnight Slate, cartes asymetriques et Topbar).",
+    "Nouveau Dashboard Bento avec carte Total Players, carte Ticket, statut serveur en direct, histogramme empile et liste Online Players."
   ]
 }
