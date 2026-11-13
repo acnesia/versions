@@ -1,10 +1,12 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.3.2",
+    "version": "13.4.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed short backward time adjustments (up to 3 hours, e.g. 10:03 to 10:00) so the clock rewinds smoothly instead of spinning 24 hours forward."
+        "Added in-world 3D Debug Visualizer for all macro-regions, polygon walls, Y-axis boundaries, buffer corridors, and live blend percentage HUD.",
+        "Added Freecam Polygon Creator & Editor: fly across the map to create, move, resize (scroll wheel), reshape, or delete macro-regions dynamically.",
+        "Made the Climate & Weather UI fully reactive to newly created, edited, or deleted regions, with a critical warning for deleting base regions and a full Reset to Defaults button."
     ]
 }
