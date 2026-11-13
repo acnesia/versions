@@ -1,10 +1,11 @@
 {
     "resource": "acn_fire",
-    "version": "1.10.3",
+    "version": "1.11.0",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed /sdis player menu body visibility lock on open."
+        "Added full in-game Fire Stations Manager in /conf_acn_fire (create, 3D ghost-truck move, blip customization, teleport, delete).",
+        "Added global station blip, marker color and interaction settings in /conf_acn_fire."
     ]
 }
