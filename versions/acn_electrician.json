@@ -1,11 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 3D Ghost Ped and Ghost Vehicle previews for Depot NPC and vehicle spawn placement.",
-        "Fixed Depot NPC ground height (+1.0m), added vehicle spawn bay occupancy protection, and restricted map blips strictly to electricians."
+        "Depot NPCs are now streamed and visible exclusively to players with the electrician job."
     ]
 }
