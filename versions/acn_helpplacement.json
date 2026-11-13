@@ -1,0 +1,11 @@
+{
+    "resource": "acn_helpplacement",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release of ACN HelpPlacement 3D Developer Studio.",
+        "Added bone attachments, prop-on-prop hierarchy, relative camera studio, world/vehicle/zone/PTFX modes, and dedicated file exports."
+    ]
+}
