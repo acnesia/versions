@@ -1,11 +1,11 @@
 {
     "resource": "acn_helpplacement",
-    "version": "1.1.0",
-    "severity": "recommended",
+    "version": "2.0.0",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 3D raycast selection for Parent & Child props and Name/Hash lookup & scanner.",
-        "Unified /conf_acn_helpplacement menu and fixed default prop model + StudioAnim guards."
+        "Fixed SendNUIMessage JSON crash so the full HTML studio UI renders cleanly.",
+        "Added Center Launch Hub, mouse-draggable 3D Gizmo, Pose Freeze, 3D Images/DUI/Text, Multi-Point script recorder, and 3D Lights."
     ]
 }
