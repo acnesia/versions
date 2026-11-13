@@ -1,11 +1,11 @@
 {
     "resource": "acn_helpplacement",
-    "version": "2.0.0",
-    "severity": "important",
+    "version": "2.0.1",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed SendNUIMessage JSON crash so the full HTML studio UI renders cleanly.",
-        "Added Center Launch Hub, mouse-draggable 3D Gizmo, Pose Freeze, 3D Images/DUI/Text, Multi-Point script recorder, and 3D Lights."
+        "Fixed Freeze Pose, animation frame scrubbing, 3D Light sync, and Multi-Point coordinate editing.",
+        "Fixed generated Lua exports (AddReplaceTexture, AddTargetBox), notifications, and Gizmo/DUI stability."
     ]
 }
