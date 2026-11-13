@@ -1,10 +1,10 @@
 {
     "resource": "acn_fire",
-    "version": "1.10.2",
+    "version": "1.10.3",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Renamed commands and unbound all default keys; players can freely bind their own keys and custom commands inside /sdis."
+        "Fixed /sdis player menu body visibility lock on open."
     ]
 }
