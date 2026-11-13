@@ -1,11 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed client blackout script error on SwitchTrafficLights by using SetEntityTrafficlightOverride for traffic signal blackouts.",
-        "Hardened 3D equipment prop streaming and saving after Raycast placement in /conf_acn_electrician."
+        "Fixed MySQL TINYINT(1) boolean decoding in server/database.lua so Spawn 3D Prop and admin toggle flags persist accurately after saving."
     ]
 }
