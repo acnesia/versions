@@ -1,10 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.10",
+    "version": "1.0.11",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a nil loadModelSafely error when opening Multi-Points Raycast placement or 3D prop preview."
+        "Added Left/Right arrow keys to cycle 3D prop models and Up/Down arrow keys to cycle minigame types live during Multi-Points Raycast placement."
     ]
 }
