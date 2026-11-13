@@ -1,11 +1,10 @@
 {
     "resource": "acn_fire",
-    "version": "1.10.1",
+    "version": "1.10.2",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Unified all player actions under /sdis and all admin tools inside /conf_acn_fire.",
-        "Fixed Bridge notification errors, NUI sparse fire list crash, and added hydrants, fire hose, stations and default scenarios."
+        "Renamed commands and unbound all default keys; players can freely bind their own keys and custom commands inside /sdis."
     ]
 }
