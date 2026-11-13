@@ -1,12 +1,11 @@
 {
   "resource": "acn_pnj_gestion",
-  "version": "3.9.1",
+  "version": "3.9.2",
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Population cleanup no longer removes peds and vehicles created by other scripts (zombies, mission vehicles).",
-    "AFK fiable : bouger la souris ou la caméra n'annule plus l'attente, et tous les délais/tolérances se règlent en jeu.",
-    "Nombreux correctifs : secours PNJ sécurisé, civils qui ne deviennent plus agressifs, réglages qui se désactivent enfin, seuils de soif, sac de vêtements."
+    "Fixed stealth melee takedowns knocking down NPCs before the punch lands; NPCs now take punches normally in stealth mode.",
+    "Population cleanup no longer removes peds and vehicles created by other scripts (zombies, mission vehicles)."
   ]
 }
