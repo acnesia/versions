@@ -1,10 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Redesigned the Modern UI theme with a sober matte-black (#09090b) palette, crisp hairline borders, zero neon glow, and clean readable typography."
+        "Added a server-wide Default UI Theme setting in /conf_acn_electrician (Modern or Classic) that updates all players in real time unless they already chose a personal theme."
     ]
 }
