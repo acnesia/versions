@@ -1,11 +1,11 @@
 {
     "resource": "acn_bossmenu",
-    "version": "2.7.3",
+    "version": "2.7.4",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed console warnings when refreshing or cleaning up boss menu and duty target zones.",
-        "Routed target zone removal exclusively through acn_bridge to prevent duplicate removals."
+        "Fixed missing html/contract.html manifest warning on resource startup.",
+        "Heavily optimized client marker thread (0.00ms idle with target systems) and parallelized server boss menu SQL queries."
     ]
 }
