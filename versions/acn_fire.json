@@ -1,11 +1,11 @@
 {
     "resource": "acn_fire",
-    "version": "1.10.0",
+    "version": "1.10.1",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Bridge notification errors and NUI sparse fire list crash.",
-        "Added fire hydrants, truck extinguisher pickup, high-pressure fire hose (/lance), fire stations, default scenarios and automatic incident map blips."
+        "Unified all player actions under /sdis and all admin tools inside /conf_acn_fire.",
+        "Fixed Bridge notification errors, NUI sparse fire list crash, and added hydrants, fire hose, stations and default scenarios."
     ]
 }
