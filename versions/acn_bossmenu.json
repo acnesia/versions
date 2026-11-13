@@ -1,11 +1,11 @@
 {
     "resource": "acn_bossmenu",
-    "version": "2.7.4",
+    "version": "2.8.0",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed missing html/contract.html manifest warning on resource startup.",
-        "Heavily optimized client marker thread (0.00ms idle with target systems) and parallelized server boss menu SQL queries."
+        "Standardized the in-game admin & configuration command to /conf_acn_bossmenu with chat autocomplete.",
+        "Routed notifications, admin checks, target detection, and job lookups directly through acn_bridge."
     ]
 }
