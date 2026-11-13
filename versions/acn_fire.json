@@ -1,10 +1,11 @@
 {
     "resource": "acn_fire",
-    "version": "1.9.0",
+    "version": "1.10.0",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Water now puts out fires, long-range smoke, rebuilt config menu, SCBA, rekindles, victims, target markers, drop report, red retardant and payouts."
+        "Fixed Bridge notification errors and NUI sparse fire list crash.",
+        "Added fire hydrants, truck extinguisher pickup, high-pressure fire hose (/lance), fire stations, default scenarios and automatic incident map blips."
     ]
 }
