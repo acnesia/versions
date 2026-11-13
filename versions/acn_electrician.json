@@ -1,10 +1,11 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.7",
+    "version": "1.0.8",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Depot NPCs are now streamed and visible exclusively to players with the electrician job."
+        "Added Multi-Points Raycast batch placement in /conf_acn_electrician to place and save multiple equipment nodes in one session.",
+        "Added 3D prop model preview button next to the prop selector to inspect models in-game before placing."
     ]
 }
