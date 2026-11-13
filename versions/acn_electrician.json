@@ -1,11 +1,11 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed full French and English translation coverage across all GridOS HTML interfaces (admin panel, dispatch tablet, depot, EMF scanner HUD, and all 5 minigames).",
-        "Added live NUI language switching when changing Locale in /conf_acn_electrician and synced server language directly to the portable EMF scanner HUD."
+        "Added smooth built-in Freecam ([F] toggle, enabled by default when placing Polygon, Circle, or Box zones) with WASD/ZQSD flight, Space/Ctrl elevation, Shift/Alt speed modifiers, and terrain focus streaming.",
+        "Added bright transparent green 3D zone walls, horizontal contour lines, floor shading, and live cursor closing segments during zone creation and debug preview."
     ]
 }
