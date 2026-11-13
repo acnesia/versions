@@ -1,10 +1,11 @@
 {
     "resource": "acn_helpplacement",
-    "version": "1.0.1",
-    "severity": "important",
+    "version": "1.1.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed grey screen overlay at resource startup in FiveM CEF."
+        "Added 3D raycast selection for Parent & Child props and Name/Hash lookup & scanner.",
+        "Unified /conf_acn_helpplacement menu and fixed default prop model + StudioAnim guards."
     ]
 }
