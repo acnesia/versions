@@ -1,13 +1,14 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.2.0",
+    "version": "13.3.0",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed all barometer, aerodynamics, flight turbulence and cockpit HUD systems.",
-        "Restored the high-definition atmospheric background image inside the weather console.",
-        "Redesigned Configuration tab: clean grouped sidebar without clutter numbers, clear horizontal rows, Modified filter, and real pending-changes Save/Discard bar synced with config.lua defaults.",
-        "Client & server performance optimizations: radar data pushed only to open UIs/tablets, cached thermodynamics probes, and zero idle tick overhead."
+        "Rebuilt the weather transition engine for smooth multi-stage fronts and added real-time coordinate-based spatial weather blending.",
+        "Added full in-game Tri-Regional boundary editor (interactive Y-axis map bar, player position capture, buffer width, and per-region weather weights) with progressive distance blending.",
+        "Added 4 Seasons Weather & Probability Studio to customize allowed weather types and temperature offsets per season directly in-game.",
+        "Added collapsible inline Advanced Settings drawers inside every tab, synced with live save/discard tracking, plus major UI contrast and text readability improvements.",
+        "Redesigned Aurora Borealis into multi-curtain volumetric ribbons with 4 selectable palettes and intensity control, and upgraded Special Zones with edge feathering, 8 presets, drag-to-resize handles, and quick actions."
     ]
 }
