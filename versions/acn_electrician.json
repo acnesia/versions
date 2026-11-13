@@ -1,10 +1,11 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.4",
+    "version": "1.0.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed MySQL TINYINT(1) boolean decoding in server/database.lua so Spawn 3D Prop and admin toggle flags persist accurately after saving."
+        "Added 10-minute (600s) backup generator power hold for critical zones (hospitals, police, fire, public buildings) during outages.",
+        "Added live top-center NUI countdown HUD displaying remaining backup generator time when inside a critical zone."
     ]
 }
