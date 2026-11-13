@@ -1,11 +1,10 @@
 {
     "resource": "acn_helpplacement",
-    "version": "1.0.0",
-    "severity": "recommended",
+    "version": "1.0.1",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release of ACN HelpPlacement 3D Developer Studio.",
-        "Added bone attachments, prop-on-prop hierarchy, relative camera studio, world/vehicle/zone/PTFX modes, and dedicated file exports."
+        "Fixed grey screen overlay at resource startup in FiveM CEF."
     ]
 }
