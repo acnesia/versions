@@ -1,11 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added a new high-contrast Modern FiveM UI theme with custom background and header artwork for Admin, Tablet, and Depot interfaces (minigames excluded).",
-        "Added a live FR/EN Theme switcher button (Modern / Classic)."
+        "Redesigned the Modern UI theme with a sober matte-black (#09090b) palette, crisp hairline borders, zero neon glow, and clean readable typography."
     ]
 }
