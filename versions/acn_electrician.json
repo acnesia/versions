@@ -1,11 +1,11 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial commercial release with localized sector blackouts, traffic light control, and 5 repair minigames.",
-        "Full live /conf_acn_electrician management with 3D Raycast zone/prop placement, EMF scanner HUD, dispatch tablet, depots, and acn_bridge integration."
+        "Fixed full French and English translation coverage across all GridOS HTML interfaces (admin panel, dispatch tablet, depot, EMF scanner HUD, and all 5 minigames).",
+        "Added live NUI language switching when changing Locale in /conf_acn_electrician and synced server language directly to the portable EMF scanner HUD."
     ]
 }
