@@ -1,11 +1,12 @@
 {
     "resource": "acn_weathertime",
-    "version": "13.4.1",
+    "version": "13.4.2",
     "severity": "recommended",
     "minimum_supported": "10.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed click-through issue on the Create Region and Confirmation modals by enabling pointer-events and elevating overlay z-index.",
-        "Fixed Freecam Polygon Creator launch from NUI callback and added dynamic terrain focus streaming while flying across the map."
+        "Replaced multi-frame raycast polling with a zero-wait synchronous raycast in the Freecam editor to eliminate cursor flickering and missed clicks.",
+        "Upgraded 3D Debug and Freecam visualization with solid double-sided full-height boundary and polygon walls (-30m to +480m), corner pillars, and a vertical laser guide.",
+        "Added direct Teleport to Region buttons in the UI supporting both on-foot and vehicle teleportation."
     ]
 }
