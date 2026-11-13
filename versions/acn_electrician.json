@@ -1,10 +1,10 @@
 {
     "resource": "acn_electrician",
-    "version": "1.1.4",
+    "version": "1.1.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enabled required inventory item checks by default for repairs and the portable EMF scanner, consuming only expendable supplies (fuses and wires) while keeping reusable tools."
+        "Added a one-time settings migration so existing saved configurations automatically enforce inventory item checks for repairs and the EMF scanner."
     ]
 }
