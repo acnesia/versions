@@ -1,10 +1,11 @@
 {
     "resource": "acn_electrician",
-    "version": "1.0.12",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed GridOS.confirmDialog TypeError when confirming batch equipment deletion in /conf_acn_electrician."
+        "Added a new high-contrast Modern FiveM UI theme with custom background and header artwork for Admin, Tablet, and Depot interfaces (minigames excluded).",
+        "Added a live FR/EN Theme switcher button (Modern / Classic)."
     ]
 }
