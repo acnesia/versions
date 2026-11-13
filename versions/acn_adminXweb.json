@@ -1,11 +1,12 @@
 {
   "resource": "acn_adminXweb",
-  "version": "5.37.0",
+  "version": "6.0.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Boost complet Bento UI : nouvelle vue Serveur, grille Joueurs a 3 colonnes, fiche joueur detaillee et inventaire 5 colonnes sur le Web Panel.",
-    "Harmonisation complete du Menu NUI FiveM avec cartes KPI Bento, boutons semantiques, menus deroulants Topbar et modales de confirmation."
+    "Refonte complete du menu en jeu et du Web Panel : meme design, barre du haut a 5 menus, recherche Ctrl+K.",
+    "Nouvelle page Server Dashboard (ressources, maintenance, whitelist, redemarrage planifie), fiche joueur complete, prison, TIG et mute fonctionnels.",
+    "Nouveaux outils : Mes actions, Troll Menu, chat staff, notifications, sondages et calendrier d evenements, aussi sur le Web Panel."
   ]
 }
