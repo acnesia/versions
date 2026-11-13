@@ -1,12 +1,11 @@
 {
     "resource": "acn_bossmenu",
-    "version": "2.7.2",
+    "version": "2.7.3",
     "severity": "recommended",
     "minimum_supported": "2.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed real-time society balance & transaction sync when external revenue arrives.",
-        "Fixed missing internal job identifier when interacting with company bank modal.",
-        "Standardized employee bonus deductions via centralized bridge."
+        "Fixed console warnings when refreshing or cleaning up boss menu and duty target zones.",
+        "Routed target zone removal exclusively through acn_bridge to prevent duplicate removals."
     ]
 }
