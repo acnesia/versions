@@ -1,11 +1,10 @@
 {
     "resource": "acn_fire",
-    "version": "1.11.0",
+    "version": "1.11.1",
     "severity": "recommended",
     "minimum_supported": "1.7.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added full in-game Fire Stations Manager in /conf_acn_fire (create, 3D ghost-truck move, blip customization, teleport, delete).",
-        "Added global station blip, marker color and interaction settings in /conf_acn_fire."
+        "Removed public in-game chat version broadcast on resource startup (server console only)."
     ]
 }
