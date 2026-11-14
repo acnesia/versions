@@ -1,0 +1,11 @@
+{
+  "resource": "acn_cardealerV3",
+  "version": "3.8.0",
+  "severity": "recommended",
+  "minimum_supported": "3.0.0",
+  "update_url": "https://portal.cfx.re/",
+  "changelog": [
+    "Added automatic garage slot verification via acn_realpark before charging customers on direct purchases and sale contracts.",
+    "Added automatic cleanup of persistent world/garage records when a vehicle is traded in or bought back."
+  ]
+}
