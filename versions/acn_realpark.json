@@ -1,6 +1,6 @@
 {
   "resource": "acn_realpark",
-  "version": "4.8.2",
+  "version": "4.9.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
