@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Every setting and command is now editable in-game from /conf_acn_phone, saved and applied live.",
-        "The whole phone, the admin panel and the shop are fully translated into French and English."
+        "Calls fixed (voice link, hang-up, clear error messages) and Match messages now notify the receiver.",
+        "Notifications in every app and a full optional SIM / eSIM system configurable in-game."
     ]
 }
