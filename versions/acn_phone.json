@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.4.3",
+    "version": "2.4.4",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed calls always ending as unreachable (number prefix was cut) and the Recado conversation list error.",
-        "Fixed calls being refused as unavailable between online players, with precise refusal reasons.",
-        "Added missed-call notifications (voice & FaceCall), Messages group notifications, Marketplace seller contact notifications, and direct deep-linking on notification tap."
+        "Replaced all remaining Apex branding across the phone UI and locales with Blue.",
+        "Made Face Key enrollment much faster and fixed the second scan switching to third-person view.",
+        "Fixed 6-digit passcodes (e.g. 000000) showing 4 dots and failing on the Lock Screen."
     ]
 }
