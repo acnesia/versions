@@ -1,11 +1,12 @@
 {
   "resource": "acn_richpresence",
-  "version": "2.1.0",
+  "version": "3.0.0",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Improved Discord presence reliability and refreshed live player counts and action buttons.",
-    "Jobs are hidden until an administrator explicitly allows them."
+    "Fixed player counter showing 1 player on join via real-time GlobalState server synchronization.",
+    "Added automatic contextual states (driving, flying, boating, unconscious, pause) and 7 new placeholders.",
+    "Added custom Discord badges per job, /rpc_privacy player streamer mode, and full /conf_acn_richpresence UI overhaul."
   ]
 }
