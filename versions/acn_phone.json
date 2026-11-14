@@ -1,12 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Connected Stopwatch, Maps GPS & pause-map waypoints, Arcade pause state, Wallet transfers, and live Weather Hub to Dynamic Island.",
-        "Added Walk While Phone Open admin setting in /conf_acn_phone with automatic movement lock whenever typing inside phone inputs.",
-        "Kept Left Alt game focus toggle seamless alongside cursor-active movement."
+        "Restored authentic Apple idle behavior on Dynamic Island (only expands for active apps and notifications, eliminating card overflow).",
+        "Polished expanded Dynamic Island cards with crisp icon+label tiles, color-coded app badges, subtle inner hairline border, and unified French labels."
     ]
 }
