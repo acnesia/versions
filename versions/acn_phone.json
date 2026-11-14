@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "1.2.0",
+    "version": "2.0.0",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed client crash when using phone items and improved item registration reliability on resource start.",
-        "Fixed Phone Shop NPC interaction across target systems and interaction zones.",
-        "Expanded the /conf_acn_phone Control Center with live SQL stats, app toggles, 4-tab shop tools, appearance defaults, and audit logs."
+        "Complete UI overhaul to PearOS 27 (iOS) & Nova UI 8.5 (Android / Foldable) matching each smartphone model.",
+        "Added functional Wallet transfers, live GTA Maps GPS, Clock, Calculator, Notes, Reminders, Calendar, Weather, Safari, AppShop ratings, and Arcade mini-games.",
+        "Preserved the Holographic 3D Phone Shop and expanded the /conf_acn_phone Control Center app toggles."
     ]
 }
