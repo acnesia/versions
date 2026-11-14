@@ -1,10 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.5.3",
+    "version": "2.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed video call animation switching to ear-call pose after closing and reopening the phone during an active FaceCall."
+        "Fixed incoming emails not appearing in real time and added server-side search, pagination, and a Refresh button.",
+        "Added an Account sheet inside Mail to view/copy your email address, change your email, and update your profile photo.",
+        "Added a direct Sent tab in the Mail bottom bar and an account summary card in Mailboxes."
     ]
 }
