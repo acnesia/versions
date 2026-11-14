@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "1.0.0",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Initial release with Phone calls, SMS Messages, Contacts and Settings.",
-        "Realistic iOS-inspired NUI with Dynamic Island and live /conf_acn_phone menu."
+        "Added holographic 3D Phone Shop showroom with interactive GLB viewer and Bank/Cash checkout.",
+        "Added custom 3D hand props, Dynamic Island camera polish, and matching bezel frame colors per phone model.",
+        "Upgraded /conf_acn_phone to a dark-graphite Control Center with live catalog pricing and 3D Raycast shop placement."
     ]
 }
