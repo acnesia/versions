@@ -1,10 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.7.0",
+    "version": "2.7.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added a per-player setting to choose how the Alt key works: Toggle (press) or Hold (keep Alt pressed to control the camera, release to use the phone)."
+        "Added automatic @blue.ls suffix in Mail compose so players never need to type @, and fixed email recipient delivery across Mail, Contacts, and Photos.",
+        "Replaced the setup welcome notification with a real welcome email delivered directly to the Mail Inbox."
     ]
 }
