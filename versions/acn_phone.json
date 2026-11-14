@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.5.1",
+    "version": "2.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed rear camera switching cleanly between phone lens view and 3rd-person view on Alt.",
-        "Clamped selfie camera orbit so it always stays in front of the face.",
-        "Fixed video recording saving black/grey frames instead of live gameplay."
+        "Moved rear phone-lens camera forward so the held phone prop no longer appears in the viewfinder.",
+        "Fixed returning from selfie mode to rear camera leaving the camera locked on the player's face.",
+        "Improved selfie framing with tighter orbit limits and natural head tracking toward the lens."
     ]
 }
