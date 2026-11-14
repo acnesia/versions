@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.1.3",
+    "version": "2.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed phone hold animation and misaligned Samsung/NOVA & color props so characters consistently raise and hold every smartphone model cleanly.",
-        "Added a continuous thumb-typing animation whenever any phone text field is focused, seamlessly returning to idle hold when blurred."
+        "Added the full suite of interactive apps (Camera, Photos, AirDrop, FaceCall, Mail, Instashot, Twix, Billing, Services, Garage, Marketplace, Onion, DarkChat, Crypto, Eats, Match, Music, Radio, Recado, AI Assistant) with automated SQL tables and /conf_acn_phone toggles.",
+        "Added a live player-accessible phone size slider (50%-105%) and presets inside Settings, calibrated default scale to 0.78, and fixed call microphone mute synchronization."
     ]
 }
