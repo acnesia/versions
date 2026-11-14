@@ -1,12 +1,11 @@
 {
   "resource": "acn_richpresence",
-  "version": "3.0.0",
+  "version": "3.0.1",
   "severity": "recommended",
   "minimum_supported": "1.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Fixed player counter showing 1 player on join via real-time GlobalState server synchronization.",
-    "Added automatic contextual states (driving, flying, boating, unconscious, pause) and 7 new placeholders.",
-    "Added custom Discord badges per job, /rpc_privacy player streamer mode, and full /conf_acn_richpresence UI overhaul."
+    "Fixed /conf_acn_richpresence command reliability by removing duplicate server registration and hardening ACE permission and job retrieval checks.",
+    "Added automatic contextual states, 7 new placeholders, custom job badges, /rpc_privacy mode, and full GlobalState player count sync."
   ]
 }
