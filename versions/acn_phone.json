@@ -1,12 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.2.2",
+    "version": "2.2.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed SMS message persistence/reopening, voice calls, FaceCall video calls, and Radio frequency connection.",
-        "Fixed Camera independent view rotation, Selfie facing direction, video capture, and cross-player media/story loading.",
-        "Fixed Instashot DMs/posts/stories/Instants, Twix reposts, Match bilateral notifications/profile photos/chat, and silenced DarkChat notifications."
+        "Set English (en) as the default language and added complete Spanish (es) localization alongside English (en) and French (fr).",
+        "Players can switch live between English, Français, and Español directly in Settings > General > Language."
     ]
 }
