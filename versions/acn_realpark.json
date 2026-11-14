@@ -1,11 +1,12 @@
 {
   "resource": "acn_realpark",
-  "version": "4.4.0",
+  "version": "4.5.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added SmartParking system: anti-false-positive world monitor, 3D no-parking zones, tow/police GPS dispatch tablet, and persistent RP impound actions.",
-    "Full live configuration via /conf_acn_realpark with automatic SQL migration."
+    "Added public garage slot limits (1 free slot + purchasable slots up to 5, doubling from $12,000, plus 2 VIP slots marked Soon).",
+    "Added configurable $50,000 direct retrieval fee on the Sortir button while keeping Voiturier unchanged.",
+    "Separated impound vehicles completely from public garages so impound is only accessible at dedicated impound locations."
   ]
 }
