@@ -1,12 +1,11 @@
 {
   "resource": "acn_realpark",
-  "version": "4.7.1",
+  "version": "4.8.0",
   "severity": "recommended",
   "minimum_supported": "3.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Added full Admin Player Management tab in /conf_acn_realpark: search online/offline players, adjust public garage slots, give vehicles directly to a player's garage, and force-store, repair, impound, release, or delete owned vehicles.",
-    "Added permanent world vehicle persistence across exits, crashes, disconnects, and server/resource restarts.",
-    "Added public garage slot limits (1 free + purchasable up to 5 + 2 VIP Soon), $50,000 direct retrieval fee, and separated impound locations."
+    "Added session-only semi-persistence for stolen/unowned NPC vehicles (1 per player, auto-replaces old stolen vehicle when entering a new one, cleared on reboot, plus admin clear button).",
+    "Added multi-select bulk vehicle deletion in the Admin Player Management tab (/conf_acn_realpark)."
   ]
 }
