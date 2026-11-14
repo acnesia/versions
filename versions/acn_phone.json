@@ -1,11 +1,13 @@
 {
     "resource": "acn_phone",
-    "version": "2.8.0",
-    "severity": "recommended",
+    "version": "3.0.0",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Connected Weather and Billing apps to acn_weathertime and acn_billing via acn_bridge for live weather sync and real server invoice management.",
-        "Fixed Mail sending failure caused by a server database column mismatch, and fixed the home bar leaving compose sheets open over the Home Screen."
+        "Added per-phone physical item metadata (device_uid) with independent lock PIN, settings, and stolen-phone persistence.",
+        "Added Acnesia Account creation, cross-device import sync, and hashed 4-digit recovery codes (with forgot-code bypass).",
+        "Added Admin Players & Phones inspector (no-PIN inspection + live phone/account blocking) and fixed admin CEF dropdown menus.",
+        "Added interactive App Creator Studio with Visual Block Builder, HTML/CSS/JS Code Mode, live script integration, and standalone resource export."
     ]
 }
