@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.4.1",
+    "version": "2.4.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Call voice now works with acn_3d_speak_and_audio (new acn_3d voice system) and call mute stays applied.",
-        "Calls fixed (voice link, hang-up, clear error messages) and Match messages now notify the receiver.",
-        "Notifications in every app and a full optional SIM / eSIM system configurable in-game."
+        "Added missed-call notifications (voice & FaceCall), Messages group notifications, Marketplace seller contact notifications, and direct deep-linking on notification tap.",
+        "Added server-side mutual match verification for Match chat, auto-open on incoming calls, and SaltyChat mute support.",
+        "Vera assistant now supports English, French, and Spanish; French UI standardized on 'vous'; 3D Phone Shop updates language live."
     ]
 }
