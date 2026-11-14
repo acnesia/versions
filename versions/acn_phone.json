@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.0.2",
+    "version": "3.0.3",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed SQL column mismatches in Admin Players & Phones so all player devices, no-PIN inspection data, and live device/account blocking load properly in /conf_acn_phone.",
-        "Fixed acn_phone_custom_apps schema synchronization for the App Creator Studio."
+        "Separated WhatsApp (Recado) and SMS (Messages) conversations, queries, and incoming notifications so both apps stay completely isolated.",
+        "Fixed WhatsApp voice messages so recipients receive playable audio notes with duration and waveform instead of a plain text placeholder."
     ]
 }
