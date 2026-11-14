@@ -1,12 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "6.0.0",
+  "version": "6.0.1",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Refonte complete du menu en jeu et du Web Panel : meme design, barre du haut a 5 menus, recherche Ctrl+K.",
-    "Nouvelle page Server Dashboard (ressources, maintenance, whitelist, redemarrage planifie), fiche joueur complete, prison, TIG et mute fonctionnels.",
-    "Nouveaux outils : Mes actions, Troll Menu, chat staff, notifications, sondages et calendrier d evenements, aussi sur le Web Panel."
+    "Optimisation SQL du roster staff : suppression du warning oversized result set sur acn_staff_duty_sessions.",
+    "Suppression d'une requete SQL redondante lors du chargement de la vue d'ensemble staff."
   ]
 }
