@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.4.5",
+    "version": "2.5.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Passcode Options (4-digit / 6-digit / No Passcode) opening behind the setup wizard.",
-        "Fixed Face Key waiting for the fallback timer instead of completing immediately once the scan ring is filled."
+        "Added email address creation and availability check during initial phone setup.",
+        "Updated Mail sending, drafts, recipient routing, and Settings > About to use the player's created email address."
     ]
 }
