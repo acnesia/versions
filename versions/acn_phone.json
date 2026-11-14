@@ -1,12 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.4.4",
+    "version": "2.4.5",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced all remaining Apex branding across the phone UI and locales with Blue.",
-        "Made Face Key enrollment much faster and fixed the second scan switching to third-person view.",
-        "Fixed 6-digit passcodes (e.g. 000000) showing 4 dots and failing on the Lock Screen."
+        "Fixed Passcode Options (4-digit / 6-digit / No Passcode) opening behind the setup wizard.",
+        "Fixed Face Key waiting for the fallback timer instead of completing immediately once the scan ring is filled."
     ]
 }
