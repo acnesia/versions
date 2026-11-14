@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.0.1",
+    "version": "2.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Made Dynamic Island interactive on tap with quick system toggles and enabled Dynamic Island notification popups by default.",
-        "Added Left Alt focus switching so players can move freely in-game while keeping the phone open, then press Left Alt again to regain cursor control."
+        "Connected Stopwatch, Maps GPS & pause-map waypoints, Arcade pause state, Wallet transfers, and live Weather Hub to Dynamic Island.",
+        "Added Walk While Phone Open admin setting in /conf_acn_phone with automatic movement lock whenever typing inside phone inputs.",
+        "Kept Left Alt game focus toggle seamless alongside cursor-active movement."
     ]
 }
