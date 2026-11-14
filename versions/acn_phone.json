@@ -1,10 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "2.6.1",
+    "version": "2.7.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed the two missing icons in Mail (Refresh button and Change email address)."
+        "Added a per-player setting to choose how the Alt key works: Toggle (press) or Hold (keep Alt pressed to control the camera, release to use the phone)."
     ]
 }
