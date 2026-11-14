@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restored authentic Apple idle behavior on Dynamic Island (only expands for active apps and notifications, eliminating card overflow).",
-        "Polished expanded Dynamic Island cards with crisp icon+label tiles, color-coded app badges, subtle inner hairline border, and unified French labels."
+        "Enabled walk-while-phone-open by default so ZQSD/WASD movement works freely whenever no text field is active.",
+        "Fixed stuck keyboard focus when clicking outside search inputs or navigating away in Settings and apps, releasing movement immediately."
     ]
 }
