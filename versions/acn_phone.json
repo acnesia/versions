@@ -1,12 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "2.5.2",
+    "version": "2.5.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Moved rear phone-lens camera forward so the held phone prop no longer appears in the viewfinder.",
-        "Fixed returning from selfie mode to rear camera leaving the camera locked on the player's face.",
-        "Improved selfie framing with tighter orbit limits and natural head tracking toward the lens."
+        "Fixed video call animation switching to ear-call pose after closing and reopening the phone during an active FaceCall."
     ]
 }
