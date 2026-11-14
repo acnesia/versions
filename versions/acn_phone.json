@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.7.2",
-    "severity": "important",
+    "version": "2.8.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added the Alt key mode (Toggle / Hold) option directly inside PearOS Settings > General as well as Display.",
-        "Fixed a FiveM reliable network event size overflow crash when saving recorded videos by reducing upload chunk size to 32 KB and uploading the video thumbnail separately."
+        "Connected Weather and Billing apps to acn_weathertime and acn_billing via acn_bridge for live weather sync and real server invoice management.",
+        "Fixed Mail sending failure caused by a server database column mismatch, and fixed the home bar leaving compose sheets open over the Home Screen."
     ]
 }
