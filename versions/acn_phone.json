@@ -1,11 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "3.1.0",
+    "version": "3.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added AuraOS 2.0, a brand-new 3rd operating system inspired by Xiaomi HyperOS with custom squircle icons, HyperOS Control Center, capsule status bar, restyled apps, and Aura 15 Ultra devices.",
-        "Centered the /conf_acn_phone admin panel window and fixed the input focus/blinking bug so all text fields (block reason, device editor, etc.) work smoothly."
+        "Added dedicated AuraOS chassis (aura15-black, aura15-white, aura15-violet, aura15-sky), added the Aura category tab and Aura 15 Ultra product to the 3D Shop, and auto-seeded missing Aura defaults into existing SQL configurations."
     ]
 }
