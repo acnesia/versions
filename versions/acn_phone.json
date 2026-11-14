@@ -1,13 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.0.0",
+    "version": "3.0.1",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added per-phone physical item metadata (device_uid) with independent lock PIN, settings, and stolen-phone persistence.",
-        "Added Acnesia Account creation, cross-device import sync, and hashed 4-digit recovery codes (with forgot-code bypass).",
-        "Added Admin Players & Phones inspector (no-PIN inspection + live phone/account blocking) and fixed admin CEF dropdown menus.",
-        "Added interactive App Creator Studio with Visual Block Builder, HTML/CSS/JS Code Mode, live script integration, and standalone resource export."
+        "Fixed Reliable network event size overflow on acn_bridge:server:callbackRequest by capping RPC, settings, and userdata payloads under FiveM's 64 KB limit.",
+        "Fixed Notes and agenda data not transferring with physical phones by fixing userdata.get/set serialization and isolating Store namespaces per device/account."
     ]
 }
