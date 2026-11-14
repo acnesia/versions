@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.0.3",
-    "severity": "important",
+    "version": "3.1.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Separated WhatsApp (Recado) and SMS (Messages) conversations, queries, and incoming notifications so both apps stay completely isolated.",
-        "Fixed WhatsApp voice messages so recipients receive playable audio notes with duration and waveform instead of a plain text placeholder."
+        "Added AuraOS 2.0, a brand-new 3rd operating system inspired by Xiaomi HyperOS with custom squircle icons, HyperOS Control Center, capsule status bar, restyled apps, and Aura 15 Ultra devices.",
+        "Centered the /conf_acn_phone admin panel window and fixed the input focus/blinking bug so all text fields (block reason, device editor, etc.) work smoothly."
     ]
 }
