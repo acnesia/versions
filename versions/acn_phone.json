@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.1.2",
+    "version": "2.1.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Enabled walk-while-phone-open by default so ZQSD/WASD movement works freely whenever no text field is active.",
-        "Fixed stuck keyboard focus when clicking outside search inputs or navigating away in Settings and apps, releasing movement immediately."
+        "Fixed phone hold animation and misaligned Samsung/NOVA & color props so characters consistently raise and hold every smartphone model cleanly.",
+        "Added a continuous thumb-typing animation whenever any phone text field is focused, seamlessly returning to idle hold when blurred."
     ]
 }
