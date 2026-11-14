@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.0.1",
+    "version": "3.0.2",
     "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Reliable network event size overflow on acn_bridge:server:callbackRequest by capping RPC, settings, and userdata payloads under FiveM's 64 KB limit.",
-        "Fixed Notes and agenda data not transferring with physical phones by fixing userdata.get/set serialization and isolating Store namespaces per device/account."
+        "Fixed SQL column mismatches in Admin Players & Phones so all player devices, no-PIN inspection data, and live device/account blocking load properly in /conf_acn_phone.",
+        "Fixed acn_phone_custom_apps schema synchronization for the App Creator Studio."
     ]
 }
