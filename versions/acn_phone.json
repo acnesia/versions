@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.5.0",
+    "version": "2.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added email address creation and availability check during initial phone setup.",
-        "Updated Mail sending, drafts, recipient routing, and Settings > About to use the player's created email address."
+        "Fixed rear camera switching cleanly between phone lens view and 3rd-person view on Alt.",
+        "Clamped selfie camera orbit so it always stays in front of the face.",
+        "Fixed video recording saving black/grey frames instead of live gameplay."
     ]
 }
