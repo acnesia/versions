@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.2.1",
+    "version": "2.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed all players seeing the default 555-0142 phone number so every character displays and dials with their own unique database number.",
-        "Fixed Contact Share and AirDrop nearby player detection, added full mutual contact exchange, and improved call/SMS number lookup for online players."
+        "Fixed SMS message persistence/reopening, voice calls, FaceCall video calls, and Radio frequency connection.",
+        "Fixed Camera independent view rotation, Selfie facing direction, video capture, and cross-player media/story loading.",
+        "Fixed Instashot DMs/posts/stories/Instants, Twix reposts, Match bilateral notifications/profile photos/chat, and silenced DarkChat notifications."
     ]
 }
