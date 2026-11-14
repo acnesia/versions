@@ -1,10 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.1.1",
+    "version": "3.2.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added dedicated AuraOS chassis (aura15-black, aura15-white, aura15-violet, aura15-sky), added the Aura category tab and Aura 15 Ultra product to the 3D Shop, and auto-seeded missing Aura defaults into existing SQL configurations."
+        "Complete Xiaomi HyperOS 3.0 overhaul for AuraOS 3.0 (Aura 15T Pro): split Control Center, HyperOS notification cards, HyperIsland pill, squircle icons, lock screen, Settings, and dedicated Calendar, Clock, Weather, Notes, and Reminders apps.",
+        "Fixed Control Center and Notification Shade visibility in AuraOS without breaking Nova UI.",
+        "Fixed Maps with a compact default bottom sheet, quick category chips, and tap-anywhere custom pin placement for GPS routing."
     ]
 }
