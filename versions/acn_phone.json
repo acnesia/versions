@@ -1,0 +1,11 @@
+{
+    "resource": "acn_phone",
+    "version": "1.0.0",
+    "severity": "recommended",
+    "minimum_supported": "1.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Initial release with Phone calls, SMS Messages, Contacts and Settings.",
+        "Realistic iOS-inspired NUI with Dynamic Island and live /conf_acn_phone menu."
+    ]
+}
