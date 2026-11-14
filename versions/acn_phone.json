@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "2.4.2",
+    "version": "2.4.3",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
+        "Fixed calls always ending as unreachable (number prefix was cut) and the Recado conversation list error.",
         "Fixed calls being refused as unavailable between online players, with precise refusal reasons.",
-        "Added missed-call notifications (voice & FaceCall), Messages group notifications, Marketplace seller contact notifications, and direct deep-linking on notification tap.",
-        "Added server-side mutual match verification for Match chat, auto-open on incoming calls, and SaltyChat mute support."
+        "Added missed-call notifications (voice & FaceCall), Messages group notifications, Marketplace seller contact notifications, and direct deep-linking on notification tap."
     ]
 }
