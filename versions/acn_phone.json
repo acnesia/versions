@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "2.7.1",
-    "severity": "recommended",
+    "version": "2.7.2",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added automatic @blue.ls suffix in Mail compose so players never need to type @, and fixed email recipient delivery across Mail, Contacts, and Photos.",
-        "Replaced the setup welcome notification with a real welcome email delivered directly to the Mail Inbox."
+        "Added the Alt key mode (Toggle / Hold) option directly inside PearOS Settings > General as well as Display.",
+        "Fixed a FiveM reliable network event size overflow crash when saving recorded videos by reducing upload chunk size to 32 KB and uploading the video thumbnail separately."
     ]
 }
