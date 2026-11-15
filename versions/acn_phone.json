@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.9.2",
-    "severity": "important",
+    "version": "3.10.0",
+    "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Existing servers now automatically switch saved phones from the generic GTA prop to the ACN phone models.",
-        "The live screen on the prop now uses background network transfers."
+        "Each player now shows their own live phone screen on their own prop, even with the same phone model.",
+        "Faster live screen updates (5 fps) within 25 m."
     ]
 }
