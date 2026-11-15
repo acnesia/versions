@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.5.3",
-    "severity": "recommended",
+    "version": "3.5.4",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added a clear explanation and label to the Backup Snapshot modal, plus an X button and reliable Escape key handling so you never get stuck inside.",
-        "Includes full 3.5.0+ Fullscreen Admin Control Center, ACN App Studio, Anti-Theft Forensics, Snapshots, and Bulk Management tools."
+        "Fixed a critical focus lockout bug where opening or clicking inside admin pop-ups (Send Alert, Create Snapshot, etc.) disabled NUI cursor focus and froze the panel.",
+        "Fixed dropdown menus inside admin modals, Escape key handling in inputs, and double-click protection on modal actions."
     ]
 }
