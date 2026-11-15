@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.5.5",
+    "version": "3.6.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed the Applications tab layout in /conf_acn_phone so app cards render in a clean responsive multi-column grid (2 to 5 columns) with proper horizontal alignment.",
-        "Includes the 3.5.4 modal NUI focus lockout fix, dropdown positioning, and Escape key handling."
+        "Added a confirmation-protected 'Delete All Phones' server purge action in Players & Forensics (/conf_acn_phone).",
+        "Fixed Devices [object Object] labels, 3D Shop Products/Locations/Categories layouts, Themes & Defaults live wallpaper/volume/tone preview, and overlapping input rows in Ringtones & Alert Tones."
     ]
 }
