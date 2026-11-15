@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "6.1.0",
-  "severity": "recommended",
+  "version": "6.1.1",
+  "severity": "critical",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Nouveau Live Screen : regardez l ecran d un joueur en direct dans une fenetre flottante deplacable et redimensionnable, qui reste affichee menu ferme.",
-    "Nouvelle permission CanLiveScreen, commandes /livescreen [id], /stoplive et /livescreen_move (F7), reglages FPS/qualite/debit dans /conf."
+    "Correctif Live Screen : le joueur observe n est plus deconnecte (latent event packet overflow), les images passent desormais par HTTP.",
+    "Nouveau reglage URL publique du serveur pour les serveurs derriere un proxy ou un nom de domaine."
   ]
 }
