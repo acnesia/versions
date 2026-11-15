@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.6.1",
-    "severity": "important",
-    "minimum_supported": "1.0.0",
+    "version": "3.7.0",
+    "severity": "recommended",
+    "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed phone recreation after deleting all server phones so active sessions are cleared and fresh devices are immediately recreated and booted into the setup screen.",
-        "Includes 3.6.0 Admin Control Center UI fixes and server-wide phone purge."
+        "On-screen virtual keyboard is now disabled by default and configurable in /conf_acn_phone.",
+        "New phones now start with core built-in apps only; admins can pick which optional apps are pre-installed in /conf_acn_phone.",
+        "Fixed false invalid-format validation errors on command and prefix fields in /conf_acn_phone."
     ]
 }
