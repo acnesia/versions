@@ -1,10 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "3.13.1",
+    "version": "3.13.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed the Polygon Zones tab rendering blank in /conf_acn_phone and removed the 64-point limit so polygons can use unlimited points."
+        "Allowed music.status offline, added clean offline display in Marketplace, and silenced expected no-network RPC warnings in F8."
     ]
 }
