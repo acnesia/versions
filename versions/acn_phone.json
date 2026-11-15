@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.6.0",
-    "severity": "recommended",
+    "version": "3.6.1",
+    "severity": "important",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added a confirmation-protected 'Delete All Phones' server purge action in Players & Forensics (/conf_acn_phone).",
-        "Fixed Devices [object Object] labels, 3D Shop Products/Locations/Categories layouts, Themes & Defaults live wallpaper/volume/tone preview, and overlapping input rows in Ringtones & Alert Tones."
+        "Fixed phone recreation after deleting all server phones so active sessions are cleared and fresh devices are immediately recreated and booted into the setup screen.",
+        "Includes 3.6.0 Admin Control Center UI fixes and server-wide phone purge."
     ]
 }
