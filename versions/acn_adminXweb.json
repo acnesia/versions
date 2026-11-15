@@ -1,11 +1,11 @@
 {
   "resource": "acn_adminXweb",
-  "version": "6.0.1",
+  "version": "6.1.0",
   "severity": "recommended",
   "minimum_supported": "5.0.0",
   "update_url": "https://portal.cfx.re/",
   "changelog": [
-    "Optimisation SQL du roster staff : suppression du warning oversized result set sur acn_staff_duty_sessions.",
-    "Suppression d'une requete SQL redondante lors du chargement de la vue d'ensemble staff."
+    "Nouveau Live Screen : regardez l ecran d un joueur en direct dans une fenetre flottante deplacable et redimensionnable, qui reste affichee menu ferme.",
+    "Nouvelle permission CanLiveScreen, commandes /livescreen [id], /stoplive et /livescreen_move (F7), reglages FPS/qualite/debit dans /conf."
   ]
 }
