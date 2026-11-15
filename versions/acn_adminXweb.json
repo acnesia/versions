@@ -1,11 +1,11 @@
 {
-  "resource": "acn_adminXweb",
-  "version": "6.2.0",
-  "severity": "recommended",
-  "minimum_supported": "5.0.0",
-  "update_url": "https://portal.cfx.re/",
-  "changelog": [
-    "Live Screen fluide : vraie video WebRTC jusqu a 30 FPS de joueur a joueur, sans aucune charge sur le reseau du jeu ni sur le serveur.",
-    "Bascule automatique sur les images si la video ne peut pas se connecter, et petit badge HD / HTTP / SAFE a la place du long texte."
-  ]
+    "resource": "acn_adminXweb",
+    "version": "6.3.0",
+    "severity": "recommended",
+    "minimum_supported": "5.0.0",
+    "update_url": "https://portal.cfx.re/",
+    "changelog": [
+        "Live Screen : pastilles en direct sur la video (menu NUI ouvert, menu pause, godmode, invisible, spectate, vie/armure, vitesse, arme, FPS jeu, vie falsifiee).",
+        "Les alertes anticheat du joueur regarde s affichent en bandeau dans la fenetre Live."
+    ]
 }
