@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.2.1",
+    "version": "3.2.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Face ID asking for the passcode when enabled: unlocking via swipe, Enter/Up keys, or lock-screen shortcuts now uses Face ID automatically unless you are wearing a mask.",
+        "Added server-side Face ID persistence and fixed Settings enrollment so Face ID unlocks immediately on swipe-up unless wearing a mask.",
+        "Fixed Face ID asking for the passcode when enabled via swipe, keyboard shortcuts, or lock-screen widgets.",
         "Fixed the false 'Your inventory is full' message when buying NOVA, PearPhone, or Aura devices in the phone shop."
     ]
 }
