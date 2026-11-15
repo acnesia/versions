@@ -1,13 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.11.1",
+    "version": "3.11.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Hid the owner's holding hand locally in Zoomed 3D view (while staying visible to nearby players) and removed all breathing tremble.",
-        "Optimized 3D DUI capture with viewport culling, motion-driven capture, and fast JPEG encoding with GPU corner clipping for smooth fluid interaction.",
-        "Fixed mouse wheel scrolling, edge Home bar hit-testing, and click/drag reliability in 3D view.",
-        "Added quick Home, Back, and Show Screen buttons directly to the 3D HUD bar and guaranteed Show Screen visibility on existing Android Quick Panels."
+        "Removed the interactive owner zoomed 3D DUI mode so every player uses the responsive 2D phone interface.",
+        "Kept over-the-shoulder ox_target 3D viewing, the live Show Screen sharing feature, viewport-culled rendering, and zero-cost idle capture."
     ]
 }
