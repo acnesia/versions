@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.5.4",
-    "severity": "important",
+    "version": "3.5.5",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed a critical focus lockout bug where opening or clicking inside admin pop-ups (Send Alert, Create Snapshot, etc.) disabled NUI cursor focus and froze the panel.",
-        "Fixed dropdown menus inside admin modals, Escape key handling in inputs, and double-click protection on modal actions."
+        "Fixed the Applications tab layout in /conf_acn_phone so app cards render in a clean responsive multi-column grid (2 to 5 columns) with proper horizontal alignment.",
+        "Includes the 3.5.4 modal NUI focus lockout fix, dropdown positioning, and Escape key handling."
     ]
 }
