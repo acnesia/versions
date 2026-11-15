@@ -1,12 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.7.0",
+    "version": "3.7.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "On-screen virtual keyboard is now disabled by default and configurable in /conf_acn_phone.",
-        "New phones now start with core built-in apps only; admins can pick which optional apps are pre-installed in /conf_acn_phone.",
-        "Fixed false invalid-format validation errors on command and prefix fields in /conf_acn_phone."
+        "Applied each bank's synced colors (Fleeca, Maze, Pacific, Liberty, Public Bank, and custom banks) to the Wallet balance card, buttons, and action icons without changing the layout.",
+        "Preserved full standalone Wallet operation when acn_banking is not installed."
     ]
 }
