@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.9.0",
-    "severity": "recommended",
+    "version": "3.9.1",
+    "severity": "important",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Each phone now uses its own 3D model in hand, with two-part folding phones.",
-        "Your phone screen is now shown live on the prop for nearby players, with a /phone_privacy toggle."
+        "Fixed the phone prop being held upside down and reverting to the generic GTA phone after reopening.",
+        "Fixed the live screen on the prop staying black."
     ]
 }
