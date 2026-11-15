@@ -1,12 +1,13 @@
 {
     "resource": "acn_phone",
-    "version": "3.10.2",
+    "version": "3.10.3",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed missing app icons on the 3D live phone screen.",
-        "Added transparent rounded corners and a flush bezel fit using WebP frames.",
-        "Increased live screen responsiveness to 8 fps with lower network latency."
+        "Fixed broken Android CSS layout rules affecting NOVA S26 Ultra and pinning NOVA Fold8 to the top-left corner.",
+        "Added automatic closed/open 3D hand prop switching for PearPhone Fold and NOVA Fold8.",
+        "Calibrated separate closed cover and open inner 3D live screen areas and matched capture aspect ratio dynamically.",
+        "Allowed clicking or tapping the foldable side grip to unfold or fold the phone."
     ]
 }
