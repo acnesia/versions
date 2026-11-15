@@ -1,13 +1,13 @@
 {
     "resource": "acn_phone",
-    "version": "3.10.3",
+    "version": "3.11.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed broken Android CSS layout rules affecting NOVA S26 Ultra and pinning NOVA Fold8 to the top-left corner.",
-        "Added automatic closed/open 3D hand prop switching for PearPhone Fold and NOVA Fold8.",
-        "Calibrated separate closed cover and open inner 3D live screen areas and matched capture aspect ratio dynamically.",
-        "Allowed clicking or tapping the foldable side grip to unfold or fold the phone."
+        "Added interactive zoomed-in 3D prop view (DUI) hiding the 2D screen overlay, with player Settings toggle and admin enforcement in /conf_acn_phone.",
+        "Replaced automatic nearby 3D screen streaming with on-demand 'Look over shoulder' target inspection, cutting idle CPU and network usage to zero.",
+        "Added a 'Show screen' quick action in Control Center and Android Quick Settings to share a live read-only view (HTML or 3D camera) with a nearby player.",
+        "Fixed rare blank 9:41 wallpaper state when opening certain phones."
     ]
 }
