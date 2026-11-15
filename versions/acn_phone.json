@@ -1,13 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.5.0",
+    "version": "3.5.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Upgraded /conf_acn_phone to a full-screen responsive Control Center adapted for 1080p, 2K, 4K, and Ultrawide screens with UI density selector and Ctrl+K command palette.",
-        "Rebuilt App Creation into the ACN App Studio with a 15-block Visual UI Designer, 10 starter templates, HTML/CSS/JS/Manifest Code IDE, live phone preview, Bridge API snippets, permissions, and JSON export/import.",
-        "Overhauled Players & Phones with live phone number editing, remote lock/wipe/reboot/PIN/SIM/content moderation, automatic stolen-phone detection, and real physical sender forensics attribution.",
-        "Added Command Center KPIs, live phone broadcasts, Config Integrity Scanner, SQL rollback snapshots, Audit Log v2, Sales Analytics v2, and bulk management tools."
+        "Updated admin panel asset version parameters (?v=351) so FiveM CEF immediately loads the new fullscreen Control Center, App Studio, and Players & Forensics UI without stale cache.",
+        "Includes full 3.5.0 Admin Control Center, ACN App Studio, Anti-Theft Forensics, Snapshots, and Bulk Management tools."
     ]
 }
