@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.5.1",
+    "version": "3.5.2",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Updated admin panel asset version parameters (?v=351) so FiveM CEF immediately loads the new fullscreen Control Center, App Studio, and Players & Forensics UI without stale cache.",
-        "Includes full 3.5.0 Admin Control Center, ACN App Studio, Anti-Theft Forensics, Snapshots, and Bulk Management tools."
+        "Restored missing French/English sidebar navigation and action translation keys in the /conf_acn_phone admin panel.",
+        "Includes full 3.5.0+ Fullscreen Admin Control Center, ACN App Studio, Anti-Theft Forensics, Snapshots, and Bulk Management tools."
     ]
 }
