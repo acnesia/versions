@@ -1,11 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "3.12.2",
+    "version": "3.12.3",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Reduced default cell tower radius from 900m to 350m (90m gradual fade margin) and rebalanced default Los Santos coverage.",
-        "Significantly boosted 3D coverage debug zone and raycast preview visibility with full-radius neon perimeter walls, beacons, and sharper map blips."
+        "Fixed live screen share ('Show screen') viewer staying invisible behind closed phone state and freezing the receiver with only the cursor."
     ]
 }
