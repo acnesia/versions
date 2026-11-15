@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.9.0",
+    "version": "4.9.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added multi-selection in the /item admin catalog to delete several items at once.",
-        "Saving an item in the admin editor now keeps the editor open with your changes instead of wiping the form."
+        "Removed legacy YSeries / YPhone items and UsePhoneItem exports from the default item catalog.",
+        "Added all ACN Phone devices (PearPhone 18 Pro Max, PearPhone Fold, NOVA S26 Ultra, NOVA Fold8, Aura 15T Pro) and sim_card to the item catalog."
     ]
 }
