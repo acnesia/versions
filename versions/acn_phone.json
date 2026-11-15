@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.7.1",
+    "version": "3.9.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Applied each bank's synced colors (Fleeca, Maze, Pacific, Liberty, Public Bank, and custom banks) to the Wallet balance card, buttons, and action icons without changing the layout.",
-        "Preserved full standalone Wallet operation when acn_banking is not installed."
+        "Each phone now uses its own 3D model in hand, with two-part folding phones.",
+        "Your phone screen is now shown live on the prop for nearby players, with a /phone_privacy toggle."
     ]
 }
