@@ -1,11 +1,11 @@
 {
     "resource": "acn_inventory",
-    "version": "4.9.1",
+    "version": "4.9.2",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Removed legacy YSeries / YPhone items and UsePhoneItem exports from the default item catalog.",
-        "Added all ACN Phone devices (PearPhone 18 Pro Max, PearPhone Fold, NOVA S26 Ultra, NOVA Fold8, Aura 15T Pro) and sim_card to the item catalog."
+        "Fixed uploaded item images disappearing in slots, hotbar, tooltips, catalog, and image picker after restarting acn_inventory without restarting inventory_images.",
+        "Added automatic fallback across local web/images, jpg/jpeg formats, extracted image filenames, and on-demand server image resolution while removing the intrusive inventory_images auto-restart."
     ]
 }
