@@ -1,12 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.10.1",
+    "version": "3.10.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced heavy screen capture with a lightweight direct renderer to eliminate UI freezes and FPS drops.",
-        "Fixed Z-fighting flicker and black flashes on the 3D prop screen.",
-        "Optimized network frame pacing and nearby prop tracking."
+        "Fixed missing app icons on the 3D live phone screen.",
+        "Added transparent rounded corners and a flush bezel fit using WebP frames.",
+        "Increased live screen responsiveness to 8 fps with lower network latency."
     ]
 }
