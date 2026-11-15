@@ -1,10 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.12.3",
+    "version": "3.13.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed live screen share ('Show screen') viewer staying invisible behind closed phone state and freezing the receiver with only the cursor."
+        "Added multi-point Polygon Coverage Zones with built-in Freecam raycast placement in /conf_acn_phone for tracing custom city borders with gradual edge fade.",
+        "Fixed raycast marker flickering and dropped clicks with instant synchronous probes and [F] Freecam support."
     ]
 }
