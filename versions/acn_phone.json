@@ -1,11 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "3.13.0",
+    "version": "3.13.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added multi-point Polygon Coverage Zones with built-in Freecam raycast placement in /conf_acn_phone for tracing custom city borders with gradual edge fade.",
-        "Fixed raycast marker flickering and dropped clicks with instant synchronous probes and [F] Freecam support."
+        "Fixed the Polygon Zones tab rendering blank in /conf_acn_phone and removed the 64-point limit so polygons can use unlimited points."
     ]
 }
