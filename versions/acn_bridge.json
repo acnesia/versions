@@ -3,8 +3,9 @@
   "severity": "recommended",
   "minimum_supported": "2.0.0",
   "update_url": "https://portal.cfx.re/",
-  "version": "2.18.0",
+  "version": "2.19.0",
   "changelog": [
-    "Added mobile banking bridge exports connecting resources to acn_banking with automatic standalone fallback."
+    "Added AccumulateInvoice and GetBillingSystem server exports, plus positional argument support for CreateInvoice.",
+    "Added client IsOnDuty, client/server IsRestrained, server GetOnlinePolicePlayers, IssueCitation, and GetDispatchSystem exports."
   ]
 }
