@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.10.0",
+    "version": "3.10.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Each player now shows their own live phone screen on their own prop, even with the same phone model.",
-        "Faster live screen updates (5 fps) within 25 m."
+        "Replaced heavy screen capture with a lightweight direct renderer to eliminate UI freezes and FPS drops.",
+        "Fixed Z-fighting flicker and black flashes on the 3D prop screen.",
+        "Optimized network frame pacing and nearby prop tracking."
     ]
 }
