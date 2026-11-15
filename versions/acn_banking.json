@@ -1,13 +1,11 @@
 {
     "resource": "acn_banking",
-    "version": "1.0.1",
+    "version": "1.1.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Official release build (out of beta).",
-        "Fixed Business and Settings pages showing as unstyled text in game.",
-        "Create your own banks, partnerships, welcome bonus and default bank from /conf_acn_banking.",
-        "Create your own savings levels; new 'Réglages' tab makes prices, limits, hours and loan offers editable in-game."
+        "Added mobile banking integration API for smartphone wallets (per-bank themes, perks, savings, roundups, virtual cards, OTP, loans, IBAN transfers).",
+        "Improved multi-bank switching and cleaned server console startup output."
     ]
 }

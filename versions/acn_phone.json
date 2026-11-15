@@ -1,11 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.3.1",
+    "version": "3.4.0",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added mandatory Velvet account creation (Fan or Creator) before accessing feeds or interactions.",
-        "Overhauled Velvet UI to native readable MYM-style typography, large buttons, custom media requests, MOD grids, comments, bookmarks, and notifications."
+        "Integrated acn_banking into the phone Wallet with dynamic per-bank interfaces (Fleeca, Maze, Pacific, Liberty & custom banks) and perks.",
+        "Added in-phone Savings & Roundups, Disposable Virtual Cards, Debit Card freeze controls, Cardless ATM OTP codes, Loans, and IBAN transfers.",
+        "Added Banking integration options in /conf_acn_phone (auto, acn_banking, or standalone) for servers without acn_banking."
     ]
 }
