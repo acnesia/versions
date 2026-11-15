@@ -1,13 +1,13 @@
 {
     "resource": "acn_phone",
-    "version": "3.11.0",
+    "version": "3.11.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added interactive zoomed-in 3D prop view (DUI) hiding the 2D screen overlay, with player Settings toggle and admin enforcement in /conf_acn_phone.",
-        "Replaced automatic nearby 3D screen streaming with on-demand 'Look over shoulder' target inspection, cutting idle CPU and network usage to zero.",
-        "Added a 'Show screen' quick action in Control Center and Android Quick Settings to share a live read-only view (HTML or 3D camera) with a nearby player.",
-        "Fixed rare blank 9:41 wallpaper state when opening certain phones."
+        "Hid the owner's holding hand locally in Zoomed 3D view (while staying visible to nearby players) and removed all breathing tremble.",
+        "Optimized 3D DUI capture with viewport culling, motion-driven capture, and fast JPEG encoding with GPU corner clipping for smooth fluid interaction.",
+        "Fixed mouse wheel scrolling, edge Home bar hit-testing, and click/drag reliability in 3D view.",
+        "Added quick Home, Back, and Show Screen buttons directly to the 3D HUD bar and guaranteed Show Screen visibility on existing Android Quick Panels."
     ]
 }
