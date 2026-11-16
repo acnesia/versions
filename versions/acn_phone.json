@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.14.1",
+    "version": "3.14.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed server battery callback registration (RegisterServerCallback) on resource startup.",
+        "Fixed /conf_acn_phone Battery & Damage admin tab rendering.",
         "Added realistic persistent battery system, 3D power outlets, per-vehicle charging, water/crash damage, Voicemail, and FiveManage media cloud."
     ]
 }
