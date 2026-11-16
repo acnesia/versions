@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.17.0",
+    "version": "3.18.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Rebranded satellite system to OrbitalLink with a single Creator NPC and 3 predefined player-renameable SQL enterprise slots (2nd standalone job, 2M € default).",
-        "Overhauled /conf_acn_phone Bento UI without raw emojis and added step-by-step tutorials across Admin, NPC Desk, Phone App, and Dev Laptop."
+        "Added App Store Update System (MÀJ) with automatic version bumping, release notes, and free updates for existing buyers.",
+        "Redesigned OrbitalLink and Player Custom Apps to native PearOS 27 / Nova UI 8.5 / AuraOS 3.0 typography and components, moved OrbitalLink into the Store, and added a searchable SQL jobs dropdown in Dev Studio."
     ]
 }
