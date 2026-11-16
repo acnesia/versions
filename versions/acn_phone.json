@@ -1,10 +1,12 @@
 {
     "resource": "acn_phone",
-    "version": "3.13.2",
+    "version": "3.14.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Allowed music.status offline, added clean offline display in Marketplace, and silenced expected no-network RPC warnings in F8."
+        "Added realistic persistent battery system with usage-based drain (pocket, screen, GPS, cellular, Wi-Fi, calls, camera), Low Power Mode & 2% critical FPS lag.",
+        "Added 3D Raycast power outlets, wearing USB-C charging cable item, and per-vehicle model charging speeds in /conf_acn_phone.",
+        "Added per-model water submersion damage, car crash cracked screens, Tech Store repair, Voicemail system, FiveManage video/media uploads, and fixed Alt camera view while filming."
     ]
 }
