@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.18.3",
+    "version": "3.18.4",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed OrbitalLink app Entreprise and Mes Sites blank tabs, preserved offers after closing/reopening the phone, and added orbital fleet GPS tracking.",
-        "Upgraded OrbitalLink and Battery admin sections in /conf_acn_phone to spacious non-overlapping Bento cards."
+        "Fixed paid Store app button price display, bank payment confirmation prompt, and live downloads/revenue stats in /conf_acn_phone.",
+        "Fixed admin app suspension lock screen ('Suspendu par un administrateur') and clean icon/app restoration upon re-enabling."
     ]
 }
