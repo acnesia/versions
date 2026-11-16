@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.14.5",
+    "version": "3.15.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Charging Station UI visibility when pressing [E] and added 3D HTML world prompt on power outlets.",
-        "Stopped repeating water-damage notifications (max 2 alerts per immersion)."
+        "Added By-Player view in Players & Forensics showing pocket phones (own vs stolen), owned phones elsewhere, and dropped/offline GPS.",
+        "Added multi-placement & live Up/Down prop/dot switching for outlets & antennas, outlet distance + Delete All, Bento admin grids, tutorials, and AuraOS 3.0 support in App Studio."
     ]
 }
