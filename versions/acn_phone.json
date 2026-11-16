@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.16.2",
+    "version": "3.17.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed /conf_acn_phone > Starlink & Apps blank tab in admin panel.",
-        "Fixed Developer Laptop (dev_laptop) input focus & dropdown closing while typing."
+        "Rebranded satellite system to OrbitalLink with a single Creator NPC and 3 predefined player-renameable SQL enterprise slots (2nd standalone job, 2M € default).",
+        "Overhauled /conf_acn_phone Bento UI without raw emojis and added step-by-step tutorials across Admin, NPC Desk, Phone App, and Dev Laptop."
     ]
 }
