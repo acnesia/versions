@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.18.4",
+    "version": "3.18.5",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed paid Store app button price display, bank payment confirmation prompt, and live downloads/revenue stats in /conf_acn_phone.",
-        "Fixed admin app suspension lock screen ('Suspendu par un administrateur') and clean icon/app restoration upon re-enabling."
+        "Restricted OrbitalLink blue map circles strictly to company members with both an admin RP setting in /conf_acn_phone and an in-app toggle.",
+        "Rebuilt orbital satellite placement preview to snap directly to terrain elevation with ground-hugging contour lines and edge pylons."
     ]
 }
