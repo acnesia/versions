@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.18.1",
+    "version": "3.18.2",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed Creator NPC Raycast card and 3 Enterprise Slot cards rendering inside /conf_acn_phone > OrbitalLink & Apps.",
-        "Added App Store Update System (MÀJ), native PearOS/Nova/AuraOS app styling (REGLES_UI_APPS.md), and OrbitalLink store download."
+        "Added full Player Apps Moderation tab in /conf_acn_phone (search, suspend/re-enable, edit metadata/price, moderate in-app posts, permanently delete).",
+        "Added App Store Update System (MÀJ), native multi-OS app UI (REGLES_UI_APPS.md), and OrbitalLink standalone NPC + 3 company slots."
     ]
 }
