@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.14.4",
+    "version": "3.14.5",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added live multi-device charging UI with per-second battery progress, ETA, cable wear, and configurable $/sec billing.",
-        "Improved outlet raycast (small dot / ghost-only 3D prop), shallow water detection for all inventory phones, and 1-click Admin repair."
+        "Fixed Charging Station UI visibility when pressing [E] and added 3D HTML world prompt on power outlets.",
+        "Stopped repeating water-damage notifications (max 2 alerts per immersion)."
     ]
 }
