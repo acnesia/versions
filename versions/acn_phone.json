@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.18.0",
+    "version": "3.18.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added App Store Update System (MÀJ) with automatic version bumping, release notes, and free updates for existing buyers.",
-        "Redesigned OrbitalLink and Player Custom Apps to native PearOS 27 / Nova UI 8.5 / AuraOS 3.0 typography and components, moved OrbitalLink into the Store, and added a searchable SQL jobs dropdown in Dev Studio."
+        "Fixed Creator NPC Raycast card and 3 Enterprise Slot cards rendering inside /conf_acn_phone > OrbitalLink & Apps.",
+        "Added App Store Update System (MÀJ), native PearOS/Nova/AuraOS app styling (REGLES_UI_APPS.md), and OrbitalLink store download."
     ]
 }
