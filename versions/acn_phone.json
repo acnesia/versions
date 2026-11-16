@@ -1,12 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.14.0",
+    "version": "3.14.1",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added realistic persistent battery system with usage-based drain (pocket, screen, GPS, cellular, Wi-Fi, calls, camera), Low Power Mode & 2% critical FPS lag.",
-        "Added 3D Raycast power outlets, wearing USB-C charging cable item, and per-vehicle model charging speeds in /conf_acn_phone.",
-        "Added per-model water submersion damage, car crash cracked screens, Tech Store repair, Voicemail system, FiveManage video/media uploads, and fixed Alt camera view while filming."
+        "Fixed server battery callback registration (RegisterServerCallback) on resource startup.",
+        "Added realistic persistent battery system, 3D power outlets, per-vehicle charging, water/crash damage, Voicemail, and FiveManage media cloud."
     ]
 }
