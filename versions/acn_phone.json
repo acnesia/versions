@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.15.0",
+    "version": "3.16.0",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added By-Player view in Players & Forensics showing pocket phones (own vs stolen), owned phones elsewhere, and dropped/offline GPS.",
-        "Added multi-placement & live Up/Down prop/dot switching for outlets & antennas, outlet distance + Delete All, Bento admin grids, tutorials, and AuraOS 3.0 support in App Studio."
+        "Added in-game Player App Creator (dev_laptop) with SQL job dropdowns, paid App Store publishing, Live/Twitch push banners, feeds, polls, and creator payouts.",
+        "Added Starlink Satellite Network: companies, interactive material mini-games, 3D rocket launch cinematic + orbital Freecam 250m deployment, recurring subscriptions, and full /conf_acn_phone management."
     ]
 }
