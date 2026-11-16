@@ -1,11 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "3.14.3",
+    "version": "3.14.4",
     "severity": "recommended",
     "minimum_supported": "3.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added complete French and English translations for Battery settings, USB-C cable status, and Voicemail.",
-        "Fixed /conf_acn_phone Battery & Damage admin tab rendering."
+        "Added live multi-device charging UI with per-second battery progress, ETA, cable wear, and configurable $/sec billing.",
+        "Improved outlet raycast (small dot / ghost-only 3D prop), shallow water detection for all inventory phones, and 1-click Admin repair."
     ]
 }
