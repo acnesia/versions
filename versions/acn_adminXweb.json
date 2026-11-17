@@ -1,6 +1,6 @@
 {
     "resource": "acn_adminXweb",
-    "version": "6.4.1",
+    "version": "6.4.2",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
