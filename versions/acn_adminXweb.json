@@ -1,12 +1,12 @@
 {
     "resource": "acn_adminXweb",
-    "version": "6.4.0",
+    "version": "6.4.1",
     "severity": "recommended",
     "minimum_supported": "5.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Database & Economy Tracker complet (menu en jeu + Web Panel) avec indicateur de couverture des donnees.",
-        "Surveillance argent (cash, banque, argent sale, epargne, societes), vehicules, armes (n° de serie) et objets multi-stockages.",
-        "Snapshots automatiques post-reboot, comparateur de periodes et investigation duplications confirmees vs suspicions."
+        "Fiche Joueur : correction cash/banque/argent sale, masquage IP par defaut, fermeture auto au changement d'onglet, boutons Screenshot et Vue en direct.",
+        "Troll Menu : hauteur en metres pour Projeter dans les airs et correction des cartes qui debordent.",
+        "Carte Live : suppression de l'ile blanche ; UI Screenshots/Groupes corrigee et fiches detaillees pour Bannis & Avertissements."
     ]
 }
