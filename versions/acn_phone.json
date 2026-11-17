@@ -1,11 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "3.18.5",
+    "version": "1.0.0",
     "severity": "recommended",
-    "minimum_supported": "3.0.0",
+    "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Restricted OrbitalLink blue map circles strictly to company members with both an admin RP setting in /conf_acn_phone and an in-app toggle.",
-        "Rebuilt orbital satellite placement preview to snap directly to terrain elevation with ground-hugging contour lines and edge pylons."
+        "Official v1.0.0 commercial release of acn_phone."
     ]
 }
