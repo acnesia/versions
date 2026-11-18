@@ -1,11 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added cable selector (USB 5W, 45W, 120W) inside the Charging Station interface.",
-        "Added live player battery controls (increase, reduce, or set 0-100%) in the /conf_acn_phone admin panel."
+        "Added tiered public charging electricity pricing per cable wattage (5W base, 45W 3x, 120W 10x) configurable in /conf_acn_phone."
     ]
 }
