@@ -1,12 +1,10 @@
 {
     "resource": "acn_phone",
-    "version": "1.0.1",
-    "severity": "important",
+    "version": "1.0.0",
+    "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Hardened account import, device session ownership, and email/voicemail access controls.",
-        "Added atomic transaction locks and strict validation across Crypto, Onion, Market, Billing, OrbitalLink, Velvet, and App Store payouts.",
-        "Enforced server-side OrbitalLink harvest proximity, FaceCall frame limits, and obfuscated NUI bundles."
+        "Official v1.0.0 commercial release of acn_phone with full server-side security hardening and obfuscated NUI."
     ]
 }
