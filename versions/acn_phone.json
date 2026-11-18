@@ -1,10 +1,11 @@
 {
     "resource": "acn_phone",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "severity": "recommended",
     "minimum_supported": "1.0.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Official v1.0.0 commercial release of acn_phone with full server-side security hardening and obfuscated NUI."
+        "Fixed false inventory-full errors when buying phones and accessories in the 3D shop with acn_inventory or ox_inventory.",
+        "Fixed item replacement metadata and slot handling for damaged phones and worn chargers via acn_bridge."
     ]
 }
