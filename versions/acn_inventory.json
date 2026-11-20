@@ -1,12 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.10.0",
+    "version": "4.10.1",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Added 3D Trunk system with proximity white dot, E key to open/close trunk with animation, and trunk-only visible briefcase (H for weapons) and cloth (K for all other items).",
-        "Preserved the classic proximity F2 trunk opener as an independent toggleable module.",
-        "Added full in-game configuration in /conf_acn_inventory (3D Trunk tab) with live 3D Raycast/Gizmo placement for default and per-vehicle prop positions."
+        "Redesigned 3D Trunk prompts into crisp NoPixel-style HTML/CSS UI: compact glowing white pin dot at medium range, sleek [E] pill up close, and a clean non-overlapping vertical action stack with subtle prop pinpoints when the trunk is open."
     ]
 }
