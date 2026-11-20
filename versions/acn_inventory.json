@@ -1,11 +1,12 @@
 {
     "resource": "acn_inventory",
-    "version": "4.9.2",
+    "version": "4.10.0",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Fixed uploaded item images disappearing in slots, hotbar, tooltips, catalog, and image picker after restarting acn_inventory without restarting inventory_images.",
-        "Added automatic fallback across local web/images, jpg/jpeg formats, extracted image filenames, and on-demand server image resolution while removing the intrusive inventory_images auto-restart."
+        "Added 3D Trunk system with proximity white dot, E key to open/close trunk with animation, and trunk-only visible briefcase (H for weapons) and cloth (K for all other items).",
+        "Preserved the classic proximity F2 trunk opener as an independent toggleable module.",
+        "Added full in-game configuration in /conf_acn_inventory (3D Trunk tab) with live 3D Raycast/Gizmo placement for default and per-vehicle prop positions."
     ]
 }
