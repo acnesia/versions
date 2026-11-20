@@ -1,10 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.10.3",
+    "version": "4.10.4",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Replaced the 3D Trunk placement editor with a true interactive native 3D Gizmo featuring draggable RGB arrows and rotation rings, hold right-click camera orbit, crosshair snap ([G]), and mouse-wheel yaw rotation."
+        "Added a 6-DOF Freecam to the 3D Trunk Gizmo placement mode (hold right-click with WASD/Space/Ctrl or arrow keys to fly freely inside and around the open trunk while hiding the player ped for clear precision)."
     ]
 }
