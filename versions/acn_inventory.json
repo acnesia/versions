@@ -1,10 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.10.2",
+    "version": "4.10.3",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Simplified 3D Trunk controls: press [E] to open/close the trunk, scroll with the mouse wheel to switch between the Briefcase (weapons) and Cloth (other items), and left click to open your selection."
+        "Replaced the 3D Trunk placement editor with a true interactive native 3D Gizmo featuring draggable RGB arrows and rotation rings, hold right-click camera orbit, crosshair snap ([G]), and mouse-wheel yaw rotation."
     ]
 }
