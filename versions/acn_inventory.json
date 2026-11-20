@@ -1,10 +1,10 @@
 {
     "resource": "acn_inventory",
-    "version": "4.10.1",
+    "version": "4.10.2",
     "severity": "recommended",
     "minimum_supported": "3.1.0",
     "update_url": "https://portal.cfx.re/",
     "changelog": [
-        "Redesigned 3D Trunk prompts into crisp NoPixel-style HTML/CSS UI: compact glowing white pin dot at medium range, sleek [E] pill up close, and a clean non-overlapping vertical action stack with subtle prop pinpoints when the trunk is open."
+        "Simplified 3D Trunk controls: press [E] to open/close the trunk, scroll with the mouse wheel to switch between the Briefcase (weapons) and Cloth (other items), and left click to open your selection."
     ]
 }
